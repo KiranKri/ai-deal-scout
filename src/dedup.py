@@ -35,7 +35,7 @@ def _load() -> dict:
             logger.warning("seen_deals file has unexpected structure; resetting")
             return {"hashes": {}, "last_updated": ""}
         return data
-    except (json.JSONDecodeError, OSError) as exc:
+    except (json.JSONDecodeError, OSError, UnicodeDecodeError) as exc:
         logger.error("Failed to load seen_deals: %s; starting fresh", exc)
         return {"hashes": {}, "last_updated": ""}
 
