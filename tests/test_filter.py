@@ -54,7 +54,7 @@ def test_score_deal_multiple_keywords():
 
 def test_score_deal_keyword_case_insensitive():
     """Keyword matching must be case-insensitive."""
-    # "DISCOUNT" is a DEAL_KEYWORD → +15
+    # "DISCOUNT" lowercases to "discount" — a DEAL_KEYWORD → +15
     assert f.score_deal("DISCOUNT available NOW") == 15
 
 
@@ -70,6 +70,12 @@ def test_score_deal_keyword_each_counted_once():
     # "deal" appears three times but is only counted once → +15
     score = f.score_deal("deal deal deal")
     assert score == 15
+
+
+def test_score_deal_word_boundary_no_false_positive():
+    """Word-boundary matching must not fire inside a longer word."""
+    # "cursor" should NOT match inside "cursory"
+    assert f.score_deal("cursory inspection report") == 0
 
 
 def test_score_deal_boosted_phrase_adds_20():
@@ -98,7 +104,10 @@ def test_score_deal_boosted_phrase_each_counted_once():
 def test_score_deal_all_keywords_score():
     """Every DEAL_KEYWORD contributes +15; every TOOL_KEYWORD contributes +5."""
     for kw in DEAL_KEYWORDS:
-        assert f.score_deal(kw) >= 15, f"DEAL_KEYWORD {kw!r} did not score >= 15"
+        # "% off" requires a preceding digit so the word boundary fires
+        # (e.g. "50% off" — the "0" provides the \w anchor before "%")
+        title = f"50{kw}" if kw.startswith("%") else kw
+        assert f.score_deal(title) >= 15, f"DEAL_KEYWORD {kw!r} did not score >= 15"
     for kw in TOOL_KEYWORDS:
         assert f.score_deal(kw) >= 5, f"TOOL_KEYWORD {kw!r} did not score >= 5"
 
@@ -126,32 +135,58 @@ def test_is_relevant_false_when_score_zero():
 
 
 def test_is_relevant_true_when_score_meets_threshold_no_upvotes():
-    """Score >= 15 with a DEAL_KEYWORD and no upvote data should be relevant."""
-    # "claude"(TOOL +5) + "deal"(DEAL +15) = 20; has DEAL_KEYWORD
+    """Score >= 15 with both DEAL_KEYWORD + TOOL_KEYWORD, no upvote data."""
+    # "claude"(TOOL +5) + "deal"(DEAL +15) = 20; both keyword gates pass
     assert f.is_relevant("claude deal announcement", upvotes=0) is True
 
 
 def test_is_relevant_false_no_deal_keyword():
     """A post with only TOOL_KEYWORD matches must be rejected (no deal intent)."""
-    # "chatgpt"(TOOL +5) = 5; no DEAL_KEYWORD → rejected before score check
+    # "chatgpt"(TOOL +5) = 5; no DEAL_KEYWORD → rejected at first gate
     assert f.is_relevant("Introducing ChatGPT 5 release", upvotes=0) is False
+
+
+def test_is_relevant_false_no_tool_keyword():
+    """A post with only DEAL_KEYWORD matches must be rejected (no AI tool)."""
+    # "discount"(DEAL +15); no TOOL_KEYWORD → rejected at second gate
+    assert f.is_relevant("Samsung TV huge discount this weekend") is False
+
+
+def test_is_relevant_false_tv_deal_no_tool_keyword():
+    """TV / consumer electronics deal with no AI tool keyword → rejected."""
+    assert f.is_relevant("50% off Samsung 4K TV limited time offer") is False
+
+
+def test_is_relevant_false_retail_discount_no_tool_keyword():
+    """Retail discount with no TOOL_KEYWORD is rejected.
+
+    Also verifies word-boundary matching: 'ai' inside 'retail' does not
+    accidentally match any TOOL_KEYWORD.
+    """
+    assert f.is_relevant("retail discount sale this weekend") is False
+
+
+def test_is_relevant_true_chatgpt_discount():
+    """Post containing both a DEAL_KEYWORD and a TOOL_KEYWORD passes."""
+    # "chatgpt"(TOOL +5) + "discount"(DEAL +15) = 20 ≥ 15; both gates pass
+    assert f.is_relevant("chatgpt discount available now") is True
 
 
 def test_is_relevant_true_at_min_upvotes():
     """Exactly MIN_UPVOTES should pass the threshold."""
-    # "claude"(TOOL +5) + "promo"(DEAL +15) = 20; has DEAL_KEYWORD
+    # "claude"(TOOL +5) + "promo"(DEAL +15) = 20; has both keywords
     assert f.is_relevant("claude promo today", upvotes=MIN_UPVOTES) is True
 
 
 def test_is_relevant_true_above_min_upvotes():
     """More than MIN_UPVOTES should definitely pass."""
-    # "cursor"(TOOL +5) + "discount"(DEAL +15) = 20; has DEAL_KEYWORD
+    # "cursor"(TOOL +5) + "discount"(DEAL +15) = 20; has both keywords
     assert f.is_relevant("cursor discount live", upvotes=MIN_UPVOTES + 100) is True
 
 
 def test_is_relevant_false_below_min_upvotes():
     """Upvotes below MIN_UPVOTES should make the deal irrelevant."""
-    # "chatgpt"(TOOL +5) + "promo"(DEAL +15) + "deal"(DEAL +15) = 35; has DEAL_KEYWORD
+    # "chatgpt"(TOOL +5) + "promo"(DEAL +15) + "deal"(DEAL +15) = 35
     assert f.is_relevant("chatgpt promo deal", upvotes=MIN_UPVOTES - 1) is False
 
 
@@ -161,9 +196,9 @@ def test_is_relevant_false_zero_score_regardless_of_upvotes():
 
 
 def test_is_relevant_body_contributes():
-    """Keywords only in the body should still contribute toward the threshold."""
-    # "deal"(DEAL +15) + "discount"(DEAL +15) = 30 via body; has DEAL_KEYWORD
-    assert f.is_relevant("Check this out", body="huge deal and discount today") is True
+    """Keywords in body should count toward both gates and score."""
+    # body: "chatgpt"(TOOL +5) + "deal"(DEAL +15) + "discount"(DEAL +15) = 35
+    assert f.is_relevant("Check this out", body="chatgpt deal and discount today") is True
 
 
 def test_is_relevant_returns_bool():
@@ -185,27 +220,27 @@ def test_score_deal_multiple_keywords_sum_correctly():
 
 def test_score_deal_combines_title_and_body():
     """Keywords split across title and body should be summed correctly."""
-    # title has no keywords; body contributes "promo"(DEAL +15) + "discount"(DEAL +15) = 30
+    # body contributes "promo"(DEAL +15) + "discount"(DEAL +15) = 30
     assert f.score_deal("New AI tool", "Running a promo and discount this week") == 30
 
 
 def test_score_deal_with_emoji_and_special_characters():
     """Emoji and punctuation must not prevent keyword matching."""
     title = "\U0001f525 Huge deal! 50% OFF — Limited time promo \U0001f389"
-    # "deal"(DEAL +15) + "promo"(DEAL +15) = 30
+    # "deal"(+15) + "% off"(+15 via "50% off") + "promo"(+15) + "limited time"(+15) = 60
     assert f.score_deal(title) > 0
 
 
 def test_is_relevant_negative_upvotes():
     """Negative upvotes satisfy upvotes <= 0, so the MIN_UPVOTES gate is skipped."""
-    # "deal"(DEAL +15) + "promo"(DEAL +15) + "offer"(DEAL +15) = 45; has DEAL_KEYWORD
+    # "chatgpt"(TOOL +5) + "deal"(DEAL +15) + "promo"(DEAL +15) = 35
     # upvotes=-5: upvotes > 0 is False, so the upvote check is not applied
-    assert f.is_relevant("great deal promo offer", "", upvotes=-5) is True
+    assert f.is_relevant("chatgpt deal promo offer", "", upvotes=-5) is True
 
 
 def test_is_relevant_upvote_exact_boundary():
     """upvotes=MIN_UPVOTES-1 must fail; upvotes=MIN_UPVOTES must pass."""
-    # "chatgpt"(TOOL +5) + "deal"(DEAL +15) + "promo"(DEAL +15) = 35; has DEAL_KEYWORD
+    # "chatgpt"(TOOL +5) + "deal"(DEAL +15) + "promo"(DEAL +15) = 35
     title = "chatgpt deal promo"
     assert f.is_relevant(title, upvotes=MIN_UPVOTES - 1) is False
     assert f.is_relevant(title, upvotes=MIN_UPVOTES) is True

@@ -21,13 +21,17 @@ _SOURCE = "BitDegree"
 # Navigation / UI labels that are not real deal titles.
 _JUNK_TITLE_PREFIXES: list[str] = [
     "faq",
-    "what kind",
+    "what",
     "verified",
     "exclusive",
     "claim",
     "get deal",
     "show",
     "hide",
+    "how",
+    "why",
+    "who",
+    "all ai",
 ]
 
 
@@ -45,7 +49,7 @@ def _is_junk(item: dict) -> bool:
 
     if not url or url == "/":
         return True
-    if len(title) < 5:
+    if len(title) < 10:
         return True
     title_lower = title.lower()
     if any(title_lower.startswith(prefix) for prefix in _JUNK_TITLE_PREFIXES):

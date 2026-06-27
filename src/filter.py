@@ -1,24 +1,42 @@
 """Relevance scoring and filtering for ai-deal-scout.
 
-Scores deal titles/bodies against deal keywords, tool keywords, and boosted
-phrases, then decides whether a post clears the relevance bar.
+Uses word-boundary regex matching to avoid false positives from substrings
+(e.g. "cursory" matching "cursor", or "retail" matching a future "ai" keyword).
 """
 
 import logging
+import re
 
 from config import BOOSTED_PHRASES, DEAL_KEYWORDS, MIN_UPVOTES, TOOL_KEYWORDS
 
 logger = logging.getLogger(__name__)
 
 
+def _match(text: str, keyword: str) -> bool:
+    """Whole-word boundary match; handles special characters safely.
+
+    Args:
+        text: Lowercased haystack string.
+        keyword: Keyword or phrase to look for (lowercased before matching).
+
+    Returns:
+        True when the keyword appears as a whole word in *text*.
+    """
+    pattern = rf"\b{re.escape(keyword.lower())}\b"
+    return bool(re.search(pattern, text))
+
+
 def score_deal(title: str, body: str = "") -> int:
     """Compute a relevance score for a deal.
 
-    Scoring rules (each keyword/phrase counted at most once):
+    Scoring rules (each keyword / phrase counted at most once):
 
-    - +15 per ``DEAL_KEYWORDS`` match in combined ``title + body``
-    - +5  per ``TOOL_KEYWORDS`` match in combined ``title + body``
-    - +20 per ``BOOSTED_PHRASES`` match in combined ``title + body``
+    - +15 per ``DEAL_KEYWORDS`` match
+    - +5  per ``TOOL_KEYWORDS`` match
+    - +20 per ``BOOSTED_PHRASES`` match
+
+    All matches use whole-word boundary regex so that substrings cannot
+    trigger false positives.
 
     Args:
         title: Deal headline or title string.
@@ -30,18 +48,18 @@ def score_deal(title: str, body: str = "") -> int:
     combined = (title + " " + body).lower()
     score = 0
 
-    for keyword in DEAL_KEYWORDS:
-        if keyword.lower() in combined:
+    for kw in DEAL_KEYWORDS:
+        if _match(combined, kw):
             score += 15
-            logger.debug("DEAL_KEYWORD match +15: %r", keyword)
+            logger.debug("DEAL_KEYWORD match +15: %r", kw)
 
-    for keyword in TOOL_KEYWORDS:
-        if keyword.lower() in combined:
+    for kw in TOOL_KEYWORDS:
+        if _match(combined, kw):
             score += 5
-            logger.debug("TOOL_KEYWORD match +5: %r", keyword)
+            logger.debug("TOOL_KEYWORD match +5: %r", kw)
 
     for phrase in BOOSTED_PHRASES:
-        if phrase.lower() in combined:
+        if _match(combined, phrase):
             score += 20
             logger.debug("BOOSTED_PHRASE match +20: %r", phrase)
 
@@ -54,10 +72,12 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
 
     A post is relevant when **all** of the following hold:
 
-    1. At least one ``DEAL_KEYWORDS`` match exists in ``title + body``
-       (pure tool-name mentions are rejected).
-    2. ``score_deal`` returns **at least 15**.
-    3. If ``upvotes`` is provided (> 0), it must meet or exceed
+    1. At least one ``DEAL_KEYWORDS`` match (word-boundary) — ensures the
+       post contains actual deal intent, not just a tool mention.
+    2. At least one ``TOOL_KEYWORDS`` match (word-boundary) — eliminates
+       TV deals, retail discounts, and other non-AI content.
+    3. ``score_deal`` returns **at least 15**.
+    4. If ``upvotes`` is provided (> 0), it must meet or exceed
        ``MIN_UPVOTES``.
 
     Args:
@@ -70,9 +90,14 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
     """
     combined = (title + " " + body).lower()
 
-    has_deal_keyword = any(kw.lower() in combined for kw in DEAL_KEYWORDS)
-    if not has_deal_keyword:
+    has_deal_kw = any(_match(combined, kw) for kw in DEAL_KEYWORDS)
+    if not has_deal_kw:
         logger.debug("is_relevant=False (no DEAL_KEYWORD) title=%r", title)
+        return False
+
+    has_tool_kw = any(_match(combined, kw) for kw in TOOL_KEYWORDS)
+    if not has_tool_kw:
+        logger.debug("is_relevant=False (no TOOL_KEYWORD) title=%r", title)
         return False
 
     score = score_deal(title, body)

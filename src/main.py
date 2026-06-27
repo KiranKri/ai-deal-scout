@@ -69,24 +69,22 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
-    # f. Deduplicate against seen history
+    # f+g. Sequential dedup: check and mark immediately so same-run
+    #      cross-source duplicates (e.g. same story on Reddit + HN)
+    #      are caught before the next deal is evaluated.
     # ------------------------------------------------------------------
-    new_deals = [
-        d for d in relevant_deals
-        if not dedup.is_seen(d.get("url", ""), d.get("title", ""))
-    ]
-    logger.info(
-        "Dedup: %d relevant → %d new", len(relevant_deals), len(new_deals)
-    )
+    new_deals: list[dict] = []
+    for deal in relevant_deals:
+        url = deal.get("url", "")
+        title = deal.get("title", "")
+        if not dedup.is_seen(url, title):
+            new_deals.append(deal)
+            try:
+                dedup.mark_seen(url, title)
+            except Exception:
+                logger.exception("mark_seen failed for %s", url)
 
-    # ------------------------------------------------------------------
-    # g. Mark new deals as seen
-    # ------------------------------------------------------------------
-    try:
-        for deal in new_deals:
-            dedup.mark_seen(deal.get("url", ""), deal.get("title", ""))
-    except Exception:
-        logger.exception("mark_seen failed; continuing")
+    logger.info("Dedup: %d relevant → %d new", len(relevant_deals), len(new_deals))
 
     # ------------------------------------------------------------------
     # h. Persist dedup state BEFORE sending to Telegram
