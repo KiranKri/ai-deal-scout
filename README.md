@@ -121,6 +121,12 @@ The workflow can also be triggered on a schedule (e.g. twice daily) via the `cro
 
 ---
 
+## Planned features
+
+- **Telegram `/run` command** — send `/run` from the Telegram app on your phone to instantly trigger the GitHub Actions workflow, without needing to open GitHub. Would use a Telegram webhook or polling loop to listen for bot commands and call the GitHub API (`POST /repos/{owner}/{repo}/actions/workflows/{id}/dispatches`) with a `workflow_dispatch` event.
+
+---
+
 ## License
 
 MIT
