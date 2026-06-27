@@ -9,9 +9,16 @@ delivers new deals via Telegram and records them in the history log.
 """
 
 import logging
+import os
 import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
+
+# Add project root to sys.path so the bot/ package is importable when this
+# script is launched directly as ``python src/main.py``.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from bot.subscribers import get_active_chat_ids
 
 logging.basicConfig(
     level=logging.INFO,
@@ -103,12 +110,18 @@ def main() -> None:
         logger.exception("history.append_deals() failed; continuing")
 
     # ------------------------------------------------------------------
-    # j. Send Telegram notification
+    # j. Broadcast to all active subscribers
     # ------------------------------------------------------------------
     try:
-        notifier.send_deals(new_deals)
+        chat_ids = get_active_chat_ids()
+        if not chat_ids:
+            logger.warning(
+                "No active subscribers — skipping Telegram send")
+        else:
+            logger.info("Broadcasting to %d subscribers", len(chat_ids))
+            notifier.send_deals(new_deals, chat_ids)
     except Exception:
-        logger.exception("notifier.send_deals() failed; continuing")
+        logger.exception("Broadcast step failed")
 
     # ------------------------------------------------------------------
     # k. Final summary log

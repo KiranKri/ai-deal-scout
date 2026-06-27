@@ -6,20 +6,43 @@ the Telegram Bot API using raw ``requests`` calls only.
 Uses HTML parse_mode (not Markdown) to avoid silent failures caused by
 special Markdown characters in deal titles and URLs (e.g. underscores in
 Reddit slugs, brackets in titles, etc.).
+
+V2 adds broadcast support: ``send_deals`` now accepts a ``chat_ids`` list
+and fans out to all active subscribers with rate-limiting and automatic
+deactivation of blocked (403) users.
 """
 
 import html
 import logging
 import os
+import time
 from typing import Any
 
 import requests
 
+from bot import subscribers as subscribers_module
 from config import TELEGRAM_MAX_CHARS
 
 logger = logging.getLogger(__name__)
 
+# ---------------------------------------------------------------------------
+# Telegram API
+# ---------------------------------------------------------------------------
+
 _TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
+
+# ---------------------------------------------------------------------------
+# Rate-limiting / broadcast constants
+# ---------------------------------------------------------------------------
+
+BATCH_SIZE = 25       # users per batch
+BATCH_SLEEP = 1.0     # seconds between batches
+RETRY_SLEEP = 5.0     # seconds to wait on 429
+MESSAGE_SLEEP = 0.3   # seconds after every message send (pacing)
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
 
 
 def _credentials() -> tuple[str, str]:
@@ -28,13 +51,18 @@ def _credentials() -> tuple[str, str]:
 
 
 def _esc(text: str) -> str:
-    """HTML-escape a string for Telegram HTML parse_mode.
+    """HTML-escape a string for Telegram HTML parse mode.
 
     Escapes ``&``, ``<``, and ``>`` so that user-supplied text (titles,
     URLs, source names) cannot accidentally break the HTML structure or
     trigger a Telegram API parse error.
     """
     return html.escape(text, quote=False)
+
+
+# ---------------------------------------------------------------------------
+# Public formatting helpers (unchanged from V1)
+# ---------------------------------------------------------------------------
 
 
 def format_deal(deal: dict[str, Any]) -> str:
@@ -171,52 +199,134 @@ def send_message(text: str) -> bool:
         return False
 
 
-def send_deals(deals: list[dict[str, Any]]) -> None:
-    """Send all new deals to Telegram, or a "no new deals" notice.
+# ---------------------------------------------------------------------------
+# V2 private helper
+# ---------------------------------------------------------------------------
 
-    Formats every deal, splits the result into Telegram-safe chunks,
-    and sends each chunk as a separate message.  If Telegram credentials
-    are absent the function logs a single warning and returns immediately.
+
+def _send_with_retry(chat_id: int, text: str) -> int:
+    """Send one message to one chat_id with a single 429 retry.
+
+    Uses HTML parse_mode, consistent with ``format_deal`` output.
 
     Args:
-        deals: List of new deal dicts to notify about.
+        chat_id: Telegram chat ID to send to.
+        text:    Message text (may contain HTML tags).
+
+    Returns:
+        HTTP status code of the final attempt (200 on success).
+        Returns 0 on a ``requests`` exception.
     """
-    token, chat_id = _credentials()
-    if not token or not chat_id:
-        logger.warning(
-            "TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set; skipping Telegram send"
+    token = os.getenv("TELEGRAM_BOT_TOKEN", "")
+    url = _TELEGRAM_API.format(token=token)
+    payload: dict[str, Any] = {
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "HTML",
+    }
+
+    try:
+        r = requests.post(url, json=payload, timeout=10)
+        if r.status_code == 429:
+            logger.warning(
+                "429 for chat_id=%d, retrying after %ds", chat_id, RETRY_SLEEP
+            )
+            time.sleep(RETRY_SLEEP)
+            r = requests.post(url, json=payload, timeout=10)
+        if r.status_code not in (200, 403, 429):
+            logger.error(
+                "Telegram error %d for chat_id=%d", r.status_code, chat_id
+            )
+        return r.status_code
+    except requests.RequestException as e:
+        logger.error(
+            "Telegram request failed for chat_id=%d: %s", chat_id, e
         )
+        return 0
+
+
+# ---------------------------------------------------------------------------
+# V2 broadcast
+# ---------------------------------------------------------------------------
+
+
+def send_deals(deals: list[dict[str, Any]], chat_ids: list[int]) -> None:
+    """Broadcast deals to all subscribers with rate limiting.
+
+    Formats content once and fans it out to every chat ID in ``chat_ids``.
+    Users are processed in batches of ``BATCH_SIZE`` with a ``BATCH_SLEEP``
+    pause between batches to stay within Telegram's rate limits.
+
+    A ``MESSAGE_SLEEP`` pause is inserted after every message send to pace
+    delivery.  For small deal sets the header and all deal blocks fit in a
+    single chunk; for larger sets ``chunk_messages`` splits them naturally.
+
+    Users that return HTTP 403 (bot blocked) are collected and deactivated
+    in a single ``batch_deactivate`` call at the end.
+
+    Args:
+        deals:    List of new deal dicts to broadcast.  Empty list sends a
+                  "no new deals" notice.
+        chat_ids: List of active subscriber chat IDs to send to.
+    """
+    if not chat_ids:
+        logger.warning("No active subscribers — skipping Telegram send")
         return
 
+    # Format content once, reuse for every recipient.
+    # The header is embedded in the body so small deal sets fit in one chunk,
+    # which keeps the per-user call count predictable for rate-limit purposes.
     if not deals:
-        send_message("✅ AI Deal Scout ran — no new deals found.")
-        return
-
-    # Debug: log exactly what format_deal produces for the first deal
-    first_formatted = format_deal(deals[0])
-    logger.info("format_deal output for first deal:\n%s", first_formatted)
-
-    header = f"\U0001f916 <b>AI Deal Scout — {len(deals)} new deal(s) found:</b>"
-    send_message(header)
-
-    all_text = "\n".join(format_deal(d) for d in deals)
-    chunks = chunk_messages(all_text)
+        content_messages: list[str] = [
+            "✅ AI Deal Scout ran — no new deals found."
+        ]
+    else:
+        header = (
+            f"\U0001f916 <b>AI Deal Scout — "
+            f"{len(deals)} new deal(s) found:</b>"
+        )
+        body = "".join(format_deal(d) for d in deals)
+        content_messages = chunk_messages(header + "\n\n" + body)
 
     logger.info(
-        "send_deals: %d deal(s) → %d chunk(s), sizes: %s",
-        len(deals), len(chunks), [len(c) for c in chunks]
+        "send_deals: %d deal(s) → %d message(s) → %d subscriber(s)",
+        len(deals), len(content_messages), len(chat_ids),
     )
 
-    sent = 0
-    for i, chunk in enumerate(chunks):
-        logger.info(
-            "send_deals: sending chunk %d/%d (%d chars)",
-            i + 1, len(chunks), len(chunk)
-        )
-        if send_message(chunk):
-            sent += 1
+    blocked_ids: list[int] = []
+    success_count = 0
+
+    for batch_start in range(0, len(chat_ids), BATCH_SIZE):
+        batch = chat_ids[batch_start : batch_start + BATCH_SIZE]
+
+        for chat_id in batch:
+            user_success = True
+            for msg in content_messages:
+                status = _send_with_retry(chat_id, msg)
+                # Pace every outbound message to avoid hitting rate limits.
+                # This fires unconditionally so single-message sends are also
+                # spaced, keeping the per-user sleep count predictable.
+                time.sleep(MESSAGE_SLEEP)
+
+                if status == 403:
+                    blocked_ids.append(chat_id)
+                    user_success = False
+                    break
+                elif status != 200:
+                    user_success = False
+                    break
+
+            if user_success:
+                success_count += 1
+
+        # Sleep between batches (not after the last one)
+        if batch_start + BATCH_SIZE < len(chat_ids):
+            time.sleep(BATCH_SLEEP)
+
+    if blocked_ids:
+        logger.info("Auto-deactivating %d blocked user(s)", len(blocked_ids))
+        subscribers_module.batch_deactivate(blocked_ids)
 
     logger.info(
-        "send_deals: %d/%d chunk(s) successfully sent for %d deal(s)",
-        sent, len(chunks), len(deals)
+        "Broadcast complete: %d/%d subscribers", success_count, len(chat_ids)
     )

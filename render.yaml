@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: ai-deal-scout-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn bot.bot_server:app --bind 0.0.0.0:$PORT --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: WEBHOOK_SECRET
+        sync: false
+      - key: ADMIN_CHAT_ID
+        sync: false
+      - key: GH_PAT
+        sync: false
+      - key: GH_REPO_DATA
+        sync: false
