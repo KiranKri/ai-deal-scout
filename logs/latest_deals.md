@@ -1,0 +1,658 @@
+# Latest Deals
+
+_No deals logged yet._
+## Run: 2026-06-27 14:55:56 IST
+- [Citizen Eco-Drive Weekender Brycen Chronograph Wrist Watch at $197 (54% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1uflmi1/citizen_ecodrive_weekender_brycen_chronograph/) | Reddit | 👍 0
+- [Apple Watch Series 11 GPS 46MM at $ 309 (28% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1ueownk/apple_watch_series_11_gps_46mm_at_309_28_off/) | Reddit | 👍 0
+- [Cursor (AI code editor) - 50% off your first month, any tier (10$-100$ off depending on tier)](https://www.reddit.com/r/deals/comments/1u5oo2g/cursor_ai_code_editor_50_off_your_first_month_any/) | Reddit | 👍 0
+- [iRobot Roomba 105 Vac Robot Vacuum with AutoEmpty Dock at $249 (45% off)](https://www.reddit.com/r/deals/comments/1u4468g/irobot_roomba_105_vac_robot_vacuum_with_autoempty/) | Reddit | 👍 0
+- [4 Tier Rotating Shoe Rack Tower, Spinning Shoe Display Revolving 360 at $ 119 (15% off)](https://www.reddit.com/r/deals/comments/1u2d28d/4_tier_rotating_shoe_rack_tower_spinning_shoe/) | Reddit | 👍 0
+- [Hisense 75" E6 Cinema Series QLED 4K 75E6QF at $498 (38% off)](https://www.reddit.com/r/deals/comments/1tua0de/hisense_75_e6_cinema_series_qled_4k_75e6qf_at_498/) | Reddit | 👍 0
+- [Soundcore Boom 2 By Anker Outdoor Portable Speaker 80W at $90 (36% off)](https://www.reddit.com/r/deals/comments/1tokmhs/soundcore_boom_2_by_anker_outdoor_portable/) | Reddit | 👍 0
+- [20% OFF on a Best Seller 29” Spinner Luggage Travel Suitcase (SWISSGEAR) — Only $128](https://www.reddit.com/r/deals/comments/1tohq21/20_off_on_a_best_seller_29_spinner_luggage_travel/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Google is the only search engine that works on Reddit now, thanks to AI deal](https://www.404media.co/google-is-the-only-search-engine-that-works-on-reddit-now-thanks-to-ai-deal/) | HackerNews | 👍 515
+- [CBP signs Clearview AI deal to use face recognition for 'tactical targeting'](https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/) | HackerNews | 👍 276
+- [Three Mile Island nuclear plant restart in Microsoft AI power deal](https://www.reuters.com/markets/deals/constellation-inks-power-supply-deal-with-microsoft-2024-09-20/) | HackerNews | 👍 179
+- [Circular AI deals among OpenAI, Nvidia, AMD are raising eyebrows](https://www.bloomberg.com/news/articles/2025-10-08/the-circular-openai-nvidia-and-amd-deals-raising-fears-of-a-new-tech-bubble) | HackerNews | 👍 84
+- [Anthropic chief back in talks with Pentagon about AI deal](https://www.ft.com/content/97bda2ef-fc06-40b3-a867-f61a711b148b) | HackerNews | 👍 55
+- [FTC Opens Antitrust Probe of Microsoft AI Deal](https://www.wsj.com/tech/ai/ftc-opens-antitrust-probe-of-microsoft-ai-deal-29b5169a) | HackerNews | 👍 40
+- [Reddit has a new AI training deal to sell user content](https://www.theverge.com/2024/2/17/24075670/reddit-ai-training-license-deal-user-content) | HackerNews | 👍 35
+- [Should we worry about AI's circular deals?](https://www.noahpinion.blog/p/should-we-worry-about-ais-circular) | HackerNews | 👍 21
+- [Silicon Valley's AI deals are creating zombie startups](https://www.cnbc.com/2025/08/19/how-ai-zombie-deals-work-meta-google.html) | HackerNews | 👍 20
+- [Trump's Middle East AI Deal: "Just Count the Server Racks"](https://www.chinatalk.media/p/about-that-ai-middle-east-deal) | HackerNews | 👍 17
+- [YouTube in talks with record labels over AI music deal](https://www.ft.com/content/e2d9472d-32e0-43f5-8109-efb753fac330) | HackerNews | 👍 16
+- [Wikipedia signs AI training deals with Microsoft, Meta, and Amazon](https://arstechnica.com/ai/2026/01/wikipedia-will-share-content-with-ai-firms-in-new-licensing-deals/) | HackerNews | 👍 16
+- [Google DeepMind Workers Vote to Unionize over Military AI Deals](https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/) | HackerNews | 👍 15
+- [Google DeepMind Workers Vote to Unionize over Military AI Deals](https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/) | HackerNews | 👍 12
+- [AI agent promotes itself to sysadmin, trashes boot sequence](https://www.theregister.com/2024/10/02/ai_agent_trashes_pc/) | HackerNews | 👍 87
+- [I Promoted AI for Years and Automated Myself Out of a Job](https://www.thedailybeast.com/i-promoted-ai-for-years-and-automated-myself-out-of-a-job) | HackerNews | 👍 32
+- [Google and Microsoft Paying Creators $500K+ to Promote AI Tools](https://www.cnbc.com/2026/02/06/google-microsoft-pay-creators-500000-and-more-to-promote-ai.html) | HackerNews | 👍 24
+- [Willy Wonka experience used AI in promos, causing high expectations, cops called](https://www.gamereactor.eu/police-called-to-willy-wonka-themed-event-that-goes-horribly-wrong-1363693/) | HackerNews | 👍 19
+- [Companies Should Beware Promoting AI in Products](https://www.wsj.com/tech/ai/ai-advertising-consumer-trust-dc1a1425) | HackerNews | 👍 16
+- [AI agent promotes itself to sysadmin, trashes boot sequence](https://www.theregister.com/2024/10/02/ai_agent_trashes_pc/) | HackerNews | 👍 8
+- [China wants to use AI to promote Xi Jinping's thinking](https://www.reuters.com/business/media-telecom/china-bets-ai-promote-president-xi-jinpings-thinking-2026-06-05/) | HackerNews | 👍 6
+- [AI agent promotes itself to sysadmin, trashes boot sequence](https://www.theregister.com/2024/10/02/ai_agent_trashes_pc/) | HackerNews | 👍 6
+- [Launch HN: Promi (YC S24) – AI-powered ecommerce discounts](https://news.ycombinator.com/item?id=41247211) | HackerNews | 👍 41
+- [Microsoft 365 confirms new premium tier, stuffed with AI and few discounts](https://www.theregister.com/2026/03/09/microsoft_adds_a_premium_tier/) | HackerNews | 👍 13
+- [Show HN: I built an LLM chat app because we shouldn't need 10 AI subscriptions](https://prismharmony.com/chat) | HackerNews | 👍 58
+- [Musk asks SpaceX IPO banks to buy Grok AI subscriptions, NYT reports](https://www.reuters.com/business/finance/musk-asks-spacex-ipo-banks-buy-grok-ai-subscriptions-nyt-reports-2026-04-03/) | HackerNews | 👍 10
+- [Show HN: Limits.fyi – See what you are getting out of all your AI subscriptions](https://www.limits.fyi/) | HackerNews | 👍 6
+- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) | RSS | 👍 0
+- [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work) | RSS | 👍 0
+- [OpenAI and Broadcom unveil LLM-optimized inference chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip) | RSS | 👍 0
+- [Helping build shared standards for advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai) | RSS | 👍 0
+- [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery) | RSS | 👍 0
+- [How Omio is building the future of conversational travel](https://openai.com/index/omio) | RSS | 👍 0
+- [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet) | RSS | 👍 0
+- [Daybreak: Tools for securing every organization in the world](https://openai.com/index/daybreak-securing-the-world) | RSS | 👍 0
+- [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment) | RSS | 👍 0
+- [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) | RSS | 👍 0
+- [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) | RSS | 👍 0
+- [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases) | RSS | 👍 0
+- [A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction) | RSS | 👍 0
+- [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation) | RSS | 👍 0
+- [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network) | RSS | 👍 0
+- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work) | RSS | 👍 0
+- [How Preply combines AI and human tutors to personalize learning](https://openai.com/index/preply) | RSS | 👍 0
+- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva) | RSS | 👍 0
+- [Supporting Europe’s work in ensuring a trustworthy AI ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) | RSS | 👍 0
+- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) | RSS | 👍 0
+- [Access OpenAI models and Codex through your Oracle cloud commitment](https://openai.com/index/openai-on-oracle-cloud) | RSS | 👍 0
+- [PRC-linked influence operations are targeting AI debates in the US](https://openai.com/index/prc-linked-influence-operations-ai-debates) | RSS | 👍 0
+- [From data to decisions: how LSEG is scaling trusted AI](https://openai.com/index/lseg) | RSS | 👍 0
+- [Confidential submission of draft S-1 to the SEC](https://openai.com/index/openai-submits-confidential-s-1) | RSS | 👍 0
+- [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan) | RSS | 👍 0
+- [Introducing the OpenAI Economic Research Exchange](https://openai.com/index/economic-research-exchange) | RSS | 👍 0
+- [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers) | RSS | 👍 0
+- [Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming) | RSS | 👍 0
+- [A blueprint for democratic governance of frontier AI](https://openai.com/index/frontier-safety-blueprint) | RSS | 👍 0
+- [OpenAI public policy agenda](https://openai.com/index/public-policy-agenda) | RSS | 👍 0
+- [Travelers deploys AI-powered claims countrywide with OpenAI](https://openai.com/index/travelers) | RSS | 👍 0
+- [Advancing youth safety and opportunity through global leadership](https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership) | RSS | 👍 0
+- [Building the infrastructure for the Intelligence Age in Michigan](https://openai.com/index/stargate-michigan-data-center) | RSS | 👍 0
+- [OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws) | RSS | 👍 0
+- [Boston Children’s uses AI to unlock new diagnoses](https://openai.com/index/boston-childrens-hospital) | RSS | 👍 0
+- [Strengthening societal resilience with Rosalind Biodefense](https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense) | RSS | 👍 0
+- [A shared playbook for trustworthy third party evaluations](https://openai.com/index/trustworthy-third-party-evaluations-foundations) | RSS | 👍 0
+- [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework) | RSS | 👍 0
+- [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg) | RSS | 👍 0
+- [Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco) | RSS | 👍 0
+- [Building self-improving tax agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex) | RSS | 👍 0
+- [Warp’s big bet on building open source with GPT-5.5](https://openai.com/index/warp) | RSS | 👍 0
+- [OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership](https://openai.com/index/grupo-folha-grupo-uol-partnership) | RSS | 👍 0
+- [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) | RSS | 👍 0
+- [AdventHealth advances whole-person care with OpenAI](https://openai.com/index/adventhealth) | RSS | 👍 0
+- [The next phase of OpenAI’s Education for Countries](https://openai.com/index/the-next-phase-of-education-for-countries) | RSS | 👍 0
+- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture) | RSS | 👍 0
+- [Introducing OpenAI for Singapore](https://openai.com/index/introducing-openai-for-singapore) | RSS | 👍 0
+- [Advancing content provenance for a safer, more transparent AI ecosystem](https://openai.com/index/advancing-content-provenance) | RSS | 👍 0
+- [OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments](https://openai.com/index/dell-codex-enterprise-partnership) | RSS | 👍 0
+- [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership) | RSS | 👍 0
+- [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt) | RSS | 👍 0
+- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex) | RSS | 👍 0
+- [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere) | RSS | 👍 0
+- [Helping ChatGPT better recognize context in sensitive conversations](https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations) | RSS | 👍 0
+- [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox) | RSS | 👍 0
+- [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack) | RSS | 👍 0
+- [AutoScout24 scales engineering with AI-powered workflows](https://openai.com/index/autoscout24) | RSS | 👍 0
+- [How ChatGPT adoption broadened in early 2026](https://openai.com/signals/research/2026q1-update) | RSS | 👍 0
+- [OpenAI Campus Network: Student club interest form](https://openai.com/index/openai-campus-network-student-club-interest-form) | RSS | 👍 0
+- [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company) | RSS | 👍 0
+- [Running Codex safely at OpenAI](https://openai.com/index/running-codex-safely) | RSS | 👍 0
+- [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber) | RSS | 👍 0
+- [Parloa builds service agents customers want to talk to](https://openai.com/index/parloa) | RSS | 👍 0
+- [Advancing voice intelligence with new models in the API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api) | RSS | 👍 0
+- [Introducing Trusted Contact in ChatGPT](https://openai.com/index/introducing-trusted-contact-in-chatgpt) | RSS | 👍 0
+- [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) | RSS | 👍 0
+- [Simplex rethinks software development with Codex](https://openai.com/index/simplex) | RSS | 👍 0
+- [How ChatGPT learns about the world while protecting privacy](https://openai.com/index/how-chatgpt-protects-privacy) | RSS | 👍 0
+- [How frontier firms are pulling ahead](https://openai.com/index/introducing-b2b-signals) | RSS | 👍 0
+- [Singular Bank helps bankers move fast with ChatGPT and Codex](https://openai.com/index/singular-bank) | RSS | 👍 0
+- [Uber uses OpenAI to help people earn smarter and book faster](https://openai.com/index/uber) | RSS | 👍 0
+- [Introducing ChatGPT Futures: Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026) | RSS | 👍 0
+- [Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)](https://openai.com/index/mrc-supercomputer-networking) | RSS | 👍 0
+- [GPT-5.5 Instant: smarter, clearer, and more personalized](https://openai.com/index/gpt-5-5-instant) | RSS | 👍 0
+- [Advancing youth safety and wellbeing in EMEA](https://openai.com/index/advancing-youth-safety-in-emea) | RSS | 👍 0
+- [New ways to buy ChatGPT ads](https://openai.com/index/new-ways-to-buy-chatgpt-ads) | RSS | 👍 0
+- [OpenAI and PwC collaborate to reimagine the office of the CFO](https://openai.com/index/openai-pwc-finance-collaboration) | RSS | 👍 0
+- [How OpenAI delivers low-latency voice AI at scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale) | RSS | 👍 0
+- [Building the compute infrastructure for the Intelligence Age](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age) | RSS | 👍 0
+- [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age) | RSS | 👍 0
+- [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety) | RSS | 👍 0
+- [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws) | RSS | 👍 0
+- [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate) | RSS | 👍 0
+- [The next phase of the Microsoft OpenAI partnership](https://openai.com/index/next-phase-of-microsoft-partnership) | RSS | 👍 0
+- [Choco automates food distribution with AI agents](https://openai.com/index/choco) | RSS | 👍 0
+- [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians) | RSS | 👍 0
+- [Workspace agents](https://openai.com/academy/workspace-agents) | RSS | 👍 0
+- [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt) | RSS | 👍 0
+- [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter) | RSS | 👍 0
+- [Introducing ChatGPT Images 2.0](https://openai.com/index/introducing-chatgpt-images-2-0) | RSS | 👍 0
+- [Scaling Codex to enterprises worldwide](https://openai.com/index/scaling-codex-to-enterprises-worldwide) | RSS | 👍 0
+- [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise) | RSS | 👍 0
+- [Introducing GPT-Rosalind for life sciences research](https://openai.com/index/introducing-gpt-rosalind) | RSS | 👍 0
+- [Accelerating the cyber defense ecosystem that protects us all](https://openai.com/index/accelerating-cyber-defense-ecosystem) | RSS | 👍 0
+- [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk) | RSS | 👍 0
+- [Trusted access for the next era of cyber defense](https://openai.com/index/scaling-trusted-access-for-cyber-defense) | RSS | 👍 0
+- [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud) | RSS | 👍 0
+- [Responsible and safe use of AI](https://openai.com/academy/responsible-and-safe-use) | RSS | 👍 0
+- [Personalizing ChatGPT](https://openai.com/academy/personalization) | RSS | 👍 0
+- [Prompting fundamentals](https://openai.com/academy/prompting) | RSS | 👍 0
+- [ChatGPT for finance teams](https://openai.com/academy/finance) | RSS | 👍 0
+- [Working with files in ChatGPT](https://openai.com/academy/working-with-files) | RSS | 👍 0
+- [Using skills](https://openai.com/academy/skills) | RSS | 👍 0
+- [Creating images with ChatGPT](https://openai.com/academy/image-generation) | RSS | 👍 0
+- [Writing with ChatGPT](https://openai.com/academy/writing) | RSS | 👍 0
+- [Healthcare](https://openai.com/academy/healthcare) | RSS | 👍 0
+- [Research with ChatGPT](https://openai.com/academy/search-and-deep-research) | RSS | 👍 0
+- [ChatGPT for marketing teams](https://openai.com/academy/marketing) | RSS | 👍 0
+- [ChatGPT for sales teams](https://openai.com/academy/sales) | RSS | 👍 0
+- [Using projects in ChatGPT](https://openai.com/academy/projects) | RSS | 👍 0
+- [Our response to the Axios developer tool compromise](https://openai.com/index/axios-developer-tool-compromise) | RSS | 👍 0
+- [AI fundamentals](https://openai.com/academy/what-is-ai) | RSS | 👍 0
+- [ChatGPT for managers](https://openai.com/academy/managers) | RSS | 👍 0
+- [ChatGPT for operations teams](https://openai.com/academy/operations) | RSS | 👍 0
+- [Analyzing data with ChatGPT](https://openai.com/academy/data-analysis) | RSS | 👍 0
+- [Getting started with ChatGPT](https://openai.com/academy/getting-started) | RSS | 👍 0
+- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai) | RSS | 👍 0
+- [ChatGPT for research](https://openai.com/academy/research) | RSS | 👍 0
+- [Brainstorming with ChatGPT](https://openai.com/academy/brainstorming) | RSS | 👍 0
+- [ChatGPT for customer success teams](https://openai.com/academy/customer-success) | RSS | 👍 0
+- [CyberAgent moves faster with ChatGPT Enterprise and Codex](https://openai.com/index/cyberagent) | RSS | 👍 0
+- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) | RSS | 👍 0
+- [Introducing the Child Safety Blueprint](https://openai.com/index/introducing-child-safety-blueprint) | RSS | 👍 0
+- [Announcing the OpenAI Safety Fellowship](https://openai.com/index/introducing-openai-safety-fellowship) | RSS | 👍 0
+- [OpenAI acquires TBPN](https://openai.com/index/openai-acquires-tbpn) | RSS | 👍 0
+- [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams) | RSS | 👍 0
+- [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) | RSS | 👍 0
+- [Helping disaster response teams turn AI into action across Asia](https://openai.com/index/helping-disaster-response-teams-asia) | RSS | 👍 0
+- [STADLER reshapes knowledge work at a 230-year-old company](https://openai.com/index/stadler) | RSS | 👍 0
+- [Inside our approach to the Model Spec](https://openai.com/index/our-approach-to-the-model-spec) | RSS | 👍 0
+- [Introducing the OpenAI Safety Bug Bounty program](https://openai.com/index/safety-bug-bounty) | RSS | 👍 0
+- [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard) | RSS | 👍 0
+- [Update on the OpenAI Foundation](https://openai.com/index/update-on-the-openai-foundation) | RSS | 👍 0
+- [Powering product discovery in ChatGPT](https://openai.com/index/powering-product-discovery-in-chatgpt) | RSS | 👍 0
+- [How we monitor internal coding agents for misalignment](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment) | RSS | 👍 0
+- [OpenAI to acquire Astral](https://openai.com/index/openai-to-acquire-astral) | RSS | 👍 0
+- [OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first](https://openai.com/index/japan-teen-safety-blueprint) | RSS | 👍 0
+- [Equipping workers with insights about compensation](https://openai.com/index/equipping-workers-with-insights-about-compensation) | RSS | 👍 0
+- [Designing AI agents to resist prompt injection](https://openai.com/index/designing-agents-to-resist-prompt-injection) | RSS | 👍 0
+- [From model to agent: Equipping the Responses API with a computer environment](https://openai.com/index/equip-responses-api-computer-environment) | RSS | 👍 0
+- [Wayfair boosts catalog accuracy and support speed with OpenAI](https://openai.com/index/wayfair) | RSS | 👍 0
+- [New ways to learn math and science in ChatGPT](https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt) | RSS | 👍 0
+- [OpenAI to acquire Promptfoo](https://openai.com/index/openai-to-acquire-promptfoo) | RSS | 👍 0
+- [How Balyasny Asset Management built an AI research engine](https://openai.com/index/balyasny-asset-management) | RSS | 👍 0
+- [How Descript engineers multilingual video dubbing at scale](https://openai.com/index/descript) | RSS | 👍 0
+- [Reasoning models struggle to control their chains of thought, and that’s good](https://openai.com/index/reasoning-models-chain-of-thought-controllability) | RSS | 👍 0
+- [Introducing GPT-5.4](https://openai.com/index/introducing-gpt-5-4) | RSS | 👍 0
+- [Ensuring AI use in education leads to opportunity](https://openai.com/index/ai-education-opportunity) | RSS | 👍 0
+- [Introducing ChatGPT for Excel and new financial data integrations](https://openai.com/index/chatgpt-for-excel) | RSS | 👍 0
+- [VfL Wolfsburg turns ChatGPT into a club-wide capability](https://openai.com/index/vfl-wolfsburg) | RSS | 👍 0
+- [Understanding AI and learning outcomes](https://openai.com/index/understanding-ai-and-learning-outcomes) | RSS | 👍 0
+- [Our agreement with the Department of War](https://openai.com/index/our-agreement-with-the-department-of-war) | RSS | 👍 0
+- [Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock](https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock) | RSS | 👍 0
+- [Joint Statement from OpenAI and Microsoft](https://openai.com/index/continuing-microsoft-partnership) | RSS | 👍 0
+- [OpenAI and Amazon announce strategic partnership](https://openai.com/index/amazon-partnership) | RSS | 👍 0
+- [An update on our mental health-related work](https://openai.com/index/update-on-mental-health-related-work) | RSS | 👍 0
+- [Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting](https://openai.com/index/pacific-northwest-national-laboratory) | RSS | 👍 0
+- [OpenAI Codex and Figma launch seamless code-to-design experience](https://openai.com/index/figma-partnership) | RSS | 👍 0
+- [Arvind KC appointed Chief People Officer](https://openai.com/index/arvind-kc-chief-people-officer) | RSS | 👍 0
+- [OpenAI announces Frontier Alliance Partners](https://openai.com/index/frontier-alliance-partners) | RSS | 👍 0
+- [Advancing independent research on AI alignment](https://openai.com/index/advancing-independent-research-ai-alignment) | RSS | 👍 0
+- [Introducing OpenAI for India](https://openai.com/index/openai-for-india) | RSS | 👍 0
+- [Introducing EVMbench](https://openai.com/index/introducing-evmbench) | RSS | 👍 0
+- [GPT-5.2 derives a new result in theoretical physics](https://openai.com/index/new-result-theoretical-physics) | RSS | 👍 0
+- [Introducing Lockdown Mode and Elevated Risk labels in ChatGPT](https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt) | RSS | 👍 0
+- [Scaling social science research](https://openai.com/index/scaling-social-science-research) | RSS | 👍 0
+- [Beyond rate limits: scaling access to Codex and Sora](https://openai.com/index/beyond-rate-limits) | RSS | 👍 0
+- [Introducing GPT-5.3-Codex-Spark](https://openai.com/index/introducing-gpt-5-3-codex-spark) | RSS | 👍 0
+- [Bringing ChatGPT to GenAI.mil](https://openai.com/index/bringing-chatgpt-to-genaimil) | RSS | 👍 0
+- [Making AI work for everyone, everywhere: our approach to localization](https://openai.com/index/our-approach-to-localization) | RSS | 👍 0
+- [GPT-5 lowers the cost of cell-free protein synthesis](https://openai.com/index/gpt-5-lowers-protein-synthesis-cost) | RSS | 👍 0
+- [Introducing Trusted Access for Cyber](https://openai.com/index/trusted-access-for-cyber) | RSS | 👍 0
+- [Introducing OpenAI Frontier](https://openai.com/index/introducing-openai-frontier) | RSS | 👍 0
+- [Snowflake and OpenAI partner to bring frontier intelligence to enterprise data](https://openai.com/index/snowflake-partnership) | RSS | 👍 0
+- [Inside OpenAI’s in-house data agent](https://openai.com/index/inside-our-in-house-data-agent) | RSS | 👍 0
+- [Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT](https://openai.com/index/retiring-gpt-4o-and-older-models) | RSS | 👍 0
+- [Taisei Corporation shapes the next generation of talent with AI](https://openai.com/index/taisei) | RSS | 👍 0
+- [The next chapter for AI in the EU](https://openai.com/index/the-next-chapter-for-ai-in-the-eu) | RSS | 👍 0
+- [Keeping your data safe when an AI agent clicks a link](https://openai.com/index/ai-agent-link-safety) | RSS | 👍 0
+- [PVH reimagines the future of fashion with OpenAI](https://openai.com/index/pvh-future-of-fashion) | RSS | 👍 0
+- [TRUSTBANK uses AI agents to personalize Furusato Nozei gifts](https://openai.com/index/trustbank) | RSS | 👍 0
+- [Scaling PostgreSQL to power 800 million ChatGPT users](https://openai.com/index/scaling-postgresql) | RSS | 👍 0
+- [Inside GPT-5 for Work: How Businesses Use GPT-5](https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work) | RSS | 👍 0
+- [How Higgsfield turns simple ideas into cinematic social videos](https://openai.com/index/higgsfield) | RSS | 👍 0
+- [Introducing Edu for Countries](https://openai.com/index/edu-for-countries) | RSS | 👍 0
+- [Horizon 1000: Advancing AI for primary healthcare](https://openai.com/index/horizon-1000) | RSS | 👍 0
+- [ServiceNow powers actionable enterprise AI with OpenAI](https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai) | RSS | 👍 0
+- [Our approach to age prediction](https://openai.com/index/our-approach-to-age-prediction) | RSS | 👍 0
+- [A business that scales with the value of intelligence](https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence) | RSS | 👍 0
+- [Introducing ChatGPT Go, now available worldwide](https://openai.com/index/introducing-chatgpt-go) | RSS | 👍 0
+- [Our approach to advertising and expanding access to ChatGPT](https://openai.com/index/our-approach-to-advertising-and-expanding-access) | RSS | 👍 0
+- [Investing in Merge Labs](https://openai.com/index/investing-in-merge-labs) | RSS | 👍 0
+- [Strengthening the U.S. AI supply chain through domestic manufacturing](https://openai.com/index/strengthening-the-us-ai-supply-chain) | RSS | 👍 0
+- [OpenAI partners with Cerebras](https://openai.com/index/cerebras-partnership) | RSS | 👍 0
+- [Zenken boosts a lean sales team with ChatGPT Enterprise](https://openai.com/index/zenken) | RSS | 👍 0
+- [OpenAI and SoftBank Group partner with SB Energy](https://openai.com/index/stargate-sb-energy-partnership) | RSS | 👍 0
+- [Datadog uses Codex for system-level code review](https://openai.com/index/datadog) | RSS | 👍 0
+- [OpenAI for Healthcare](https://openai.com/index/openai-for-healthcare) | RSS | 👍 0
+- [Introducing ChatGPT Health](https://openai.com/index/introducing-chatgpt-health) | RSS | 👍 0
+- [Announcing OpenAI Grove Cohort 2](https://openai.com/index/openai-grove) | RSS | 👍 0
+- [One in a million: celebrating the customers shaping AI’s future](https://openai.com/index/one-in-a-million-customers) | RSS | 👍 0
+- [Continuously hardening ChatGPT Atlas against prompt injection](https://openai.com/index/hardening-atlas-against-prompt-injection) | RSS | 👍 0
+- [Evaluating chain-of-thought monitorability](https://openai.com/index/evaluating-chain-of-thought-monitorability) | RSS | 👍 0
+- [AI literacy resources for teens and parents](https://openai.com/index/ai-literacy-resources-for-teens-and-parents) | RSS | 👍 0
+- [Updating our Model Spec with teen protections](https://openai.com/index/updating-model-spec-with-teen-protections) | RSS | 👍 0
+- [Deepening our collaboration with the U.S. Department of Energy](https://openai.com/index/us-department-of-energy-collaboration) | RSS | 👍 0
+- [Introducing GPT-5.2-Codex](https://openai.com/index/introducing-gpt-5-2-codex) | RSS | 👍 0
+- [Introducing OpenAI Academy for News Organizations](https://openai.com/index/openai-academy-for-news-organizations) | RSS | 👍 0
+- [Developers can now submit apps to ChatGPT](https://openai.com/index/developers-can-now-submit-apps-to-chatgpt) | RSS | 👍 0
+- [Evaluating AI’s ability to perform scientific research tasks](https://openai.com/index/frontierscience) | RSS | 👍 0
+- [Measuring AI’s capability to accelerate biological research](https://openai.com/index/accelerating-biological-research-in-the-wet-lab) | RSS | 👍 0
+- [The new ChatGPT Images is here](https://openai.com/index/new-chatgpt-images-is-here) | RSS | 👍 0
+- [How We Used Codex to Ship Sora for Android in 28 Days](https://openai.com/index/shipping-sora-for-android-with-codex) | RSS | 👍 0
+- [BBVA and OpenAI collaborate to transform global banking](https://openai.com/index/bbva-collaboration-expansion) | RSS | 👍 0
+- [BNY builds “AI for everyone, everywhere” with OpenAI](https://openai.com/index/bny) | RSS | 👍 0
+- [Advancing science and math with GPT-5.2](https://openai.com/index/gpt-5-2-for-science-and-math) | RSS | 👍 0
+- [Ten years](https://openai.com/index/ten-years) | RSS | 👍 0
+- [Introducing GPT-5.2](https://openai.com/index/introducing-gpt-5-2) | RSS | 👍 0
+- [How Podium is arming 10,000+ SMBs with AI agents](https://openai.com/index/podium) | RSS | 👍 0
+- [Update to GPT-5 System Card: GPT-5.2](https://openai.com/index/gpt-5-system-card-update-gpt-5-2) | RSS | 👍 0
+- [The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora](https://openai.com/index/disney-sora-agreement) | RSS | 👍 0
+- [Strengthening cyber resilience as AI capabilities advance](https://openai.com/index/strengthening-cyber-resilience) | RSS | 👍 0
+- [OpenAI co-founds Agentic AI Foundation, donates AGENTS.md](https://openai.com/index/agentic-ai-foundation) | RSS | 👍 0
+- [Launching our first OpenAI Certifications courses](https://openai.com/index/openai-certificate-courses) | RSS | 👍 0
+- [OpenAI appoints Denise Dresser as Chief Revenue Officer](https://openai.com/index/openai-appoints-denise-dresser) | RSS | 👍 0
+- [Bringing powerful AI to millions across Europe with Deutsche Telekom](https://openai.com/index/deutsche-telekom-collaboration) | RSS | 👍 0
+- [Commonwealth Bank of Australia builds AI fluency at scale](https://openai.com/index/commonwealth-bank-of-australia) | RSS | 👍 0
+- [Instacart and OpenAI partner on AI shopping experiences](https://openai.com/index/instacart-partnership) | RSS | 👍 0
+- [The state of enterprise AI](https://openai.com/index/the-state-of-enterprise-ai-2025-report) | RSS | 👍 0
+- [Introducing OpenAI for Australia](https://openai.com/global-affairs/openai-for-australia) | RSS | 👍 0
+- [How confessions can keep language models honest](https://openai.com/index/how-confessions-can-keep-language-models-honest) | RSS | 👍 0
+- [OpenAI to acquire Neptune](https://openai.com/index/openai-to-acquire-neptune) | RSS | 👍 0
+- [Announcing the initial People-First AI Fund grantees](https://openai.com/index/people-first-ai-fund-grantees) | RSS | 👍 0
+- [Inside Mirakl's agentic commerce vision](https://openai.com/index/mirakl) | RSS | 👍 0
+- [Funding grants for new research into AI and mental health](https://openai.com/index/ai-mental-health-research-grants) | RSS | 👍 0
+- [OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”](https://openai.com/index/norad-holiday-collaboration) | RSS | 👍 0
+- [OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption](https://openai.com/index/thrive-holdings) | RSS | 👍 0
+- [Accenture and OpenAI accelerate enterprise AI success](https://openai.com/index/accenture-partnership) | RSS | 👍 0
+- [Mixpanel security incident: what OpenAI users need to know](https://openai.com/index/mixpanel-incident) | RSS | 👍 0
+- [Expanding data residency access to business customers worldwide](https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide) | RSS | 👍 0
+- [Introducing shopping research in ChatGPT](https://openai.com/index/chatgpt-shopping-research) | RSS | 👍 0
+- [OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain](https://openai.com/index/openai-and-foxconn-collaborate) | RSS | 👍 0
+- [Helping 1,000 small businesses build with AI](https://openai.com/index/small-business-ai-jam) | RSS | 👍 0
+- [Early experiments in accelerating science with GPT-5](https://openai.com/index/accelerating-science-gpt-5) | RSS | 👍 0
+- [Strengthening our safety ecosystem with external testing](https://openai.com/index/strengthening-safety-with-external-testing) | RSS | 👍 0
+- [OpenAI and Target team up on new AI-powered experiences](https://openai.com/index/target-partnership) | RSS | 👍 0
+- [A free version of ChatGPT built for teachers](https://openai.com/index/chatgpt-for-teachers) | RSS | 👍 0
+- [How Scania accelerates work with AI across its global workforce](https://openai.com/index/scania) | RSS | 👍 0
+- [Intuit and OpenAI join forces on new AI-powered experiences](https://openai.com/index/intuit-partnership) | RSS | 👍 0
+- [OpenAI named Emerging Leader in Generative AI](https://openai.com/index/gartner-2025-emerging-leader) | RSS | 👍 0
+- [Introducing OpenAI for Ireland](https://openai.com/index/openai-for-ireland) | RSS | 👍 0
+- [Understanding neural networks through sparse circuits](https://openai.com/index/understanding-neural-networks-through-sparse-circuits) | RSS | 👍 0
+- [How Philips is scaling AI literacy across 70,000 employees](https://openai.com/index/philips) | RSS | 👍 0
+- [Introducing group chats in ChatGPT](https://openai.com/index/group-chats-in-chatgpt) | RSS | 👍 0
+- [Neuro drives national retail wins with ChatGPT Business](https://openai.com/index/neurogum) | RSS | 👍 0
+- [Fighting the New York Times’ invasion of user privacy](https://openai.com/index/fighting-nyt-user-privacy-invasion) | RSS | 👍 0
+- [GPT-5.1: A smarter, more conversational ChatGPT](https://openai.com/index/gpt-5-1) | RSS | 👍 0
+- [Free ChatGPT for transitioning U.S. servicemembers and veterans](https://openai.com/index/chatgpt-for-veterans) | RSS | 👍 0
+- [Understanding prompt injections: a frontier security challenge](https://openai.com/index/prompt-injections) | RSS | 👍 0
+- [Introducing the Teen Safety Blueprint](https://openai.com/index/introducing-the-teen-safety-blueprint) | RSS | 👍 0
+- [How CRED is tapping AI to deliver premium customer experiences](https://openai.com/index/cred-swamy-seetharaman) | RSS | 👍 0
+- [1 million business customers putting AI to work](https://openai.com/index/1-million-businesses-putting-ai-to-work) | RSS | 👍 0
+- [Introducing IndQA](https://openai.com/index/introducing-indqa) | RSS | 👍 0
+- [AWS and OpenAI announce multi-year strategic partnership](https://openai.com/index/aws-and-openai-partnership) | RSS | 👍 0
+- [Expanding Stargate to Michigan](https://openai.com/index/expanding-stargate-to-michigan) | RSS | 👍 0
+- [Introducing Aardvark: OpenAI’s agentic security researcher](https://openai.com/index/introducing-aardvark) | RSS | 👍 0
+- [How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas](https://openai.com/index/building-chatgpt-atlas) | RSS | 👍 0
+- [Introducing gpt-oss-safeguard](https://openai.com/index/introducing-gpt-oss-safeguard) | RSS | 👍 0
+- [Advancing organizational transformation for business innovation](https://openai.com/index/dai-nippon-printing) | RSS | 👍 0
+- [Built to benefit everyone](https://openai.com/index/built-to-benefit-everyone) | RSS | 👍 0
+- [The next chapter of the Microsoft–OpenAI partnership](https://openai.com/index/next-chapter-of-microsoft-openai-partnership) | RSS | 👍 0
+- [Seizing the AI opportunity](https://openai.com/global-affairs/seizing-the-ai-opportunity) | RSS | 👍 0
+- [Strengthening ChatGPT’s responses in sensitive conversations](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations) | RSS | 👍 0
+- [Steuerrecht.com delivers client-ready legal analysis with ChatGPT](https://openai.com/index/steuerrecht) | RSS | 👍 0
+- [OpenAI acquires Software Applications Incorporated, maker of Sky](https://openai.com/index/openai-acquires-software-applications-incorporated) | RSS | 👍 0
+- [Consensus accelerates research with GPT-5 and Responses API](https://openai.com/index/consensus) | RSS | 👍 0
+- [AI in South Korea—OpenAI’s Economic Blueprint](https://openai.com/index/south-korea-economic-blueprint) | RSS | 👍 0
+- [Work smarter with your company knowledge in ChatGPT](https://openai.com/index/introducing-company-knowledge) | RSS | 👍 0
+- [The next chapter for UK sovereign AI](https://openai.com/index/the-next-chapter-for-uk-sovereign-ai) | RSS | 👍 0
+- [AI in Japan—OpenAI’s Japan Economic Blueprint](https://openai.com/index/japan-economic-blueprint) | RSS | 👍 0
+- [Continue your ChatGPT experience beyond WhatsApp](https://openai.com/index/chatgpt-whatsapp-transition) | RSS | 👍 0
+- [Introducing ChatGPT Atlas, the browser with ChatGPT built in](https://openai.com/index/introducing-chatgpt-atlas) | RSS | 👍 0
+- [Plex Coffee delivers fast, personal service with ChatGPT](https://openai.com/index/plex-coffee) | RSS | 👍 0
+- [Expert Council on Well-Being and AI](https://openai.com/index/expert-council-on-well-being-and-ai) | RSS | 👍 0
+- [Argentina’s AI opportunity](https://openai.com/global-affairs/argentinas-ai-opportunity) | RSS | 👍 0
+- [OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators](https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration) | RSS | 👍 0
+- [HYGH speeds development and campaigns with ChatGPT Business](https://openai.com/index/hygh) | RSS | 👍 0
+- [Defining and evaluating political bias in LLMs](https://openai.com/index/defining-and-evaluating-political-bias-in-llms) | RSS | 👍 0
+- [HiBob turns 2,500 GPTs into product and team growth](https://openai.com/index/hibob) | RSS | 👍 0
+- [Disrupting malicious uses of AI: October 2025](https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025) | RSS | 👍 0
+- [Codex is now generally available](https://openai.com/index/codex-now-generally-available) | RSS | 👍 0
+- [Introducing apps in ChatGPT and the new Apps SDK](https://openai.com/index/introducing-apps-in-chatgpt) | RSS | 👍 0
+- [AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs](https://openai.com/index/openai-amd-strategic-partnership) | RSS | 👍 0
+- [Accelerating AI adoption in Europe](https://openai.com/global-affairs/accelerating-ai-uptake-in-europe) | RSS | 👍 0
+- [OpenAI announces strategic collaboration with Japan’s Digital Agency](https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency) | RSS | 👍 0
+- [Samsung and SK join OpenAI’s Stargate initiative to advance global AI infrastructure](https://openai.com/index/samsung-and-sk-join-stargate) | RSS | 👍 0
+- [Empowering teams to unlock insights faster at OpenAI](https://openai.com/index/openai-research-assistant) | RSS | 👍 0
+- [Turning contracts into searchable data at OpenAI](https://openai.com/index/openai-contract-data-agent) | RSS | 👍 0
+- [Improving support with every interaction at OpenAI](https://openai.com/index/openai-support-model) | RSS | 👍 0
+- [Driving sales productivity and customer success at OpenAI](https://openai.com/index/openai-gtm-assistant) | RSS | 👍 0
+- [Building OpenAI with OpenAI](https://openai.com/index/building-openai-with-openai) | RSS | 👍 0
+- [Converting inbound leads into customers at OpenAI](https://openai.com/index/openai-inbound-sales-assistant) | RSS | 👍 0
+- [Combating online child sexual exploitation & abuse](https://openai.com/index/combating-online-child-sexual-exploitation-abuse) | RSS | 👍 0
+- [Introducing parental controls](https://openai.com/index/introducing-parental-controls) | RSS | 👍 0
+- [Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol](https://openai.com/index/buy-it-in-chatgpt) | RSS | 👍 0
+- [Partnering with AARP to help keep older adults safe online](https://openai.com/index/aarp-partnership-older-adults-online-safety) | RSS | 👍 0
+- [More ways to work with your team and tools in ChatGPT](https://openai.com/index/more-ways-to-work-with-your-team) | RSS | 👍 0
+- [Measuring the performance of our models on real-world tasks](https://openai.com/index/gdpval) | RSS | 👍 0
+- [Introducing ChatGPT Pulse](https://openai.com/index/introducing-chatgpt-pulse) | RSS | 👍 0
+- [ENEOS Materials brings ChatGPT Enterprise to manufacturing](https://openai.com/index/eneos-materials) | RSS | 👍 0
+- [SAP and OpenAI partner to launch sovereign ‘OpenAI for Germany’](https://openai.com/global-affairs/openai-for-germany) | RSS | 👍 0
+- [OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites](https://openai.com/index/five-new-stargate-sites) | RSS | 👍 0
+- [CNA is transforming its newsroom with AI](https://openai.com/index/cna-walter-fernandez) | RSS | 👍 0
+- [OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems](https://openai.com/index/openai-nvidia-systems-partnership) | RSS | 👍 0
+- [Detecting and reducing scheming in AI models](https://openai.com/index/detecting-and-reducing-scheming-in-ai-models) | RSS | 👍 0
+- [Teen safety, freedom, and privacy](https://openai.com/index/teen-safety-freedom-and-privacy) | RSS | 👍 0
+- [Building towards age prediction](https://openai.com/index/building-towards-age-prediction) | RSS | 👍 0
+- [How people are using ChatGPT](https://openai.com/index/how-people-are-using-chatgpt) | RSS | 👍 0
+- [Working with US CAISI and UK AISI to build more secure AI systems](https://openai.com/index/us-caisi-uk-aisi-ai-update) | RSS | 👍 0
+- [A joint statement from OpenAI and Microsoft](https://openai.com/index/joint-statement-from-openai-and-microsoft) | RSS | 👍 0
+- [Statement on OpenAI’s Nonprofit and PBC](https://openai.com/index/statement-on-openai-nonprofit-and-pbc) | RSS | 👍 0
+- [SafetyKit scales risk agents with OpenAI’s most capable models](https://openai.com/index/safetykit) | RSS | 👍 0
+- [A People-First AI Fund: $50M to support nonprofits](https://openai.com/index/people-first-ai-fund) | RSS | 👍 0
+- [Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate) | RSS | 👍 0
+- [OpenAI and Greek Government launch ‘OpenAI for Greece’](https://openai.com/global-affairs/openai-for-greece) | RSS | 👍 0
+- [Expanding economic opportunity with AI](https://openai.com/index/expanding-economic-opportunity-with-ai) | RSS | 👍 0
+- [Building more helpful ChatGPT experiences for everyone](https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone) | RSS | 👍 0
+- [Supporting nonprofit and community innovation](https://openai.com/index/supporting-nonprofit-and-community-innovation) | RSS | 👍 0
+- [Collective alignment: public input on our Model Spec](https://openai.com/index/collective-alignment-aug-2025-updates) | RSS | 👍 0
+- [OpenAI and Anthropic share findings from a joint safety evaluation](https://openai.com/index/openai-anthropic-safety-evaluation) | RSS | 👍 0
+- [Announcing the OpenAI Learning Accelerator](https://openai.com/global-affairs/learning-accelerator) | RSS | 👍 0
+- [Accelerating life sciences research](https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences) | RSS | 👍 0
+- [Mixi reimagines communication with ChatGPT](https://openai.com/index/mixi) | RSS | 👍 0
+- [OpenAI’s letter to Governor Newsom on harmonized regulation](https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation) | RSS | 👍 0
+- [Scaling accounting capacity with OpenAI](https://openai.com/index/basis) | RSS | 👍 0
+- [GPT-5 and the new era of work](https://openai.com/index/gpt-5-new-era-of-work) | RSS | 👍 0
+- [Introducing GPT-5 for developers](https://openai.com/index/introducing-gpt-5-for-developers) | RSS | 👍 0
+- [How Cursor uses GPT-5](https://openai.com/index/gpt-5-cursor) | RSS | 👍 0
+- [From hard refusals to safe-completions: toward output-centric safety training](https://openai.com/index/gpt-5-safe-completions) | RSS | 👍 0
+- [Providing ChatGPT to the Entire U.S. Federal Workforce](https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce) | RSS | 👍 0
+- [What we’re optimizing ChatGPT for](https://openai.com/index/optimizing-chatgpt) | RSS | 👍 0
+- [Introducing Stargate Norway](https://openai.com/index/introducing-stargate-norway) | RSS | 👍 0
+- [Introducing study mode in ChatGPT](https://openai.com/index/chatgpt-study-mode) | RSS | 👍 0
+- [Resolving digital threats 100x faster with OpenAI](https://openai.com/index/outtake) | RSS | 👍 0
+- [Announcing OpenAI DevDay 2025](https://openai.com/index/announcing-devday-2025) | RSS | 👍 0
+- [Pioneering an AI clinical copilot with Penda Health](https://openai.com/index/ai-clinical-copilot-penda-health) | RSS | 👍 0
+- [OpenAI’s new economic analysis](https://openai.com/global-affairs/new-economic-analysis) | RSS | 👍 0
+- [Stargate advances with 4.5 GW partnership with Oracle](https://openai.com/index/stargate-advances-with-partnership-with-oracle) | RSS | 👍 0
+- [OpenAI and UK Government announce strategic partnership to deliver AI-driven growth](https://openai.com/global-affairs/openai-and-uk-government-partnership) | RSS | 👍 0
+- [A $50 million fund to build with communities](https://openai.com/index/50-million-fund-to-build-with-communities) | RSS | 👍 0
+- [Introducing ChatGPT agent](https://openai.com/index/introducing-chatgpt-agent) | RSS | 👍 0
+- [ChatGPT agent System Card](https://openai.com/index/chatgpt-agent-system-card) | RSS | 👍 0
+- [Statement from the OpenAI Board of Directors on the Nonprofit Commission Report](https://openai.com/index/nonprofit-commission-report) | RSS | 👍 0
+- [OpenAI nonprofit jam](https://openai.com/global-affairs/openai-nonprofit-jam) | RSS | 👍 0
+- [Invideo AI uses OpenAI models to create videos 10x faster](https://openai.com/index/invideo-ai) | RSS | 👍 0
+- [Intellectual freedom by design](https://openai.com/global-affairs/intellectual-freedom-by-design) | RSS | 👍 0
+- [The EU Code of Practice and future of AI in Europe](https://openai.com/global-affairs/eu-code-of-practice) | RSS | 👍 0
+- [Working with 400,000 teachers to shape the future of AI in schools](https://openai.com/global-affairs/aft) | RSS | 👍 0
+- [No-code personal agents, powered by GPT-4.1 and Realtime API](https://openai.com/index/genspark) | RSS | 👍 0
+- [AI in Australia—OpenAI’s Economic Blueprint](https://openai.com/global-affairs/openais-australia-economic-blueprint) | RSS | 👍 0
+- [Driving scalable growth with OpenAI o3, GPT-4.1, and CUA](https://openai.com/index/unify) | RSS | 👍 0
+- [Introducing OpenAI for Government](https://openai.com/global-affairs/introducing-openai-for-government) | RSS | 👍 0
+- [Bringing the magic of AI to Mattel’s iconic brands](https://openai.com/index/mattels-iconic-brands) | RSS | 👍 0
+- [Scaling security with responsible disclosure](https://openai.com/index/scaling-coordinated-vulnerability-disclosure) | RSS | 👍 0
+- [How we’re responding to The New York Times’ data demands in order to protect user privacy](https://openai.com/index/response-to-nyt-data-demands) | RSS | 👍 0
+- [Creating websites in minutes with AI Website Builder](https://openai.com/index/wix) | RSS | 👍 0
+- [Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator](https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3) | RSS | 👍 0
+- [OpenAI Deutschland](https://openai.com/index/openai-deutschland) | RSS | 👍 0
+- [Shipping code faster with o3, o4-mini, and GPT-4.1](https://openai.com/index/coderabbit) | RSS | 👍 0
+- [Introducing Stargate UAE](https://openai.com/index/introducing-stargate-uae) | RSS | 👍 0
+- [Addendum to o3 and o4-mini system card: Codex](https://openai.com/index/o3-o4-mini-codex-system-card-addendum) | RSS | 👍 0
+- [OpenAI Expands Leadership with Fidji Simo](https://openai.com/index/leadership-expansion-with-fidji-simo) | RSS | 👍 0
+- [OpenAI’s response to the Department of Energy on AI infrastructure](https://openai.com/global-affairs/response-to-department-of-energy) | RSS | 👍 0
+- [Introducing data residency in Asia](https://openai.com/index/introducing-data-residency-in-asia) | RSS | 👍 0
+- [The San Antonio Spurs use ChatGPT to scale impact on and off the court](https://openai.com/index/san-antonio-spurs) | RSS | 👍 0
+- [Lowe’s puts project expertise into every hand](https://openai.com/index/lowes) | RSS | 👍 0
+- [Introducing OpenAI for Countries](https://openai.com/global-affairs/openai-for-countries) | RSS | 👍 0
+- [Evolving OpenAI’s structure](https://openai.com/index/evolving-our-structure) | RSS | 👍 0
+- [Sycophancy in GPT-4o: what happened and what we’re doing about it](https://openai.com/index/sycophancy-in-gpt-4o) | RSS | 👍 0
+- [New in ChatGPT for Business: April 2025](https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025) | RSS | 👍 0
+- [The Washington Post partners with OpenAI on search content](https://openai.com/global-affairs/the-washington-post-partners-with-openai) | RSS | 👍 0
+- [OpenAI o3 and o4-mini System Card](https://openai.com/index/o3-o4-mini-system-card) | RSS | 👍 0
+- [Introducing OpenAI o3 and o4-mini](https://openai.com/index/introducing-o3-and-o4-mini) | RSS | 👍 0
+- [OpenAI announces nonprofit commission advisors](https://openai.com/index/nonprofit-commission-advisors) | RSS | 👍 0
+- [OpenAI Pioneers Program](https://openai.com/index/openai-pioneers-program) | RSS | 👍 0
+- [OpenAI’s EU Economic Blueprint](https://openai.com/global-affairs/openais-eu-economic-blueprint) | RSS | 👍 0
+- [New commission to provide insight as OpenAI builds the world’s best-equipped nonprofit](https://openai.com/index/nonprofit-commission-guidance) | RSS | 👍 0
+- [New funding to build towards AGI](https://openai.com/index/march-funding-updates) | RSS | 👍 0
+- [Security on the path to AGI](https://openai.com/index/security-on-the-path-to-agi) | RSS | 👍 0
+- [Introducing 4o Image Generation](https://openai.com/index/introducing-4o-image-generation) | RSS | 👍 0
+- [Automating 90% of finance and legal work with agents](https://openai.com/index/hebbia) | RSS | 👍 0
+- [Leadership updates](https://openai.com/index/leadership-updates-march-2025) | RSS | 👍 0
+- [Early methods for studying affective use and emotional well-being on ChatGPT](https://openai.com/index/affective-use-study) | RSS | 👍 0
+- [Personalizing travel at scale with OpenAI](https://openai.com/index/booking-com) | RSS | 👍 0
+- [New in ChatGPT for Business: March 2025](https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025) | RSS | 👍 0
+- [The court rejects Elon’s latest attempt to slow OpenAI down](https://openai.com/index/court-rejects-elon) | RSS | 👍 0
+- [Driving growth and ‘WOW’ moments with OpenAI](https://openai.com/index/ly-corporation) | RSS | 👍 0
+- [Nubank elevates customer experiences with OpenAI](https://openai.com/index/nubank) | RSS | 👍 0
+- [Accelerating engineering cycles 20% with OpenAI](https://openai.com/index/factory) | RSS | 👍 0
+- [Introducing NextGenAI](https://openai.com/index/introducing-nextgenai) | RSS | 👍 0
+- [1,000 Scientist AI Jam Session](https://openai.com/global-affairs/1000-scientist-ai-jam-session) | RSS | 👍 0
+- [OpenAI GPT-4.5 System Card](https://openai.com/index/gpt-4-5-system-card) | RSS | 👍 0
+- [Building an autonomous financial analyst with o1 and o3-mini](https://openai.com/index/endex) | RSS | 👍 0
+- [OpenAI and Guardian Media Group launch content partnership](https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership) | RSS | 👍 0
+- [Using OpenAI o1 for financial analysis](https://openai.com/index/rogo) | RSS | 👍 0
+- [OpenAI partners with Schibsted Media Group](https://openai.com/index/openai-partners-with-schibsted-media-group) | RSS | 👍 0
+- [Introducing data residency in Europe](https://openai.com/index/introducing-data-residency-in-europe) | RSS | 👍 0
+- [OpenAI and the CSU system bring AI to 500,000 students & faculty](https://openai.com/index/openai-and-the-csu-system) | RSS | 👍 0
+- [Catching halibut with ChatGPT](https://openai.com/index/fishing-for-first-timers) | RSS | 👍 0
+- [Creating nail art with ChatGPT](https://openai.com/index/ten-tiny-canvases) | RSS | 👍 0
+- [Building a custom math tutor powered by ChatGPT](https://openai.com/index/my-dog-the-math-tutor) | RSS | 👍 0
+- [Understanding complex trends with deep research](https://openai.com/index/deep-research) | RSS | 👍 0
+- [OpenAI o3-mini](https://openai.com/index/openai-o3-mini) | RSS | 👍 0
+- [OpenAI o3-mini System Card](https://openai.com/index/o3-mini-system-card) | RSS | 👍 0
+- [Strengthening America’s AI leadership with the U.S. National Laboratories](https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories) | RSS | 👍 0
+- [Operator System Card](https://openai.com/index/operator-system-card) | RSS | 👍 0
+- [Bertelsmann powers creativity and productivity with OpenAI](https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai) | RSS | 👍 0
+- [Stargate Infrastructure](https://openai.com/form/stargate-infrastructure) | RSS | 👍 0
+- [Partnering with Axios expands OpenAI’s work with the news industry](https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry) | RSS | 👍 0
+- [Adebayo Ogunlesi joins OpenAI’s Board of Directors](https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors) | RSS | 👍 0
+- [Why OpenAI’s structure must evolve to advance our mission](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission) | RSS | 👍 0
+- [OpenAI o1 and new tools for developers](https://openai.com/index/o1-and-new-tools-for-developers) | RSS | 👍 0
+- [Elon Musk wanted an OpenAI for-profit](https://openai.com/index/elon-musk-wanted-an-openai-for-profit) | RSS | 👍 0
+- [Sora System Card](https://openai.com/index/sora-system-card) | RSS | 👍 0
+- [Introducing ChatGPT Pro](https://openai.com/index/introducing-chatgpt-pro) | RSS | 👍 0
+- [OpenAI o1 System Card](https://openai.com/index/openai-o1-system-card) | RSS | 👍 0
+- [OpenAI and Future partner on specialist content](https://openai.com/index/openai-and-future-partner-on-specialist-content) | RSS | 👍 0
+- [Rox goes “all in” on OpenAI](https://openai.com/index/rox) | RSS | 👍 0
+- [OpenAI en France](https://openai.com/index/openai-en-france) | RSS | 👍 0
+- [Data-driven beauty and creativity with ChatGPT](https://openai.com/index/estee-lauder) | RSS | 👍 0
+- [Introducing ChatGPT search](https://openai.com/index/introducing-chatgpt-search) | RSS | 👍 0
+- [Promega’s top-down adoption of ChatGPT accelerates manufacturing, sales, and marketing](https://openai.com/index/promega) | RSS | 👍 0
+- [Delivering high-performance customer support](https://openai.com/index/decagon) | RSS | 👍 0
+- [OpenAI and the Lenfest Institute AI Collaborative and Fellowship program](https://openai.com/index/lenfest-institute) | RSS | 👍 0
+- [Evaluating fairness in ChatGPT](https://openai.com/index/evaluating-fairness-in-chatgpt) | RSS | 👍 0
+- [OpenAI and Hearst Content Partnership](https://openai.com/index/hearst) | RSS | 👍 0
+- [Introducing canvas, a new way to write and code with ChatGPT.](https://openai.com/index/introducing-canvas) | RSS | 👍 0
+- [Prompt Caching in the API](https://openai.com/index/api-prompt-caching) | RSS | 👍 0
+- [Model Distillation in the API](https://openai.com/index/api-model-distillation) | RSS | 👍 0
+- [Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps](https://openai.com/index/state-of-minnesota) | RSS | 👍 0
+- [OpenAI and GEDI partner for Italian news content](https://openai.com/index/gedi) | RSS | 👍 0
+- [Genmab launches “AI Everywhere”](https://openai.com/index/genmab) | RSS | 👍 0
+- [Introducing OpenAI o1](https://openai.com/index/introducing-openai-o1-preview) | RSS | 👍 0
+- [OpenAI o1-mini](https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning) | RSS | 👍 0
+- [OpenAI o1 Contributions](https://openai.com/openai-o1-contributions) | RSS | 👍 0
+- [Answering quantum physics questions with OpenAI o1](https://openai.com/index/o1-quantum-physics) | RSS | 👍 0
+- [Coding with OpenAI o1](https://openai.com/index/o1-coding) | RSS | 👍 0
+- [Economics and reasoning with OpenAI o1](https://openai.com/index/o1-economics) | RSS | 👍 0
+- [Decoding genetics with OpenAI o1](https://openai.com/index/o1-genetics) | RSS | 👍 0
+- [Personalizing education with ChatGPT](https://openai.com/index/asu) | RSS | 👍 0
+- [OpenAI partners with Condé Nast](https://openai.com/index/conde-nast) | RSS | 👍 0
+- [Delivering contextual job matching for millions with OpenAI](https://openai.com/index/indeed) | RSS | 👍 0
+- [Zico Kolter Joins OpenAI’s Board of Directors](https://openai.com/index/zico-kolter-joins-openais-board-of-directors) | RSS | 👍 0
+- [New compliance and administrative tools for ChatGPT Enterprise](https://openai.com/index/new-tools-for-chatgpt-enterprise) | RSS | 👍 0
+- [OpenAI and Los Alamos National Laboratory announce research partnership](https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together) | RSS | 👍 0
+- [Finding GPT-4’s mistakes with GPT-4](https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4) | RSS | 👍 0
+- [OpenAI acquires Rockset](https://openai.com/index/openai-acquires-rockset) | RSS | 👍 0
+- [Surging developer productivity with custom GPTs](https://openai.com/index/paf) | RSS | 👍 0
+- [Using GPT-4o reasoning to transform cancer care](https://openai.com/index/color-health) | RSS | 👍 0
+- [OpenAI appoints Retired U.S. Army General Paul M. Nakasone to Board of Directors](https://openai.com/index/openai-appoints-retired-us-army-general) | RSS | 👍 0
+- [OpenAI and Apple announce partnership](https://openai.com/index/openai-and-apple-announce-partnership) | RSS | 👍 0
+- [OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)](https://openai.com/index/openai-welcomes-cfo-cpo) | RSS | 👍 0
+- [OpenAI for Education](https://openai.com/index/introducing-chatgpt-edu) | RSS | 👍 0
+- [Introducing OpenAI for Nonprofits](https://openai.com/index/introducing-openai-for-nonprofits) | RSS | 👍 0
+- [Enhancing news in ChatGPT with The Atlantic](https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic) | RSS | 👍 0
+- [A Content and Product Partnership with Vox Media](https://openai.com/index/a-content-and-product-partnership-with-vox-media) | RSS | 👍 0
+- [OpenAI Board Forms Safety and Security Committee](https://openai.com/index/openai-board-forms-safety-and-security-committee) | RSS | 👍 0
+- [A landmark multi-year global partnership with News Corp](https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership) | RSS | 👍 0
+- [OpenAI safety practices](https://openai.com/index/openai-safety-update) | RSS | 👍 0
+- [How the voices for ChatGPT were chosen](https://openai.com/index/how-the-voices-for-chatgpt-were-chosen) | RSS | 👍 0
+- [Improvements to data analysis in ChatGPT](https://openai.com/index/improvements-to-data-analysis-in-chatgpt) | RSS | 👍 0
+- [OpenAI and Reddit Partnership](https://openai.com/index/openai-and-reddit-partnership) | RSS | 👍 0
+- [Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scientist](https://openai.com/index/jakub-pachocki-announced-as-chief-scientist) | RSS | 👍 0
+- [Spring Update](https://openai.com/index/spring-update) | RSS | 👍 0
+- [Introducing GPT-4o and more tools to ChatGPT free users](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free) | RSS | 👍 0
+- [Understanding the source of what we see and hear online](https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online) | RSS | 👍 0
+- [Our approach to data and AI](https://openai.com/index/approach-to-data-and-ai) | RSS | 👍 0
+- [API Partnership with Stack Overflow](https://openai.com/index/api-partnership-with-stack-overflow) | RSS | 👍 0
+- [We’re bringing the Financial Times’ world-class journalism to ChatGPT](https://openai.com/index/content-partnership-with-financial-times) | RSS | 👍 0
+- [Introducing ChatGPT and Whisper APIs](https://openai.com/index/introducing-chatgpt-and-whisper-apis) | RSS | 👍 0
+- [OpenAI’s commitment to child safety: adopting safety by design principles](https://openai.com/index/child-safety-adopting-sbd-principles) | RSS | 👍 0
+- [Introducing OpenAI Japan](https://openai.com/index/introducing-openai-japan) | RSS | 👍 0
+- [Introducing improvements to the fine-tuning API and expanding our custom models program](https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program) | RSS | 👍 0
+- [Customizing models for legal professionals](https://openai.com/index/harvey) | RSS | 👍 0
+- [Start using ChatGPT instantly](https://openai.com/index/start-using-chatgpt-instantly) | RSS | 👍 0
+- [Embedding AI into developer software](https://openai.com/index/jetbrains) | RSS | 👍 0
+- [Enterprise-ready trust and safety](https://openai.com/index/salesforce) | RSS | 👍 0
+- [Building a data-driven, efficient culture with AI](https://openai.com/index/holiday-extras) | RSS | 👍 0
+- [Reimagining the email experience with AI](https://openai.com/index/superhuman) | RSS | 👍 0
+- [Saving lives with AI health coaching](https://openai.com/index/healthify) | RSS | 👍 0
+- [Global news partnerships: Le Monde and Prisa Media](https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media) | RSS | 👍 0
+- [OpenAI announces new members to board of directors](https://openai.com/index/openai-announces-new-members-to-board-of-directors) | RSS | 👍 0
+- [Review completed & Altman, Brockman to continue to lead OpenAI](https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai) | RSS | 👍 0
+- [Using AI to improve patient access to clinical trials](https://openai.com/index/paradigm) | RSS | 👍 0
+- [Sparking a more productive company with ChatGPT Enterprise](https://openai.com/index/match-group) | RSS | 👍 0
+- [OpenAI and Elon Musk](https://openai.com/index/openai-elon-musk) | RSS | 👍 0
+- [Memory and new controls for ChatGPT](https://openai.com/index/memory-and-new-controls-for-chatgpt) | RSS | 👍 0
+- [How OpenAI is approaching 2024 worldwide elections](https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections) | RSS | 👍 0
+- [Building agricultural database for farmers](https://openai.com/index/digital-green) | RSS | 👍 0
+- [Introducing ChatGPT Team](https://openai.com/index/introducing-chatgpt-team) | RSS | 👍 0
+- [OpenAI and journalism](https://openai.com/index/openai-and-journalism) | RSS | 👍 0
+- [Increasing accuracy of pediatric visit notes](https://openai.com/index/summer-health) | RSS | 👍 0
+- [Sam Altman returns as CEO, OpenAI has a new initial board](https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board) | RSS | 👍 0
+- [OpenAI announces leadership transition](https://openai.com/index/openai-announces-leadership-transition) | RSS | 👍 0
+- [OpenAI Data Partnerships](https://openai.com/index/data-partnerships) | RSS | 👍 0
+- [Introducing GPTs](https://openai.com/index/introducing-gpts) | RSS | 👍 0
+- [DALL·E 3 is now available in ChatGPT Plus and Enterprise](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise) | RSS | 👍 0
+- [ChatGPT can now see, hear, and speak](https://openai.com/index/chatgpt-can-now-see-hear-and-speak) | RSS | 👍 0
+- [OpenAI Red Teaming Network](https://openai.com/index/red-teaming-network) | RSS | 👍 0
+- [Introducing OpenAI Dublin](https://openai.com/index/introducing-openai-dublin) | RSS | 👍 0
+- [Join us for OpenAI’s first developer conference on November 6 in San Francisco](https://openai.com/index/announcing-openai-devday) | RSS | 👍 0
+- [Teaching with AI](https://openai.com/index/teaching-with-ai) | RSS | 👍 0
+- [Introducing ChatGPT Enterprise](https://openai.com/index/introducing-chatgpt-enterprise) | RSS | 👍 0
+- [OpenAI partners with Scale to provide support for enterprises fine-tuning models](https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models) | RSS | 👍 0
+- [OpenAI acquires Global Illumination](https://openai.com/index/openai-acquires-global-illumination) | RSS | 👍 0
+- [Frontier Model Forum](https://openai.com/index/frontier-model-forum) | RSS | 👍 0
+- [Moving AI governance forward](https://openai.com/index/moving-ai-governance-forward) | RSS | 👍 0
+- [Custom instructions for ChatGPT](https://openai.com/index/custom-instructions-for-chatgpt) | RSS | 👍 0
+- [Introducing OpenAI London](https://openai.com/index/introducing-openai-london) | RSS | 👍 0
+- [OpenAI Cybersecurity Grant Program](https://openai.com/index/openai-cybersecurity-grant-program) | RSS | 👍 0
+- [Democratic inputs to AI](https://openai.com/index/democratic-inputs-to-ai) | RSS | 👍 0
+- [Introducing the ChatGPT app for iOS](https://openai.com/index/introducing-the-chatgpt-app-for-ios) | RSS | 👍 0
+- [New ways to manage your data in ChatGPT](https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt) | RSS | 👍 0
+- [Announcing OpenAI’s Bug Bounty Program](https://openai.com/index/bug-bounty-program) | RSS | 👍 0
+- [March 20 ChatGPT outage: Here’s what happened](https://openai.com/index/march-20-chatgpt-outage) | RSS | 👍 0
+- [ChatGPT plugins](https://openai.com/index/chatgpt-plugins) | RSS | 👍 0
+- [GPT-4](https://openai.com/index/gpt-4-research) | RSS | 👍 0
+- [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave) | RSS | 👍 0
+- [Introducing ChatGPT Plus](https://openai.com/index/chatgpt-plus) | RSS | 👍 0
+- [OpenAI and Microsoft extend partnership](https://openai.com/index/openai-and-microsoft-extend-partnership) | RSS | 👍 0
+- [Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk](https://openai.com/index/forecasting-misuse) | RSS | 👍 0
+- [The power of continuous learning](https://openai.com/index/the-power-of-continuous-learning) | RSS | 👍 0
+- [Discovering the minutiae of backend systems](https://openai.com/index/discovering-the-minutiae-of-backend-systems) | RSS | 👍 0
+- [Introducing ChatGPT](https://openai.com/index/chatgpt) | RSS | 👍 0
+- [New and improved content moderation tooling](https://openai.com/index/new-and-improved-content-moderation-tooling) | RSS | 👍 0
+- [Best practices for deploying language models](https://openai.com/index/best-practices-for-deploying-language-models) | RSS | 👍 0
+- [Powering next generation applications with OpenAI Codex](https://openai.com/index/codex-apps) | RSS | 👍 0
+- [OpenAI leadership team update](https://openai.com/index/leadership-team-update) | RSS | 👍 0
+- [Measuring Goodhart’s law](https://openai.com/index/measuring-goodharts-law) | RSS | 👍 0
+- [Economic impacts research at OpenAI](https://openai.com/index/economic-impacts) | RSS | 👍 0
+- [Introducing text and code embeddings](https://openai.com/index/introducing-text-and-code-embeddings) | RSS | 👍 0
+- [OpenAI Residency](https://openai.com/index/openai-residency) | RSS | 👍 0
+- [OpenAI’s API now available with no waitlist](https://openai.com/index/api-no-waitlist) | RSS | 👍 0
+- [Helen Toner joins OpenAI’s board of directors](https://openai.com/index/helen-toner-joins) | RSS | 👍 0
+- [OpenAI Codex](https://openai.com/index/openai-codex) | RSS | 👍 0
+- [OpenAI Scholars 2021: Final projects](https://openai.com/index/openai-scholars-2021-final-projects) | RSS | 👍 0
+- [Will Hurd joins OpenAI’s board of directors](https://openai.com/index/will-hurd-joins) | RSS | 👍 0
+- [Organizational update from OpenAI](https://openai.com/index/organizational-update) | RSS | 👍 0
+- [OpenAI licenses GPT-3 technology to Microsoft](https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft) | RSS | 👍 0
+- [OpenAI Scholars 2020: Final projects](https://openai.com/index/openai-scholars-2020-final-projects) | RSS | 👍 0
+- [Procgen and MineRL Competitions](https://openai.com/index/procgen-minerl-competitions) | RSS | 👍 0
+- [OpenAI API](https://openai.com/index/openai-api) | RSS | 👍 0
+- [OpenAI Microscope](https://openai.com/index/microscope) | RSS | 👍 0
+- [OpenAI standardizes on PyTorch](https://openai.com/index/openai-pytorch) | RSS | 👍 0
+- [Solving Rubik’s Cube with a robot hand](https://openai.com/index/solving-rubiks-cube) | RSS | 👍 0
+- [OpenAI Scholars 2020: Applications open](https://openai.com/index/openai-scholars-2020) | RSS | 👍 0
+- [Learning Day](https://openai.com/index/learning-day) | RSS | 👍 0
+- [Microsoft invests in and partners with OpenAI to support us building beneficial AGI](https://openai.com/index/microsoft-invests-in-and-partners-with-openai) | RSS | 👍 0
+- [OpenAI Robotics Symposium 2019](https://openai.com/index/symposium-2019) | RSS | 👍 0
+- [OpenAI Scholars 2019: Final projects](https://openai.com/index/openai-scholars-2019-final-projects) | RSS | 👍 0
+- [OpenAI Fellows Fall 2018: Final projects](https://openai.com/index/openai-fellows-fall-2018) | RSS | 👍 0
+- [OpenAI Five defeats Dota 2 world champions](https://openai.com/index/openai-five-defeats-dota-2-world-champions) | RSS | 👍 0
+- [OpenAI Five Finals](https://openai.com/index/openai-five-finals) | RSS | 👍 0
+- [OpenAI Scholars 2019: Meet our Scholars](https://openai.com/index/openai-scholars-2019-meet-our-scholars) | RSS | 👍 0
+- [OpenAI LP](https://openai.com/index/openai-lp) | RSS | 👍 0
+- [Spinning Up in Deep RL: Workshop review](https://openai.com/index/spinning-up-in-deep-rl-workshop-review) | RSS | 👍 0
+- [OpenAI Fellows Summer 2018: Final projects](https://openai.com/index/openai-summer-fellows-2018) | RSS | 👍 0
+- [OpenAI Scholars 2019: Applications open](https://openai.com/index/openai-scholars-2019) | RSS | 👍 0
+- [OpenAI Fellows Winter 2019 & Interns Summer 2019](https://openai.com/index/openai-fellows-interns-2019) | RSS | 👍 0
+- [OpenAI Scholars 2018: Final projects](https://openai.com/index/openai-scholars-2018-final-projects) | RSS | 👍 0
+- [The International 2018: Results](https://openai.com/index/the-international-2018-results) | RSS | 👍 0
+- [OpenAI Five Benchmark: Results](https://openai.com/index/openai-five-benchmark-results) | RSS | 👍 0
+- [OpenAI Scholars 2018: Meet our Scholars](https://openai.com/index/openai-scholars-2018-meet-our-scholars) | RSS | 👍 0
+- [OpenAI Five Benchmark](https://openai.com/index/openai-five-benchmark) | RSS | 👍 0
+- [OpenAI Five](https://openai.com/index/openai-five) | RSS | 👍 0
+- [OpenAI Fellows Fall 2018](https://openai.com/index/openai-fellows) | RSS | 👍 0
+- [Report from the OpenAI hackathon](https://openai.com/index/hackathon-follow-up) | RSS | 👍 0
+- [OpenAI Scholars](https://openai.com/index/openai-scholars) | RSS | 👍 0
+- [OpenAI hackathon](https://openai.com/index/openai-hackathon) | RSS | 👍 0
+- [OpenAI supporters](https://openai.com/index/openai-supporters) | RSS | 👍 0
+- [Requests for Research 2.0](https://openai.com/index/requests-for-research-2) | RSS | 👍 0
+- [OpenAI Baselines: ACKTR & A2C](https://openai.com/index/openai-baselines-acktr-a2c) | RSS | 👍 0
+- [Proximal Policy Optimization](https://openai.com/index/openai-baselines-ppo) | RSS | 👍 0
+- [OpenAI Baselines: DQN](https://openai.com/index/openai-baselines-dqn) | RSS | 👍 0
+- [Roboschool](https://openai.com/index/roboschool) | RSS | 👍 0
+- [Learning to communicate](https://openai.com/index/learning-to-communicate) | RSS | 👍 0
+- [Team update](https://openai.com/index/team-update-january) | RSS | 👍 0
+- [OpenAI and Microsoft](https://openai.com/index/openai-and-microsoft) | RSS | 👍 0
+- [OpenAI technical goals](https://openai.com/index/openai-technical-goals) | RSS | 👍 0
+- [Team update](https://openai.com/index/team-update) | RSS | 👍 0
+- [OpenAI Gym Beta](https://openai.com/index/openai-gym-beta) | RSS | 👍 0
+- [Introducing OpenAI](https://openai.com/index/introducing-openai) | RSS | 👍 0
+- [Exclusive AI Tool Deals]() | BitDegree | 👍 0
+- [SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [REDEEM 33% OFF](https://www.bitdegree.org/ai/murf-ai-review) | BitDegree | 👍 0
+- [50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
+- [CLAIM 34% OFF](https://www.bitdegree.org/ai/synthesia-review) | BitDegree | 👍 0
+- [SAVE 40%](https://www.bitdegree.org/ai/fireflies-ai-review) | BitDegree | 👍 0
+- [20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
+- [50% DISCOUNT](https://www.bitdegree.org/ai/looka-review) | BitDegree | 👍 0
+- [20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [7-DAY FREE TRIAL](https://www.bitdegree.org/ai/anyword-review) | BitDegree | 👍 0
+- [FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [SAVE 58%](https://www.bitdegree.org/ai/pictory-ai-review) | BitDegree | 👍 0
+- [Verified AI Deals]() | BitDegree | 👍 0
+- [USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [CLAIM 20% OFF](https://www.bitdegree.org/ai/goon/murf) | BitDegree | 👍 0
+- [CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+- [FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+
