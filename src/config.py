@@ -1,6 +1,6 @@
 """Central configuration for ai-deal-scout."""
 
-KEYWORDS: list[str] = [
+DEAL_KEYWORDS: list[str] = [
     "deal",
     "promo",
     "discount",
@@ -8,6 +8,15 @@ KEYWORDS: list[str] = [
     "lifetime",
     "coupon",
     "offer",
+    "% off",
+    "sale",
+    "savings",
+    "free month",
+    "price drop",
+    "limited time",
+]
+
+TOOL_KEYWORDS: list[str] = [
     "claude",
     "cursor",
     "perplexity",
@@ -52,9 +61,7 @@ HN_SEARCH_QUERIES: list[str] = [
     "AI subscription",
 ]
 
-RSS_FEEDS: list[str] = [
-    "https://openai.com/news/rss.xml",
-]
+RSS_FEEDS: list[str] = []  # Reserved for future additions
 
 MIN_UPVOTES: int = 10
 MAX_HN_RESULTS_PER_QUERY: int = 15

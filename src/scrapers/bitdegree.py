@@ -18,6 +18,40 @@ _HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; ai-deal-scout/1.0)"}
 _TIMEOUT = 15
 _SOURCE = "BitDegree"
 
+# Navigation / UI labels that are not real deal titles.
+_JUNK_TITLE_PREFIXES: list[str] = [
+    "faq",
+    "what kind",
+    "verified",
+    "exclusive",
+    "claim",
+    "get deal",
+    "show",
+    "hide",
+]
+
+
+def _is_junk(item: dict) -> bool:
+    """Return True if a scraped item looks like navigation noise, not a deal.
+
+    Args:
+        item: A raw deal dict with at least ``url`` and ``title`` keys.
+
+    Returns:
+        True when the item should be discarded.
+    """
+    url: str = (item.get("url") or "").strip()
+    title: str = (item.get("title") or "").strip()
+
+    if not url or url == "/":
+        return True
+    if len(title) < 5:
+        return True
+    title_lower = title.lower()
+    if any(title_lower.startswith(prefix) for prefix in _JUNK_TITLE_PREFIXES):
+        return True
+    return False
+
 
 def _extract_text(tag: Tag | None) -> str:
     """Return stripped text from a BeautifulSoup tag, or empty string."""
@@ -180,7 +214,13 @@ def fetch_bitdegree_deals() -> list[dict[str, Any]]:
                     strategy_name,
                     len(results),
                 )
-                return results
+                clean = [item for item in results if not _is_junk(item)]
+                junk_count = len(results) - len(clean)
+                if junk_count:
+                    logger.info(
+                        "BitDegree: filtered out %d junk item(s)", junk_count
+                    )
+                return clean
             logger.debug("BitDegree: strategy '%s' returned 0 items", strategy_name)
         except Exception as exc:  # noqa: BLE001
             logger.warning("BitDegree: strategy '%s' raised: %s", strategy_name, exc)

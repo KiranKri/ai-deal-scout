@@ -656,97 +656,67 @@ _No deals logged yet._
 - [FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
 - [What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
 
-## Run: 2026-06-27 16:47:05 IST
+## Run: 2026-06-27 16:56:39 IST
+- [Citizen Eco-Drive Weekender Brycen Chronograph Wrist Watch at $197 (54% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1uflmi1/citizen_ecodrive_weekender_brycen_chronograph/) | Reddit | 👍 0
+- [Apple Watch Series 11 GPS 46MM at $ 309 (28% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1ueownk/apple_watch_series_11_gps_46mm_at_309_28_off/) | Reddit | 👍 0
+- [CMF By Nothing Buds 2 48dB Hybrid ANC at $24.50 (50% off)](https://www.reddit.com/r/deals/comments/1ud0ptq/cmf_by_nothing_buds_2_48db_hybrid_anc_at_2450_50/) | Reddit | 👍 0
+- [Dyson Cool AM07 Air Multiplier Bladeless Tower Fan at $230 (43% off)](https://www.reddit.com/r/deals/comments/1uc4jp5/dyson_cool_am07_air_multiplier_bladeless_tower/) | Reddit | 👍 0
+- [Instant Pot Duo Plus 9-in-1 Pressure Cooker at $70 (50% off)](https://www.reddit.com/r/deals/comments/1u8q1s3/instant_pot_duo_plus_9in1_pressure_cooker_at_70/) | Reddit | 👍 0
+- [BOSTANTEN Small Crossbody Bags for Women Vegan Leather Purse at $27 (10% off)](https://www.reddit.com/r/deals/comments/1u7sbuy/bostanten_small_crossbody_bags_for_women_vegan/) | Reddit | 👍 0
+- [TOSHIBA Rice Cooker, 10-Cup Uncooked Rice Capacity, Auto Keep Warm at $99 (10% off)](https://www.reddit.com/r/deals/comments/1u6vgxx/toshiba_rice_cooker_10cup_uncooked_rice_capacity/) | Reddit | 👍 0
+- [Ring Floodlight Cam Plus with Ring Spotlight Cam Plus Battery at $150 (55% off)](https://www.reddit.com/r/deals/comments/1u5ykew/ring_floodlight_cam_plus_with_ring_spotlight_cam/) | Reddit | 👍 0
+- [Cursor (AI code editor) - 50% off your first month, any tier (10$-100$ off depending on tier)](https://www.reddit.com/r/deals/comments/1u5oo2g/cursor_ai_code_editor_50_off_your_first_month_any/) | Reddit | 👍 0
+- [Philips Sonicare 7300 Series Electric Toothbrush at $100 (50% off)](https://www.reddit.com/r/deals/comments/1u5068t/philips_sonicare_7300_series_electric_toothbrush/) | Reddit | 👍 0
+- [iRobot Roomba 105 Vac Robot Vacuum with AutoEmpty Dock at $249 (45% off)](https://www.reddit.com/r/deals/comments/1u4468g/irobot_roomba_105_vac_robot_vacuum_with_autoempty/) | Reddit | 👍 0
+- [4 Tier Rotating Shoe Rack Tower, Spinning Shoe Display Revolving 360 at $ 119 (15% off)](https://www.reddit.com/r/deals/comments/1u2d28d/4_tier_rotating_shoe_rack_tower_spinning_shoe/) | Reddit | 👍 0
+- [Acer Gadget Golf Rangefinder with Slope 1200/1700Yards at $99 (34% off)](https://www.reddit.com/r/deals/comments/1tymoht/acer_gadget_golf_rangefinder_with_slope/) | Reddit | 👍 0
+- [Traeger Grills Pro 22 Wood Pellet Grill & Smoker 6-in-1 BBQ at $389 (29% off)](https://www.reddit.com/r/deals/comments/1txo155/traeger_grills_pro_22_wood_pellet_grill_smoker/) | Reddit | 👍 0
+- [Sony WH-CH720N Noise Canceling Wireless Headphones at $90 (50% off)](https://www.reddit.com/r/deals/comments/1tv9aj1/sony_whch720n_noise_canceling_wireless_headphones/) | Reddit | 👍 0
+- [Hisense 75" E6 Cinema Series QLED 4K 75E6QF at $498 (38% off)](https://www.reddit.com/r/deals/comments/1tua0de/hisense_75_e6_cinema_series_qled_4k_75e6qf_at_498/) | Reddit | 👍 0
+- [Hisense 55" U6 Pro Series LED TV 144Hz 4K 55U6SF Pro 2026 New at $599 (30% off)](https://www.reddit.com/r/deals/comments/1ttbbp7/hisense_55_u6_pro_series_led_tv_144hz_4k_55u6sf/) | Reddit | 👍 0
+- [Hisense 85 Inches U6 85U6SF Pro 2026 New QLED at $1199 (40% off)](https://www.reddit.com/r/deals/comments/1tsedft/hisense_85_inches_u6_85u6sf_pro_2026_new_qled_at/) | Reddit | 👍 0
+- [Sony BRAVIA Theater Bar 6 3.1 2ch soundbar with subwoofer at $498 (29% off)](https://www.reddit.com/r/deals/comments/1trin5j/sony_bravia_theater_bar_6_31_2ch_soundbar_with/) | Reddit | 👍 0
+- [Soundcore Boom 2 By Anker Outdoor Portable Speaker 80W at $90 (36% off)](https://www.reddit.com/r/deals/comments/1tokmhs/soundcore_boom_2_by_anker_outdoor_portable/) | Reddit | 👍 0
+- [20% OFF on a Best Seller 29” Spinner Luggage Travel Suitcase (SWISSGEAR) — Only $128](https://www.reddit.com/r/deals/comments/1tohq21/20_off_on_a_best_seller_29_spinner_luggage_travel/) | Reddit | 👍 0
+- [Belkin 3-in-1 MagSafe-Compatible Foldable Magnetic Qi2 Certified, For iPhone, Watch, AirPods at $55 (45% off)](https://www.reddit.com/r/deals/comments/1tnl3q4/belkin_3in1_magsafecompatible_foldable_magnetic/) | Reddit | 👍 0
+- [-25% OFF on a Best Seller Cool Mist Humidifier with 3L (30H Runtime, Ultra Quiet) (DREO) – $29.94](https://www.reddit.com/r/deals/comments/1tnb6uq/25_off_on_a_best_seller_cool_mist_humidifier_with/) | Reddit | 👍 0
+- [-15% OFF on a Best Seller 32oz Insulated Water Bottle (HydroJug) – $29.74](https://www.reddit.com/r/deals/comments/1tlr7ls/15_off_on_a_best_seller_32oz_insulated_water/) | Reddit | 👍 0
+- [-44% LIMITED TIME OFF on a Best Seller 12-Blade Mandoline Slicer & Food Chopper (Mueller) – $33.87](https://www.reddit.com/r/deals/comments/1tkq4pl/44_limited_time_off_on_a_best_seller_12blade/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Google is the only search engine that works on Reddit now, thanks to AI deal](https://www.404media.co/google-is-the-only-search-engine-that-works-on-reddit-now-thanks-to-ai-deal/) | HackerNews | 👍 515
+- [CBP signs Clearview AI deal to use face recognition for 'tactical targeting'](https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/) | HackerNews | 👍 276
+- [Three Mile Island nuclear plant restart in Microsoft AI power deal](https://www.reuters.com/markets/deals/constellation-inks-power-supply-deal-with-microsoft-2024-09-20/) | HackerNews | 👍 179
 - [Circular AI deals among OpenAI, Nvidia, AMD are raising eyebrows](https://www.bloomberg.com/news/articles/2025-10-08/the-circular-openai-nvidia-and-amd-deals-raising-fears-of-a-new-tech-bubble) | HackerNews | 👍 84
-- [Show HN: I built an LLM chat app because we shouldn't need 10 AI subscriptions](https://prismharmony.com/chat) | HackerNews | 👍 58
-- [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment) | RSS | 👍 0
-- [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) | RSS | 👍 0
-- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva) | RSS | 👍 0
-- [PRC-linked influence operations are targeting AI debates in the US](https://openai.com/index/prc-linked-influence-operations-ai-debates) | RSS | 👍 0
-- [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg) | RSS | 👍 0
-- [OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership](https://openai.com/index/grupo-folha-grupo-uol-partnership) | RSS | 👍 0
-- [AdventHealth advances whole-person care with OpenAI](https://openai.com/index/adventhealth) | RSS | 👍 0
-- [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership) | RSS | 👍 0
-- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex) | RSS | 👍 0
-- [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) | RSS | 👍 0
-- [New ways to buy ChatGPT ads](https://openai.com/index/new-ways-to-buy-chatgpt-ads) | RSS | 👍 0
-- [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety) | RSS | 👍 0
-- [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate) | RSS | 👍 0
-- [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians) | RSS | 👍 0
-- [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise) | RSS | 👍 0
-- [ChatGPT for sales teams](https://openai.com/academy/sales) | RSS | 👍 0
-- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai) | RSS | 👍 0
-- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) | RSS | 👍 0
-- [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams) | RSS | 👍 0
-- [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) | RSS | 👍 0
-- [Introducing ChatGPT for Excel and new financial data integrations](https://openai.com/index/chatgpt-for-excel) | RSS | 👍 0
-- [Bringing ChatGPT to GenAI.mil](https://openai.com/index/bringing-chatgpt-to-genaimil) | RSS | 👍 0
-- [Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT](https://openai.com/index/retiring-gpt-4o-and-older-models) | RSS | 👍 0
-- [PVH reimagines the future of fashion with OpenAI](https://openai.com/index/pvh-future-of-fashion) | RSS | 👍 0
-- [Scaling PostgreSQL to power 800 million ChatGPT users](https://openai.com/index/scaling-postgresql) | RSS | 👍 0
-- [A business that scales with the value of intelligence](https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence) | RSS | 👍 0
-- [Introducing ChatGPT Go, now available worldwide](https://openai.com/index/introducing-chatgpt-go) | RSS | 👍 0
-- [Our approach to advertising and expanding access to ChatGPT](https://openai.com/index/our-approach-to-advertising-and-expanding-access) | RSS | 👍 0
-- [OpenAI partners with Cerebras](https://openai.com/index/cerebras-partnership) | RSS | 👍 0
-- [Continuously hardening ChatGPT Atlas against prompt injection](https://openai.com/index/hardening-atlas-against-prompt-injection) | RSS | 👍 0
-- [Evaluating chain-of-thought monitorability](https://openai.com/index/evaluating-chain-of-thought-monitorability) | RSS | 👍 0
-- [AI literacy resources for teens and parents](https://openai.com/index/ai-literacy-resources-for-teens-and-parents) | RSS | 👍 0
-- [Updating our Model Spec with teen protections](https://openai.com/index/updating-model-spec-with-teen-protections) | RSS | 👍 0
-- [Introducing GPT-5.2-Codex](https://openai.com/index/introducing-gpt-5-2-codex) | RSS | 👍 0
-- [Introducing OpenAI Academy for News Organizations](https://openai.com/index/openai-academy-for-news-organizations) | RSS | 👍 0
-- [BBVA and OpenAI collaborate to transform global banking](https://openai.com/index/bbva-collaboration-expansion) | RSS | 👍 0
-- [Introducing GPT-5.2](https://openai.com/index/introducing-gpt-5-2) | RSS | 👍 0
-- [The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora](https://openai.com/index/disney-sora-agreement) | RSS | 👍 0
-- [Bringing powerful AI to millions across Europe with Deutsche Telekom](https://openai.com/index/deutsche-telekom-collaboration) | RSS | 👍 0
-- [Commonwealth Bank of Australia builds AI fluency at scale](https://openai.com/index/commonwealth-bank-of-australia) | RSS | 👍 0
-- [Instacart and OpenAI partner on AI shopping experiences](https://openai.com/index/instacart-partnership) | RSS | 👍 0
-- [OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”](https://openai.com/index/norad-holiday-collaboration) | RSS | 👍 0
-- [Expanding data residency access to business customers worldwide](https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide) | RSS | 👍 0
-- [OpenAI and Target team up on new AI-powered experiences](https://openai.com/index/target-partnership) | RSS | 👍 0
-- [Intuit and OpenAI join forces on new AI-powered experiences](https://openai.com/index/intuit-partnership) | RSS | 👍 0
-- [OpenAI named Emerging Leader in Generative AI](https://openai.com/index/gartner-2025-emerging-leader) | RSS | 👍 0
-- [Fighting the New York Times’ invasion of user privacy](https://openai.com/index/fighting-nyt-user-privacy-invasion) | RSS | 👍 0
-- [Free ChatGPT for transitioning U.S. servicemembers and veterans](https://openai.com/index/chatgpt-for-veterans) | RSS | 👍 0
-- [1 million business customers putting AI to work](https://openai.com/index/1-million-businesses-putting-ai-to-work) | RSS | 👍 0
-- [Strengthening ChatGPT’s responses in sensitive conversations](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations) | RSS | 👍 0
-- [OpenAI acquires Software Applications Incorporated, maker of Sky](https://openai.com/index/openai-acquires-software-applications-incorporated) | RSS | 👍 0
-- [The next chapter for UK sovereign AI](https://openai.com/index/the-next-chapter-for-uk-sovereign-ai) | RSS | 👍 0
-- [Expert Council on Well-Being and AI](https://openai.com/index/expert-council-on-well-being-and-ai) | RSS | 👍 0
-- [Defining and evaluating political bias in LLMs](https://openai.com/index/defining-and-evaluating-political-bias-in-llms) | RSS | 👍 0
-- [OpenAI announces strategic collaboration with Japan’s Digital Agency](https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency) | RSS | 👍 0
-- [Building towards age prediction](https://openai.com/index/building-towards-age-prediction) | RSS | 👍 0
-- [OpenAI and Greek Government launch ‘OpenAI for Greece’](https://openai.com/global-affairs/openai-for-greece) | RSS | 👍 0
-- [Providing ChatGPT to the Entire U.S. Federal Workforce](https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce) | RSS | 👍 0
-- [Pioneering an AI clinical copilot with Penda Health](https://openai.com/index/ai-clinical-copilot-penda-health) | RSS | 👍 0
-- [OpenAI’s new economic analysis](https://openai.com/global-affairs/new-economic-analysis) | RSS | 👍 0
-- [ChatGPT agent System Card](https://openai.com/index/chatgpt-agent-system-card) | RSS | 👍 0
-- [How we’re responding to The New York Times’ data demands in order to protect user privacy](https://openai.com/index/response-to-nyt-data-demands) | RSS | 👍 0
-- [The Washington Post partners with OpenAI on search content](https://openai.com/global-affairs/the-washington-post-partners-with-openai) | RSS | 👍 0
-- [Early methods for studying affective use and emotional well-being on ChatGPT](https://openai.com/index/affective-use-study) | RSS | 👍 0
-- [OpenAI and Guardian Media Group launch content partnership](https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership) | RSS | 👍 0
-- [OpenAI partners with Schibsted Media Group](https://openai.com/index/openai-partners-with-schibsted-media-group) | RSS | 👍 0
-- [OpenAI and the CSU system bring AI to 500,000 students & faculty](https://openai.com/index/openai-and-the-csu-system) | RSS | 👍 0
-- [Partnering with Axios expands OpenAI’s work with the news industry](https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry) | RSS | 👍 0
-- [Prompt Caching in the API](https://openai.com/index/api-prompt-caching) | RSS | 👍 0
-- [OpenAI and GEDI partner for Italian news content](https://openai.com/index/gedi) | RSS | 👍 0
-- [Genmab launches “AI Everywhere”](https://openai.com/index/genmab) | RSS | 👍 0
-- [Using GPT-4o reasoning to transform cancer care](https://openai.com/index/color-health) | RSS | 👍 0
-- [OpenAI and Apple announce partnership](https://openai.com/index/openai-and-apple-announce-partnership) | RSS | 👍 0
-- [OpenAI for Education](https://openai.com/index/introducing-chatgpt-edu) | RSS | 👍 0
-- [Introducing OpenAI for Nonprofits](https://openai.com/index/introducing-openai-for-nonprofits) | RSS | 👍 0
-- [Enhancing news in ChatGPT with The Atlantic](https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic) | RSS | 👍 0
-- [A Content and Product Partnership with Vox Media](https://openai.com/index/a-content-and-product-partnership-with-vox-media) | RSS | 👍 0
-- [OpenAI and Reddit Partnership](https://openai.com/index/openai-and-reddit-partnership) | RSS | 👍 0
-- [OpenAI Fellows Fall 2018](https://openai.com/index/openai-fellows) | RSS | 👍 0
-- [Exclusive AI Tool Deals]() | BitDegree | 👍 0
+- [Anthropic chief back in talks with Pentagon about AI deal](https://www.ft.com/content/97bda2ef-fc06-40b3-a867-f61a711b148b) | HackerNews | 👍 55
+- [FTC Opens Antitrust Probe of Microsoft AI Deal](https://www.wsj.com/tech/ai/ftc-opens-antitrust-probe-of-microsoft-ai-deal-29b5169a) | HackerNews | 👍 40
+- [Reddit has a new AI training deal to sell user content](https://www.theverge.com/2024/2/17/24075670/reddit-ai-training-license-deal-user-content) | HackerNews | 👍 35
+- [Should we worry about AI's circular deals?](https://www.noahpinion.blog/p/should-we-worry-about-ais-circular) | HackerNews | 👍 21
+- [Silicon Valley's AI deals are creating zombie startups](https://www.cnbc.com/2025/08/19/how-ai-zombie-deals-work-meta-google.html) | HackerNews | 👍 20
+- [Trump's Middle East AI Deal: "Just Count the Server Racks"](https://www.chinatalk.media/p/about-that-ai-middle-east-deal) | HackerNews | 👍 17
+- [YouTube in talks with record labels over AI music deal](https://www.ft.com/content/e2d9472d-32e0-43f5-8109-efb753fac330) | HackerNews | 👍 16
+- [Wikipedia signs AI training deals with Microsoft, Meta, and Amazon](https://arstechnica.com/ai/2026/01/wikipedia-will-share-content-with-ai-firms-in-new-licensing-deals/) | HackerNews | 👍 16
+- [Google DeepMind Workers Vote to Unionize over Military AI Deals](https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/) | HackerNews | 👍 15
+- [Google DeepMind Workers Vote to Unionize over Military AI Deals](https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/) | HackerNews | 👍 12
+- [AI agent promotes itself to sysadmin, trashes boot sequence](https://www.theregister.com/2024/10/02/ai_agent_trashes_pc/) | HackerNews | 👍 87
+- [I Promoted AI for Years and Automated Myself Out of a Job](https://www.thedailybeast.com/i-promoted-ai-for-years-and-automated-myself-out-of-a-job) | HackerNews | 👍 32
+- [Google and Microsoft Paying Creators $500K+ to Promote AI Tools](https://www.cnbc.com/2026/02/06/google-microsoft-pay-creators-500000-and-more-to-promote-ai.html) | HackerNews | 👍 24
+- [Willy Wonka experience used AI in promos, causing high expectations, cops called](https://www.gamereactor.eu/police-called-to-willy-wonka-themed-event-that-goes-horribly-wrong-1363693/) | HackerNews | 👍 19
+- [Companies Should Beware Promoting AI in Products](https://www.wsj.com/tech/ai/ai-advertising-consumer-trust-dc1a1425) | HackerNews | 👍 16
+- [Launch HN: Promi (YC S24) – AI-powered ecommerce discounts](https://news.ycombinator.com/item?id=41247211) | HackerNews | 👍 41
+- [Microsoft 365 confirms new premium tier, stuffed with AI and few discounts](https://www.theregister.com/2026/03/09/microsoft_adds_a_premium_tier/) | HackerNews | 👍 13
 - [SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [REDEEM 33% OFF](https://www.bitdegree.org/ai/murf-ai-review) | BitDegree | 👍 0
 - [50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
+- [SAVE 40%](https://www.bitdegree.org/ai/fireflies-ai-review) | BitDegree | 👍 0
+- [20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
 - [GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
 - [50% DISCOUNT](https://www.bitdegree.org/ai/looka-review) | BitDegree | 👍 0
 - [20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
 - [50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
-- [Verified AI Deals]() | BitDegree | 👍 0
-- [CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
-- [FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
-- [What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [7-DAY FREE TRIAL](https://www.bitdegree.org/ai/anyword-review) | BitDegree | 👍 0
+- [SAVE 58%](https://www.bitdegree.org/ai/pictory-ai-review) | BitDegree | 👍 0
+- [SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
 
