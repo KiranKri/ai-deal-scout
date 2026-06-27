@@ -738,3 +738,8 @@ _No deals logged yet._
 - [50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
 - [GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
 
+## Run: 2026-06-27 23:44:12 IST
+- [50% off Cursor Pro](https://cursor.com) | Test | 👍 0
+- [ChatGPT Plus deal this week](https://openai.com) | Test | 👍 0
+- [Free trial Perplexity Pro](https://perplexity.ai) | Test | 👍 0
+
