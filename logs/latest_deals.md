@@ -656,3 +656,97 @@ _No deals logged yet._
 - [FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
 - [What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
 
+## Run: 2026-06-27 16:47:05 IST
+- [Circular AI deals among OpenAI, Nvidia, AMD are raising eyebrows](https://www.bloomberg.com/news/articles/2025-10-08/the-circular-openai-nvidia-and-amd-deals-raising-fears-of-a-new-tech-bubble) | HackerNews | 👍 84
+- [Show HN: I built an LLM chat app because we shouldn't need 10 AI subscriptions](https://prismharmony.com/chat) | HackerNews | 👍 58
+- [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment) | RSS | 👍 0
+- [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) | RSS | 👍 0
+- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva) | RSS | 👍 0
+- [PRC-linked influence operations are targeting AI debates in the US](https://openai.com/index/prc-linked-influence-operations-ai-debates) | RSS | 👍 0
+- [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg) | RSS | 👍 0
+- [OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership](https://openai.com/index/grupo-folha-grupo-uol-partnership) | RSS | 👍 0
+- [AdventHealth advances whole-person care with OpenAI](https://openai.com/index/adventhealth) | RSS | 👍 0
+- [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership) | RSS | 👍 0
+- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex) | RSS | 👍 0
+- [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) | RSS | 👍 0
+- [New ways to buy ChatGPT ads](https://openai.com/index/new-ways-to-buy-chatgpt-ads) | RSS | 👍 0
+- [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety) | RSS | 👍 0
+- [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate) | RSS | 👍 0
+- [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians) | RSS | 👍 0
+- [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise) | RSS | 👍 0
+- [ChatGPT for sales teams](https://openai.com/academy/sales) | RSS | 👍 0
+- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai) | RSS | 👍 0
+- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) | RSS | 👍 0
+- [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams) | RSS | 👍 0
+- [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) | RSS | 👍 0
+- [Introducing ChatGPT for Excel and new financial data integrations](https://openai.com/index/chatgpt-for-excel) | RSS | 👍 0
+- [Bringing ChatGPT to GenAI.mil](https://openai.com/index/bringing-chatgpt-to-genaimil) | RSS | 👍 0
+- [Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT](https://openai.com/index/retiring-gpt-4o-and-older-models) | RSS | 👍 0
+- [PVH reimagines the future of fashion with OpenAI](https://openai.com/index/pvh-future-of-fashion) | RSS | 👍 0
+- [Scaling PostgreSQL to power 800 million ChatGPT users](https://openai.com/index/scaling-postgresql) | RSS | 👍 0
+- [A business that scales with the value of intelligence](https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence) | RSS | 👍 0
+- [Introducing ChatGPT Go, now available worldwide](https://openai.com/index/introducing-chatgpt-go) | RSS | 👍 0
+- [Our approach to advertising and expanding access to ChatGPT](https://openai.com/index/our-approach-to-advertising-and-expanding-access) | RSS | 👍 0
+- [OpenAI partners with Cerebras](https://openai.com/index/cerebras-partnership) | RSS | 👍 0
+- [Continuously hardening ChatGPT Atlas against prompt injection](https://openai.com/index/hardening-atlas-against-prompt-injection) | RSS | 👍 0
+- [Evaluating chain-of-thought monitorability](https://openai.com/index/evaluating-chain-of-thought-monitorability) | RSS | 👍 0
+- [AI literacy resources for teens and parents](https://openai.com/index/ai-literacy-resources-for-teens-and-parents) | RSS | 👍 0
+- [Updating our Model Spec with teen protections](https://openai.com/index/updating-model-spec-with-teen-protections) | RSS | 👍 0
+- [Introducing GPT-5.2-Codex](https://openai.com/index/introducing-gpt-5-2-codex) | RSS | 👍 0
+- [Introducing OpenAI Academy for News Organizations](https://openai.com/index/openai-academy-for-news-organizations) | RSS | 👍 0
+- [BBVA and OpenAI collaborate to transform global banking](https://openai.com/index/bbva-collaboration-expansion) | RSS | 👍 0
+- [Introducing GPT-5.2](https://openai.com/index/introducing-gpt-5-2) | RSS | 👍 0
+- [The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora](https://openai.com/index/disney-sora-agreement) | RSS | 👍 0
+- [Bringing powerful AI to millions across Europe with Deutsche Telekom](https://openai.com/index/deutsche-telekom-collaboration) | RSS | 👍 0
+- [Commonwealth Bank of Australia builds AI fluency at scale](https://openai.com/index/commonwealth-bank-of-australia) | RSS | 👍 0
+- [Instacart and OpenAI partner on AI shopping experiences](https://openai.com/index/instacart-partnership) | RSS | 👍 0
+- [OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”](https://openai.com/index/norad-holiday-collaboration) | RSS | 👍 0
+- [Expanding data residency access to business customers worldwide](https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide) | RSS | 👍 0
+- [OpenAI and Target team up on new AI-powered experiences](https://openai.com/index/target-partnership) | RSS | 👍 0
+- [Intuit and OpenAI join forces on new AI-powered experiences](https://openai.com/index/intuit-partnership) | RSS | 👍 0
+- [OpenAI named Emerging Leader in Generative AI](https://openai.com/index/gartner-2025-emerging-leader) | RSS | 👍 0
+- [Fighting the New York Times’ invasion of user privacy](https://openai.com/index/fighting-nyt-user-privacy-invasion) | RSS | 👍 0
+- [Free ChatGPT for transitioning U.S. servicemembers and veterans](https://openai.com/index/chatgpt-for-veterans) | RSS | 👍 0
+- [1 million business customers putting AI to work](https://openai.com/index/1-million-businesses-putting-ai-to-work) | RSS | 👍 0
+- [Strengthening ChatGPT’s responses in sensitive conversations](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations) | RSS | 👍 0
+- [OpenAI acquires Software Applications Incorporated, maker of Sky](https://openai.com/index/openai-acquires-software-applications-incorporated) | RSS | 👍 0
+- [The next chapter for UK sovereign AI](https://openai.com/index/the-next-chapter-for-uk-sovereign-ai) | RSS | 👍 0
+- [Expert Council on Well-Being and AI](https://openai.com/index/expert-council-on-well-being-and-ai) | RSS | 👍 0
+- [Defining and evaluating political bias in LLMs](https://openai.com/index/defining-and-evaluating-political-bias-in-llms) | RSS | 👍 0
+- [OpenAI announces strategic collaboration with Japan’s Digital Agency](https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency) | RSS | 👍 0
+- [Building towards age prediction](https://openai.com/index/building-towards-age-prediction) | RSS | 👍 0
+- [OpenAI and Greek Government launch ‘OpenAI for Greece’](https://openai.com/global-affairs/openai-for-greece) | RSS | 👍 0
+- [Providing ChatGPT to the Entire U.S. Federal Workforce](https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce) | RSS | 👍 0
+- [Pioneering an AI clinical copilot with Penda Health](https://openai.com/index/ai-clinical-copilot-penda-health) | RSS | 👍 0
+- [OpenAI’s new economic analysis](https://openai.com/global-affairs/new-economic-analysis) | RSS | 👍 0
+- [ChatGPT agent System Card](https://openai.com/index/chatgpt-agent-system-card) | RSS | 👍 0
+- [How we’re responding to The New York Times’ data demands in order to protect user privacy](https://openai.com/index/response-to-nyt-data-demands) | RSS | 👍 0
+- [The Washington Post partners with OpenAI on search content](https://openai.com/global-affairs/the-washington-post-partners-with-openai) | RSS | 👍 0
+- [Early methods for studying affective use and emotional well-being on ChatGPT](https://openai.com/index/affective-use-study) | RSS | 👍 0
+- [OpenAI and Guardian Media Group launch content partnership](https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership) | RSS | 👍 0
+- [OpenAI partners with Schibsted Media Group](https://openai.com/index/openai-partners-with-schibsted-media-group) | RSS | 👍 0
+- [OpenAI and the CSU system bring AI to 500,000 students & faculty](https://openai.com/index/openai-and-the-csu-system) | RSS | 👍 0
+- [Partnering with Axios expands OpenAI’s work with the news industry](https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry) | RSS | 👍 0
+- [Prompt Caching in the API](https://openai.com/index/api-prompt-caching) | RSS | 👍 0
+- [OpenAI and GEDI partner for Italian news content](https://openai.com/index/gedi) | RSS | 👍 0
+- [Genmab launches “AI Everywhere”](https://openai.com/index/genmab) | RSS | 👍 0
+- [Using GPT-4o reasoning to transform cancer care](https://openai.com/index/color-health) | RSS | 👍 0
+- [OpenAI and Apple announce partnership](https://openai.com/index/openai-and-apple-announce-partnership) | RSS | 👍 0
+- [OpenAI for Education](https://openai.com/index/introducing-chatgpt-edu) | RSS | 👍 0
+- [Introducing OpenAI for Nonprofits](https://openai.com/index/introducing-openai-for-nonprofits) | RSS | 👍 0
+- [Enhancing news in ChatGPT with The Atlantic](https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic) | RSS | 👍 0
+- [A Content and Product Partnership with Vox Media](https://openai.com/index/a-content-and-product-partnership-with-vox-media) | RSS | 👍 0
+- [OpenAI and Reddit Partnership](https://openai.com/index/openai-and-reddit-partnership) | RSS | 👍 0
+- [OpenAI Fellows Fall 2018](https://openai.com/index/openai-fellows) | RSS | 👍 0
+- [Exclusive AI Tool Deals]() | BitDegree | 👍 0
+- [SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
+- [GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
+- [50% DISCOUNT](https://www.bitdegree.org/ai/looka-review) | BitDegree | 👍 0
+- [20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [Verified AI Deals]() | BitDegree | 👍 0
+- [CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+
