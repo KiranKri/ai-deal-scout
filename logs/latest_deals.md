@@ -720,3 +720,60 @@ _No deals logged yet._
 - [SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
 - [MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
 
+## Run: 2026-06-27 17:23:54 IST
+- [Citizen Eco-Drive Weekender Brycen Chronograph Wrist Watch at $197 (54% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1uflmi1/citizen_ecodrive_weekender_brycen_chronograph/) | Reddit | 👍 0
+- [Apple Watch Series 11 GPS 46MM at $ 309 (28% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1ueownk/apple_watch_series_11_gps_46mm_at_309_28_off/) | Reddit | 👍 0
+- [CMF By Nothing Buds 2 48dB Hybrid ANC at $24.50 (50% off)](https://www.reddit.com/r/deals/comments/1ud0ptq/cmf_by_nothing_buds_2_48db_hybrid_anc_at_2450_50/) | Reddit | 👍 0
+- [Dyson Cool AM07 Air Multiplier Bladeless Tower Fan at $230 (43% off)](https://www.reddit.com/r/deals/comments/1uc4jp5/dyson_cool_am07_air_multiplier_bladeless_tower/) | Reddit | 👍 0
+- [Instant Pot Duo Plus 9-in-1 Pressure Cooker at $70 (50% off)](https://www.reddit.com/r/deals/comments/1u8q1s3/instant_pot_duo_plus_9in1_pressure_cooker_at_70/) | Reddit | 👍 0
+- [BOSTANTEN Small Crossbody Bags for Women Vegan Leather Purse at $27 (10% off)](https://www.reddit.com/r/deals/comments/1u7sbuy/bostanten_small_crossbody_bags_for_women_vegan/) | Reddit | 👍 0
+- [TOSHIBA Rice Cooker, 10-Cup Uncooked Rice Capacity, Auto Keep Warm at $99 (10% off)](https://www.reddit.com/r/deals/comments/1u6vgxx/toshiba_rice_cooker_10cup_uncooked_rice_capacity/) | Reddit | 👍 0
+- [Ring Floodlight Cam Plus with Ring Spotlight Cam Plus Battery at $150 (55% off)](https://www.reddit.com/r/deals/comments/1u5ykew/ring_floodlight_cam_plus_with_ring_spotlight_cam/) | Reddit | 👍 0
+- [Cursor (AI code editor) - 50% off your first month, any tier (10$-100$ off depending on tier)](https://www.reddit.com/r/deals/comments/1u5oo2g/cursor_ai_code_editor_50_off_your_first_month_any/) | Reddit | 👍 0
+- [Philips Sonicare 7300 Series Electric Toothbrush at $100 (50% off)](https://www.reddit.com/r/deals/comments/1u5068t/philips_sonicare_7300_series_electric_toothbrush/) | Reddit | 👍 0
+- [iRobot Roomba 105 Vac Robot Vacuum with AutoEmpty Dock at $249 (45% off)](https://www.reddit.com/r/deals/comments/1u4468g/irobot_roomba_105_vac_robot_vacuum_with_autoempty/) | Reddit | 👍 0
+- [4 Tier Rotating Shoe Rack Tower, Spinning Shoe Display Revolving 360 at $ 119 (15% off)](https://www.reddit.com/r/deals/comments/1u2d28d/4_tier_rotating_shoe_rack_tower_spinning_shoe/) | Reddit | 👍 0
+- [Acer Gadget Golf Rangefinder with Slope 1200/1700Yards at $99 (34% off)](https://www.reddit.com/r/deals/comments/1tymoht/acer_gadget_golf_rangefinder_with_slope/) | Reddit | 👍 0
+- [Traeger Grills Pro 22 Wood Pellet Grill & Smoker 6-in-1 BBQ at $389 (29% off)](https://www.reddit.com/r/deals/comments/1txo155/traeger_grills_pro_22_wood_pellet_grill_smoker/) | Reddit | 👍 0
+- [Sony WH-CH720N Noise Canceling Wireless Headphones at $90 (50% off)](https://www.reddit.com/r/deals/comments/1tv9aj1/sony_whch720n_noise_canceling_wireless_headphones/) | Reddit | 👍 0
+- [Hisense 75" E6 Cinema Series QLED 4K 75E6QF at $498 (38% off)](https://www.reddit.com/r/deals/comments/1tua0de/hisense_75_e6_cinema_series_qled_4k_75e6qf_at_498/) | Reddit | 👍 0
+- [Hisense 55" U6 Pro Series LED TV 144Hz 4K 55U6SF Pro 2026 New at $599 (30% off)](https://www.reddit.com/r/deals/comments/1ttbbp7/hisense_55_u6_pro_series_led_tv_144hz_4k_55u6sf/) | Reddit | 👍 0
+- [Hisense 85 Inches U6 85U6SF Pro 2026 New QLED at $1199 (40% off)](https://www.reddit.com/r/deals/comments/1tsedft/hisense_85_inches_u6_85u6sf_pro_2026_new_qled_at/) | Reddit | 👍 0
+- [Sony BRAVIA Theater Bar 6 3.1 2ch soundbar with subwoofer at $498 (29% off)](https://www.reddit.com/r/deals/comments/1trin5j/sony_bravia_theater_bar_6_31_2ch_soundbar_with/) | Reddit | 👍 0
+- [Soundcore Boom 2 By Anker Outdoor Portable Speaker 80W at $90 (36% off)](https://www.reddit.com/r/deals/comments/1tokmhs/soundcore_boom_2_by_anker_outdoor_portable/) | Reddit | 👍 0
+- [20% OFF on a Best Seller 29” Spinner Luggage Travel Suitcase (SWISSGEAR) — Only $128](https://www.reddit.com/r/deals/comments/1tohq21/20_off_on_a_best_seller_29_spinner_luggage_travel/) | Reddit | 👍 0
+- [Belkin 3-in-1 MagSafe-Compatible Foldable Magnetic Qi2 Certified, For iPhone, Watch, AirPods at $55 (45% off)](https://www.reddit.com/r/deals/comments/1tnl3q4/belkin_3in1_magsafecompatible_foldable_magnetic/) | Reddit | 👍 0
+- [-25% OFF on a Best Seller Cool Mist Humidifier with 3L (30H Runtime, Ultra Quiet) (DREO) – $29.94](https://www.reddit.com/r/deals/comments/1tnb6uq/25_off_on_a_best_seller_cool_mist_humidifier_with/) | Reddit | 👍 0
+- [-15% OFF on a Best Seller 32oz Insulated Water Bottle (HydroJug) – $29.74](https://www.reddit.com/r/deals/comments/1tlr7ls/15_off_on_a_best_seller_32oz_insulated_water/) | Reddit | 👍 0
+- [-44% LIMITED TIME OFF on a Best Seller 12-Blade Mandoline Slicer & Food Chopper (Mueller) – $33.87](https://www.reddit.com/r/deals/comments/1tkq4pl/44_limited_time_off_on_a_best_seller_12blade/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Google is the only search engine that works on Reddit now, thanks to AI deal](https://www.404media.co/google-is-the-only-search-engine-that-works-on-reddit-now-thanks-to-ai-deal/) | HackerNews | 👍 515
+- [CBP signs Clearview AI deal to use face recognition for 'tactical targeting'](https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/) | HackerNews | 👍 276
+- [Three Mile Island nuclear plant restart in Microsoft AI power deal](https://www.reuters.com/markets/deals/constellation-inks-power-supply-deal-with-microsoft-2024-09-20/) | HackerNews | 👍 179
+- [Anthropic chief back in talks with Pentagon about AI deal](https://www.ft.com/content/97bda2ef-fc06-40b3-a867-f61a711b148b) | HackerNews | 👍 55
+- [FTC Opens Antitrust Probe of Microsoft AI Deal](https://www.wsj.com/tech/ai/ftc-opens-antitrust-probe-of-microsoft-ai-deal-29b5169a) | HackerNews | 👍 40
+- [Reddit has a new AI training deal to sell user content](https://www.theverge.com/2024/2/17/24075670/reddit-ai-training-license-deal-user-content) | HackerNews | 👍 35
+- [Should we worry about AI's circular deals?](https://www.noahpinion.blog/p/should-we-worry-about-ais-circular) | HackerNews | 👍 21
+- [Silicon Valley's AI deals are creating zombie startups](https://www.cnbc.com/2025/08/19/how-ai-zombie-deals-work-meta-google.html) | HackerNews | 👍 20
+- [Trump's Middle East AI Deal: "Just Count the Server Racks"](https://www.chinatalk.media/p/about-that-ai-middle-east-deal) | HackerNews | 👍 17
+- [YouTube in talks with record labels over AI music deal](https://www.ft.com/content/e2d9472d-32e0-43f5-8109-efb753fac330) | HackerNews | 👍 16
+- [Wikipedia signs AI training deals with Microsoft, Meta, and Amazon](https://arstechnica.com/ai/2026/01/wikipedia-will-share-content-with-ai-firms-in-new-licensing-deals/) | HackerNews | 👍 16
+- [Google DeepMind Workers Vote to Unionize over Military AI Deals](https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/) | HackerNews | 👍 15
+- [Google DeepMind Workers Vote to Unionize over Military AI Deals](https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/) | HackerNews | 👍 12
+- [AI agent promotes itself to sysadmin, trashes boot sequence](https://www.theregister.com/2024/10/02/ai_agent_trashes_pc/) | HackerNews | 👍 87
+- [I Promoted AI for Years and Automated Myself Out of a Job](https://www.thedailybeast.com/i-promoted-ai-for-years-and-automated-myself-out-of-a-job) | HackerNews | 👍 32
+- [Google and Microsoft Paying Creators $500K+ to Promote AI Tools](https://www.cnbc.com/2026/02/06/google-microsoft-pay-creators-500000-and-more-to-promote-ai.html) | HackerNews | 👍 24
+- [Willy Wonka experience used AI in promos, causing high expectations, cops called](https://www.gamereactor.eu/police-called-to-willy-wonka-themed-event-that-goes-horribly-wrong-1363693/) | HackerNews | 👍 19
+- [Companies Should Beware Promoting AI in Products](https://www.wsj.com/tech/ai/ai-advertising-consumer-trust-dc1a1425) | HackerNews | 👍 16
+- [Launch HN: Promi (YC S24) – AI-powered ecommerce discounts](https://news.ycombinator.com/item?id=41247211) | HackerNews | 👍 41
+- [Microsoft 365 confirms new premium tier, stuffed with AI and few discounts](https://www.theregister.com/2026/03/09/microsoft_adds_a_premium_tier/) | HackerNews | 👍 13
+- [30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [REDEEM 33% OFF](https://www.bitdegree.org/ai/murf-ai-review) | BitDegree | 👍 0
+- [SAVE 40%](https://www.bitdegree.org/ai/fireflies-ai-review) | BitDegree | 👍 0
+- [20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [7-DAY FREE TRIAL](https://www.bitdegree.org/ai/anyword-review) | BitDegree | 👍 0
+- [SAVE 58%](https://www.bitdegree.org/ai/pictory-ai-review) | BitDegree | 👍 0
+- [SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+
