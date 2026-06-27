@@ -723,3 +723,8 @@ _No deals logged yet._
 ## Run: 2026-06-27 17:59:57 IST
 - [Cursor (AI code editor) - 50% off your first month, any tier (10$-100$ off depending on tier)](https://www.reddit.com/r/deals/comments/1u5oo2g/cursor_ai_code_editor_50_off_your_first_month_any/) | Reddit | 👍 0
 
+## Run: 2026-06-27 19:07:35 IST
+- [Cursor (AI code editor) - 50% off your first month, any tier (10$-100$ off depending on tier)](https://www.reddit.com/r/deals/comments/1u5oo2g/cursor_ai_code_editor_50_off_your_first_month_any/) | Reddit | 👍 0
+- [50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
+- [GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
+
