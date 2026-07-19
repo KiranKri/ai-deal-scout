@@ -2,8 +2,15 @@ name: AI Deal Scout
 
 on:
   schedule:
-    - cron: '30 2,14 * * *'    # 8:00 AM and 8:00 PM IST
+    - cron: '30 2 * * *'      # 08:00 IST, once daily
   workflow_dispatch:
+
+# Never let two runs overlap: a manual /run during a cron run would
+# double-broadcast every deal and then lose one run's seen_deals.json
+# on the git push. Queue instead of cancel — a mid-broadcast run must finish.
+concurrency:
+  group: deal-scout
+  cancel-in-progress: false
 
 jobs:
   scout:
@@ -28,12 +35,15 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
           GH_REPO_DATA: ${{ secrets.GH_REPO_DATA }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python src/main.py
 
       - name: Commit state updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/seen_deals.json logs/latest_deals.md
+          git add data/seen_deals.json data/websearch_state.json logs/latest_deals.md
           git diff --staged --quiet || git commit -m "chore: update deal state [skip ci]"
+          git pull --rebase origin main
           git push

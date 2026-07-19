@@ -25,16 +25,56 @@ GH_PAT: str = os.environ.get("GH_PAT", "")
 GH_REPO_DATA: str = os.environ.get("GH_REPO_DATA", "")
 
 # ---------------------------------------------------------------------------
-# Module-level SHA cache (reset between test runs via _last_sha = None)
-# ---------------------------------------------------------------------------
-
-_last_sha: str | None = None
-
-# ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
 
 EMPTY_STORE: dict = {"subscribers": [], "last_updated": ""}
+
+# Local-file fallback.  When GH_REPO_DATA is unset the store lives on disk
+# instead of in a private GitHub repo.  This makes local development and
+# friend-testing work with zero cloud setup; production sets GH_REPO_DATA and
+# transparently switches to the GitHub backend.
+LOCAL_STORE_PATH: str = os.environ.get(
+    "SUBSCRIBERS_PATH", os.path.join("data", "subscribers.json")
+)
+
+
+def _use_local() -> bool:
+    """True when no GitHub backend is configured, so we fall back to disk."""
+    return not (GH_REPO_DATA and GH_PAT)
+
+
+def _local_read() -> dict:
+    """Read the on-disk subscriber store, tolerating a missing/corrupt file."""
+    if not os.path.exists(LOCAL_STORE_PATH):
+        return copy.deepcopy(EMPTY_STORE)
+    try:
+        with open(LOCAL_STORE_PATH, encoding="utf-8") as fh:
+            return json.load(fh)
+    except (OSError, ValueError) as exc:
+        logger.error("local subscriber store unreadable (%s); starting empty", exc)
+        return copy.deepcopy(EMPTY_STORE)
+
+
+def _local_write(data: dict) -> bool:
+    """Write the on-disk subscriber store.  Returns success."""
+    try:
+        os.makedirs(os.path.dirname(LOCAL_STORE_PATH) or ".", exist_ok=True)
+        with open(LOCAL_STORE_PATH, "w", encoding="utf-8") as fh:
+            json.dump(data, fh, indent=2)
+        return True
+    except OSError as exc:
+        logger.error("local subscriber store write failed: %s", exc)
+        return False
+
+
+class SubscriberStoreError(RuntimeError):
+    """Raised (in strict mode) when subscribers.json cannot be fetched.
+
+    Distinguishes "the store is unreachable/corrupt" from "the store is
+    genuinely empty" so the pipeline can abort before marking deals seen
+    instead of silently skipping the broadcast.
+    """
 
 _IST = ZoneInfo("Asia/Kolkata")
 
@@ -75,22 +115,32 @@ def _file_url() -> str:
     return f"https://api.github.com/repos/{GH_REPO_DATA}/contents/subscribers.json"
 
 
-def _get_file() -> tuple[dict, str]:
+def _get_file(strict: bool = False) -> tuple[dict, str]:
     """Fetch ``subscribers.json`` from the private GitHub repo.
 
-    On success the SHA is cached in ``_last_sha`` so that subsequent
-    ``_put_file`` calls can supply it without an extra round-trip.
+    Args:
+        strict: When True, raise :class:`SubscriberStoreError` on any API
+                failure or malformed content instead of returning an empty
+                store.  A genuine 404 (file not yet created) is *not* an
+                error in either mode.
 
     Returns:
         ``(data, sha)`` where *data* is the parsed JSON dict and *sha* is the
         blob SHA string.  On 404 returns ``(EMPTY_STORE copy, "")``.  On any
-        other failure returns ``(EMPTY_STORE copy, "")`` after logging CRITICAL.
+        other failure returns ``(EMPTY_STORE copy, "")`` after logging
+        CRITICAL (non-strict mode) or raises (strict mode).
     """
-    global _last_sha
+    # No GitHub backend configured -> read from disk.  Local reads cannot
+    # fail in the way a network call can, so strict mode is a no-op here.
+    if _use_local():
+        return _local_read(), ""
+
     try:
         response = requests.get(_file_url(), headers=_github_headers(), timeout=15)
     except Exception as e:  # noqa: BLE001
         logger.critical("GitHub API GET exception: %s", e)
+        if strict:
+            raise SubscriberStoreError(str(e)) from e
         return copy.deepcopy(EMPTY_STORE), ""
 
     if response.status_code == 404:
@@ -98,13 +148,24 @@ def _get_file() -> tuple[dict, str]:
 
     if response.status_code != 200:
         logger.critical("GitHub API GET failed: status=%d", response.status_code)
+        if strict:
+            raise SubscriberStoreError(f"HTTP {response.status_code}")
         return copy.deepcopy(EMPTY_STORE), ""
 
-    body = response.json()
-    sha: str = body.get("sha", "")
-    _last_sha = sha
-    raw = base64.b64decode(body["content"]).decode("utf-8")
-    data: dict = json.loads(raw)
+    try:
+        body = response.json()
+        sha: str = body.get("sha", "")
+        raw = base64.b64decode(body["content"]).decode("utf-8")
+        data: dict = json.loads(raw)
+    except (KeyError, ValueError, UnicodeDecodeError) as e:
+        # Covers non-JSON responses, missing "content", bad base64
+        # (binascii.Error is a ValueError subclass), and the >1 MB
+        # Contents-API case where "content" comes back empty.
+        logger.critical("subscribers.json malformed: %s", e)
+        if strict:
+            raise SubscriberStoreError(f"malformed content: {e}") from e
+        return copy.deepcopy(EMPTY_STORE), ""
+
     return data, sha
 
 
@@ -123,6 +184,9 @@ def _put_file(data: dict, sha: str) -> bool:
         ``True`` on HTTP 200 or 201, ``False`` after all retries are exhausted
         or on any non-retryable error.
     """
+    if _use_local():
+        return _local_write(data)
+
     current_sha = sha
     for attempt in range(5):
         payload = {
@@ -165,27 +229,33 @@ def _put_file(data: dict, sha: str) -> bool:
 # ---------------------------------------------------------------------------
 
 
-def get_subscribers() -> list[dict]:
+def get_subscribers(strict: bool = False) -> list[dict]:
     """Return the full list of subscriber records from the remote store.
 
-    Both a missing file (HTTP 404) and an API failure return ``[]``; the
-    distinction is that API failures are already logged as CRITICAL inside
-    ``_get_file``.
+    In non-strict mode both a missing file (HTTP 404) and an API failure
+    return ``[]``; API failures are logged as CRITICAL inside ``_get_file``.
+    In strict mode API failures raise :class:`SubscriberStoreError`.
 
     Returns:
-        List of subscriber dicts, or ``[]`` on any error.
+        List of subscriber dicts, or ``[]`` on 404 / (non-strict) error.
     """
-    data, _ = _get_file()
+    data, _ = _get_file(strict=strict)
     return data.get("subscribers", [])
 
 
-def get_active_chat_ids() -> list[int]:
+def get_active_chat_ids(strict: bool = False) -> list[int]:
     """Return the chat IDs of all currently active subscribers.
+
+    Args:
+        strict: Propagated to ``_get_file``; when True an unreachable or
+                corrupt store raises instead of masquerading as "no
+                subscribers".  The pipeline uses strict mode so deals are
+                never marked seen when nobody could receive them.
 
     Returns:
         List of integer chat IDs where ``active`` is truthy.
     """
-    return [s["chat_id"] for s in get_subscribers() if s.get("active")]
+    return [s["chat_id"] for s in get_subscribers(strict=strict) if s.get("active")]
 
 
 def add_subscriber(chat_id: int, username: str | None) -> str:

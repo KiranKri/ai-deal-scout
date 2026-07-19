@@ -1,8 +1,18 @@
 .env
 data/*
 !data/seen_deals.json
+!data/websearch_state.json
+!data/eval_set.csv
+!data/eval_baseline.json
+# Both committed by the telegram_drain workflow: the read cursor prevents
+# command replay, and run_quota makes /run rate limits survive the
+# ephemeral CI runner (otherwise every 10-min run resets the cooldown).
+!data/telegram_offset.json
+!data/run_quota.json
 logs/*
 !logs/latest_deals.md
+# internal review/working notes — not for the public repo
+docs/archive/
 __pycache__/
 *.pyc
 .pytest_cache/

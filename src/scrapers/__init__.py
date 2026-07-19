@@ -13,6 +13,7 @@ from scrapers.bitdegree import fetch_bitdegree_deals
 from scrapers.hackernews import fetch_hn_deals
 from scrapers.reddit import fetch_reddit_deals
 from scrapers.rss_feed import fetch_rss_deals
+from scrapers.websearch import _is_blocked, fetch_websearch_deals
 
 logger = logging.getLogger(__name__)
 
@@ -62,6 +63,7 @@ def run_all_scrapers() -> list[dict[str, Any]]:
         ("HackerNews", fetch_hn_deals),
         ("RSS", fetch_rss_deals),
         ("BitDegree", fetch_bitdegree_deals),
+        ("WebSearch", fetch_websearch_deals),
     ]
 
     for source_name, scraper_fn in scrapers:
@@ -77,16 +79,54 @@ def run_all_scrapers() -> list[dict[str, Any]]:
                 traceback.format_exc(),
             )
 
-    # Cross-source title-similarity dedup
-    seen_titles: set[str] = set()
-    deduped: list[dict[str, Any]] = []
+    # Domain blocklist, applied to EVERY source — previously only websearch
+    # checked it, so coupon-farm links arriving via HN/Reddit/RSS bypassed
+    # 50+ domains of accumulated judgment (observed live: wildfire.deals and
+    # friends in the June run history came through HN unblocked).
+    # Only URLs with a resolvable host are judged here: unlike websearch,
+    # a hostless URL at this layer is a source quirk, not spam.
+    def _spam(url: str) -> bool:
+        from urllib.parse import urlparse
+
+        try:
+            host = urlparse(url).hostname
+        except ValueError:
+            return False
+        return bool(host) and _is_blocked(url)
+
+    unblocked = [d for d in all_results if not _spam(d.get("url", ""))]
+    blocked_count = len(all_results) - len(unblocked)
+    if blocked_count:
+        logger.info("Domain blocklist removed %d result(s)", blocked_count)
+    all_results = unblocked
+
+    # Cross-source title-similarity dedup.  On a collision keep the copy
+    # with the most metadata (highest upvotes) rather than whichever source
+    # happened to run first — otherwise a Reddit copy (upvotes=0) discards
+    # the HN copy's real score and exempts the deal from MIN_UPVOTES.
+    by_norm: dict[str, dict[str, Any]] = {}
+    order: list[str] = []
     for deal in all_results:
         norm = _normalise_title(deal.get("title", ""))
-        if norm and norm not in seen_titles:
-            seen_titles.add(norm)
-            deduped.append(deal)
+        if not norm:
+            logger.debug("Cross-source title dedup removed: %s", deal.get("title"))
+            continue
+        existing = by_norm.get(norm)
+        if existing is None:
+            by_norm[norm] = deal
+            order.append(norm)
+        elif deal.get("upvotes", 0) > existing.get("upvotes", 0):
+            logger.debug(
+                "Cross-source dedup: replacing %r (%s, %d↑) with %s copy (%d↑)",
+                existing.get("title"), existing.get("source"),
+                existing.get("upvotes", 0), deal.get("source"),
+                deal.get("upvotes", 0),
+            )
+            by_norm[norm] = deal
         else:
             logger.debug("Cross-source title dedup removed: %s", deal.get("title"))
+
+    deduped: list[dict[str, Any]] = [by_norm[n] for n in order]
 
     logger.info(
         "Cross-source dedup: %d → %d", len(all_results), len(deduped)

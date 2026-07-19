@@ -13,6 +13,8 @@ from config import RSS_FEEDS, SCRAPER_SLEEP_SECONDS
 
 logger = logging.getLogger(__name__)
 
+_USER_AGENT = "ai-deal-scout/1.0 (+https://github.com/KiranKri/ai-deal-scout)"
+
 
 def fetch_rss_deals() -> list[dict[str, Any]]:
     """Fetch entries from all configured AI company RSS feeds.
@@ -30,11 +32,12 @@ def fetch_rss_deals() -> list[dict[str, Any]]:
     for feed_url in RSS_FEEDS:
         try:
             logger.debug("Fetching RSS feed: %s", feed_url)
-            feed = feedparser.parse(feed_url)
+            feed = feedparser.parse(feed_url, agent=_USER_AGENT)
 
-            if feed.bozo:
+            # Only skip on bozo when the feed also yielded nothing usable.
+            if feed.bozo and not feed.entries:
                 logger.warning(
-                    "RSS feed parse warning (bozo) for %s: %s",
+                    "RSS feed unusable (bozo, 0 entries) for %s: %s",
                     feed_url,
                     feed.get("bozo_exception", "unknown error"),
                 )

@@ -3,6 +3,14 @@ from unittest.mock import patch, MagicMock
 import bot.bot_server as bot_server
 
 
+@pytest.fixture(autouse=True)
+def _isolate_run_quota(tmp_path, monkeypatch):
+    """Each test gets a fresh /run rate-limit store."""
+    monkeypatch.setattr(bot_server, "RUN_QUOTA_STATE_PATH", str(tmp_path / "run_quota.json"))
+    monkeypatch.setattr(bot_server, "RUN_ALLOWLIST", set())
+    yield
+
+
 @pytest.fixture
 def client():
     bot_server.app.config["TESTING"] = True

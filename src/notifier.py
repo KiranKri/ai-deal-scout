@@ -45,11 +45,6 @@ MESSAGE_SLEEP = 0.3   # seconds after every message send (pacing)
 # ---------------------------------------------------------------------------
 
 
-def _credentials() -> tuple[str, str]:
-    """Return (token, chat_id) from environment, or empty strings if unset."""
-    return os.getenv("TELEGRAM_BOT_TOKEN", ""), os.getenv("TELEGRAM_CHAT_ID", "")
-
-
 def _esc(text: str) -> str:
     """HTML-escape a string for Telegram HTML parse mode.
 
@@ -132,73 +127,6 @@ def chunk_messages(text: str, max_chars: int = TELEGRAM_MAX_CHARS) -> list[str]:
     return chunks
 
 
-def send_message(text: str) -> bool:
-    """Send a single HTML-formatted message to the configured Telegram chat.
-
-    Reads ``TELEGRAM_BOT_TOKEN`` and ``TELEGRAM_CHAT_ID`` from the
-    environment.  If either is missing, logs a warning and returns
-    ``False`` without raising.
-
-    Uses ``parse_mode="HTML"`` to safely handle special characters in
-    deal titles and URLs without silent Telegram parse failures.
-
-    Args:
-        text: Message text with optional HTML tags (``<b>``, ``<i>``, etc.).
-
-    Returns:
-        ``True`` on HTTP 200 with Telegram ``ok: true``, ``False`` otherwise.
-    """
-    token, chat_id = _credentials()
-
-    if not token or not chat_id:
-        logger.warning(
-            "TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set; skipping Telegram send"
-        )
-        return False
-
-    url = _TELEGRAM_API.format(token=token)
-    payload: dict[str, Any] = {
-        "chat_id": chat_id,
-        "text": text,
-        "parse_mode": "HTML",
-    }
-
-    logger.debug(
-        "send_message: payload chat_id=%s parse_mode=HTML text=%r",
-        chat_id, text
-    )
-
-    try:
-        response = requests.post(url, json=payload, timeout=15)
-        logger.info(
-            "Telegram API: status=%d ok=%s",
-            response.status_code,
-            response.json().get("ok") if response.content else "n/a",
-        )
-        logger.debug("Telegram API full response: %s", response.text)
-
-        if not response.ok:
-            logger.error(
-                "Telegram send failed: HTTP %d — %s",
-                response.status_code, response.text
-            )
-            return False
-
-        data = response.json()
-        if not data.get("ok"):
-            logger.error(
-                "Telegram API returned ok=false: %s", data.get("description", data)
-            )
-            return False
-
-        logger.debug("Telegram message accepted (%d chars)", len(text))
-        return True
-
-    except requests.RequestException as exc:
-        logger.error("Telegram send failed: %s", exc)
-        return False
-
-
 # ---------------------------------------------------------------------------
 # V2 private helper
 # ---------------------------------------------------------------------------
@@ -250,7 +178,7 @@ def _send_with_retry(chat_id: int, text: str) -> int:
 # ---------------------------------------------------------------------------
 
 
-def send_deals(deals: list[dict[str, Any]], chat_ids: list[int]) -> None:
+def send_deals(deals: list[dict[str, Any]], chat_ids: list[int]) -> tuple[int, int]:
     """Broadcast deals to all subscribers with rate limiting.
 
     Formats content once and fans it out to every chat ID in ``chat_ids``.
@@ -268,10 +196,14 @@ def send_deals(deals: list[dict[str, Any]], chat_ids: list[int]) -> None:
         deals:    List of new deal dicts to broadcast.  Empty list sends a
                   "no new deals" notice.
         chat_ids: List of active subscriber chat IDs to send to.
+
+    Returns:
+        ``(success_count, total)`` — subscribers who received *every* chunk,
+        and the number attempted.  Lets the caller log a truthful funnel.
     """
     if not chat_ids:
         logger.warning("No active subscribers — skipping Telegram send")
-        return
+        return 0, 0
 
     # Format content once, reuse for every recipient.
     # The header is embedded in the body so small deal sets fit in one chunk,
@@ -326,7 +258,20 @@ def send_deals(deals: list[dict[str, Any]], chat_ids: list[int]) -> None:
     if blocked_ids:
         logger.info("Auto-deactivating %d blocked user(s)", len(blocked_ids))
         subscribers_module.batch_deactivate(blocked_ids)
+        # A deactivated user believes they are subscribed but will never
+        # receive anything again — the operator must hear about it.
+        try:
+            from alerts import alert_admin
+
+            alert_admin(
+                f"auto-deactivated {len(blocked_ids)} subscriber(s) who "
+                f"blocked the bot (chat_ids: "
+                f"{', '.join(str(c) for c in blocked_ids[:5])})"
+            )
+        except Exception:  # noqa: BLE001
+            logger.exception("deactivation alert failed")
 
     logger.info(
         "Broadcast complete: %d/%d subscribers", success_count, len(chat_ids)
     )
+    return success_count, len(chat_ids)

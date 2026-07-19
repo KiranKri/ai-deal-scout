@@ -18,7 +18,22 @@ from zoneinfo import ZoneInfo
 # script is launched directly as ``python src/main.py``.
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from bot.subscribers import get_active_chat_ids
+# Load .env into the environment for LOCAL runs.  In GitHub Actions there is
+# no .env file and the workflow's env: block supplies the real values, so this
+# is a harmless no-op there.  Without it, os.getenv() returns empty locally
+# even when .env is correctly filled in.
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv(
+        os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"
+        )
+    )
+except ImportError:  # pragma: no cover - optional dependency
+    logging.getLogger("main").debug("python-dotenv not installed; skipping .env")
+
+from bot.subscribers import SubscriberStoreError, get_active_chat_ids
 
 logging.basicConfig(
     level=logging.INFO,
@@ -30,12 +45,17 @@ logger = logging.getLogger("main")
 _IST = ZoneInfo("Asia/Kolkata")
 
 
+# Kept as a module-level name (rather than a direct import at call sites) so
+# tests can monkeypatch ``main._alert_admin``.
+from alerts import alert_admin as _alert_admin  # noqa: E402
+
+
 def main() -> None:
     """Execute the full deal-scouting pipeline."""
     import dedup
     import history
     import notifier
-    from filter import is_relevant
+    from filter import is_relevant, is_stale
     from scrapers import run_all_scrapers
 
     # ------------------------------------------------------------------
@@ -45,9 +65,16 @@ def main() -> None:
     logger.info("Run started at %s", ist_now)
 
     # ------------------------------------------------------------------
-    # b. Initialize dedup store
+    # b. Fetch subscribers FIRST (strict) — if the store is unreachable we
+    #    must abort *before* any deal is marked seen, otherwise this run's
+    #    deals are permanently lost while the broadcast silently no-ops.
     # ------------------------------------------------------------------
-    dedup._load()
+    try:
+        chat_ids = get_active_chat_ids(strict=True)
+    except SubscriberStoreError:
+        logger.exception("Subscriber store unavailable; aborting before dedup marking")
+        _alert_admin("subscriber store unreachable — run aborted, deals will retry next run")
+        sys.exit(1)
 
     # ------------------------------------------------------------------
     # c. Clean up stale hashes
@@ -64,6 +91,9 @@ def main() -> None:
         logger.exception("run_all_scrapers raised an unrecoverable error; aborting")
         sys.exit(1)
 
+    if not raw_deals:
+        _alert_admin("all scrapers returned 0 raw results — sources may be down/blocked")
+
     # ------------------------------------------------------------------
     # e. Filter by relevance
     # ------------------------------------------------------------------
@@ -76,61 +106,132 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
+    # e2. Staleness check — LOG-ONLY for now.  Catches last year's Black
+    #     Friday SEO pages and multi-year-old announcements (both observed
+    #     live).  Promote to a hard drop once a week of logs shows no
+    #     false stale flags.
+    # ------------------------------------------------------------------
+    stale_flagged = [
+        d for d in relevant_deals
+        if is_stale(d.get("title", ""), d.get("body", ""))
+    ]
+    if stale_flagged:
+        logger.warning(
+            "Staleness (log-only): %d deal(s) look expired/out-of-season: %s",
+            len(stale_flagged),
+            "; ".join(d.get("title", "")[:70] for d in stale_flagged[:10]),
+        )
+
+    # ------------------------------------------------------------------
     # f+g. Sequential dedup: check and mark immediately so same-run
     #      cross-source duplicates (e.g. same story on Reddit + HN)
     #      are caught before the next deal is evaluated.
+    #
+    #      DRY RUN: with zero active subscribers there is nobody to deliver
+    #      to, so marking deals seen would burn them into the 90-day dedup
+    #      window for an audience of no one — the first real subscriber
+    #      would then receive nothing that was found before they joined.
+    #      Instead we scrape, filter, and write the history log (so the
+    #      output is still reviewable during development) but leave the
+    #      dedup store untouched.
     # ------------------------------------------------------------------
+    dry_run = not chat_ids
+    if dry_run:
+        logger.warning(
+            "No active subscribers — DRY RUN: deals will be logged but not "
+            "marked seen, so nothing is lost before the first subscriber."
+        )
+
+    # Collect without marking.  Same-run duplicates are already removed by the
+    # cross-source pass in run_all_scrapers, so nothing is lost by deferring.
     new_deals: list[dict] = []
     for deal in relevant_deals:
-        url = deal.get("url", "")
-        title = deal.get("title", "")
-        if not dedup.is_seen(url, title):
+        if not dedup.is_seen(deal.get("url", ""), deal.get("title", "")):
             new_deals.append(deal)
-            try:
-                dedup.mark_seen(url, title)
-            except Exception:
-                logger.exception("mark_seen failed for %s", url)
 
     logger.info("Dedup: %d relevant → %d new", len(relevant_deals), len(new_deals))
 
     # ------------------------------------------------------------------
-    # h. Persist dedup state BEFORE sending to Telegram
+    # h. Broadcast FIRST, mark seen only on confirmed delivery.
+    #
+    #    Marking before sending burns deals whenever delivery fails: they are
+    #    inside the 90-day window but nobody received them, and there is no
+    #    retry.  Observed live — a stale subscriber ID made every send return
+    #    HTTP 400 and silently consumed 89 real deals in one run.
+    #
+    #    Delivering to at least one subscriber is the condition for marking.
+    #    The residual risk is the reverse (deliver, then fail to persist),
+    #    which causes a duplicate next run — visibly annoying but not silent
+    #    data loss, and therefore the better failure to have.
     # ------------------------------------------------------------------
+    delivered, total = 0, len(chat_ids)
     try:
-        dedup.save()
-    except Exception:
-        logger.exception("dedup.save() failed; continuing")
-
-    # ------------------------------------------------------------------
-    # i. Append to history log
-    # ------------------------------------------------------------------
-    try:
-        history.append_deals(new_deals)
-    except Exception:
-        logger.exception("history.append_deals() failed; continuing")
-
-    # ------------------------------------------------------------------
-    # j. Broadcast to all active subscribers
-    # ------------------------------------------------------------------
-    try:
-        chat_ids = get_active_chat_ids()
-        if not chat_ids:
+        if dry_run:
             logger.warning(
-                "No active subscribers — skipping Telegram send")
+                "No active subscribers — skipping Telegram send (dry run)")
         else:
-            logger.info("Broadcasting to %d subscribers", len(chat_ids))
-            notifier.send_deals(new_deals, chat_ids)
+            logger.info("Broadcasting to %d subscribers", total)
+            delivered, total = notifier.send_deals(new_deals, chat_ids)
     except Exception:
         logger.exception("Broadcast step failed")
+
+    if dry_run:
+        logger.info("Dry run: %d deal(s) left unmarked for a future subscriber",
+                    len(new_deals))
+    elif delivered > 0:
+        for deal in new_deals:
+            try:
+                dedup.mark_seen(deal.get("url", ""), deal.get("title", ""))
+            except Exception:
+                logger.exception("mark_seen failed for %s", deal.get("url", ""))
+        try:
+            dedup.save()
+        except Exception:
+            logger.exception("dedup.save() failed; continuing")
+        logger.info("Marked %d deal(s) seen after delivery to %d/%d subscriber(s)",
+                    len(new_deals), delivered, total)
+    elif new_deals:
+        logger.error(
+            "Delivered to 0/%d subscribers — NOT marking %d deal(s) seen; "
+            "they will be retried on the next run",
+            total, len(new_deals),
+        )
+
+    if new_deals and total and delivered == 0:
+        _alert_admin(
+            f"{len(new_deals)} new deal(s) found but delivered to 0/{total} "
+            f"subscribers — deals kept for retry"
+        )
+
+    # ------------------------------------------------------------------
+    # j. Append to history log (after the send so the record is truthful).
+    #    Skipped for dry runs and 0-delivered runs: those deals stay
+    #    unmarked and will be re-found next run, and re-logging them every
+    #    time filled the history file with duplicates (85 duplicated titles
+    #    observed before this guard).
+    # ------------------------------------------------------------------
+    if dry_run or (new_deals and delivered == 0):
+        logger.info(
+            "History: skipped (%s) — %d deal(s) will be re-found next run",
+            "dry run" if dry_run else "0 delivered",
+            len(new_deals),
+        )
+    else:
+        try:
+            history.append_deals(new_deals)
+        except Exception:
+            logger.exception("history.append_deals() failed; continuing")
 
     # ------------------------------------------------------------------
     # k. Final summary log
     # ------------------------------------------------------------------
     logger.info(
-        "Run complete: %d raw → %d relevant → %d new sent",
+        "Run complete: %d raw → %d relevant → %d new → delivered to %d/%d subscribers",
         len(raw_deals),
         len(relevant_deals),
         len(new_deals),
+        delivered,
+        total,
     )
 
 

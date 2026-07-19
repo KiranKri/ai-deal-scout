@@ -738,8 +738,507 @@ _No deals logged yet._
 - [50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
 - [GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
 
-## Run: 2026-06-27 23:44:12 IST
-- [50% off Cursor Pro](https://cursor.com) | Test | 👍 0
-- [ChatGPT Plus deal this week](https://openai.com) | Test | 👍 0
-- [Free trial Perplexity Pro](https://perplexity.ai) | Test | 👍 0
+## Run: 2026-07-18 20:27:06 IST
+- [ChatGPT Plus trial](https://www.reddit.com/r/ChatGPTPro/comments/1uy0g59/chatgpt_plus_trial/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Wikipedia Inks AI Deals with Microsoft, Meta and Perplexity](https://apnews.com/article/wikipedia-internet-jimmy-wales-50e796d70152d79a2e0708846f84f6d7) | HackerNews | 👍 11
+- [AI Licensing Deals with Google and OpenAI Make Up 10% of Reddit's Revenue](https://www.adweek.com/social-marketing/ai-licensing-deals-with-google-and-openai-make-up-10-of-reddits-revenue/) | HackerNews | 👍 9
+- [Nvidia-backed AI firm signs $12B AI cloud deal with OpenAI](https://www.techinasia.com/news/nvidia-backed-ai-firm-signs-12b-ai-cloud-deal-with-openai) | HackerNews | 👍 7
+- [Perplexity wants to get discounted AI products into the US government too](https://www.theregister.com/2025/09/08/perplexity_us_govt_ai_discount/) | HackerNews | 👍 3
+- [Show HN: I built a list of student developer benefits beyond the GitHub Pack](https://resourify.com) | HackerNews | 👍 1
+- [DeepSeek to Make Permanent 75% Discount on Flagship AI Model](https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model) | HackerNews | 👍 209
+- [Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)](https://wildfire.deals/) | HackerNews | 👍 1
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [After deepfakes go viral, AI image generator Midjourney stops free trials](https://www.theverge.com/2023/3/30/23662940/deepfake-viral-ai-misinformation-midjourney-stops-free-trials) | HackerNews | 👍 17
+- [AI image generator Midjourney stops free trials, influx of new users to blame](https://www.theverge.com/2023/3/30/23662940/deepfake-viral-ai-misinformation-midjourney-stops-free-trials) | HackerNews | 👍 1
+- [Show HN: Free Trial OpenAI Sora2 AI Video Generator – No Invite Code Required](https://aisora2.co) | HackerNews | 👍 2
+- [Midjourney ends free trials of its AI image generator due to extraordinary abuse](https://www.engadget.com/midjourney-ends-free-trials-of-its-ai-image-generator-due-to-extraordinary-abuse-153853905.html) | HackerNews | 👍 2
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Ask HN: Which AI subscription is worth paying for now?](https://news.ycombinator.com/item?id=48572127) | HackerNews | 👍 3
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Show HN: AI Perks – A curated list of free AI credits and deals for developers](https://www.getaiperks.com/en) | HackerNews | 👍 2
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: I built a free AI jigsaw puzzle generator, solve puzzles, earn credits](https://jigsawcat.ai/) | HackerNews | 👍 1
+- [Ask HN: I spent 16 credits on DALL-E and it failed to generate intended image](https://news.ycombinator.com/item?id=35078426) | HackerNews | 👍 4
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [Show HN: Step-by-step guide for creating ChatGPT apps without code](https://firstaiapp.com/) | HackerNews | 👍 1
+- [An LLM-based chatbot promised a 50% discount due to hallucination](https://www.haebom.dev/archive?post=7916x82r8eje124kpyg3) | HackerNews | 👍 2
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [Is Perplexity Dead?](https://news.ycombinator.com/item?id=42019461) | HackerNews | 👍 4
+- [Show HN: I added barcode scanning to my AI pricing app – 92% cheaper per scan](https://underpricedai.com) | HackerNews | 👍 2
+- [Perplexity releases Comet browser for free on Windows and macOS](https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/) | HackerNews | 👍 12
+- [Show HN: GuMCP – Open-source MCP servers, hosted for free](https://github.com/gumloop/guMCP) | HackerNews | 👍 79
+- [Show HN: Open-Source Perplexity Comet and ChatGPT Atlas](https://github.com/copycat-main/browser-assistant) | HackerNews | 👍 4
+- [GitHub Copilot now free for VSCode](https://twitter.com/satyanadella/status/1869445091213095140) | HackerNews | 👍 6
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [Free Copilot offering will be downgraded to GPT 3.5 on "peak times"](https://www.microsoft.com/en-us/store/b/copilotpro) | HackerNews | 👍 5
+- [Emacs extension for free Copilot-like AI autocomplete](https://github.com/Exafunction/codeium.el) | HackerNews | 👍 3
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [Ask HN: Why are self-taught developers deprived of “free for education” tools?](https://news.ycombinator.com/item?id=32205036) | HackerNews | 👍 38
+- [Ask HN: What defines a popular OSS maintainer for free GitHub Copilot?](https://news.ycombinator.com/item?id=34349336) | HackerNews | 👍 4
+- [Show HN: AI agents run my one-person company on Gemini's free tier – $0/month](https://news.ycombinator.com/item?id=47296664) | HackerNews | 👍 16
+- [Show HN: Gemini free tier is all you need](https://juanpabloaj.com/2026/04/30/gemini-free-tier-is-all-you-need/) | HackerNews | 👍 8
+- [Google's Gemini API Free Tier Fiasco: Developers Hit by Silent Rate Limit Purge](https://quasa.io/media/google-s-gemini-api-free-tier-fiasco-developers-hit-by-silent-rate-limit-purge) | HackerNews | 👍 4
+- [You can build you next AI App with Gemini, for free, in less than 90 seconds](https://www.youtube.com/watch?v=r-YSE4Y27Hw) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Ask HN: Is Gemini OpenAI free for everyone?](https://news.ycombinator.com/item?id=42115387) | HackerNews | 👍 2
+- [New Gemini's models Free Tier is not available in the EU](https://ai.google.dev/pricing) | HackerNews | 👍 1
+- [Show HN: Bard PDF – Chat with Pdf in Google Bard or Gemini](https://bardpdf.dev) | HackerNews | 👍 7
+- [GCP Startup Credits Overshot](https://news.ycombinator.com/item?id=47400058) | HackerNews | 👍 2
+- [Ask HN: Has anyone gotten $200K+ GCP credits bootstrapped?](https://news.ycombinator.com/item?id=46246751) | HackerNews | 👍 2
+- [UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+
+## Run: 2026-07-18 22:09:54 IST
+- [ChatGPT Plus trial](https://www.reddit.com/r/ChatGPTPro/comments/1uy0g59/chatgpt_plus_trial/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Perplexity wants to get discounted AI products into the US government too](https://www.theregister.com/2025/09/08/perplexity_us_govt_ai_discount/) | HackerNews | 👍 3
+- [Show HN: I built a list of student developer benefits beyond the GitHub Pack](https://resourify.com) | HackerNews | 👍 1
+- [DeepSeek to Make Permanent 75% Discount on Flagship AI Model](https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model) | HackerNews | 👍 209
+- [Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)](https://wildfire.deals/) | HackerNews | 👍 1
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [Show HN: Free Trial OpenAI Sora2 AI Video Generator – No Invite Code Required](https://aisora2.co) | HackerNews | 👍 2
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Show HN: AI Perks – A curated list of free AI credits and deals for developers](https://www.getaiperks.com/en) | HackerNews | 👍 2
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: I built a free AI jigsaw puzzle generator, solve puzzles, earn credits](https://jigsawcat.ai/) | HackerNews | 👍 1
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [Show HN: Step-by-step guide for creating ChatGPT apps without code](https://firstaiapp.com/) | HackerNews | 👍 1
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [Is Perplexity Dead?](https://news.ycombinator.com/item?id=42019461) | HackerNews | 👍 4
+- [Show HN: I added barcode scanning to my AI pricing app – 92% cheaper per scan](https://underpricedai.com) | HackerNews | 👍 2
+- [Perplexity releases Comet browser for free on Windows and macOS](https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/) | HackerNews | 👍 12
+- [Show HN: GuMCP – Open-source MCP servers, hosted for free](https://github.com/gumloop/guMCP) | HackerNews | 👍 79
+- [Show HN: Open-Source Perplexity Comet and ChatGPT Atlas](https://github.com/copycat-main/browser-assistant) | HackerNews | 👍 4
+- [GitHub Copilot now free for VSCode](https://twitter.com/satyanadella/status/1869445091213095140) | HackerNews | 👍 6
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [Emacs extension for free Copilot-like AI autocomplete](https://github.com/Exafunction/codeium.el) | HackerNews | 👍 3
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [Show HN: AI agents run my one-person company on Gemini's free tier – $0/month](https://news.ycombinator.com/item?id=47296664) | HackerNews | 👍 16
+- [Show HN: Gemini free tier is all you need](https://juanpabloaj.com/2026/04/30/gemini-free-tier-is-all-you-need/) | HackerNews | 👍 8
+- [You can build you next AI App with Gemini, for free, in less than 90 seconds](https://www.youtube.com/watch?v=r-YSE4Y27Hw) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Show HN: Bard PDF – Chat with Pdf in Google Bard or Gemini](https://bardpdf.dev) | HackerNews | 👍 7
+- [UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+
+## Run: 2026-07-18 23:27:17 IST
+- [ChatGPT Plus trial](https://www.reddit.com/r/ChatGPTPro/comments/1uy0g59/chatgpt_plus_trial/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Perplexity wants to get discounted AI products into the US government too](https://www.theregister.com/2025/09/08/perplexity_us_govt_ai_discount/) | HackerNews | 👍 3
+- [Show HN: I built a list of student developer benefits beyond the GitHub Pack](https://resourify.com) | HackerNews | 👍 1
+- [DeepSeek to Make Permanent 75% Discount on Flagship AI Model](https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model) | HackerNews | 👍 209
+- [Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)](https://wildfire.deals/) | HackerNews | 👍 1
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [Show HN: Free Trial OpenAI Sora2 AI Video Generator – No Invite Code Required](https://aisora2.co) | HackerNews | 👍 2
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Show HN: AI Perks – A curated list of free AI credits and deals for developers](https://www.getaiperks.com/en) | HackerNews | 👍 2
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [Is Perplexity Dead?](https://news.ycombinator.com/item?id=42019461) | HackerNews | 👍 4
+- [Perplexity releases Comet browser for free on Windows and macOS](https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/) | HackerNews | 👍 12
+- [GitHub Copilot now free for VSCode](https://twitter.com/satyanadella/status/1869445091213095140) | HackerNews | 👍 6
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [Emacs extension for free Copilot-like AI autocomplete](https://github.com/Exafunction/codeium.el) | HackerNews | 👍 3
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [You can build you next AI App with Gemini, for free, in less than 90 seconds](https://www.youtube.com/watch?v=r-YSE4Y27Hw) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Writesonic - SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [Quillbot Ai - 30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [Descript - UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [Synthesia - CLAIM 34% OFF](https://www.bitdegree.org/ai/synthesia-review) | BitDegree | 👍 0
+- [Otter Ai - 20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [Copy Ai - 20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB TEAM PLAN](https://www.bitdegree.org/ai/github-copilot-review) | BitDegree | 👍 0
+- [Chatgpt - 50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [Perplexity Ai - FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [Jasper - USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [Otter Ai - SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [Chatgpt - CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [Descript - MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+- [Best Ai Tools - FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Best Ai Tools - What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+
+## Run: 2026-07-18 23:39:30 IST
+- [ChatGPT Plus trial](https://www.reddit.com/r/ChatGPTPro/comments/1uy0g59/chatgpt_plus_trial/) | Reddit | 👍 0
+- [Claude on X: "Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. Demand for Fable has been challenging to" / X](https://www.reddit.com/r/singularity/comments/1uzji34/claude_on_x_beginning_july_20_claude_fable_5_will/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Perplexity wants to get discounted AI products into the US government too](https://www.theregister.com/2025/09/08/perplexity_us_govt_ai_discount/) | HackerNews | 👍 3
+- [Show HN: I built a list of student developer benefits beyond the GitHub Pack](https://resourify.com) | HackerNews | 👍 1
+- [DeepSeek to Make Permanent 75% Discount on Flagship AI Model](https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model) | HackerNews | 👍 209
+- [Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)](https://wildfire.deals/) | HackerNews | 👍 1
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [Show HN: Free Trial OpenAI Sora2 AI Video Generator – No Invite Code Required](https://aisora2.co) | HackerNews | 👍 2
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Show HN: AI Perks – A curated list of free AI credits and deals for developers](https://www.getaiperks.com/en) | HackerNews | 👍 2
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [Why ChatGPT is not getting counted in your site's referrals](https://www.rivalsee.com/blog/chatgpt-traffic-miscounting-problem) | HackerNews | 👍 2
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [Is Perplexity Dead?](https://news.ycombinator.com/item?id=42019461) | HackerNews | 👍 4
+- [Perplexity releases Comet browser for free on Windows and macOS](https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/) | HackerNews | 👍 12
+- [GitHub Copilot now free for VSCode](https://twitter.com/satyanadella/status/1869445091213095140) | HackerNews | 👍 6
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [Emacs extension for free Copilot-like AI autocomplete](https://github.com/Exafunction/codeium.el) | HackerNews | 👍 3
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [You can build you next AI App with Gemini, for free, in less than 90 seconds](https://www.youtube.com/watch?v=r-YSE4Y27Hw) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Writesonic - SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [Quillbot Ai - 30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [Descript - UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [Synthesia - CLAIM 34% OFF](https://www.bitdegree.org/ai/synthesia-review) | BitDegree | 👍 0
+- [Otter Ai - 20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [Copy Ai - 20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB TEAM PLAN](https://www.bitdegree.org/ai/github-copilot-review) | BitDegree | 👍 0
+- [Chatgpt - 50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [Perplexity Ai - FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [Jasper - USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [Otter Ai - SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [Chatgpt - CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [Descript - MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+- [Best Ai Tools - FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Best Ai Tools - What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex) | WebSearch | 👍 0
+- [Claude is now available in Brazil \ Anthropic](https://www.anthropic.com/news/claude-brazil) | WebSearch | 👍 0
+- [Project Deal: our Claude-run marketplace experiment | Anthropic \ Anthropic](https://www.anthropic.com/features/project-deal) | WebSearch | 👍 0
+- [Request for Annual and Multi-Year Membership Discounts for ChatGPT Plus - Feature requests - OpenAI Developer Community](https://community.openai.com/t/request-for-annual-and-multi-year-membership-discounts-for-chatgpt-plus/1113752) | WebSearch | 👍 0
+- [ChatGPT Promotional Subscriptions/Free Trial Invites FAQ](https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq) | WebSearch | 👍 0
+- [ChatGPT Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals) | WebSearch | 👍 0
+- [How can I get Free Trial Credits? - API - OpenAI Developer Community](https://community.openai.com/t/how-can-i-get-free-trial-credits/26742) | WebSearch | 👍 0
+- [Unable to Start Free ChatGPT Plus Trial with GoPay (Indonesia) – "Payment was not approved" for More Than a Week - Support - OpenAI Developer Community](https://community.openai.com/t/unable-to-start-free-chatgpt-plus-trial-with-gopay-indonesia-payment-was-not-approved-for-more-than-a-week/1383981) | WebSearch | 👍 0
+- [Demo / trial version - Feedback](https://forum.cursor.com/t/demo-trial-version/162713) | WebSearch | 👍 0
+- [Bug - Verified students get one year of free Cursor Pro - Page 2 - Bug Reports - Cursor - Community Forum](https://forum.cursor.com/t/bug-verified-students-get-one-year-of-free-cursor-pro/87325?page=2) | WebSearch | 👍 0
+- [Student discount | Cursor Docs](https://cursor.com/help/account-and-billing/student-discount) | WebSearch | 👍 0
+- [Think Cursor Pro is $20/month? Nope — it’s $20 per week (or even less, it runs out faster) - Feedback - Cursor - Community Forum](https://forum.cursor.com/t/think-cursor-pro-is-20-month-nope-it-s-20-per-week-or-even-less-it-runs-out-faster/136405) | WebSearch | 👍 0
+- [Free Tier - are free completions and premium requests refilled every month? - Help - Cursor - Community Forum](https://forum.cursor.com/t/free-tier-are-free-completions-and-premium-requests-refilled-every-month/12055) | WebSearch | 👍 0
+- [Partner Promotions and Referral Programs](https://www.perplexity.ai/help-center/en/articles/11385821-partner-promotions-and-referral-programs.html) | WebSearch | 👍 0
+- [Perplexity Pro Perks](https://www.perplexity.ai/properks) | WebSearch | 👍 0
+- [Get Comet with discounted Perplexity Pro. The AI browser built for students.](https://www.perplexity.ai/students) | WebSearch | 👍 0
+- [Perplexity Pro Samsung Galaxy Promo | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11663151-perplexity-pro-samsung-galaxy-promo.html) | WebSearch | 👍 0
+- [Perplexity Pro Airtel Promo | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11842322-perplexity-pro-airtel-promo.html) | WebSearch | 👍 0
+- [Samsung Galaxy + Perplexity Pro: 12 Months Free for U.S. Galaxy Owners](https://www.perplexity.ai/help-center/en/articles/11825615-samsung-galaxy-perplexity-pro-12-months-free-for-u-s-galaxy-owners.html) | WebSearch | 👍 0
+- [{{IW4QaZoc2}}](https://www.perplexity.ai/hub/blog/redeem-a-free-year-of-perplexity-pro-through-xfinity-rewards) | WebSearch | 👍 0
+- [More Value In Every Answer: New Benefits For Every Level of Perplexity User](https://www.perplexity.ai/hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user) | WebSearch | 👍 0
+- [‎Gemini Apps' release updates & improvements](https://gemini.google.com/updates) | WebSearch | 👍 0
+- [GitHub Copilot · Your AI pair programmer](https://github.com/features/copilot) | WebSearch | 👍 0
+- [GitHub Copilot · Plans & pricing](https://github.com/features/copilot/plans) | WebSearch | 👍 0
+- [About individual GitHub Copilot plans and benefits](https://docs.github.com/en/copilot/concepts/billing/individual-plans) | WebSearch | 👍 0
+- [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) | WebSearch | 👍 0
+- [Have you availed Copilot's 30 days free trial but get ...](https://github.com/orgs/community/discussions/160195) | WebSearch | 👍 0
+- [Copilot free trial charged $10 on first day #189411](https://github.com/orgs/community/discussions/189411) | WebSearch | 👍 0
+- [GitHub Student Pack approved but Copilot still stuck on Free and only shows $4 coupon · community · Discussion #193452 · GitHub](https://github.com/orgs/community/discussions/193452) | WebSearch | 👍 0
+- [Free Trials](https://docs.midjourney.com/hc/en-us/articles/27870399340173-Free-Trials) | WebSearch | 👍 0
+- [Plan Information](https://docs.midjourney.com/hc/en-us/sections/28005319720845-Plan-Information) | WebSearch | 👍 0
+- [Billing Support](https://docs.midjourney.com/hc/en-us/categories/16016577793421-Billing-Support) | WebSearch | 👍 0
+- [ElevenLabs Pricing for Creators & Businesses of All Sizes](https://elevenlabs.io/pricing) | WebSearch | 👍 0
+- [ElevenLabs Partners With National Federation of the Blind](https://elevenlabs.io/blog/nfb-elevenlabs) | WebSearch | 👍 0
+- [ElevenReader for Students](https://elevenlabs.io/students) | WebSearch | 👍 0
+- [On a mission to help 1 million people reclaim their voices](https://elevenlabs.io/impact) | WebSearch | 👍 0
+- [Tabnine Promo Codes & Deals 50% Off | June 2026](https://tabnine.generalif.com) | WebSearch | 👍 0
+- [Tabnine Coupons & Discounts Jul 2026](https://simplycodes.com/store/tabnine.com) | WebSearch | 👍 0
+- [For those who want to try Tabnine Pro, here's a coupon ...](https://x.com/drorwe/status/1539294920556613632?lang=en) | WebSearch | 👍 0
+- [Lovable Promo Code: 15% off annual Pro and Business plans - July 2026 | Secret](https://www.joinsecret.com/lovable) | WebSearch | 👍 0
+- [Lovable Promo Code 2026: Student Discount + 1 Year Free – Resourify](https://resourify.com/resources/lovable-pro-offer) | WebSearch | 👍 0
+- [30 Verified Lovable Coupons & Promo Codes Jul 2026](https://lovable.startupworld.com) | WebSearch | 👍 0
+- [Lovable Promo Code [JUNE 2026] – Claim 20% Discount](https://www.demandsage.com/lovable-promo-code) | WebSearch | 👍 0
+- [Lovable Goes Back to School | Lovable](https://lovable.dev/blog/back-to-school-discount) | WebSearch | 👍 0
+- [[FREE] Lovable.dev Pro – 2 Months All-Access Plan ($50 Value) for $0 · AI Automation Society](https://www.skool.com/ai-automation-society/free-lovabledev-pro-2-months-all-access-plan-50-value-for-0) | WebSearch | 👍 0
+- [Lovable Pro - Free for 2 months: PROMO CODE](https://www.reddit.com/r/vibecoding/comments/1ptuq3q/lovable_pro_free_for_2_months_promo_code) | WebSearch | 👍 0
+- [How to Claim Lovable Pro $5 First Month Discount (2026)](https://www.youtube.com/watch?v=qa6Zg8v-kg4) | WebSearch | 👍 0
+- [Here's How To Get Lovable Pro For 100% FREE! (Working Method)](https://www.youtube.com/watch?v=tQg-B3SrIp8) | WebSearch | 👍 0
+- [Get Free Pro plan - Up to 12 months from Bolt.new | BEAMSTART Deals & Perks](https://beamstart.com/deal/free-pro-plan-12-months) | WebSearch | 👍 0
+- [Bolt.new Free Tokens (1M) + 20% Off for 3 Months w](https://resourify.com/resources/bolt-new) | WebSearch | 👍 0
+- [Bolt.new Promo Codes - 50% Off w/Code Coupons Jul 2026](https://simplycodes.com/store/bolt.new) | WebSearch | 👍 0
+- [Bolt.new promo code: 25% off on "Pro" and "Teams" plan](https://www.freelance-stack.io/en/deals/bolt-new-discount-promo-code) | WebSearch | 👍 0
+- [bolt.new Promo Code - JoinSecret](https://www.joinsecret.com/bolt-new) | WebSearch | 👍 0
+- [How to Redeem Bolt.new Coupon Code (2026)](https://www.youtube.com/watch?v=6ln_b0qPa5I&vl=en) | WebSearch | 👍 0
+
+## Run: 2026-07-18 23:47:59 IST
+- [ChatGPT Plus trial](https://www.reddit.com/r/ChatGPTPro/comments/1uy0g59/chatgpt_plus_trial/) | Reddit | 👍 0
+- [GitHub cuts AI deals with Google, Anthropic](https://www.bloomberg.com/news/articles/2024-10-29/microsoft-s-github-unit-cuts-ai-deals-with-google-anthropic) | HackerNews | 👍 897
+- [Perplexity wants to get discounted AI products into the US government too](https://www.theregister.com/2025/09/08/perplexity_us_govt_ai_discount/) | HackerNews | 👍 3
+- [Show HN: I built a list of student developer benefits beyond the GitHub Pack](https://resourify.com) | HackerNews | 👍 1
+- [DeepSeek to Make Permanent 75% Discount on Flagship AI Model](https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model) | HackerNews | 👍 209
+- [Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)](https://wildfire.deals/) | HackerNews | 👍 1
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [Show HN: Free Trial OpenAI Sora2 AI Video Generator – No Invite Code Required](https://aisora2.co) | HackerNews | 👍 2
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Show HN: AI Perks – A curated list of free AI credits and deals for developers](https://www.getaiperks.com/en) | HackerNews | 👍 2
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [Why ChatGPT is not getting counted in your site's referrals](https://www.rivalsee.com/blog/chatgpt-traffic-miscounting-problem) | HackerNews | 👍 2
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [Perplexity releases Comet browser for free on Windows and macOS](https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/) | HackerNews | 👍 12
+- [GitHub Copilot now free for VSCode](https://twitter.com/satyanadella/status/1869445091213095140) | HackerNews | 👍 6
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [Emacs extension for free Copilot-like AI autocomplete](https://github.com/Exafunction/codeium.el) | HackerNews | 👍 3
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [You can build you next AI App with Gemini, for free, in less than 90 seconds](https://www.youtube.com/watch?v=r-YSE4Y27Hw) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Writesonic - SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [Quillbot Ai - 30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [Descript - UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [Synthesia - CLAIM 34% OFF](https://www.bitdegree.org/ai/synthesia-review) | BitDegree | 👍 0
+- [Otter Ai - 20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [Copy Ai - 20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB TEAM PLAN](https://www.bitdegree.org/ai/github-copilot-review) | BitDegree | 👍 0
+- [Chatgpt - 50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [Perplexity Ai - FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [Jasper - USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [Otter Ai - SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB EDUCATION](https://www.bitdegree.org/ai/goon/github-copilot) | BitDegree | 👍 0
+- [Chatgpt - CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [Descript - MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+- [Best Ai Tools - FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Perplexity Pro Perks](https://www.perplexity.ai/properks) | WebSearch | 👍 0
+- [Get Comet with discounted Perplexity Pro. The AI browser built for students.](https://www.perplexity.ai/students) | WebSearch | 👍 0
+- [Perplexity Pro Samsung Galaxy Promo | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11663151-perplexity-pro-samsung-galaxy-promo.html) | WebSearch | 👍 0
+- [Perplexity Pro Airtel Promo | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11842322-perplexity-pro-airtel-promo.html) | WebSearch | 👍 0
+- [Samsung Galaxy + Perplexity Pro: 12 Months Free for U.S. Galaxy Owners](https://www.perplexity.ai/help-center/en/articles/11825615-samsung-galaxy-perplexity-pro-12-months-free-for-u-s-galaxy-owners.html) | WebSearch | 👍 0
+- [More Value In Every Answer: New Benefits For Every Level of Perplexity User](https://www.perplexity.ai/hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user) | WebSearch | 👍 0
+- [GitHub Copilot · Plans & pricing](https://github.com/features/copilot/plans) | WebSearch | 👍 0
+- [About individual GitHub Copilot plans and benefits](https://docs.github.com/en/copilot/concepts/billing/individual-plans) | WebSearch | 👍 0
+- [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) | WebSearch | 👍 0
+- [Free Trials](https://docs.midjourney.com/hc/en-us/articles/27870399340173-Free-Trials) | WebSearch | 👍 0
+- [ElevenLabs — AI Student Pack](https://elevenlabs.io/blog/ai-student-pack) | WebSearch | 👍 0
+- [ElevenLabs Pricing for Creators & Businesses of All Sizes](https://elevenlabs.io/pricing) | WebSearch | 👍 0
+- [ElevenReader for Students](https://elevenlabs.io/students) | WebSearch | 👍 0
+- [Introducing Mistral Code | Mistral AI](https://mistral.ai/news/mistral-code) | WebSearch | 👍 0
+- [Mistral AI Student Discounts | AI Student Discount](https://aistudentdiscount.com/providers/mistral-ai) | WebSearch | 👍 0
+- [Mistral AI Free Credits 2026: Le Chat, Devstral, Codestral Guide | Get AI Perks](https://www.getaiperks.com/en/ai/mistral-ai-free-credits-2026) | WebSearch | 👍 0
+- [Stories Promotional Conditions | Mistral® | People of the Oceans](https://www.mistral.com/promotional-conditions) | WebSearch | 👍 0
+- [Mistral AI Free Tier 2026 — Free Models, Credits & Limits](https://pricepertoken.com/endpoints/mistral/free) | WebSearch | 👍 0
+- [Mistral AI Pricing in 2026: Pro Costs, Free Tier Limits, and ...](https://www.grizzlypeaksoftware.com/articles/p/mistral-ai-pricing-in-2026-pro-costs-free-tier-limits-and-api-rates-lx4o2n2v) | WebSearch | 👍 0
+- [100% Off Suno Promo Code - Jul. 2026 Verified Coupon](https://www.mightydeals.com/store/suno.com) | WebSearch | 👍 0
+- [PSA: Suno Premier Discount, How it Worked for Me](https://www.reddit.com/r/SunoAI/comments/1nusyp4/psa_suno_premier_discount_how_it_worked_for_me) | WebSearch | 👍 0
+- [Suno Black Friday Deals 2025: 40% Off Pro and Premier Plans](https://suno.com/hub/suno-black-friday-deals-2025) | WebSearch | 👍 0
+- [20% Udio Coupon (2026) + 10 Free Generations Credits](https://affiliateweapons.com/affiliate-tools/udio) | WebSearch | 👍 0
+- [Obtaining a student discount on your subscription | Udio Help Center](https://help.udio.com/en/articles/10739207-obtaining-a-student-discount-on-your-subscription) | WebSearch | 👍 0
+- [The subscription trial | Udio Help Center](https://help.udio.com/en/articles/13338649-the-subscription-trial) | WebSearch | 👍 0
+- [Top AI Promo Songs - Best Playlists on Udio](https://www.udio.com/tags/Promo) | WebSearch | 👍 0
+- [123 Verified Runway Coupons - 30% Off | Jun 2026](https://runway.vectortemplates.com) | WebSearch | 👍 0
+- [Free month subscription : r/RentTheRunway](https://www.reddit.com/r/RentTheRunway/comments/1k291ca/free_month_subscription) | WebSearch | 👍 0
+- [Rent the Runway promo codes for July 2026 - Coupons](https://www.marieclaire.com/coupons/renttherunway.com) | WebSearch | 👍 0
+- [Promotions | Promo Codes, Discounts & Deals | Rent the Runway](https://www.renttherunway.com/content-pages/rtr-promo) | WebSearch | 👍 0
+
+## Run: 2026-07-19 00:53:47 IST
+- [ChatGPT Plus trial](https://www.reddit.com/r/ChatGPTPro/comments/1uy0g59/chatgpt_plus_trial/) | Reddit | 👍 0
+- [I have chatgpt 5X pro plan, but no pro model](https://www.reddit.com/r/ChatGPTPro/comments/1uw0u44/i_have_chatgpt_5x_pro_plan_but_no_pro_model/) | Reddit | 👍 0
+- [5.6 sol pro. I feel like I got robbed buying credits.](https://www.reddit.com/r/ChatGPT/comments/1v044n7/56_sol_pro_i_feel_like_i_got_robbed_buying_credits/) | Reddit | 👍 0
+- [Perplexity wants to get discounted AI products into the US government too](https://www.theregister.com/2025/09/08/perplexity_us_govt_ai_discount/) | HackerNews | 👍 3
+- [Show HN: I built a list of student developer benefits beyond the GitHub Pack](https://resourify.com) | HackerNews | 👍 1
+- [DeepSeek to Make Permanent 75% Discount on Flagship AI Model](https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model) | HackerNews | 👍 209
+- [Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)](https://wildfire.deals/) | HackerNews | 👍 1
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [Show HN: Free Trial OpenAI Sora2 AI Video Generator – No Invite Code Required](https://aisora2.co) | HackerNews | 👍 2
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Show HN: AI Perks – A curated list of free AI credits and deals for developers](https://www.getaiperks.com/en) | HackerNews | 👍 2
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [2026 Methods for Free Compute and AI Credits](https://www.dropbox.com/scl/fi/bvi5v0i94ifnk3mfstewq/SAIRC-Free-Compute.pdf?dl=0&e=1&noscript=1&rlkey=854auw5xt7l0jknei6q9hxusa&st=pfq6hgc1) | HackerNews | 👍 3
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [Why ChatGPT is not getting counted in your site's referrals](https://www.rivalsee.com/blog/chatgpt-traffic-miscounting-problem) | HackerNews | 👍 2
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [Early Access to Perplexity's Comet Browser with Free Pro for PayPal/Venmo Users](https://newsroom.paypal-corp.com/2025-09-03-Skip-the-Waitlist-PayPal-and-Venmo-Users-Offered-Early-Access-to-Perplexitys-New-Comet-Browser-with-Free-Perplexity-Pro-Subscription) | HackerNews | 👍 2
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [Perplexity releases Comet browser for free on Windows and macOS](https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/) | HackerNews | 👍 12
+- [GitHub Copilot free plan stopped working – rate limit exceeded](https://github.com/orgs/community/discussions/43673) | HackerNews | 👍 54
+- [GitHub Copilot Free Plan](https://github.com/features/copilot/plans) | HackerNews | 👍 7
+- [GitHub Copilot now free for VSCode](https://twitter.com/satyanadella/status/1869445091213095140) | HackerNews | 👍 6
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [Emacs extension for free Copilot-like AI autocomplete](https://github.com/Exafunction/codeium.el) | HackerNews | 👍 3
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [You can build you next AI App with Gemini, for free, in less than 90 seconds](https://www.youtube.com/watch?v=r-YSE4Y27Hw) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Show HN: I built a directory of $1M+ in free credits for startups](https://startupperks.directory) | HackerNews | 👍 5
+- [Writesonic - SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [Quillbot Ai - 30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [Descript - UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [Synthesia - CLAIM 34% OFF](https://www.bitdegree.org/ai/synthesia-review) | BitDegree | 👍 0
+- [Otter Ai - 20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [Copy Ai - 20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB TEAM PLAN](https://www.bitdegree.org/ai/github-copilot-review) | BitDegree | 👍 0
+- [Chatgpt - 50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [Perplexity Ai - FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [Jasper - USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [Otter Ai - SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB EDUCATION](https://www.bitdegree.org/ai/goon/github-copilot) | BitDegree | 👍 0
+- [Chatgpt - CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [Descript - MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+- [Best Ai Tools - FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [AI Student Pack](https://elevenlabs.io/blog/ai-student-pack) | WebSearch | 👍 0
+- [ElevenLabs Pricing for Creators & Businesses of All Sizes](https://elevenlabs.io/pricing) | WebSearch | 👍 0
+- [ElevenLabs Partners With National Federation of the Blind](https://elevenlabs.io/blog/nfb-elevenlabs) | WebSearch | 👍 0
+- [Why did I not get the first-month off coupon? – ElevenLabs](https://help.elevenlabs.io/hc/en-us/articles/23196176493201-Why-did-I-not-get-the-first-month-off-coupon) | WebSearch | 👍 0
+- [ElevenReader for Students](https://elevenlabs.io/students) | WebSearch | 👍 0
+- [Billing | ElevenLabs Documentation](https://elevenlabs.io/docs/overview/administration/billing) | WebSearch | 👍 0
+- [I'm a student or a teacher. Am I eligible for a discount? | Mistral ...](https://help.mistral.ai/en/articles/698530-i-m-a-student-or-a-teacher-am-i-eligible-for-a-discount) | WebSearch | 👍 0
+- [Introducing Mistral Code | Mistral AI](https://mistral.ai/news/mistral-code) | WebSearch | 👍 0
+- [Suno Black Friday Deals 2026: 40% Off Pro and Premier ...](https://suno.com/hub/suno-black-friday-deals-2025) | WebSearch | 👍 0
+- [Suno | Pricing](https://suno.com/pricing) | WebSearch | 👍 0
+- [Moneyview Promo Code: C6GOPHRW | Join me on Suno](https://suno.com/@moneyview) | WebSearch | 👍 0
+- [If I subscribe, do I get rights for the songs I made before ...](https://help.suno.com/en/articles/2425729) | WebSearch | 👍 0
+- [Pay For A Free Trial by Oaersdt Raenoer](https://suno.com/song/7ff1d975-4818-410e-a093-c009c3312ebb) | WebSearch | 👍 0
+- [Suno credit by Adios Adam Wereszczyński](https://suno.com/song/422a9dcc-b1ef-4e09-9be9-8f4e5317456a) | WebSearch | 👍 0
+- [Runway for Education | 25% off for students and educators](https://runwayml.com/educators) | WebSearch | 👍 0
+- [Runway | Building Real-World Intelligence](https://runwayml.com) | WebSearch | 👍 0
+- [Standard plan details](https://help.runwayml.com/hc/en-us/articles/49191105352339-Standard-plan-details) | WebSearch | 👍 0
+- [Replit for Students — No more busywork. Only brilliant work.](https://replit.com/edu/students) | WebSearch | 👍 0
+- [Gift Replit | International Women's Day](https://replit.com/womensday) | WebSearch | 👍 0
+- [Replit Agent is free on May 2nd](https://replit.com/birthday) | WebSearch | 👍 0
+- [Replit for Startups — Up to $25K in Credits](https://replit.com/startups) | WebSearch | 👍 0
+- [Starter Plan](https://docs.replit.com/billing/plans/starter-plan) | WebSearch | 👍 0
+- [One workspace. Every startup tool.](https://www.notion.so/startups) | WebSearch | 👍 0
+- [May 19, 2020 – Notion 2.8, now free for personal use 🤘](https://www.notion.so/releases/2020-05-19) | WebSearch | 👍 0
+- [Notion Pricing Plans: Free, Plus, Business, & Enterprise.](https://www.notion.so/pricing) | WebSearch | 👍 0
+- [🎒GitHub Student Developers, apply for Notion's free ...](https://www.notion.so/githubstudentpack) | WebSearch | 👍 0
+- [Pika Coupon Code 2026 - Better Alternative | Krater](https://krater.ai/coupon/pika) | WebSearch | 👍 0
+- [HeyGen Coupon Code 2026 - Get 60% OFF On All Plans](https://www.bloggingspark.com/heygen-coupon-code) | WebSearch | 👍 0
+- [20% HeyGen Promo Code + $100 Off AI Generators (Tested)](https://techjury.net/ai-coupons/heygen) | WebSearch | 👍 0
+- [22% Off HeyGen Coupons And Discount Codes | July 2026](https://shipthedeal.com/store/heygen-coupon) | WebSearch | 👍 0
+- [Synthesia 50% Off Coupon (Jul 2026 · 98% Working)](https://www.colormango.com/product/synthesia_153650.html) | WebSearch | 👍 0
+- [25% Off Synthesia Promo Code + 15% Off Subscriptions](https://techjury.net/ai-coupons/synthesia) | WebSearch | 👍 0
+- [Synthesia promo code: 25% off annual plans - 2026](https://www.founderpass.com/partners/synthesia) | WebSearch | 👍 0
+- [Synthesia Promo Codes & Deals - 60% Off - WorthEPenny](https://synthesia.worthepenny.com/coupon) | WebSearch | 👍 0
+- [Synthesia Pricing in 2026: Plans, Costs, and Alternatives](https://www.arcade.software/post/synthesia-pricing) | WebSearch | 👍 0
+- [20% Off Descript Promo Code + 4 More Verified Offers](https://techjury.net/ai-coupons/descript) | WebSearch | 👍 0
+- [Descript coupon code 40% | Verified 14 Coupons | July 2026](https://descript.namobot.com/coupon-codes) | WebSearch | 👍 0
+- [Claim Your Descript Promo Code for Exclusive Discounts | July 2026](https://www.bitdegree.org/ai/deals/descript-promo-code) | WebSearch | 👍 0
+- [126 Verified Descript Coupons - 35% Off | Jul 2026](https://descript.vectortemplates.com) | WebSearch | 👍 0
+- [Descript Startup Discount – 50% Off Annual Plans](https://xraise.ai/blog/promo-code-discount-descript) | WebSearch | 👍 0
+
+## Run: 2026-07-19 00:58:44 IST
+- [ChatGPT Plus trial](https://www.reddit.com/r/ChatGPTPro/comments/1uy0g59/chatgpt_plus_trial/) | Reddit | 👍 0
+- [I have chatgpt 5X pro plan, but no pro model](https://www.reddit.com/r/ChatGPTPro/comments/1uw0u44/i_have_chatgpt_5x_pro_plan_but_no_pro_model/) | Reddit | 👍 0
+- [Perplexity wants to get discounted AI products into the US government too](https://www.theregister.com/2025/09/08/perplexity_us_govt_ai_discount/) | HackerNews | 👍 3
+- [Show HN: I built a list of student developer benefits beyond the GitHub Pack](https://resourify.com) | HackerNews | 👍 1
+- [DeepSeek to Make Permanent 75% Discount on Flagship AI Model](https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model) | HackerNews | 👍 209
+- [Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)](https://wildfire.deals/) | HackerNews | 👍 1
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [Show HN: Free Trial OpenAI Sora2 AI Video Generator – No Invite Code Required](https://aisora2.co) | HackerNews | 👍 2
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Show HN: AI Perks – A curated list of free AI credits and deals for developers](https://www.getaiperks.com/en) | HackerNews | 👍 2
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [2026 Methods for Free Compute and AI Credits](https://www.dropbox.com/scl/fi/bvi5v0i94ifnk3mfstewq/SAIRC-Free-Compute.pdf?dl=0&e=1&noscript=1&rlkey=854auw5xt7l0jknei6q9hxusa&st=pfq6hgc1) | HackerNews | 👍 3
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [Early Access to Perplexity's Comet Browser with Free Pro for PayPal/Venmo Users](https://newsroom.paypal-corp.com/2025-09-03-Skip-the-Waitlist-PayPal-and-Venmo-Users-Offered-Early-Access-to-Perplexitys-New-Comet-Browser-with-Free-Perplexity-Pro-Subscription) | HackerNews | 👍 2
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [Perplexity releases Comet browser for free on Windows and macOS](https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/) | HackerNews | 👍 12
+- [GitHub Copilot free plan stopped working – rate limit exceeded](https://github.com/orgs/community/discussions/43673) | HackerNews | 👍 54
+- [GitHub Copilot Free Plan](https://github.com/features/copilot/plans) | HackerNews | 👍 7
+- [GitHub Copilot now free for VSCode](https://twitter.com/satyanadella/status/1869445091213095140) | HackerNews | 👍 6
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [Emacs extension for free Copilot-like AI autocomplete](https://github.com/Exafunction/codeium.el) | HackerNews | 👍 3
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [You can build you next AI App with Gemini, for free, in less than 90 seconds](https://www.youtube.com/watch?v=r-YSE4Y27Hw) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Show HN: I built a directory of $1M+ in free credits for startups](https://startupperks.directory) | HackerNews | 👍 5
+- [Writesonic - SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [Quillbot Ai - 30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [Descript - UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [Elevenlabs - 50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
+- [Synthesia - CLAIM 34% OFF](https://www.bitdegree.org/ai/synthesia-review) | BitDegree | 👍 0
+- [Otter Ai - 20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [Midjourney - GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
+- [Copy Ai - 20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB TEAM PLAN](https://www.bitdegree.org/ai/github-copilot-review) | BitDegree | 👍 0
+- [Chatgpt - 50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [Perplexity Ai - FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [Jasper - USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [Otter Ai - SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB EDUCATION](https://www.bitdegree.org/ai/goon/github-copilot) | BitDegree | 👍 0
+- [Chatgpt - CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [Descript - MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+- [Best Ai Tools - FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Best Ai Tools - What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Grammarly Prices and Plans](https://www.grammarly.com/plans) | WebSearch | 👍 0
+- [Start a Free Trial](https://www.grammarly.com/upgrade/business/try) | WebSearch | 👍 0
+- [Does Grammarly offer a trial?](https://support.grammarly.com/hc/en-us/articles/360033548272-Does-Grammarly-offer-a-trial) | WebSearch | 👍 0
+- [Grammarly Pro: The Best Plan for Individuals & Teams](https://www.grammarly.com/pro) | WebSearch | 👍 0
+- [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex) | WebSearch | 👍 0
+- [Plans & Pricing | Claude by Anthropic](https://www.anthropic.com/team) | WebSearch | 👍 0
+- [Request for Annual and Multi-Year Membership Discounts ...](https://community.openai.com/t/request-for-annual-and-multi-year-membership-discounts-for-chatgpt-plus/1113752) | WebSearch | 👍 0
+- [ChatGPT Promotional Subscriptions/Free Trial Invites FAQ](https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq) | WebSearch | 👍 0
+- [ChatGPT Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals) | WebSearch | 👍 0
+- [Demo / trial version - Feedback](https://forum.cursor.com/t/demo-trial-version/162713) | WebSearch | 👍 0
+- [Student discount | Cursor Docs](https://cursor.com/help/account-and-billing/student-discount) | WebSearch | 👍 0
+- [are free completions and premium requests refilled every ...](https://forum.cursor.com/t/free-tier-are-free-completions-and-premium-requests-refilled-every-month/12055) | WebSearch | 👍 0
+- [Perplexity Pro Perks](https://www.perplexity.ai/properks) | WebSearch | 👍 0
+- [Get Comet with discounted Perplexity Pro. The AI browser built for students.](https://www.perplexity.ai/students) | WebSearch | 👍 0
+- [Perplexity Pro Samsung Galaxy Promo](https://www.perplexity.ai/help-center/en/articles/11663151-perplexity-pro-samsung-galaxy-promo.html) | WebSearch | 👍 0
+- [Perplexity Pro Airtel Promo | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11842322-perplexity-pro-airtel-promo.html) | WebSearch | 👍 0
+- [Samsung Galaxy + Perplexity Pro: 12 Months Free for U.S. ...](https://www.perplexity.ai/help-center/en/articles/11825615-samsung-galaxy-perplexity-pro-12-months-free-for-u-s-galaxy-owners.html) | WebSearch | 👍 0
+- [New Benefits For Every Level of Perplexity User](https://www.perplexity.ai/hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user) | WebSearch | 👍 0
+- [Redeem a free year of Perplexity Pro through Xfinity Rewards](https://www.perplexity.ai/hub/blog/redeem-a-free-year-of-perplexity-pro-through-xfinity-rewards) | WebSearch | 👍 0
+- [Perplexity for Startups](https://www.perplexity.ai/startups) | WebSearch | 👍 0
+- [GitHub Copilot · Plans & pricing](https://github.com/features/copilot/plans) | WebSearch | 👍 0
+- [About individual GitHub Copilot plans and benefits](https://docs.github.com/en/copilot/concepts/billing/individual-plans) | WebSearch | 👍 0
+- [Introducing GitHub Copilot Free #147189](https://github.com/orgs/community/discussions/147189) | WebSearch | 👍 0
+- [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) | WebSearch | 👍 0
+- [Copilot Pro coupon showing $10 instead of free (Student Pack) · community · Discussion #172580 · GitHub](https://github.com/orgs/community/discussions/172580) | WebSearch | 👍 0
+- [Free Trials](https://docs.midjourney.com/hc/en-us/articles/27870399340173-Free-Trials) | WebSearch | 👍 0
+- [152 Verified Replit Coupons - 28% Off | Jul 2026](https://replit.vectortemplates.com) | WebSearch | 👍 0
+- [Replit is giving free Replit Core subscription for a month. ...](https://www.reddit.com/r/vibecoding/comments/1rbmuid/replit_is_giving_free_replit_core_subscription) | WebSearch | 👍 0
+- [Replit for Students — No more busywork. Only brilliant work.](https://replit.com/edu/students) | WebSearch | 👍 0
+- [Gift Replit | International Women's Day](https://replit.com/womensday) | WebSearch | 👍 0
+- [Codeium (2026): Free Trial, Real Pricing & Honest Review | Comparateur-IA](https://comparateur-ia.com/en/ai-tools/codeium) | WebSearch | 👍 0
+- [Coupon for Codeium - Subra #45](https://www.subra.app/g/coupon-codeium-45) | WebSearch | 👍 0
+- [Code Library - Tabnine](https://www.tabnine.com/code-library) | WebSearch | 👍 0
+- [20% Off Lovable.dev Coupons - July 2026 Promos & Discount Codes](https://www.couponchief.com/lovable.dev) | WebSearch | 👍 0
+- [r/vibecoding - Lovable Pro - Free for 2 months: PROMO CODE](https://www.reddit.com/r/vibecoding/comments/1ptuq3q/lovable_pro_free_for_2_months_promo_code) | WebSearch | 👍 0
+- [Lovable Goes Back to School](https://lovable.dev/blog/back-to-school-discount) | WebSearch | 👍 0
+- [Free 3 Months Lovable.dev Pro Subscription @ Lovable](https://www.ozbargain.com.au/node/942425) | WebSearch | 👍 0
 

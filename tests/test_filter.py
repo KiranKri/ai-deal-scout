@@ -3,6 +3,8 @@
 import os
 import sys
 
+from unittest.mock import patch
+
 import pytest
 
 # Allow importing from src/ without installing the package.
@@ -41,8 +43,12 @@ def test_score_deal_tool_keyword_scores_5():
 
 def test_score_deal_deal_and_tool_keywords_combine():
     """A DEAL_KEYWORD and a TOOL_KEYWORD should sum correctly."""
-    # "deal"(DEAL +15) + "claude"(TOOL +5) = 20
-    assert f.score_deal("claude deal") == 20
+    # "deal"(DEAL +15) + "claude"(TOOL +5) + "claude deal"(BOOSTED +20) = 40.
+    # Assert the relationship, not a magic total, so config growth cannot
+    # break this test again.
+    both = f.score_deal("claude deal")
+    assert both > f.score_deal("claude")      # deal intent adds signal
+    assert both > f.score_deal("deal")        # tool name adds signal
 
 
 def test_score_deal_multiple_keywords():
@@ -60,9 +66,10 @@ def test_score_deal_keyword_case_insensitive():
 
 def test_score_deal_keyword_in_body():
     """Keywords found only in body should still contribute."""
-    # "free trial" is a DEAL_KEYWORD → +15
+    # "free trial" and "trial" are both DEAL_KEYWORDS → body-only match scores
     score = f.score_deal("Nothing special here", "Get your free trial today")
-    assert score == 15
+    assert score >= 15
+    assert f.score_deal("Nothing special here", "") == 0
 
 
 def test_score_deal_keyword_each_counted_once():
@@ -186,8 +193,13 @@ def test_is_relevant_true_above_min_upvotes():
 
 def test_is_relevant_false_below_min_upvotes():
     """Upvotes below MIN_UPVOTES should make the deal irrelevant."""
-    # "chatgpt"(TOOL +5) + "promo"(DEAL +15) + "deal"(DEAL +15) = 35
-    assert f.is_relevant("chatgpt promo deal", upvotes=MIN_UPVOTES - 1) is False
+    # MIN_UPVOTES is 0 in recall mode, which disables this gate entirely.
+    # Patch a real threshold so the gate logic is still covered.
+    # When enabled, zero-upvote posts also fail (no unknown-vote bypass).
+    with patch.object(f, "MIN_UPVOTES", 10):
+        assert f.is_relevant("chatgpt promo deal", upvotes=0) is False
+        assert f.is_relevant("chatgpt promo deal", upvotes=9) is False
+        assert f.is_relevant("chatgpt promo deal", upvotes=10) is True
 
 
 def test_is_relevant_false_zero_score_regardless_of_upvotes():
@@ -220,8 +232,11 @@ def test_score_deal_multiple_keywords_sum_correctly():
 
 def test_score_deal_combines_title_and_body():
     """Keywords split across title and body should be summed correctly."""
-    # body contributes "promo"(DEAL +15) + "discount"(DEAL +15) = 30
-    assert f.score_deal("New AI tool", "Running a promo and discount this week") == 30
+    # body contributes promo + discount; title contributes the "ai tool" TOOL
+    # keyword. Assert composition rather than a fixed total.
+    combined = f.score_deal("New AI tool", "Running a promo and discount this week")
+    assert combined > f.score_deal("New AI tool", "")
+    assert combined > f.score_deal("", "Running a promo and discount this week")
 
 
 def test_score_deal_with_emoji_and_special_characters():
@@ -240,7 +255,11 @@ def test_is_relevant_negative_upvotes():
 
 def test_is_relevant_upvote_exact_boundary():
     """upvotes=MIN_UPVOTES-1 must fail; upvotes=MIN_UPVOTES must pass."""
-    # "chatgpt"(TOOL +5) + "deal"(DEAL +15) + "promo"(DEAL +15) = 35
     title = "chatgpt deal promo"
-    assert f.is_relevant(title, upvotes=MIN_UPVOTES - 1) is False
-    assert f.is_relevant(title, upvotes=MIN_UPVOTES) is True
+    with patch.object(f, "MIN_UPVOTES", 10):
+        assert f.is_relevant(title, upvotes=0) is False
+        assert f.is_relevant(title, upvotes=9) is False
+        assert f.is_relevant(title, upvotes=10) is True
+    # And with the gate disabled (current setting) low upvotes must pass.
+    with patch.object(f, "MIN_UPVOTES", 0):
+        assert f.is_relevant(title, upvotes=1) is True

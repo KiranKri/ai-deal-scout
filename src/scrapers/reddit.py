@@ -14,6 +14,10 @@ from config import REDDIT_RSS_FEEDS, SCRAPER_SLEEP_SECONDS
 
 logger = logging.getLogger(__name__)
 
+# Reddit aggressively 429s feedparser's default User-Agent on RSS endpoints;
+# identify ourselves explicitly.
+_USER_AGENT = "ai-deal-scout/1.0 (+https://github.com/KiranKri/ai-deal-scout)"
+
 
 def fetch_reddit_deals() -> list[dict[str, Any]]:
     """Fetch deal posts from all configured Reddit RSS feeds.
@@ -33,11 +37,14 @@ def fetch_reddit_deals() -> list[dict[str, Any]]:
     for feed_url in REDDIT_RSS_FEEDS:
         try:
             logger.debug("Fetching Reddit feed: %s", feed_url)
-            feed = feedparser.parse(feed_url)
+            feed = feedparser.parse(feed_url, agent=_USER_AGENT)
 
-            if feed.bozo:
+            # bozo is a warning, not a verdict: feedparser sets it for
+            # recoverable issues while still populating entries.  Only skip
+            # when there is also nothing usable.
+            if feed.bozo and not feed.entries:
                 logger.warning(
-                    "Reddit feed parse warning (bozo) for %s: %s",
+                    "Reddit feed unusable (bozo, 0 entries) for %s: %s",
                     feed_url,
                     feed.get("bozo_exception", "unknown error"),
                 )

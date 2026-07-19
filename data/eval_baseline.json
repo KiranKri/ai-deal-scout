@@ -1,0 +1,12 @@
+{
+  "total": 725,
+  "positives": 46,
+  "negatives": 679,
+  "tp": 45,
+  "fp": 1,
+  "tn": 678,
+  "fn": 1,
+  "precision": 0.9783,
+  "recall": 0.9783,
+  "f1": 0.9783
+}

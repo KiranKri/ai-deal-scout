@@ -89,9 +89,13 @@ def is_seen(url: str, title: str) -> bool:
     """
     store = _load()
     hashes = store.get("hashes", {})
-    url_hash = _hash_url(url)
-    title_hash = _hash_title(title)
-    seen = url_hash in hashes or title_hash in hashes
+    # Empty strings are never hashed: hash("") is identical for URL and
+    # title, so one empty-titled deal would alias every later one.
+    url_norm = url.strip()
+    title_norm = title.strip()
+    seen = (bool(url_norm) and _hash_url(url) in hashes) or (
+        bool(title_norm) and _hash_title(title) in hashes
+    )
     logger.debug("is_seen=%s for url=%r", seen, url)
     return seen
 
@@ -108,8 +112,10 @@ def mark_seen(url: str, title: str) -> None:
     """
     store = _load()
     now = _now_ist_iso()
-    store["hashes"][_hash_url(url)] = now
-    store["hashes"][_hash_title(title)] = now
+    if url.strip():
+        store["hashes"][_hash_url(url)] = now
+    if title.strip():
+        store["hashes"][_hash_title(title)] = now
     store["last_updated"] = now
     save(store)
     logger.debug("Marked seen: url=%r title=%r", url, title)

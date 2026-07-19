@@ -6,6 +6,18 @@ from unittest.mock import patch, MagicMock
 import bot.subscribers as subscribers
 
 
+@pytest.fixture(autouse=True)
+def _force_github_backend(monkeypatch):
+    """These tests exercise the GitHub backend explicitly.
+
+    subscribers.py falls back to a local file when GH_REPO_DATA/GH_PAT are
+    unset, so without this the mocked HTTP calls are never made.
+    """
+    monkeypatch.setattr(subscribers, "GH_REPO_DATA", "owner/data-repo")
+    monkeypatch.setattr(subscribers, "GH_PAT", "fake-pat")
+
+
+
 def _encode(data: dict) -> str:
     return base64.b64encode(json.dumps(data).encode()).decode()
 
