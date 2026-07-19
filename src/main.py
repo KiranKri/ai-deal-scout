@@ -50,8 +50,64 @@ _IST = ZoneInfo("Asia/Kolkata")
 from alerts import alert_admin as _alert_admin  # noqa: E402
 
 
-def main() -> None:
+def _print_deals(deals: list[dict], limit: int = 0) -> None:
+    """Print deals to the terminal, grouped by source, for local review.
+
+    The Telegram message is the product; this is the inspection view.  Grouping
+    by source makes it obvious which scraper is contributing noise.
+    """
+    if not deals:
+        print("\n  No new deals.\n")
+        return
+
+    shown = deals[:limit] if limit else deals
+    by_source: dict[str, list[dict]] = {}
+    for deal in shown:
+        by_source.setdefault(deal.get("source", "?"), []).append(deal)
+
+    print(f"\n  {len(shown)} deal(s)"
+          + (f" (of {len(deals)}, --limit {limit})" if limit else "") + "\n")
+    for source in sorted(by_source, key=lambda s: -len(by_source[s])):
+        items = by_source[source]
+        print(f"  {source}  ({len(items)})")
+        for deal in items:
+            votes = deal.get("upvotes", 0)
+            suffix = f"  [{votes} pts]" if votes else ""
+            print(f"    - {deal.get('title', '')[:96]}{suffix}")
+            print(f"      {deal.get('url', '')[:110]}")
+        print()
+
+
+def _parse_args(argv: list[str] | None = None):
+    """Command-line options for local inspection runs."""
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Find AI tool deals and broadcast them to Telegram."
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help=(
+            "Find and log deals without sending anything and without marking "
+            "them seen. Use this to inspect results on your own machine — a "
+            "normal run would consume the deals, so subscribers would never "
+            "receive them."
+        ),
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        metavar="N",
+        help="Show only the first N deals in the dry-run summary (0 = all).",
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> None:
     """Execute the full deal-scouting pipeline."""
+    args = _parse_args(argv)
     import dedup
     import history
     import notifier
@@ -135,8 +191,14 @@ def main() -> None:
     #      output is still reviewable during development) but leave the
     #      dedup store untouched.
     # ------------------------------------------------------------------
-    dry_run = not chat_ids
-    if dry_run:
+    # Dry run when explicitly asked, or when nobody is subscribed.
+    dry_run = args.dry_run or not chat_ids
+    if args.dry_run:
+        logger.warning(
+            "--dry-run: deals will be printed and logged, but NOT sent and "
+            "NOT marked seen, so nothing is consumed."
+        )
+    if dry_run and not args.dry_run:
         logger.warning(
             "No active subscribers — DRY RUN: deals will be logged but not "
             "marked seen, so nothing is lost before the first subscriber."
@@ -178,6 +240,8 @@ def main() -> None:
     if dry_run:
         logger.info("Dry run: %d deal(s) left unmarked for a future subscriber",
                     len(new_deals))
+        if args.dry_run:
+            _print_deals(new_deals, args.limit)
     elif delivered > 0:
         for deal in new_deals:
             try:

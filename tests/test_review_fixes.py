@@ -255,7 +255,7 @@ def _run_main_with(chat_ids, deals, tmp_path, monkeypatch):
     monkeypatch.setitem(__import__("sys").modules, "scrapers", MagicMock(run_all_scrapers=lambda: deals))
 
     with patch("notifier.send_deals", return_value=(len(chat_ids), len(chat_ids))):
-        main_mod.main()
+        main_mod.main([])
 
     return json.loads(store.read_text()) if store.exists() else {"hashes": {}}
 
@@ -488,7 +488,7 @@ def _run_pipeline(chat_ids, deals, delivered, tmp_path, monkeypatch):
     )
 
     with patch("notifier.send_deals", return_value=(delivered, len(chat_ids))):
-        main_mod.main()
+        main_mod.main([])
 
     return json.loads(store.read_text()) if store.exists() else {"hashes": {}}
 
@@ -533,3 +533,57 @@ def test_stale_subscriber_id_scenario_end_to_end(tmp_path, monkeypatch):
     store = _run_pipeline([2], deals, delivered=0,
                           tmp_path=tmp_path, monkeypatch=monkeypatch)
     assert store.get("hashes") == {}, "all 5 deals must survive for retry"
+
+
+# ---------------------------------------------------------------------------
+# --dry-run: inspect results locally without consuming them.
+# ---------------------------------------------------------------------------
+
+
+def test_dry_run_flag_does_not_mark_or_send(tmp_path, monkeypatch, capsys):
+    """--dry-run must leave the dedup store untouched even WITH subscribers."""
+    import importlib
+    import config
+
+    store = tmp_path / "seen.json"
+    monkeypatch.setattr(config, "SEEN_DEALS_PATH", str(store))
+    monkeypatch.setattr(config, "HISTORY_PATH", str(tmp_path / "h.md"))
+
+    import dedup as dedup_mod
+    import history as history_mod
+    importlib.reload(dedup_mod)
+    importlib.reload(history_mod)
+    dedup_mod.reset_cache()
+
+    import main as main_mod
+    monkeypatch.setattr(main_mod, "get_active_chat_ids", lambda strict=False: [12345])
+    monkeypatch.setattr(main_mod, "_alert_admin", lambda *a, **k: None)
+    monkeypatch.setitem(
+        __import__("sys").modules, "scrapers",
+        MagicMock(run_all_scrapers=lambda: [REAL_DEAL]),
+    )
+
+    with patch("notifier.send_deals") as send:
+        main_mod.main(["--dry-run"])
+        send.assert_not_called()
+
+    data = json.loads(store.read_text()) if store.exists() else {"hashes": {}}
+    assert data.get("hashes") == {}, "--dry-run consumed deals"
+    assert "Cursor Pro" in capsys.readouterr().out
+
+
+def test_dry_run_limit_truncates_output(capsys):
+    import main as main_mod
+    deals = [dict(REAL_DEAL, title=f"Deal {i} 50% off") for i in range(10)]
+    main_mod._print_deals(deals, limit=3)
+    out = capsys.readouterr().out
+    assert "Deal 0" in out and "Deal 2" in out
+    assert "Deal 5" not in out
+    assert "of 10" in out
+
+
+def test_normal_run_still_sends(tmp_path, monkeypatch):
+    """No flag => unchanged behaviour."""
+    store = _run_pipeline([999], [REAL_DEAL], delivered=1,
+                          tmp_path=tmp_path, monkeypatch=monkeypatch)
+    assert len(store.get("hashes", {})) > 0

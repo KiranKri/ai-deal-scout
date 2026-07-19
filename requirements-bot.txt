@@ -1,0 +1,8 @@
+# Minimal dependency set for the Telegram command poller (bot/drain.py).
+#
+# The drain job runs 100+ times a day, and pip install dominates its runtime.
+# It needs only an HTTP client and .env loading — not the scraping stack
+# (beautifulsoup4, feedparser) or the webhook server (flask, gunicorn).
+# Installing the full set costs ~30s per run for no benefit.
+requests==2.34.2
+python-dotenv==1.1.1

@@ -12,7 +12,12 @@ name: Telegram Commands
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    # Every 15 minutes. Each run costs Actions minutes, which are unlimited
+    # on a public repo but capped at 2,000/month on a private one — at 10-min
+    # polling that cap is reached in ~17 days. 15 minutes keeps a private repo
+    # comfortably inside the free tier while barely changing how long a new
+    # subscriber waits for their /start confirmation.
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 # Two overlapping runs would double-answer commands and race on the commit.
@@ -32,9 +37,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-bot.txt
 
+      # Only the HTTP client and .env loader — not the scraping stack or the
+      # webhook server. Combined with the pip cache this is the difference
+      # between ~40s and ~10s per run, across ~96 runs a day.
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements-bot.txt
 
       - name: Answer queued Telegram commands
         env:
