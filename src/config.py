@@ -317,6 +317,14 @@ NEGATIVE_KEYWORDS: list[str] = [
 # headlines; the strong-signal exception keeps support threads out.
 VETO_QUESTION_TITLES: bool = True
 
+# Drop deals the staleness heuristic flags, rather than only logging them.
+# Measured on the 764-row labelled set: precision 0.808 -> 0.829, recall
+# 0.868 -> 0.853, F1 0.837 -> 0.841.  It costs one row labelled a deal —
+# "Suno Black Friday Deals 2025" seen in July 2026 — which is arguably a bad
+# label rather than a bad drop.  Precision is worth slightly more than recall
+# here because a junk message costs subscriber trust while a miss is invisible.
+DROP_STALE: bool = True
+
 # ---------------------------------------------------------------------------
 # Strong price signals
 #

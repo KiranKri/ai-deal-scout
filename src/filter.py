@@ -152,6 +152,32 @@ def score_deal(title: str, body: str = "") -> int:
     return score
 
 
+def _url_evidence(url: str) -> str:
+    """Return URL text usable as tool evidence, or empty when unsafe.
+
+    Vendor offer pages often name the product only in the host
+    (elevenlabs.io/students, cursor.com/.../student-discount), so the URL is
+    real evidence.  Discussion paths on those same domains are not: they carry
+    the brand without carrying an offer.
+
+    Measured on the labelled set: using every URL cost 18 false positives for
+    1 extra true positive; excluding discussion paths keeps the recall gain
+    without the noise.
+    """
+    if not url:
+        return ""
+    lowered = url.lower()
+    if _URL_NOISE.search(lowered):
+        return ""
+    # Require the PATH to signal an offer, not merely the host to name a brand.
+    # A brand-only rule let docs pages, pricing announcements and even a Suno
+    # song called "Pay For A Free Trial" through: the host said "AI tool", the
+    # page said nothing about an offer.
+    if not _URL_OFFER.search(lowered):
+        return ""
+    return re.sub(r"[/._\-]+", " ", lowered)
+
+
 def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
     """Determine whether a deal is relevant enough to notify.
 

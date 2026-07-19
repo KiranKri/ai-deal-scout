@@ -111,6 +111,7 @@ def main(argv: list[str] | None = None) -> None:
     import dedup
     import history
     import notifier
+    from config import DROP_STALE
     from filter import is_relevant, is_stale
     from scrapers import run_all_scrapers
 
@@ -171,7 +172,14 @@ def main(argv: list[str] | None = None) -> None:
         d for d in relevant_deals
         if is_stale(d.get("title", ""), d.get("body", ""))
     ]
-    if stale_flagged:
+    if stale_flagged and DROP_STALE:
+        relevant_deals = [d for d in relevant_deals if d not in stale_flagged]
+        logger.info(
+            "Staleness: dropped %d expired/out-of-season deal(s): %s",
+            len(stale_flagged),
+            "; ".join(d.get("title", "")[:60] for d in stale_flagged[:5]),
+        )
+    elif stale_flagged:
         logger.warning(
             "Staleness (log-only): %d deal(s) look expired/out-of-season: %s",
             len(stale_flagged),

@@ -18,9 +18,19 @@ import json
 import os
 import sys
 
+# Windows defaults stdout to cp1252, which cannot encode the accented and
+# non-Latin characters that appear in real deal titles (e.g. "ń", "—", emoji).
+# Redirecting to a file then raises UnicodeEncodeError and loses the run.
+# Force UTF-8 so output is identical on every platform.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src"))
 
-from filter import is_relevant, score_deal  # noqa: E402
+from config import DROP_STALE  # noqa: E402
+from filter import is_relevant, is_stale, score_deal  # noqa: E402
 
 EVAL_PATH = os.path.join("data", "eval_set.csv")
 BASELINE_PATH = os.path.join("data", "eval_baseline.json")
@@ -44,7 +54,12 @@ def evaluate(rows: list[dict]) -> dict:
     false_pos: list[dict] = []
 
     for r in rows:
+        # Mirror the pipeline exactly: main.py applies the staleness drop
+        # after is_relevant.  Measuring is_relevant alone would score a
+        # filter that does not exist in production.
         predicted = is_relevant(r["title"], "", 0)
+        if predicted and DROP_STALE and is_stale(r["title"], ""):
+            predicted = False
         actual = bool(r["label"])
         if predicted and actual:
             tp += 1

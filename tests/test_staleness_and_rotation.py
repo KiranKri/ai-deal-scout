@@ -119,3 +119,17 @@ def test_vendor_tools_not_duplicated_in_rotating_list():
             f"{tool!r} has a VENDOR_SITES entry; searching it open-web "
             f"duplicates coverage and invites coupon-farm noise"
         )
+
+
+def test_stale_deals_are_dropped_not_just_logged():
+    """DROP_STALE turns the heuristic into a filter.
+
+    Measured gain on the labelled set: P 0.808 -> 0.829, F1 0.837 -> 0.841.
+    """
+    import config
+    assert config.DROP_STALE is True
+
+    from filter import is_stale
+    assert is_stale("Suno Black Friday Deals 2025: 40% Off", "")
+    assert is_stale("May 19, 2020 - Notion 2.8, now free", "")
+    assert not is_stale("Cursor Pro 50% off first month", "")

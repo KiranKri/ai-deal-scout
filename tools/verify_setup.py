@@ -14,6 +14,15 @@ the bot degrades gracefully without them.
 import os
 import sys
 
+# Windows defaults stdout to cp1252, which cannot encode the accented and
+# non-Latin characters that appear in real deal titles (e.g. "ń", "—", emoji).
+# Redirecting to a file then raises UnicodeEncodeError and loses the run.
+# Force UTF-8 so output is identical on every platform.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 try:
