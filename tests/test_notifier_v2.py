@@ -54,11 +54,16 @@ def test_30_users_produces_batch_sleep():
     assert len(batch_sleeps) >= 1
 
 def test_25_users_no_batch_sleep():
-    """Exactly 1 batch — no inter-batch sleep needed."""
+    """Exactly 1 batch — no inter-batch sleep needed.
+
+    Sleeps are identified by comparing against the constants rather than by
+    magnitude: MESSAGE_SLEEP and BATCH_SLEEP are independently tunable and a
+    magnitude heuristic breaks silently whenever either is changed.
+    """
     chat_ids = list(range(25))
     batch_sleeps = []
     def fake_sleep(n):
-        if n >= 1.0:
+        if n == notifier.BATCH_SLEEP:
             batch_sleeps.append(n)
     with patch("src.notifier.requests.post",
                return_value=_mock_resp(200)), \
@@ -70,10 +75,14 @@ def test_25_users_no_batch_sleep():
 # ── MESSAGE_SLEEP ───────────────────────────────────────────────
 
 def test_message_sleep_between_messages_to_same_user():
-    """0.3s sleep between header + chunk sent to same chat_id."""
+    """Consecutive chunks to one chat must be paced by MESSAGE_SLEEP.
+
+    Telegram permits only ~1 message/second to the same chat, so this pacing
+    is what stops a multi-chunk batch being partially rejected with 429.
+    """
     msg_sleeps = []
     def fake_sleep(n):
-        if 0.1 <= n <= 0.9:
+        if n == notifier.MESSAGE_SLEEP:
             msg_sleeps.append(n)
     with patch("src.notifier.requests.post",
                return_value=_mock_resp(200)), \
@@ -151,3 +160,57 @@ def test_broadcast_summary_logged(caplog):
         notifier.send_deals([FAKE_DEAL], [1, 2, 3])
     assert any("broadcast" in m.lower() or "complete" in m.lower()
                for m in caplog.messages)
+
+
+# ---------------------------------------------------------------------------
+# Partial delivery.  Observed live: 91 deals -> 6 chunks; the first landed and
+# a later one was rejected, yet the run reported "delivered to 0/1" and left
+# every deal unmarked, so the whole batch would have re-sent on the next run.
+# ---------------------------------------------------------------------------
+
+
+def test_partial_delivery_counts_as_delivered():
+    """One chunk landing means the user got something — not a total failure."""
+    calls = {"n": 0}
+
+    def flaky(*a, **kw):
+        calls["n"] += 1
+        # First chunk succeeds, everything after is rate limited.
+        return _mock_resp(200 if calls["n"] == 1 else 429)
+
+    many = [dict(FAKE_DEAL, url=f"https://x.com/{i}", title=f"Deal {i} 50% off")
+            for i in range(60)]
+    with patch("src.notifier.requests.post", side_effect=flaky), \
+         patch("src.notifier.time.sleep"):
+        delivered, total = notifier.send_deals(many, [999])
+
+    assert total == 1
+    assert delivered == 1, (
+        "a user who received part of the batch must count as delivered, "
+        "otherwise main.py never marks the deals seen and re-sends forever"
+    )
+
+
+def test_total_failure_still_reports_zero():
+    """If nothing at all landed, the run must still report 0 delivered."""
+    with patch("src.notifier.requests.post", return_value=_mock_resp(429)), \
+         patch("src.notifier.time.sleep"):
+        delivered, total = notifier.send_deals([FAKE_DEAL], [999])
+    assert (delivered, total) == (0, 1)
+
+
+def test_message_sleep_clears_telegram_per_chat_limit():
+    """Pacing must be >= 1s: Telegram allows ~1 msg/sec to the same chat."""
+    assert notifier.MESSAGE_SLEEP >= 1.0, (
+        f"MESSAGE_SLEEP={notifier.MESSAGE_SLEEP} sends multiple chunks to one "
+        f"chat faster than Telegram accepts, causing partial delivery"
+    )
+
+
+def test_blocked_user_is_not_counted_as_delivered():
+    """403 mid-batch: user blocked the bot, nothing more should count."""
+    with patch("src.notifier.requests.post", return_value=_mock_resp(403)), \
+         patch("src.notifier.time.sleep"), \
+         patch("src.notifier.subscribers_module.batch_deactivate"):
+        delivered, total = notifier.send_deals([FAKE_DEAL], [999])
+    assert delivered == 0

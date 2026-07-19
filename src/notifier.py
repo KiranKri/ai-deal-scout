@@ -38,7 +38,12 @@ _TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 BATCH_SIZE = 25       # users per batch
 BATCH_SLEEP = 1.0     # seconds between batches
 RETRY_SLEEP = 5.0     # seconds to wait on 429
-MESSAGE_SLEEP = 0.3   # seconds after every message send (pacing)
+# Telegram allows ~30 messages/second globally but only about ONE PER SECOND
+# to the same chat.  A multi-chunk broadcast sends several messages to one
+# chat back to back, so this must clear the per-chat limit, not the global
+# one.  Observed live: 91 deals -> 6 chunks at 0.3s spacing, the first few
+# landed and the rest were rejected 429.
+MESSAGE_SLEEP = 1.2   # seconds between chunks to the SAME chat
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -227,29 +232,45 @@ def send_deals(deals: list[dict[str, Any]], chat_ids: list[int]) -> tuple[int, i
 
     blocked_ids: list[int] = []
     success_count = 0
+    partial_count = 0
 
     for batch_start in range(0, len(chat_ids), BATCH_SIZE):
         batch = chat_ids[batch_start : batch_start + BATCH_SIZE]
 
         for chat_id in batch:
-            user_success = True
+            # Count chunks individually.  Treating a user as failed because
+            # one chunk of six was rejected reports 0/1 delivered even though
+            # they received most of the batch — and, because main.py only
+            # marks deals seen when delivered > 0, that made the whole batch
+            # re-send on every subsequent run.  Partial delivery is success
+            # for dedup purposes; the shortfall is logged instead.
+            chunks_sent = 0
             for msg in content_messages:
                 status = _send_with_retry(chat_id, msg)
-                # Pace every outbound message to avoid hitting rate limits.
-                # This fires unconditionally so single-message sends are also
-                # spaced, keeping the per-user sleep count predictable.
                 time.sleep(MESSAGE_SLEEP)
 
+                if status == 200:
+                    chunks_sent += 1
+                    continue
                 if status == 403:
                     blocked_ids.append(chat_id)
-                    user_success = False
                     break
-                elif status != 200:
-                    user_success = False
-                    break
+                # Any other failure: stop sending to this chat, but keep
+                # whatever already landed.
+                logger.error(
+                    "chat_id=%d: chunk %d/%d failed with status %d",
+                    chat_id, chunks_sent + 1, len(content_messages), status,
+                )
+                break
 
-            if user_success:
+            if chunks_sent:
                 success_count += 1
+                if chunks_sent < len(content_messages):
+                    partial_count += 1
+                    logger.warning(
+                        "chat_id=%d received %d/%d chunks — partial delivery",
+                        chat_id, chunks_sent, len(content_messages),
+                    )
 
         # Sleep between batches (not after the last one)
         if batch_start + BATCH_SIZE < len(chat_ids):
@@ -271,7 +292,14 @@ def send_deals(deals: list[dict[str, Any]], chat_ids: list[int]) -> tuple[int, i
         except Exception:  # noqa: BLE001
             logger.exception("deactivation alert failed")
 
-    logger.info(
-        "Broadcast complete: %d/%d subscribers", success_count, len(chat_ids)
-    )
+    if partial_count:
+        logger.warning(
+            "Broadcast complete: %d/%d subscribers (%d got only part of the "
+            "batch — raise MESSAGE_SLEEP if this persists)",
+            success_count, len(chat_ids), partial_count,
+        )
+    else:
+        logger.info(
+            "Broadcast complete: %d/%d subscribers", success_count, len(chat_ids)
+        )
     return success_count, len(chat_ids)
