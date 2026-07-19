@@ -66,9 +66,27 @@ def test_start_new_user_sends_welcome(client):
                return_value="new"), \
          patch("bot.bot_server._send", return_value=True) as mock_send:
         client.post("/webhook", json=_update("/start"), headers=_h())
-        sent = mock_send.call_args[0][1]
+        # First send is the user's welcome; a later one may be the admin
+        # membership alert, so index explicitly rather than taking the last.
+        sent = mock_send.call_args_list[0][0][1]
         assert "subscribed" in sent.lower()
         assert "github.com" in sent.lower()
+
+
+def test_start_notifies_admin_of_new_subscriber(client):
+    """The operator should learn about a subscriber without having to ask."""
+    with patch("bot.bot_server.WEBHOOK_SECRET", "testsecret"), \
+         patch("bot.bot_server.ADMIN_CHAT_ID", 999), \
+         patch("bot.bot_server.subscribers.add_subscriber",
+               return_value="new"), \
+         patch("bot.bot_server.subscribers.get_subscriber_count",
+               return_value={"total": 3, "active": 2, "inactive": 1}), \
+         patch("bot.bot_server._send", return_value=True) as mock_send:
+        client.post("/webhook", json=_update("/start"), headers=_h())
+        admin_msgs = [c[0][1] for c in mock_send.call_args_list if c[0][0] == 999]
+        assert admin_msgs, "admin was not told about the new subscriber"
+        assert "NEW subscriber" in admin_msgs[0]
+        assert "Active: 2" in admin_msgs[0]
 
 def test_start_already_active_sends_already_subscribed(client):
     with patch("bot.bot_server.WEBHOOK_SECRET", "testsecret"), \

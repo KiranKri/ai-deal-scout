@@ -235,6 +235,36 @@ def _tavily_quota_line() -> str:
 
 
 
+def _notify_admin_membership(chat_id: int, username: str | None, status: str) -> None:
+    """Tell the admin when someone subscribes or unsubscribes.
+
+    Subscriber growth was previously only observable by *asking* — running
+    /status, or reading the private data repo by hand.  A bot nobody has
+    joined and a bot whose subscribe path is broken look identical from the
+    outside, so silence had to be interrogated rather than trusted.
+
+    The admin's own /start is skipped: it is self-testing noise, not signal.
+    Best-effort — a failed alert must never break the subscribe path itself.
+    """
+    if not ADMIN_CHAT_ID or chat_id == ADMIN_CHAT_ID:
+        return
+    counts = subscribers.get_subscriber_count()
+    verb = {
+        "new": "NEW subscriber",
+        "resubscribed": "RE-subscribed",
+        "deactivated": "unsubscribed",
+    }.get(status, status)
+    who = f"@{username}" if username else f"chat {chat_id}"
+    try:
+        _send(
+            ADMIN_CHAT_ID,
+            f"👤 {verb}: {who}\n"
+            f"Active: {counts['active']} (total {counts['total']})",
+        )
+    except Exception:  # noqa: BLE001
+        logger.exception("membership alert failed")
+
+
 def handle_start(chat_id: int, username: str | None) -> None:
     """Handle the ``/start`` command — subscribe the user.
 
@@ -252,6 +282,7 @@ def handle_start(chat_id: int, username: str | None) -> None:
             "Send /stop anytime to unsubscribe.\n"
             "GitHub: github.com/KiranKri/ai-deal-scout",
         )
+        _notify_admin_membership(chat_id, username, status)
     elif status == "already_active":
         _send(chat_id, "✅ You're already subscribed! Deals arrive daily at 8AM IST.")
     else:
@@ -275,6 +306,7 @@ def handle_stop(chat_id: int) -> None:
     status = subscribers.deactivate_subscriber(chat_id)
     if status == "deactivated":
         _send(chat_id, "✅ Unsubscribed. Send /start anytime to resubscribe.")
+        _notify_admin_membership(chat_id, None, status)
     elif status in ("already_inactive", "not_found"):
         _send(chat_id, "You're not currently subscribed. Send /start to subscribe.")
     else:
