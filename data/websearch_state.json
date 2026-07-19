@@ -1,5 +1,6 @@
 {
   "month": "2026-07",
-  "used": 132,
-  "rotation": 23
+  "used": 144,
+  "rot_vendor": 1,
+  "rot_tool": 4
 }
