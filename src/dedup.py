@@ -11,6 +11,7 @@ import os
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
+import remote_state
 from config import HASH_CLEANUP_DAYS, SEEN_DEALS_PATH
 
 logger = logging.getLogger(__name__)
@@ -19,25 +20,48 @@ _IST = ZoneInfo("Asia/Kolkata")
 
 _EMPTY_STORE: dict = {"hashes": {}, "last_updated": ""}
 
+_REMOTE_FILENAME = "seen_deals.json"
+
+# In-memory cache for the current process.  Previously every is_seen() and
+# mark_seen() call re-read the whole store from disk — O(N x M) I/O for N deals
+# against M hashes.  With the store now behind a network call that would be one
+# HTTP request per deal, so it is loaded once and flushed by save().
+_cache: dict | None = None
+_cache_sha: str = ""
+
 
 def _load() -> dict:
-    """Load the seen-deals store from disk.
+    """Load the seen-deals store, from the private repo or from disk.
 
-    Returns an empty store structure if the file is missing or corrupt.
+    Cached for the lifetime of the process; call :func:`reset_cache` in tests
+    or after an external write.  Returns an empty store when the file is
+    missing or corrupt — losing dedup state causes duplicate sends, which is
+    strictly better than aborting the run.
     """
-    if not os.path.exists(SEEN_DEALS_PATH):
-        logger.debug("seen_deals file not found; starting with empty store")
-        return {"hashes": {}, "last_updated": ""}
-    try:
-        with open(SEEN_DEALS_PATH, "r", encoding="utf-8") as fh:
-            data = json.load(fh)
-        if "hashes" not in data or "last_updated" not in data:
-            logger.warning("seen_deals file has unexpected structure; resetting")
-            return {"hashes": {}, "last_updated": ""}
-        return data
-    except (json.JSONDecodeError, OSError, UnicodeDecodeError) as exc:
-        logger.error("Failed to load seen_deals: %s; starting fresh", exc)
-        return {"hashes": {}, "last_updated": ""}
+    global _cache, _cache_sha
+    if _cache is not None:
+        return _cache
+
+    data, sha = remote_state.load(
+        _REMOTE_FILENAME, _EMPTY_STORE, local_path=SEEN_DEALS_PATH
+    )
+    if "hashes" not in data or "last_updated" not in data:
+        logger.warning("seen_deals has unexpected structure; resetting")
+        data = {"hashes": {}, "last_updated": ""}
+
+    _cache, _cache_sha = data, sha
+    logger.debug(
+        "seen_deals loaded from %s (%d hashes)",
+        "private repo" if remote_state.use_remote() else SEEN_DEALS_PATH,
+        len(data.get("hashes", {})),
+    )
+    return _cache
+
+
+def reset_cache() -> None:
+    """Drop the in-memory store so the next access re-reads it."""
+    global _cache, _cache_sha
+    _cache, _cache_sha = None, ""
 
 
 def _hash_url(url: str) -> str:
@@ -117,7 +141,8 @@ def mark_seen(url: str, title: str) -> None:
     if title.strip():
         store["hashes"][_hash_title(title)] = now
     store["last_updated"] = now
-    save(store)
+    # Mutates the cache only.  main.py calls save() once after the batch —
+    # persisting per deal would be one network round trip per deal.
     logger.debug("Marked seen: url=%r title=%r", url, title)
 
 
@@ -128,16 +153,26 @@ def save(store: dict | None = None) -> None:
         store: Optional pre-loaded store dict.  If omitted the store is
                loaded from disk first (useful for an explicit flush).
     """
+    global _cache, _cache_sha
     if store is None:
         store = _load()
     store["last_updated"] = _now_ist_iso()
-    os.makedirs(os.path.dirname(SEEN_DEALS_PATH), exist_ok=True)
-    try:
-        with open(SEEN_DEALS_PATH, "w", encoding="utf-8") as fh:
-            json.dump(store, fh, indent=2)
+    _cache = store
+
+    ok = remote_state.save(
+        _REMOTE_FILENAME, store, sha=_cache_sha, local_path=SEEN_DEALS_PATH
+    )
+    if ok:
+        # Re-read the SHA so a later save() in the same process is not stale.
+        _, _cache_sha = remote_state.load(
+            _REMOTE_FILENAME, _EMPTY_STORE, local_path=SEEN_DEALS_PATH
+        )
         logger.debug("seen_deals saved (%d hashes)", len(store["hashes"]))
-    except OSError as exc:
-        logger.error("Failed to save seen_deals: %s", exc)
+    else:
+        logger.error(
+            "seen_deals save FAILED (%d hashes) — deals may re-send next run",
+            len(store["hashes"]),
+        )
 
 
 def cleanup_old_hashes(days: int = HASH_CLEANUP_DAYS) -> int:

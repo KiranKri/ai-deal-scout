@@ -52,3 +52,39 @@ def real_files_untouched():
         f"tests wrote to real state files: {changed} — every test must "
         f"redirect writes to tmp_path (see existing isolation fixtures)"
     )
+
+
+import pytest  # noqa: E402
+
+
+@pytest.fixture(autouse=True)
+def no_production_state(monkeypatch):
+    """Never let the test suite touch the real private data repo.
+
+    .env carries a working GH_PAT/GH_REPO_DATA for local development, and
+    anything that imports the pipeline loads it.  Without this fixture the
+    suite reads and WRITES production subscriber and seen-deal state — tests
+    would silently overwrite live data on a developer machine, and pass while
+    doing it.  Tests that genuinely exercise the GitHub backend set these
+    explicitly on the module under test.
+    """
+    monkeypatch.delenv("GH_PAT", raising=False)
+    monkeypatch.delenv("GH_REPO_DATA", raising=False)
+
+
+@pytest.fixture(autouse=True)
+def reset_dedup_cache():
+    """Clear dedup's in-memory store between tests.
+
+    dedup caches the seen-deals store in a module global so a run makes one
+    read instead of one per deal.  Without this fixture that cache leaks
+    across tests: one test's hashes suppress another's deals, and a test that
+    writes to a tmp_path store still sees the previous file's contents.
+    """
+    try:
+        import dedup
+        dedup.reset_cache()
+        yield
+        dedup.reset_cache()
+    except ImportError:  # dedup not importable in some test contexts
+        yield

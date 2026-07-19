@@ -82,10 +82,16 @@ def test_mark_seen_makes_title_seen():
 
 
 def test_mark_seen_both_hashes_stored(isolated_store):
-    """mark_seen should write both URL hash and title hash to the store."""
+    """mark_seen records both hashes; save() is what persists them.
+
+    mark_seen mutates the in-memory store only.  When the store lives in the
+    private repo, persisting per deal would be one network round trip per
+    deal, so main.py flushes once after the batch instead.
+    """
     url = "https://example.com/deal3"
     title = "Deal Three"
     dedup.mark_seen(url, title)
+    dedup.save()
 
     with open(isolated_store, encoding="utf-8") as fh:
         data = json.load(fh)
@@ -282,3 +288,51 @@ def test_cleanup_boundary_precision(isolated_store):
         data = json.load(fh)
     assert "stale_boundary" not in data["hashes"]
     assert "recent_boundary" in data["hashes"]
+
+
+# ---------------------------------------------------------------------------
+# Store now lives in the private repo (or on disk locally), read once per run.
+# ---------------------------------------------------------------------------
+
+
+def test_mark_seen_does_not_write_per_deal(isolated_store, monkeypatch):
+    """Marking must not hit the backend once per deal.
+
+    Under the remote backend that would be one HTTP PUT per deal; a 90-deal
+    run would make 90 network writes instead of one.
+    """
+    import remote_state
+    writes = []
+    monkeypatch.setattr(
+        remote_state, "save",
+        lambda *a, **k: (writes.append(1), True)[1],
+    )
+    for i in range(10):
+        dedup.mark_seen(f"https://example.com/{i}", f"Deal {i}")
+    assert writes == [], "mark_seen wrote to the backend; it should only cache"
+
+    dedup.save()
+    assert len(writes) == 1, "save() should flush exactly once"
+
+
+def test_store_is_read_once_per_run(isolated_store, monkeypatch):
+    """is_seen must not re-read the store for every deal."""
+    import remote_state
+    reads = []
+    real_load = remote_state.load
+
+    def counting_load(*a, **k):
+        reads.append(1)
+        return real_load(*a, **k)
+
+    monkeypatch.setattr(remote_state, "load", counting_load)
+    dedup.reset_cache()
+    for i in range(20):
+        dedup.is_seen(f"https://example.com/{i}", f"Deal {i}")
+    assert len(reads) == 1, f"store read {len(reads)} times for 20 deals"
+
+
+def test_reset_cache_forces_reread(isolated_store):
+    dedup.is_seen("https://a.com", "A")
+    dedup.reset_cache()
+    assert dedup._cache is None

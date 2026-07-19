@@ -264,3 +264,23 @@ def test_rate_limit_still_works_with_hashed_keys(tmp_path, monkeypatch):
     bot_server._record_run(999)
     state = bot_server._load_run_quota()
     assert bot_server._user_key(999) in state["users"]
+
+
+# ---------------------------------------------------------------------------
+# Tests must never touch the real private data repo.  .env supplies working
+# credentials for local development, and a test that picks them up would read
+# and overwrite live subscriber / seen-deal state while still passing.
+# ---------------------------------------------------------------------------
+
+
+def test_suite_cannot_reach_production_state():
+    """The conftest guard must strip real credentials from the environment."""
+    assert not os.environ.get("GH_PAT"), (
+        "GH_PAT is visible to tests — they can write to the production repo"
+    )
+    assert not os.environ.get("GH_REPO_DATA")
+
+
+def test_remote_state_defaults_to_local_in_tests():
+    import remote_state
+    assert remote_state.use_remote() is False

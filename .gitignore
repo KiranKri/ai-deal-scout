@@ -1,6 +1,8 @@
 .env
 data/*
-!data/seen_deals.json
+# seen_deals.json intentionally NOT tracked: it changes every run and
+# conflicts with the 10-minute drain commits.  It lives in the private
+# data repo (GH_REPO_DATA) with the other machine state.
 !data/websearch_state.json
 !data/eval_set.csv
 !data/eval_baseline.json
