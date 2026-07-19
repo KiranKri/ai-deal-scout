@@ -14,7 +14,17 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import requests
-from flask import Flask, jsonify, request
+
+# Flask is OPTIONAL.  This module owns two things: the command handlers, and
+# the webhook server that fronts them.  ``bot/drain.py`` and ``bot/poll.py``
+# import it purely for the handlers and never serve a request — and the drain
+# job installs ``requirements-bot.txt``, which deliberately omits Flask to keep
+# ~96 CI runs a day cheap.  A hard import here made that job crash on
+# ModuleNotFoundError before it read a single Telegram update.
+try:
+    from flask import Flask, jsonify, request
+except ImportError:  # pragma: no cover - exercised only in the slim CI env
+    Flask = jsonify = request = None
 
 from bot import subscribers
 
@@ -69,7 +79,19 @@ WEBSEARCH_MONTHLY_QUOTA: int = int(os.environ.get("WEBSEARCH_MONTHLY_QUOTA", "90
 
 TELEGRAM_API: str = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
-app = Flask(__name__)
+class _UnservedApp:
+    """Stand-in for the Flask app when Flask is not installed.
+
+    ``@app.route`` still has to resolve at import time, so this returns the
+    decorated function untouched.  The routes then exist as ordinary functions
+    that nothing calls — which is exactly right for the polling jobs.
+    """
+
+    def route(self, *_args, **_kwargs):
+        return lambda fn: fn
+
+
+app = Flask(__name__) if Flask is not None else _UnservedApp()
 logger = logging.getLogger(__name__)
 
 _IST = ZoneInfo("Asia/Kolkata")
