@@ -1423,3 +1423,23 @@ _No deals logged yet._
 - [20% OFF Leonardo.AI Promo Codes & Coupons | Jul 2026](https://leonardo-ai.grabon.com/coupons) | WebSearch | 👍 0
 - [Leonardo AI Free Working Promo Codes in 2026 and How ...](https://aipure.ai/articles/leonardo-ai-free-working-promo-codes-today-and-how-to-redeem) | WebSearch | 👍 0
 
+## Run: 2026-07-21 11:06:21 IST
+- [Free Trials](https://docs.midjourney.com/hc/en-us/articles/27870399340173-Free-Trials) | WebSearch | 👍 0
+- [50% Off Lovable Pro | Brazil Offer](https://lovable.dev/meta-br) | WebSearch | 👍 0
+- [Lovable Goes Back to School | Lovable](https://lovable.dev/blog/back-to-school-discount) | WebSearch | 👍 0
+- [Student Discount - 50% Off Lovable Pro | Build Apps Faster](https://lovable.dev/students) | WebSearch | 👍 0
+- [LinkedIn Premium x Lovable | Exclusive offer for Premium members](https://lovable.dev/linkedin-premium-offer) | WebSearch | 👍 0
+- [Pricing](https://lovable.dev/pricing) | WebSearch | 👍 0
+- [Udio | AI Music Generator - Official Website](https://www.udio.com) | WebSearch | 👍 0
+- [The subscription trial](https://help.udio.com/en/articles/13338649-the-subscription-trial) | WebSearch | 👍 0
+- [Credits and credit limits | Udio Help Center](https://help.udio.com/en/articles/10739134-credits-and-credit-limits) | WebSearch | 👍 0
+- [I'm a student or a teacher. Am I eligible for a discount? | Mistral ...](https://help.mistral.ai/en/articles/698530-i-m-a-student-or-a-teacher-am-i-eligible-for-a-discount) | WebSearch | 👍 0
+- [Introducing Mistral Code | Mistral AI](https://mistral.ai/news/mistral-code) | WebSearch | 👍 0
+- [Student and Educator Discounts](https://help.runwayml.com/hc/en-us/articles/48154114602259-Student-and-Educator-Discounts) | WebSearch | 👍 0
+- [AI Image and Video Pricing from $12/month | Runway AI](https://runwayml.com/pricing) | WebSearch | 👍 0
+- [Free plan details – Runway](https://help.runwayml.com/hc/en-us/articles/50404627334547-Free-plan-details) | WebSearch | 👍 0
+- [Ideogram Back to School Deals 2026: Save 50% Without a Coupon](https://www.glbgpt.com/hub/ideogram-back-to-school-deals-2026-save-50-without-a-coupon) | WebSearch | 👍 0
+- [Ideogram](https://ideogram.ai/pricing) | WebSearch | 👍 0
+- [Available Plans | Ideogram](https://docs.ideogram.ai/plans-and-pricing/available-plans) | WebSearch | 👍 0
+- [Login | Windsurf](https://windsurf.com/enterprise/account/login) | WebSearch | 👍 0
+
