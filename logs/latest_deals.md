@@ -1443,3 +1443,26 @@ _No deals logged yet._
 - [Available Plans | Ideogram](https://docs.ideogram.ai/plans-and-pricing/available-plans) | WebSearch | 👍 0
 - [Login | Windsurf](https://windsurf.com/enterprise/account/login) | WebSearch | 👍 0
 
+## Run: 2026-07-22 11:04:02 IST
+- [Grammarly for your browser | Grammarly](https://www.grammarly.com/browser) | WebSearch | 👍 0
+- [Introducing Claude for Teachers](https://www.anthropic.com/news/claude-for-teachers) | WebSearch | 👍 0
+- [ChatGPT Promotional Subscriptions/Free Trial Invites FAQ | OpenAI Help Center](https://help.openai.com/en/articles/8381046-free-trial-invites-faq) | WebSearch | 👍 0
+- [Want to ask some questions about Free trial usage - API - OpenAI Developer Community](https://community.openai.com/t/want-to-ask-some-questions-about-free-trial-usage/121784/1) | WebSearch | 👍 0
+- [Api key only have one month free trial? - API - OpenAI Developer Community](https://community.openai.com/t/api-key-only-have-one-month-free-trial/136601) | WebSearch | 👍 0
+- [Subject: Request for a One-Month Free Trial Due to Personal Hardship - Use cases and examples - OpenAI Developer Community](https://community.openai.com/t/subject-request-for-a-one-month-free-trial-due-to-personal-hardship/1121944) | WebSearch | 👍 0
+- [I hope to extend the time of Free trial usage - API - OpenAI Developer Community](https://community.openai.com/t/i-hope-to-extend-the-time-of-free-trial-usage/125866) | WebSearch | 👍 0
+- [About individual GitHub Copilot plans and benefits - GitHub Docs](https://docs.github.com/en/copilot/concepts/billing/individual-plans) | WebSearch | 👍 0
+- [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) | WebSearch | 👍 0
+- [Copilot Pro coupon showing $10 instead of free (Student Pack) · community · Discussion #172580 · GitHub](https://github.com/orgs/community/discussions/172580) | WebSearch | 👍 0
+- [ElevenLabs — AI Student Pack](https://elevenlabs.io/blog/ai-student-pack) | WebSearch | 👍 0
+- [ElevenLabs Pricing for Creators & Businesses of All Sizes](https://elevenlabs.io/pricing) | WebSearch | 👍 0
+- [Why did I not get the first-month off coupon? – ElevenLabs](https://help.elevenlabs.io/hc/en-us/articles/23196176493201-Why-did-I-not-get-the-first-month-off-coupon) | WebSearch | 👍 0
+- [ElevenLabs for Students](https://elevenlabs.io/students) | WebSearch | 👍 0
+- [On a mission to help 1 million people reclaim their voices](https://elevenlabs.io/impact) | WebSearch | 👍 0
+- [Subscription plans - Lovable Documentation](https://docs.lovable.dev/introduction/subscription-plans) | WebSearch | 👍 0
+- [Credits and usage - Lovable Documentation](https://docs.lovable.dev/introduction/credits-and-usage) | WebSearch | 👍 0
+- [Introducing Lovable Cloud and AI | Lovable](https://lovable.dev/blog/lovable-cloud) | WebSearch | 👍 0
+- [Codeium - AI Solution Features, Pricing & Reviews | Welcome.AI | Welcome.AI](https://welcome.ai/solution/codeium) | WebSearch | 👍 0
+- [Codeium for AI Coding: review, features & use cases](https://codeium.en.softonic.com/web-apps) | WebSearch | 👍 0
+- [Code Library - Tabnine](https://www.tabnine.com/code-library) | WebSearch | 👍 0
+
