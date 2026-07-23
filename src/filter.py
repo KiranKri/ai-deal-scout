@@ -7,11 +7,14 @@ Uses word-boundary regex matching to avoid false positives from substrings
 import logging
 import re
 
+from urllib.parse import urlparse
+
 from config import (
     BOOSTED_PHRASES,
     DEAL_KEYWORDS,
     MIN_UPVOTES,
     NEGATIVE_KEYWORDS,
+    NEWS_DOMAINS,
     VETO_QUESTION_TITLES,
     NO_INFLECTION,
     STRONG_DEAL_KEYWORDS,
@@ -204,7 +207,27 @@ def _is_bare_free_plan(combined: str) -> bool:
     return True
 
 
-def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
+def _news_domain(url: str) -> str:
+    """Return the matching ``NEWS_DOMAINS`` host for *url*, or "".
+
+    Subdomains match their parent (``www.reuters.com`` and
+    ``blogs.reuters.com`` both match ``reuters.com``).
+    """
+    if not url:
+        return ""
+    try:
+        host = (urlparse(url).hostname or "").lower()
+    except ValueError:
+        return ""
+    if host.startswith("www."):
+        host = host[4:]
+    for domain in NEWS_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return domain
+    return ""
+
+
+def is_relevant(title: str, body: str = "", upvotes: int = 0, url: str = "") -> bool:
     """Determine whether a deal is relevant enough to notify.
 
     A post is relevant when **all** of the following hold:
@@ -218,7 +241,10 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
     5. At least one ``TOOL_KEYWORDS`` match (word-boundary) — tool name may
        appear in title or body.
     6. Not a bare ``free plan`` title (pricing page) without a price signal.
-    7. If ``MIN_UPVOTES > 0``, ``upvotes`` must be >= that threshold
+    7. If the URL's host is a ``NEWS_DOMAINS`` press outlet, a strong price
+       signal (``STRONG_DEAL_KEYWORDS``) is required — general news covers
+       AI "deals" (M&A, funding, policy) far more than consumer discounts.
+    8. If ``MIN_UPVOTES > 0``, ``upvotes`` must be >= that threshold
        (unknown/zero-upvote sources fail when the gate is enabled).
 
     Score is computed for logging / ranking only.  ``MIN_SCORE`` is not used
@@ -229,6 +255,7 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
         title: Deal headline or title string.
         body: Optional body / description text.
         upvotes: Upvote/karma count for the post (0 means no upvote data).
+        url: Optional source URL, used only for the news-domain gate.
 
     Returns:
         True if the deal passes all relevance checks, False otherwise.
@@ -272,6 +299,18 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
     # promo.  Measured on the 764-row eval set: kills 1 FP, 0 new FNs.
     if _is_bare_free_plan(combined):
         logger.debug("is_relevant=False (bare free plan, no price signal) title=%r", title)
+        return False
+
+    # News-domain gate: general press covers AI "deals" (M&A, funding,
+    # infra, policy) and product launches far more than consumer discounts.
+    # Require an explicit strong signal from these hosts specifically.
+    news_domain = _news_domain(url)
+    if news_domain and not any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS):
+        logger.debug(
+            "is_relevant=False (news domain %r, no strong signal) title=%r",
+            news_domain,
+            title,
+        )
         return False
 
     # Upvote gate: MIN_UPVOTES=0 means disabled (explicit, not a dead

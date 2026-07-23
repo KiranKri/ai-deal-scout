@@ -156,7 +156,7 @@ def main(argv: list[str] | None = None) -> None:
     # ------------------------------------------------------------------
     relevant_deals = [
         d for d in raw_deals
-        if is_relevant(d.get("title", ""), d.get("body", ""), d.get("upvotes", 0))
+        if is_relevant(d.get("title", ""), d.get("body", ""), d.get("upvotes", 0), d.get("url", ""))
     ]
     logger.info(
         "Filter: %d raw → %d relevant", len(raw_deals), len(relevant_deals)

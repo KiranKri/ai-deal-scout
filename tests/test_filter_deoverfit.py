@@ -184,3 +184,42 @@ def test_real_deals_not_regressed_by_precision_pass():
         "Anthropic partners with Coursera — free Claude Pro for students",
     ]:
         assert flt.is_relevant(title, ""), f"should still pass: {title!r}"
+
+
+# ── News-domain gate (P1) ────────────────────────────────────────────
+
+
+def test_news_domain_without_strong_signal_rejected():
+    """General press 'AI deal' coverage (M&A/funding/policy) is not a promo."""
+    cases = [
+        ("GitHub cuts AI deals with Google, Anthropic", "https://www.bloomberg.com/news/x"),
+        ("Reddit has a new AI training deal to sell user content", "https://www.theverge.com/x"),
+        ("Silicon Valley's AI deals are creating zombie startups", "https://www.cnbc.com/x"),
+        ("Microsoft 365 confirms new premium tier, stuffed with AI and few discounts",
+         "https://www.theregister.com/x"),
+    ]
+    for title, url in cases:
+        assert not flt.is_relevant(title, "", 0, url), f"should veto news FP: {title!r}"
+
+
+def test_news_domain_with_strong_signal_still_passes():
+    """A real promo reported by press outlets must still get through."""
+    assert flt.is_relevant(
+        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+        "", 0, "https://www.bloomberg.com/news/articles/deepseek-discount",
+    )
+    assert flt.is_relevant(
+        "Amazon offers free credits for startups to use AI models including Anthropic",
+        "", 0, "https://www.reuters.com/technology/amazon-credits",
+    )
+
+
+def test_news_domain_gate_ignores_non_news_hosts():
+    """Same weak-signal title from a non-news host is unaffected by this gate."""
+    assert flt.is_relevant(
+        "Cursor (AI code editor) - 50% off your first month, any tier",
+        "", 0, "https://cursor.com/blog/deal",
+    )
+    # No URL at all (most scrapers don't always populate one) must not
+    # accidentally trip the news-domain gate.
+    assert flt.is_relevant("Cursor (AI code editor) - 50% off your first month, any tier", "")
