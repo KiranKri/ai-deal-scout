@@ -307,9 +307,37 @@ NEGATIVE_KEYWORDS: list[str] = [
     "release updates",
     "billing support",
     "plan information",
+    "plan details",          # "Free plan details – Runway" help docs
     "now available in",
     "pair programmer",
     "marketplace experiment",
+    # --- support / complaint threads that mention plan names (eval FPs) ---
+    "why did i",             # "Why did I not get the first-month off coupon?"
+    "stopped working",       # "Copilot free plan stopped working"
+    "rate limit exceeded",
+    "but no pro",            # "I have chatgpt 5X pro plan, but no pro model"
+    "did not get",
+    "didn't get",
+    # --- corporate / infra "deal" that is not a consumer promo ---
+    "compute deal",          # "Higher usage limits for Claude and a compute deal with SpaceX"
+    "power deal",
+    "training deal",
+    "wants to get",          # "Perplexity wants to get discounted AI products into the US government"
+    # --- free product release ≠ time-limited promo ---
+    "for free on windows",   # "Perplexity releases Comet browser for free on Windows..."
+    "for free on macos",
+    "for free on mac",
+    "extension for free",    # open-source free, not a discount
+    "copilot-like",          # free clone/extension, not Copilot promo
+    "copilot like",
+    # --- generic aggregator / SEO fluff ---
+    "exclusive ai tool deals",
+    # --- past-tense price-cut news / SEO "how to" (not a redeemable offer) ---
+    # Keeps "DeepSeek to Make Permanent 75% Discount" (TP) while vetoing
+    # "DeepSeek made its 75% discount permanent" (news FP).
+    "made its",
+    "here's how",
+    "heres how",
 ]
 
 # When True, titles containing "?" must also match a STRONG_DEAL_KEYWORD
@@ -521,6 +549,31 @@ BLOCKED_DOMAINS: list[str] = [
     "worthepenny.com", "namobot.com", "mightydeals.com",
     "affiliateweapons.com", "shipthedeal.com", "colormango.com",
     "bloggingspark.com", "aistudentdiscount.com", "comparateur-ia.com",
+]
+
+# General news/press outlets that legitimately cover AI companies but publish
+# far more "AI deal" (M&A, funding, policy, infra) and product-launch stories
+# than consumer discounts.  Not blocked outright — a real promo roundup
+# ("TechCrunch: best AI deals this week") should still get through — but a
+# title from one of these hosts must also carry a STRONG_DEAL_KEYWORD.
+# Measured on the 764-row eval set: every non-strong-signal row from these
+# hosts is a false positive (GitHub/Google/Anthropic "AI deals", Perplexity
+# "discounted AI products into the US government", etc.); every true
+# positive from these hosts already carries a strong signal (e.g. DeepSeek's
+# "75% Discount", Amazon's "free credits").
+NEWS_DOMAINS: list[str] = [
+    "reuters.com", "bloomberg.com", "theregister.com", "wired.com", "ft.com",
+    "wsj.com", "theverge.com", "cnbc.com", "arstechnica.com",
+    "thedailybeast.com", "404media.co", "chinatalk.media", "noahpinion.blog",
+    "gamereactor.eu", "forbes.com", "techcrunch.com", "businessinsider.com",
+    "engadget.com", "zdnet.com", "venturebeat.com", "thenextweb.com",
+    "ghacks.net", "axios.com", "techradar.com", "pcmag.com",
+    "digitaltrends.com", "tomsguide.com", "tomshardware.com", "gizmodo.com",
+    "mashable.com", "slashdot.org", "cnet.com", "nytimes.com",
+    "washingtonpost.com", "theguardian.com", "bbc.com", "apnews.com",
+    "npr.org", "cnn.com", "marketwatch.com", "fortune.com", "semafor.com",
+    "theinformation.com", "qz.com", "vox.com", "pcworld.com",
+    "infoworld.com", "computerworld.com", "nbcnews.com",
 ]
 
 # ---------------------------------------------------------------------------

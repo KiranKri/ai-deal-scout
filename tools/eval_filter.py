@@ -57,7 +57,7 @@ def evaluate(rows: list[dict]) -> dict:
         # Mirror the pipeline exactly: main.py applies the staleness drop
         # after is_relevant.  Measuring is_relevant alone would score a
         # filter that does not exist in production.
-        predicted = is_relevant(r["title"], "", 0)
+        predicted = is_relevant(r["title"], "", 0, r.get("url", ""))
         if predicted and DROP_STALE and is_stale(r["title"], ""):
             predicted = False
         actual = bool(r["label"])

@@ -123,3 +123,139 @@ def test_no_score_gate_after_deal_and_tool():
     """MIN_SCORE is not a gate; deal+tool keyword gates are sufficient."""
     # Would have score 20; must pass without consulting MIN_SCORE.
     assert flt.is_relevant("claude deal", "") is True
+
+
+# ── Precision pass: news / support / bare free-plan FPs ──────────────
+
+
+def test_support_and_complaint_threads_vetoed():
+    """Support titles that mention plan/coupon names are not deals."""
+    for title in [
+        "Why did I not get the first-month off coupon? – ElevenLabs",
+        "GitHub Copilot free plan stopped working – rate limit exceeded",
+        "I have chatgpt 5X pro plan, but no pro model",
+    ]:
+        assert not flt.is_relevant(title, ""), f"should veto support: {title!r}"
+
+
+def test_corporate_and_product_release_not_deals():
+    """Infra 'deal' and free product launches are not consumer promos."""
+    for title in [
+        "Higher usage limits for Claude and a compute deal with SpaceX",
+        "Perplexity wants to get discounted AI products into the US government too",
+        "Perplexity releases Comet browser for free on Windows and macOS",
+        "Emacs extension for free Copilot-like AI autocomplete",
+        "Free plan details – Runway",
+        "Exclusive AI Tool Deals",
+    ]:
+        assert not flt.is_relevant(title, ""), f"should veto non-deal: {title!r}"
+
+
+def test_past_tense_price_cut_news_vetoed_present_tense_kept():
+    """News 'made its discount permanent' out; promo 'Make Permanent' stays."""
+    assert not flt.is_relevant(
+        "DeepSeek made its 75% discount permanent. The AI price war continues", ""
+    )
+    assert not flt.is_relevant(
+        "DeepSeek's new model is 75% off right now, here's how to get it", ""
+    )
+    assert flt.is_relevant(
+        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model", ""
+    )
+
+
+def test_bare_free_plan_pricing_page_rejected():
+    """'{Tool} Free Plan' alone is a tier page, not a redeemable promo."""
+    assert not flt.is_relevant("GitHub Copilot Free Plan", "")
+    # Real promos that mention free plan keep a price signal.
+    assert flt.is_relevant("GitHub Copilot free plan — 50% off first month", "")
+
+
+def test_real_deals_not_regressed_by_precision_pass():
+    """True positives from the eval set must still pass after the FP cut."""
+    for title in [
+        "Cursor (AI code editor) - 50% off your first month, any tier",
+        "1-year perplexity pro free to all Airtel users in India",
+        "GitHub Copilot is free until August 22",
+        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+        "Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)",
+        "Perplexity Ai - FREE 1-YEAR PRO PLAN",
+        "ElevenLabs — AI Student Pack",
+        "Anthropic partners with Coursera — free Claude Pro for students",
+    ]:
+        assert flt.is_relevant(title, ""), f"should still pass: {title!r}"
+
+
+# ── News-domain gate (P1) ────────────────────────────────────────────
+
+
+def test_news_domain_without_strong_signal_rejected():
+    """General press 'AI deal' coverage (M&A/funding/policy) is not a promo."""
+    cases = [
+        ("GitHub cuts AI deals with Google, Anthropic", "https://www.bloomberg.com/news/x"),
+        ("Reddit has a new AI training deal to sell user content", "https://www.theverge.com/x"),
+        ("Silicon Valley's AI deals are creating zombie startups", "https://www.cnbc.com/x"),
+        ("Microsoft 365 confirms new premium tier, stuffed with AI and few discounts",
+         "https://www.theregister.com/x"),
+    ]
+    for title, url in cases:
+        assert not flt.is_relevant(title, "", 0, url), f"should veto news FP: {title!r}"
+
+
+def test_news_domain_with_strong_signal_still_passes():
+    """A real promo reported by press outlets must still get through."""
+    assert flt.is_relevant(
+        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+        "", 0, "https://www.bloomberg.com/news/articles/deepseek-discount",
+    )
+    assert flt.is_relevant(
+        "Amazon offers free credits for startups to use AI models including Anthropic",
+        "", 0, "https://www.reuters.com/technology/amazon-credits",
+    )
+
+
+def test_news_domain_gate_ignores_non_news_hosts():
+    """Same weak-signal title from a non-news host is unaffected by this gate."""
+    assert flt.is_relevant(
+        "Cursor (AI code editor) - 50% off your first month, any tier",
+        "", 0, "https://cursor.com/blog/deal",
+    )
+    # No URL at all (most scrapers don't always populate one) must not
+    # accidentally trip the news-domain gate.
+    assert flt.is_relevant("Cursor (AI code editor) - 50% off your first month, any tier", "")
+
+
+# ── URL tool-name evidence (recall fix) ──────────────────────────────
+
+
+def test_url_tool_evidence_with_strong_signal_recovers_recall_fns():
+    """Vendor pages that name the tool only in the domain, not the title."""
+    cases = [
+        ("Student and Educator Discounts",
+         "https://help.runwayml.com/hc/en-us/articles/x-Student-and-Educator-Discounts"),
+        ("25% off for students and educators", "https://runwayml.com/educators"),
+        ("Start a Free Trial", "https://www.grammarly.com/upgrade/business/try"),
+    ]
+    for title, url in cases:
+        assert flt.is_relevant(title, "", 0, url), f"should recover via URL evidence: {title!r}"
+
+
+def test_url_tool_evidence_without_strong_signal_still_rejected():
+    """Weak DEAL_KEYWORDS ('offer', 'trial', 'credits') must not combine with
+    URL-only tool evidence — these are generic pricing/help pages on hosts
+    that also sell real deals, not deals themselves."""
+    cases = [
+        ("Codex now offers more flexible pricing for teams", "https://openai.com/index/codex-pricing"),
+        ("The subscription trial", "https://help.udio.com/hc/en-us/articles/x"),
+        ("Credits and credit limits", "https://help.udio.com/hc/en-us/articles/y"),
+    ]
+    for title, url in cases:
+        assert not flt.is_relevant(title, "", 0, url), f"should stay rejected: {title!r}"
+
+
+def test_url_tool_evidence_does_not_replace_deal_keyword_gate():
+    """A tool-naming URL alone, with no deal signal anywhere, must not pass."""
+    assert not flt.is_relevant(
+        "Your connected workspace for wiki, docs & projects | Notion",
+        "", 0, "https://www.notion.so/startups",
+    )

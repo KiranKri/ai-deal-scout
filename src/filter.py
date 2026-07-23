@@ -7,11 +7,14 @@ Uses word-boundary regex matching to avoid false positives from substrings
 import logging
 import re
 
+from urllib.parse import urlparse
+
 from config import (
     BOOSTED_PHRASES,
     DEAL_KEYWORDS,
     MIN_UPVOTES,
     NEGATIVE_KEYWORDS,
+    NEWS_DOMAINS,
     VETO_QUESTION_TITLES,
     NO_INFLECTION,
     STRONG_DEAL_KEYWORDS,
@@ -178,7 +181,99 @@ def _url_evidence(url: str) -> str:
     return re.sub(r"[/._\-]+", " ", lowered)
 
 
-def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
+# Price-shaped tokens that upgrade a bare "free plan" title into a real promo.
+# Used by ``_is_bare_free_plan`` — not a full STRONG_DEAL substitute.
+_PRICE_SIGNAL = re.compile(
+    r"\d+\s*%|%\s*off|\$\s*\d+|\b\d+\s*\$|\b\d+\s*(?:month|year|week)s?\b",
+    re.IGNORECASE,
+)
+
+
+# TOOL_KEYWORDS entries usable as a URL-substring check: single tokens (no
+# spaces — domains cannot contain them) that are distinctive enough not to
+# collide with unrelated hosts.  Excludes short/generic entries ("gpt", "llm")
+# and the deliberately-broad catch-all tier ("ai tool", "ai app", ...), which
+# either can't appear in a compact hostname or are too weak as standalone
+# evidence.
+_URL_TOOL_TOKENS: tuple[str, ...] = tuple(
+    kw for kw in TOOL_KEYWORDS if kw.replace("-", "").isalnum() and len(kw) >= 4
+)
+
+
+def _url_tool_evidence(url: str) -> str:
+    """Return the TOOL_KEYWORDS token found in *url*'s host, or "".
+
+    Vendor offer pages often name the product only in the domain
+    (runwayml.com/educators, grammarly.com/upgrade/business/try) while the
+    title itself never says the tool name ("25% off for students and
+    educators", "Start a Free Trial").  Used only to satisfy the
+    TOOL_KEYWORDS gate — it is not a substitute for the DEAL_KEYWORDS gate,
+    so it cannot turn a no-deal title into a match by itself.
+
+    Callers must additionally require a STRONG_DEAL_KEYWORDS match whenever
+    this is the only tool evidence (see ``is_relevant``).  Trusting any weak
+    DEAL_KEYWORDS hit was tried first and measured worse: help/pricing pages
+    on the same host as a real tool ("Codex now offers more flexible
+    pricing", Udio's "The subscription trial", "Credits and credit limits")
+    matched on "offer"/"trial"/"credits" alone and cost 4 new FPs for the
+    same 3 recovered FNs. Gating on a strong signal instead costs only 1 new
+    FP (Runway student discount x2 + Grammarly free trial recovered; a
+    Suno-generated song literally titled "Pay For A Free Trial" is the one
+    that still slips through — not resolvable with keywords).
+    """
+    if not url:
+        return ""
+    try:
+        host = (urlparse(url).hostname or "").lower()
+    except ValueError:
+        return ""
+    if host.startswith("www."):
+        host = host[4:]
+    for token in _URL_TOOL_TOKENS:
+        if token in host:
+            return token
+    return ""
+
+
+def _is_bare_free_plan(combined: str) -> bool:
+    """True when the only deal signal is ``free plan`` with no price upgrade.
+
+    Pricing-tier pages ("GitHub Copilot Free Plan") and help docs match
+    ``free plan`` + a tool name and used to pass the filter despite carrying
+    no redeemable offer.  Real promos that mention free plan also carry a
+    percentage, dollar amount, duration, or a STRONG_DEAL keyword.
+    """
+    deal_hits = [kw for kw in DEAL_KEYWORDS if _match(combined, kw)]
+    if not deal_hits or set(deal_hits) != {"free plan"}:
+        return False
+    if any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS):
+        return False
+    if _PRICE_SIGNAL.search(combined):
+        return False
+    return True
+
+
+def _news_domain(url: str) -> str:
+    """Return the matching ``NEWS_DOMAINS`` host for *url*, or "".
+
+    Subdomains match their parent (``www.reuters.com`` and
+    ``blogs.reuters.com`` both match ``reuters.com``).
+    """
+    if not url:
+        return ""
+    try:
+        host = (urlparse(url).hostname or "").lower()
+    except ValueError:
+        return ""
+    if host.startswith("www."):
+        host = host[4:]
+    for domain in NEWS_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return domain
+    return ""
+
+
+def is_relevant(title: str, body: str = "", upvotes: int = 0, url: str = "") -> bool:
     """Determine whether a deal is relevant enough to notify.
 
     A post is relevant when **all** of the following hold:
@@ -189,9 +284,14 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
        offer-shaped questions ("50% off?") can pass.
     3. ``Show HN:`` titles require a strong price signal.
     4. At least one ``DEAL_KEYWORDS`` match (word-boundary).
-    5. At least one ``TOOL_KEYWORDS`` match (word-boundary) — tool name may
-       appear in title or body.
-    6. If ``MIN_UPVOTES > 0``, ``upvotes`` must be >= that threshold
+    5. At least one ``TOOL_KEYWORDS`` match (word-boundary) in title or
+       body, OR the URL's host names a known tool (``_url_tool_evidence``) —
+       vendor pages often name the product only in the domain.
+    6. Not a bare ``free plan`` title (pricing page) without a price signal.
+    7. If the URL's host is a ``NEWS_DOMAINS`` press outlet, a strong price
+       signal (``STRONG_DEAL_KEYWORDS``) is required — general news covers
+       AI "deals" (M&A, funding, policy) far more than consumer discounts.
+    8. If ``MIN_UPVOTES > 0``, ``upvotes`` must be >= that threshold
        (unknown/zero-upvote sources fail when the gate is enabled).
 
     Score is computed for logging / ranking only.  ``MIN_SCORE`` is not used
@@ -202,6 +302,8 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
         title: Deal headline or title string.
         body: Optional body / description text.
         upvotes: Upvote/karma count for the post (0 means no upvote data).
+        url: Optional source URL, used for tool-name evidence and the
+            news-domain gate.
 
     Returns:
         True if the deal passes all relevance checks, False otherwise.
@@ -237,8 +339,32 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
         return False
 
     has_tool_kw = any(_match(combined, kw) for kw in TOOL_KEYWORDS)
+    if not has_tool_kw and _url_tool_evidence(url):
+        # URL-only tool evidence (no tool name in title/body) is trustworthy
+        # only alongside a *strong* price signal — weak DEAL_KEYWORDS alone
+        # ("offer", "trial", "credits") pass on generic pricing/help pages
+        # for the same host (openai.com "Codex ... pricing", Udio help docs).
+        has_tool_kw = any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS)
     if not has_tool_kw:
         logger.debug("is_relevant=False (no TOOL_KEYWORD) title=%r", title)
+        return False
+
+    # Bare "free plan" + tool name is almost always a pricing-tier page, not a
+    # promo.  Measured on the 764-row eval set: kills 1 FP, 0 new FNs.
+    if _is_bare_free_plan(combined):
+        logger.debug("is_relevant=False (bare free plan, no price signal) title=%r", title)
+        return False
+
+    # News-domain gate: general press covers AI "deals" (M&A, funding,
+    # infra, policy) and product launches far more than consumer discounts.
+    # Require an explicit strong signal from these hosts specifically.
+    news_domain = _news_domain(url)
+    if news_domain and not any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS):
+        logger.debug(
+            "is_relevant=False (news domain %r, no strong signal) title=%r",
+            news_domain,
+            title,
+        )
         return False
 
     # Upvote gate: MIN_UPVOTES=0 means disabled (explicit, not a dead
