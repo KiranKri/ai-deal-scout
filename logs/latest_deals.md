@@ -1466,3 +1466,30 @@ _No deals logged yet._
 - [Codeium for AI Coding: review, features & use cases](https://codeium.en.softonic.com/web-apps) | WebSearch | 👍 0
 - [Code Library - Tabnine](https://www.tabnine.com/code-library) | WebSearch | 👍 0
 
+## Run: 2026-07-23 11:09:23 IST
+- [Changing or canceling your subscription | Udio Help Center](https://help.udio.com/en/articles/10739199-changing-or-canceling-your-subscription) | WebSearch | 👍 0
+- [A New Era of Music - Udio with Universal Music Group](https://www.udio.com/blog/a-new-era) | WebSearch | 👍 0
+- [Changes associated with the Universal Music Group ("UMG") partnership | Udio Help Center](https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership) | WebSearch | 👍 0
+- [Suno | AI Music Generator](https://suno.com) | WebSearch | 👍 0
+- [Suno AI | Free Music](https://sunnoai.com) | WebSearch | 👍 0
+- [Suno AI: Best AI Music Generation](https://suno-ai.org) | WebSearch | 👍 0
+- [Suno](https://suno.com/about) | WebSearch | 👍 0
+- [Suno - AI Music & Songs Maker - Apps on Google Play](https://play.google.com/store/apps/details?id=com.suno.android&hl=en_US) | WebSearch | 👍 0
+- [Runway for Students](https://www.joinrunway.io) | WebSearch | 👍 0
+- [Meet your AI team | Notion](https://www.notion.so/product/ai) | WebSearch | 👍 0
+- [Notion for education – Notion Help Center](https://www.notion.so/help/notion-for-education) | WebSearch | 👍 0
+- [Notion for Education](https://www.notion.so/product/notion-for-education) | WebSearch | 👍 0
+- [Free AI Writing Assistance for Students | Grammarly](https://www.grammarly.com/students) | WebSearch | 👍 0
+- [Paid for GPTPlus but account says free trial - API - OpenAI Developer Community](https://community.openai.com/t/paid-for-gptplus-but-account-says-free-trial/120960) | WebSearch | 👍 0
+- [Abuse of the $1 Trial Plan in Vietnam – Unfair Impact on Legitimate $25 Users - ChatGPT - OpenAI Developer Community](https://community.openai.com/t/abuse-of-the-1-trial-plan-in-vietnam-unfair-impact-on-legitimate-25-users/1290465) | WebSearch | 👍 0
+- [Cursor · Students](https://cursor.com/students) | WebSearch | 👍 0
+- [Monthly token limit in the $20 Pro Plan for Cursor usage - Help - Cursor - Community Forum](https://forum.cursor.com/t/monthly-token-limit-in-the-20-pro-plan-for-cursor-usage/120655) | WebSearch | 👍 0
+- [AI Code Review Built for Production | Bugbot by Cursor](https://cursor.com/bugbot) | WebSearch | 👍 0
+- [Clarifying our pricing · Cursor](https://cursor.com/blog/june-2025-pricing) | WebSearch | 👍 0
+- [Cursor · Open Source Software License Notice](https://cursor.com/licenses) | WebSearch | 👍 0
+- [Jasper AI discount: 7 Day Free Trial - 2026](https://www.founderpass.com/partners/jasper-ai) | WebSearch | 👍 0
+- [Jasper 20% Student Discount | Jul 2026 Student Beans Code](https://www.studentbeans.com/student-discount/us/jasper) | WebSearch | 👍 0
+- [Free Trial – Jasper Help Center](https://help.jasper.ai/hc/en-us/articles/18618674196891-Free-Trial) | WebSearch | 👍 0
+- [20% Off Jasper AI Coupon Codes, Discount | Jul 2026](https://jasper-ai.grabon.com/coupons) | WebSearch | 👍 0
+- [Jasper AI Student Discount and Other Eye-Catching Deals | July 2026](https://www.bitdegree.org/ai/deals/jasper-ai-student-discount) | WebSearch | 👍 0
+
