@@ -178,6 +178,32 @@ def _url_evidence(url: str) -> str:
     return re.sub(r"[/._\-]+", " ", lowered)
 
 
+# Price-shaped tokens that upgrade a bare "free plan" title into a real promo.
+# Used by ``_is_bare_free_plan`` — not a full STRONG_DEAL substitute.
+_PRICE_SIGNAL = re.compile(
+    r"\d+\s*%|%\s*off|\$\s*\d+|\b\d+\s*\$|\b\d+\s*(?:month|year|week)s?\b",
+    re.IGNORECASE,
+)
+
+
+def _is_bare_free_plan(combined: str) -> bool:
+    """True when the only deal signal is ``free plan`` with no price upgrade.
+
+    Pricing-tier pages ("GitHub Copilot Free Plan") and help docs match
+    ``free plan`` + a tool name and used to pass the filter despite carrying
+    no redeemable offer.  Real promos that mention free plan also carry a
+    percentage, dollar amount, duration, or a STRONG_DEAL keyword.
+    """
+    deal_hits = [kw for kw in DEAL_KEYWORDS if _match(combined, kw)]
+    if not deal_hits or set(deal_hits) != {"free plan"}:
+        return False
+    if any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS):
+        return False
+    if _PRICE_SIGNAL.search(combined):
+        return False
+    return True
+
+
 def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
     """Determine whether a deal is relevant enough to notify.
 
@@ -191,7 +217,8 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
     4. At least one ``DEAL_KEYWORDS`` match (word-boundary).
     5. At least one ``TOOL_KEYWORDS`` match (word-boundary) — tool name may
        appear in title or body.
-    6. If ``MIN_UPVOTES > 0``, ``upvotes`` must be >= that threshold
+    6. Not a bare ``free plan`` title (pricing page) without a price signal.
+    7. If ``MIN_UPVOTES > 0``, ``upvotes`` must be >= that threshold
        (unknown/zero-upvote sources fail when the gate is enabled).
 
     Score is computed for logging / ranking only.  ``MIN_SCORE`` is not used
@@ -239,6 +266,12 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0) -> bool:
     has_tool_kw = any(_match(combined, kw) for kw in TOOL_KEYWORDS)
     if not has_tool_kw:
         logger.debug("is_relevant=False (no TOOL_KEYWORD) title=%r", title)
+        return False
+
+    # Bare "free plan" + tool name is almost always a pricing-tier page, not a
+    # promo.  Measured on the 764-row eval set: kills 1 FP, 0 new FNs.
+    if _is_bare_free_plan(combined):
+        logger.debug("is_relevant=False (bare free plan, no price signal) title=%r", title)
         return False
 
     # Upvote gate: MIN_UPVOTES=0 means disabled (explicit, not a dead

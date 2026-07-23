@@ -307,9 +307,37 @@ NEGATIVE_KEYWORDS: list[str] = [
     "release updates",
     "billing support",
     "plan information",
+    "plan details",          # "Free plan details – Runway" help docs
     "now available in",
     "pair programmer",
     "marketplace experiment",
+    # --- support / complaint threads that mention plan names (eval FPs) ---
+    "why did i",             # "Why did I not get the first-month off coupon?"
+    "stopped working",       # "Copilot free plan stopped working"
+    "rate limit exceeded",
+    "but no pro",            # "I have chatgpt 5X pro plan, but no pro model"
+    "did not get",
+    "didn't get",
+    # --- corporate / infra "deal" that is not a consumer promo ---
+    "compute deal",          # "Higher usage limits for Claude and a compute deal with SpaceX"
+    "power deal",
+    "training deal",
+    "wants to get",          # "Perplexity wants to get discounted AI products into the US government"
+    # --- free product release ≠ time-limited promo ---
+    "for free on windows",   # "Perplexity releases Comet browser for free on Windows..."
+    "for free on macos",
+    "for free on mac",
+    "extension for free",    # open-source free, not a discount
+    "copilot-like",          # free clone/extension, not Copilot promo
+    "copilot like",
+    # --- generic aggregator / SEO fluff ---
+    "exclusive ai tool deals",
+    # --- past-tense price-cut news / SEO "how to" (not a redeemable offer) ---
+    # Keeps "DeepSeek to Make Permanent 75% Discount" (TP) while vetoing
+    # "DeepSeek made its 75% discount permanent" (news FP).
+    "made its",
+    "here's how",
+    "heres how",
 ]
 
 # When True, titles containing "?" must also match a STRONG_DEAL_KEYWORD

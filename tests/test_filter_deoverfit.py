@@ -123,3 +123,64 @@ def test_no_score_gate_after_deal_and_tool():
     """MIN_SCORE is not a gate; deal+tool keyword gates are sufficient."""
     # Would have score 20; must pass without consulting MIN_SCORE.
     assert flt.is_relevant("claude deal", "") is True
+
+
+# ── Precision pass: news / support / bare free-plan FPs ──────────────
+
+
+def test_support_and_complaint_threads_vetoed():
+    """Support titles that mention plan/coupon names are not deals."""
+    for title in [
+        "Why did I not get the first-month off coupon? – ElevenLabs",
+        "GitHub Copilot free plan stopped working – rate limit exceeded",
+        "I have chatgpt 5X pro plan, but no pro model",
+    ]:
+        assert not flt.is_relevant(title, ""), f"should veto support: {title!r}"
+
+
+def test_corporate_and_product_release_not_deals():
+    """Infra 'deal' and free product launches are not consumer promos."""
+    for title in [
+        "Higher usage limits for Claude and a compute deal with SpaceX",
+        "Perplexity wants to get discounted AI products into the US government too",
+        "Perplexity releases Comet browser for free on Windows and macOS",
+        "Emacs extension for free Copilot-like AI autocomplete",
+        "Free plan details – Runway",
+        "Exclusive AI Tool Deals",
+    ]:
+        assert not flt.is_relevant(title, ""), f"should veto non-deal: {title!r}"
+
+
+def test_past_tense_price_cut_news_vetoed_present_tense_kept():
+    """News 'made its discount permanent' out; promo 'Make Permanent' stays."""
+    assert not flt.is_relevant(
+        "DeepSeek made its 75% discount permanent. The AI price war continues", ""
+    )
+    assert not flt.is_relevant(
+        "DeepSeek's new model is 75% off right now, here's how to get it", ""
+    )
+    assert flt.is_relevant(
+        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model", ""
+    )
+
+
+def test_bare_free_plan_pricing_page_rejected():
+    """'{Tool} Free Plan' alone is a tier page, not a redeemable promo."""
+    assert not flt.is_relevant("GitHub Copilot Free Plan", "")
+    # Real promos that mention free plan keep a price signal.
+    assert flt.is_relevant("GitHub Copilot free plan — 50% off first month", "")
+
+
+def test_real_deals_not_regressed_by_precision_pass():
+    """True positives from the eval set must still pass after the FP cut."""
+    for title in [
+        "Cursor (AI code editor) - 50% off your first month, any tier",
+        "1-year perplexity pro free to all Airtel users in India",
+        "GitHub Copilot is free until August 22",
+        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+        "Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)",
+        "Perplexity Ai - FREE 1-YEAR PRO PLAN",
+        "ElevenLabs — AI Student Pack",
+        "Anthropic partners with Coursera — free Claude Pro for students",
+    ]:
+        assert flt.is_relevant(title, ""), f"should still pass: {title!r}"
