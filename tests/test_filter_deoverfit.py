@@ -223,3 +223,39 @@ def test_news_domain_gate_ignores_non_news_hosts():
     # No URL at all (most scrapers don't always populate one) must not
     # accidentally trip the news-domain gate.
     assert flt.is_relevant("Cursor (AI code editor) - 50% off your first month, any tier", "")
+
+
+# ── URL tool-name evidence (recall fix) ──────────────────────────────
+
+
+def test_url_tool_evidence_with_strong_signal_recovers_recall_fns():
+    """Vendor pages that name the tool only in the domain, not the title."""
+    cases = [
+        ("Student and Educator Discounts",
+         "https://help.runwayml.com/hc/en-us/articles/x-Student-and-Educator-Discounts"),
+        ("25% off for students and educators", "https://runwayml.com/educators"),
+        ("Start a Free Trial", "https://www.grammarly.com/upgrade/business/try"),
+    ]
+    for title, url in cases:
+        assert flt.is_relevant(title, "", 0, url), f"should recover via URL evidence: {title!r}"
+
+
+def test_url_tool_evidence_without_strong_signal_still_rejected():
+    """Weak DEAL_KEYWORDS ('offer', 'trial', 'credits') must not combine with
+    URL-only tool evidence — these are generic pricing/help pages on hosts
+    that also sell real deals, not deals themselves."""
+    cases = [
+        ("Codex now offers more flexible pricing for teams", "https://openai.com/index/codex-pricing"),
+        ("The subscription trial", "https://help.udio.com/hc/en-us/articles/x"),
+        ("Credits and credit limits", "https://help.udio.com/hc/en-us/articles/y"),
+    ]
+    for title, url in cases:
+        assert not flt.is_relevant(title, "", 0, url), f"should stay rejected: {title!r}"
+
+
+def test_url_tool_evidence_does_not_replace_deal_keyword_gate():
+    """A tool-naming URL alone, with no deal signal anywhere, must not pass."""
+    assert not flt.is_relevant(
+        "Your connected workspace for wiki, docs & projects | Notion",
+        "", 0, "https://www.notion.so/startups",
+    )

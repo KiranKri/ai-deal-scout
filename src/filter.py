@@ -189,6 +189,52 @@ _PRICE_SIGNAL = re.compile(
 )
 
 
+# TOOL_KEYWORDS entries usable as a URL-substring check: single tokens (no
+# spaces — domains cannot contain them) that are distinctive enough not to
+# collide with unrelated hosts.  Excludes short/generic entries ("gpt", "llm")
+# and the deliberately-broad catch-all tier ("ai tool", "ai app", ...), which
+# either can't appear in a compact hostname or are too weak as standalone
+# evidence.
+_URL_TOOL_TOKENS: tuple[str, ...] = tuple(
+    kw for kw in TOOL_KEYWORDS if kw.replace("-", "").isalnum() and len(kw) >= 4
+)
+
+
+def _url_tool_evidence(url: str) -> str:
+    """Return the TOOL_KEYWORDS token found in *url*'s host, or "".
+
+    Vendor offer pages often name the product only in the domain
+    (runwayml.com/educators, grammarly.com/upgrade/business/try) while the
+    title itself never says the tool name ("25% off for students and
+    educators", "Start a Free Trial").  Used only to satisfy the
+    TOOL_KEYWORDS gate — it is not a substitute for the DEAL_KEYWORDS gate,
+    so it cannot turn a no-deal title into a match by itself.
+
+    Callers must additionally require a STRONG_DEAL_KEYWORDS match whenever
+    this is the only tool evidence (see ``is_relevant``).  Trusting any weak
+    DEAL_KEYWORDS hit was tried first and measured worse: help/pricing pages
+    on the same host as a real tool ("Codex now offers more flexible
+    pricing", Udio's "The subscription trial", "Credits and credit limits")
+    matched on "offer"/"trial"/"credits" alone and cost 4 new FPs for the
+    same 3 recovered FNs. Gating on a strong signal instead costs only 1 new
+    FP (Runway student discount x2 + Grammarly free trial recovered; a
+    Suno-generated song literally titled "Pay For A Free Trial" is the one
+    that still slips through — not resolvable with keywords).
+    """
+    if not url:
+        return ""
+    try:
+        host = (urlparse(url).hostname or "").lower()
+    except ValueError:
+        return ""
+    if host.startswith("www."):
+        host = host[4:]
+    for token in _URL_TOOL_TOKENS:
+        if token in host:
+            return token
+    return ""
+
+
 def _is_bare_free_plan(combined: str) -> bool:
     """True when the only deal signal is ``free plan`` with no price upgrade.
 
@@ -238,8 +284,9 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0, url: str = "") -> 
        offer-shaped questions ("50% off?") can pass.
     3. ``Show HN:`` titles require a strong price signal.
     4. At least one ``DEAL_KEYWORDS`` match (word-boundary).
-    5. At least one ``TOOL_KEYWORDS`` match (word-boundary) — tool name may
-       appear in title or body.
+    5. At least one ``TOOL_KEYWORDS`` match (word-boundary) in title or
+       body, OR the URL's host names a known tool (``_url_tool_evidence``) —
+       vendor pages often name the product only in the domain.
     6. Not a bare ``free plan`` title (pricing page) without a price signal.
     7. If the URL's host is a ``NEWS_DOMAINS`` press outlet, a strong price
        signal (``STRONG_DEAL_KEYWORDS``) is required — general news covers
@@ -255,7 +302,8 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0, url: str = "") -> 
         title: Deal headline or title string.
         body: Optional body / description text.
         upvotes: Upvote/karma count for the post (0 means no upvote data).
-        url: Optional source URL, used only for the news-domain gate.
+        url: Optional source URL, used for tool-name evidence and the
+            news-domain gate.
 
     Returns:
         True if the deal passes all relevance checks, False otherwise.
@@ -291,6 +339,12 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0, url: str = "") -> 
         return False
 
     has_tool_kw = any(_match(combined, kw) for kw in TOOL_KEYWORDS)
+    if not has_tool_kw and _url_tool_evidence(url):
+        # URL-only tool evidence (no tool name in title/body) is trustworthy
+        # only alongside a *strong* price signal — weak DEAL_KEYWORDS alone
+        # ("offer", "trial", "credits") pass on generic pricing/help pages
+        # for the same host (openai.com "Codex ... pricing", Udio help docs).
+        has_tool_kw = any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS)
     if not has_tool_kw:
         logger.debug("is_relevant=False (no TOOL_KEYWORD) title=%r", title)
         return False
