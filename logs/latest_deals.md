@@ -1493,3 +1493,27 @@ _No deals logged yet._
 - [20% Off Jasper AI Coupon Codes, Discount | Jul 2026](https://jasper-ai.grabon.com/coupons) | WebSearch | 👍 0
 - [Jasper AI Student Discount and Other Eye-Catching Deals | July 2026](https://www.bitdegree.org/ai/deals/jasper-ai-student-discount) | WebSearch | 👍 0
 
+## Run: 2026-07-24 11:05:45 IST
+- [Usage limit reached on Pro $200 Plan. Added 80$ of credits which got vaporized within 30 minutes...](https://www.reddit.com/r/ChatGPTPro/comments/1v4ge0m/usage_limit_reached_on_pro_200_plan_added_80_of/) | Reddit | 👍 0
+- [Free trial of AI Agent Development Kit with ethical guardrails"](https://autonomous-test-sev1224.replit.app/) | HackerNews | 👍 2
+- [Add Discount Codes to Your Shopify Cart Page](https://claude.ai/public/artifacts/bc372845-d1dd-4042-8b48-db8c5fc214a9) | HackerNews | 👍 1
+- [Perplexity AI](https://en.wikipedia.org/wiki/Perplexity_AI) | WebSearch | 👍 0
+- [Do you offer discounted or free plans?](https://help.elevenlabs.io/hc/en-us/articles/13315218812177-Do-you-offer-discounted-or-free-plans) | WebSearch | 👍 0
+- [ElevenLabs Partners With National Federation of the Blind](https://elevenlabs.io/blog/nfb-elevenlabs) | WebSearch | 👍 0
+- [ElevenCreative - Creative platform to bring your content to life](https://elevenlabs.io/creative) | WebSearch | 👍 0
+- [Best No-Code Automation Platforms for Business | Lovable](https://lovable.dev/guides/no-code-automation-platforms) | WebSearch | 👍 0
+- [Top 8 Rapid Application Development Tools for Teams 2026 | Lovable](https://lovable.dev/guides/rapid-application-development-tools) | WebSearch | 👍 0
+- [Famous.ai vs Lovable: Which Builder Wins in 2026 | Lovable](https://lovable.dev/guides/famous-ai-vs-lovable) | WebSearch | 👍 0
+- [10 Mailchimp Alternatives That Save $780+ Per Year | Lovable](https://lovable.dev/guides/10-mailchimp-alternatives-cost-less) | WebSearch | 👍 0
+- [Make.com Alternatives: Compare Pricing, Features & Use Cases (2026) | Lovable](https://lovable.dev/guides/make-alternatives-no-code-automation-2026) | WebSearch | 👍 0
+- [As a student, am I eligible for a discount on le Chat Pro? | Mistral AI - Help Center](https://help.mistral.ai/en/articles/347553-as-a-student-am-i-eligible-for-a-discount-on-le-chat-pro) | WebSearch | 👍 0
+- [Ardian and Mistral AI   | Mistral AI](http://www.mistral.ai/customers/ardian) | WebSearch | 👍 0
+- [Coupon codes](https://help.runwayml.com/hc/en-us/articles/4402304054035-Coupon-codes) | WebSearch | 👍 0
+- [GET 70% MAXIMUM Discount Writesonic Promo Code Coupon](https://cnoffers.github.io/writesonic/writesonic-coupon-code.html) | WebSearch | 👍 0
+- [Exclusive Pictory.ai Coupon Code for Video Editing Deals](https://www.bitdegree.org/ai/deals/pictory-ai-coupon-code) | WebSearch | 👍 0
+- [Writesonic Free Trial 2026 → Free Access without Credit ...](https://tipsonblogging.com/2022/12/writesonic-free-trial) | WebSearch | 👍 0
+- [Copy.ai Promo Codes (July 2026): Grab 60% Discount](https://tipsonblogging.com/2022/06/copy-ai-promo-code) | WebSearch | 👍 0
+- [Discover New Copy.ai Promo Codes and Discounts](https://www.bitdegree.org/ai/deals/copy-ai-promo-code) | WebSearch | 👍 0
+- [Copy.ai promo code: 30% off - 2026](https://www.founderpass.com/partners/copy-ai) | WebSearch | 👍 0
+- [Experience Copy.ai Free Trial: Transform GTM | Copy.ai](https://www.copy.ai/blog/copy-ai-free-trial) | WebSearch | 👍 0
+
