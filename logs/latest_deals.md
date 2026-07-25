@@ -1517,3 +1517,17 @@ _No deals logged yet._
 - [Copy.ai promo code: 30% off - 2026](https://www.founderpass.com/partners/copy-ai) | WebSearch | 👍 0
 - [Experience Copy.ai Free Trial: Transform GTM | Copy.ai](https://www.copy.ai/blog/copy-ai-free-trial) | WebSearch | 👍 0
 
+## Run: 2026-07-25 10:58:32 IST
+- [Notion for startups – Notion Help Center](https://www.notion.so/help/notion-for-startups) | WebSearch | 👍 0
+- [Your AI workspace.](https://affiliate.notion.so/0wta3) | WebSearch | 👍 0
+- [Pricing - Claude Platform Docs](https://docs.anthropic.com/en/docs/about-claude/pricing) | WebSearch | 👍 0
+- [Anthropic's AI for Science Program | Claude Help Center](https://support.anthropic.com/en/articles/11199177-anthropic-s-ai-for-science-program) | WebSearch | 👍 0
+- [Think Bigger: How Small Teams Win with ChatGPT](https://go.openai.com/rs/504-SWE-347/images/ChatGPT-Team-Guide.pdf?version=1&mkt_tok=NTA0LVNXRS0zNDcAAAGcYcY61U4DhPUrrecTscyELzpWTMQH1TiFBk0m-hZ8NevIW5tJ5wLz42_6rqfwRoR1bywoKvqucNajdWKVPYbpH8vJHrjM9fM8SkLlFvE) | WebSearch | 👍 0
+- [Pricing · Plans for every developer](https://github.com/pricing) | WebSearch | 👍 0
+- [Quillbot Up to 25% Off Subscriptions](https://www.myunidays.com/GB/en-GB/partners/quillbot/view) | WebSearch | 👍 0
+- [Best Ways to Use a Quillbot promo code and Save More on Writing Tools — HumanizeThat](https://humanizethat.com/blog/best-ways-to-use-a-quillbot-promo-code-and-save-more-on-writing-tools) | WebSearch | 👍 0
+- [Quillbot 25% Student Discount | Jul 2026 Student Beans Code](https://www.studentbeans.com/student-discount/us/quillbot) | WebSearch | 👍 0
+- [Student Discount on Quillbot Premium](https://quillbot.com/premium/student-discount) | WebSearch | 👍 0
+- [1 Valid Otter.ai Coupon Codes February 2026: Free Trial](https://otterai.99firms.com) | WebSearch | 👍 0
+- [Discover New and Exclusive Otter.ai Coupon Code Deals | July 2026](https://www.bitdegree.org/ai/deals/otter-ai-coupon-code) | WebSearch | 👍 0
+
