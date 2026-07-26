@@ -1531,3 +1531,12 @@ _No deals logged yet._
 - [1 Valid Otter.ai Coupon Codes February 2026: Free Trial](https://otterai.99firms.com) | WebSearch | 👍 0
 - [Discover New and Exclusive Otter.ai Coupon Code Deals | July 2026](https://www.bitdegree.org/ai/deals/otter-ai-coupon-code) | WebSearch | 👍 0
 
+## Run: 2026-07-26 11:16:03 IST
+- [OpenCode, Codex and Free Trial](https://www.reddit.com/r/ChatGPTPro/comments/1v6ift2/opencode_codex_and_free_trial/) | Reddit | 👍 0
+- [Introducing Subscriptions and Inpainting](https://www.udio.com/blog/introducing-subscriptions-and-inpainting) | WebSearch | 👍 0
+- [Rent for Air by ja_public_spot](https://suno.com/song/618f4076-9ca1-4b9e-97b6-3f29c702f044) | WebSearch | 👍 0
+- [Runway Education FAQ – Runway](https://help.runwayml.com/hc/en-us/articles/43109077483667-Runway-Education-FAQ) | WebSearch | 👍 0
+- [Elicit AI Promo Codes – 80% OFF Exclusive Discounts](https://elicit-ai-promo-codes.webflow.io) | WebSearch | 👍 0
+- [Elicit Coupons & Promo Codes (July 2026) | Verified](https://elicit.saver.com) | WebSearch | 👍 0
+- [Discount code for Elicit AI : r/research](https://www.reddit.com/r/research/comments/1chfqxc/discount_code_for_elicit_ai) | WebSearch | 👍 0
+
