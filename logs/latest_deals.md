@@ -1540,3 +1540,17 @@ _No deals logged yet._
 - [Elicit Coupons & Promo Codes (July 2026) | Verified](https://elicit.saver.com) | WebSearch | 👍 0
 - [Discount code for Elicit AI : r/research](https://www.reddit.com/r/research/comments/1chfqxc/discount_code_for_elicit_ai) | WebSearch | 👍 0
 
+## Run: 2026-07-27 11:35:02 IST
+- [Request for Annual and Multi-Year Membership Discounts ...](https://community.openai.com/t/request-for-annual-and-multi-year-membership-discounts-for-chatgpt-plus/1113752) | WebSearch | 👍 0
+- [Which Perplexity Subscription Plan is right for you?](https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you.html) | WebSearch | 👍 0
+- [Perplexity Pro](https://www.perplexity.ai/pro) | WebSearch | 👍 0
+- [Partner Promotions and Referral Programs | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11385821-partner-promotions-and-referral-programs.html) | WebSearch | 👍 0
+- [More Value In Every Answer: New Benefits For Every Level of Perplexity User](https://www.perplexity.ai/hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user) | WebSearch | 👍 0
+- [Copilot Pro coupon showing $10 instead of free (Student ...](https://github.com/orgs/community/discussions/172570) | WebSearch | 👍 0
+- [You.com offer for startups: Not Available - 2026](https://www.founderpass.com/partners/you-com) | WebSearch | 👍 0
+- [Have you heard of You.com - Check it out Free for a Year.](https://www.reddit.com/r/TheCircuit/comments/1jftnb5/have_you_heard_of_youcom_check_it_out_free_for_a) | WebSearch | 👍 0
+- [Kimi AI Pricing 2026: Plans, Membership Cost & API Token ...](https://kimik2ai.com/pricing) | WebSearch | 👍 0
+- [Medium](https://blog.stackademic.com/from-11-99-to-0-99-how-i-debudded-a-discount-my-10-round-negotiation-with-kimi-ai-7c3db438379f) | WebSearch | 👍 0
+- [How to get the 0.99 or 1.99 Kimi plan](https://www.reddit.com/r/kimi/comments/1qv183x/how_to_get_the_099_or_199_kimi_plan) | WebSearch | 👍 0
+- [[Question]: Readme mentioned discount for Moonshot Kimi · Issue #2056 · code-yeongyu/oh-my-openagent · GitHub](https://github.com/code-yeongyu/oh-my-openagent/issues/2056) | WebSearch | 👍 0
+
