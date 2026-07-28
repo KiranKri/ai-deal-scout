@@ -1554,3 +1554,19 @@ _No deals logged yet._
 - [How to get the 0.99 or 1.99 Kimi plan](https://www.reddit.com/r/kimi/comments/1qv183x/how_to_get_the_099_or_199_kimi_plan) | WebSearch | 👍 0
 - [[Question]: Readme mentioned discount for Moonshot Kimi · Issue #2056 · code-yeongyu/oh-my-openagent · GitHub](https://github.com/code-yeongyu/oh-my-openagent/issues/2056) | WebSearch | 👍 0
 
+## Run: 2026-07-28 11:00:07 IST
+- [Top 3 Music-Making Software for Mac [Updated 2026]](https://suno.com/hub/music-making-software-for-mac) | WebSearch | 👍 0
+- [Terms of Use | Runway](https://runwayml.com/terms-of-use) | WebSearch | 👍 0
+- [Replit Docs](https://docs.replit.com/updates/2025/09/19/changelog) | WebSearch | 👍 0
+- [Replit Pro Is Here — and Core Now Offers Even Better Value](https://replit.com/blog/pro-plan) | WebSearch | 👍 0
+- [Replit – Build apps and sites with AI - Replit](https://replit.com) | WebSearch | 👍 0
+- [Claim your free trial](https://www.notion.so/startups-apply) | WebSearch | 👍 0
+- [Terms Of Service | Grammarly](https://www.grammarly.com/affiliates/terms) | WebSearch | 👍 0
+- [Humanize AI Text: Free AI Humanizer | Grammarly](https://www.grammarly.com/ai-humanizer) | WebSearch | 👍 0
+- [Free ChatGPT for transitioning U.S. servicemembers and veterans | OpenAI](https://openai.com/index/chatgpt-for-veterans) | WebSearch | 👍 0
+- [Think Cursor Pro is $20/month? Nope — it’s $20 per week (or even less, it runs out faster) - Page 5 - Feedback - Cursor - Community Forum](https://forum.cursor.com/t/think-cursor-pro-is-20-month-nope-it-s-20-per-week-or-even-less-it-runs-out-faster/136405?page=5) | WebSearch | 👍 0
+- [For anyone building autonomous agents: Qwen 3.6 Plus Preview just went free on OpenRouter and it’s excellent.](https://www.reddit.com/r/AI_Agents/comments/1s90atq/for_anyone_building_autonomous_agents_qwen_36) | WebSearch | 👍 0
+- [Is Qwen Code Still Free? The 2026 Free-Tier Shutdown ...](https://inventivehq.com/blog/qwen-code-still-free-2026-shutdown) | WebSearch | 👍 0
+- [DeepSeek Promo Codes And Coupons](https://grabon.com/deepseek-coupons) | WebSearch | 👍 0
+- [DeepSeek Pricing 2026: Subscription, API Costs & Free Credits | Get AI Perks](https://www.getaiperks.com/en/ai/deepseek-pricing-free-credits) | WebSearch | 👍 0
+
