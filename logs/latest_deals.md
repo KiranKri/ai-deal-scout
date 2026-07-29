@@ -1570,3 +1570,28 @@ _No deals logged yet._
 - [DeepSeek Promo Codes And Coupons](https://grabon.com/deepseek-coupons) | WebSearch | 👍 0
 - [DeepSeek Pricing 2026: Subscription, API Costs & Free Credits | Get AI Perks](https://www.getaiperks.com/en/ai/deepseek-pricing-free-credits) | WebSearch | 👍 0
 
+## Run: 2026-07-29 11:06:56 IST
+- [Tell HN: Our paid Claude AI subscription unavailable >1 week and no support](https://news.ycombinator.com/item?id=49080775) | HackerNews | 👍 44
+- [Comparing Midjourney Plans – Midjourney](https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans) | WebSearch | 👍 0
+- [GPU Speed (Fast, Relax, Turbo) – Midjourney](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo) | WebSearch | 👍 0
+- [Billing | ElevenLabs Documentation](https://elevenlabs.io/docs/overview/administration/billing) | WebSearch | 👍 0
+- [ElevenLabs Startup Grants: 680hrs of free AI audio](https://elevenlabs.io/blog/elevenlabs-startup-grants-just-got-bigger-now-12-months-and-over-680-hours-of-conversational-ai-audio) | WebSearch | 👍 0
+- [ElevenAgents Pricing for creators and businesses of all sizes](https://elevenlabs.io/pricing/agents) | WebSearch | 👍 0
+- [ElevenAPI  Pricing for creators and businesses of all sizes](https://elevenlabs.io/pricing/api) | WebSearch | 👍 0
+- [Pricing | Mistral](https://mistral.ai/pricing) | WebSearch | 👍 0
+- [The all new le Chat: Your AI assistant for life and work | Mistral AI](https://mistral.ai/news/all-new-le-chat) | WebSearch | 👍 0
+- [Terminally online Mistral Vibe. | Mistral AI](https://mistral.ai/news/mistral-vibe-2-0) | WebSearch | 👍 0
+- [AI in abundance | Mistral AI](https://mistral.ai/news/september-24-release) | WebSearch | 👍 0
+- [‎Vibe by Mistral (ex-Le Chat) App - App Store](https://mistral.ai/app/ios) | WebSearch | 👍 0
+- [Introducing: Devstral 2 and Mistral Vibe CLI.](https://mistral.ai/news/devstral-2-vibe-cli) | WebSearch | 👍 0
+- [Subscriptions | Mistral Docs](https://docs.mistral.ai/admin/billing-usage/subscriptions) | WebSearch | 👍 0
+- [Usage and limits | Mistral Docs](https://docs.mistral.ai/admin/billing-usage/usage-limits) | WebSearch | 👍 0
+- [Pricing - Replit](https://replit.com/pricing) | WebSearch | 👍 0
+- [Replit — Replit Blog – Product updates from the team](https://replit.com/blog/category/all/23) | WebSearch | 👍 0
+- [Change your plan – Notion Help Center](https://www.notion.so/help/upgrade-or-downgrade-your-plan) | WebSearch | 👍 0
+- [[DEAL] Free 1-Month HeyGen Creator Plan Coupon Code](https://www.reddit.com/r/adobeanimate/comments/1v5gm7o/deal_free_1month_heygen_creator_plan_coupon_code) | WebSearch | 👍 0
+- [HeyGen Coupon Code 2026 - Better Alternative | Krater](https://krater.ai/coupon/heygen) | WebSearch | 👍 0
+- [Synthesia promo code: 25% off annual plans - 2026](https://www.founderpass.com/partners/synthesia) | WebSearch | 👍 0
+- [Synthesia Pricing - Compare Free and Paid Plans](https://www.synthesia.io/pricing) | WebSearch | 👍 0
+- [Synthesia Pricing in 2026: Plans, Costs, and Alternatives | Arcade Blog](https://www.arcade.software/post/synthesia-pricing) | WebSearch | 👍 0
+
