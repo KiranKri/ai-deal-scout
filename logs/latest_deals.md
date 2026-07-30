@@ -1595,3 +1595,14 @@ _No deals logged yet._
 - [Synthesia Pricing - Compare Free and Paid Plans](https://www.synthesia.io/pricing) | WebSearch | 👍 0
 - [Synthesia Pricing in 2026: Plans, Costs, and Alternatives | Arcade Blog](https://www.arcade.software/post/synthesia-pricing) | WebSearch | 👍 0
 
+## Run: 2026-07-30 10:53:47 IST
+- [Claude by Anthropic - Apps on Google Play](https://www.anthropic.com/android) | WebSearch | 👍 0
+- [Plans and pricing | ElevenLabs Documentation](https://elevenlabs.io/docs/reception-ai/billing/plans-and-pricing) | WebSearch | 👍 0
+- [Add payments to your app - Lovable Documentation](https://docs.lovable.dev/features/payments) | WebSearch | 👍 0
+- [Claim Your Descript Promo Code for Exclusive Discounts | July 2026](https://www.bitdegree.org/ai/deals/descript-promo-code) | WebSearch | 👍 0
+- [Descript promo code: up to 35% off annual plans - 2026](https://www.founderpass.com/partners/descript) | WebSearch | 👍 0
+- [Lenny’s Bundle Promo – Descript Help](https://help.descript.com/hc/en-us/articles/38004206644749-Lenny-s-Bundle-Promo) | WebSearch | 👍 0
+- [Topaz Labs coupon code Archives](https://nikonrumors.com/tag/topaz-labs-coupon-code) | WebSearch | 👍 0
+- [Education | Is There A Trial Or Demo Option For Topaz Photo - General - Topaz Community](https://community.topazlabs.com/t/education-is-there-a-trial-or-demo-option-for-topaz-photo/102204) | WebSearch | 👍 0
+- [Topaz Labs | Sale ended](https://www.topazlabs.com/sale) | WebSearch | 👍 0
+
