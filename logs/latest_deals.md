@@ -1606,3 +1606,17 @@ _No deals logged yet._
 - [Education | Is There A Trial Or Demo Option For Topaz Photo - General - Topaz Community](https://community.topazlabs.com/t/education-is-there-a-trial-or-demo-option-for-topaz-photo/102204) | WebSearch | 👍 0
 - [Topaz Labs | Sale ended](https://www.topazlabs.com/sale) | WebSearch | 👍 0
 
+## Run: 2026-07-31 11:20:30 IST
+- [Mistral: Frontier AI LLMs, assistants, agents, services](https://mistral.ai) | WebSearch | 👍 0
+- [Replit — The Official Blog](https://replit.com/blog/category/all/25) | WebSearch | 👍 0
+- [Replit — Introducing Replit Teams](https://replit.com/blog/teams) | WebSearch | 👍 0
+- [Notion introduces expanded Free Plan & new Business Plan](https://www.notion.so/blog/notion-introduces-business-plan-and-expanded-free-plan) | WebSearch | 👍 0
+- [Notion for Teams and Businesses](https://www.notion.so/teams) | WebSearch | 👍 0
+- [Announcing Grammarly for Samsung Keyboard | Grammarly Blog](https://www.grammarly.com/blog/product/grammarly-for-samsung-keyboard) | WebSearch | 👍 0
+- [Claude by Anthropic - App Store - Apple](https://www.anthropic.com/ios) | WebSearch | 👍 0
+- [Home \ Anthropic](https://www.anthropic.com) | WebSearch | 👍 0
+- [Researcher Access Program application | OpenAI](https://openai.com/form/researcher-access-program) | WebSearch | 👍 0
+- [Leonardo AI Pricing (Explained) - Worth It?](https://starryai.com/en/blog/leonardo-ai-pricing) | WebSearch | 👍 0
+- [Leonardo.Ai Pricing: Individual, Team & API Plans | Leonardo.Ai](https://leonardo.ai/pricing) | WebSearch | 👍 0
+- [Ideogram pricing 2026: Every plan, every credit cost, every gotcha | eesel AI](https://www.eesel.ai/blog/ideogram-pricing) | WebSearch | 👍 0
+
