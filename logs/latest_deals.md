@@ -1620,3 +1620,13 @@ _No deals logged yet._
 - [Leonardo.Ai Pricing: Individual, Team & API Plans | Leonardo.Ai](https://leonardo.ai/pricing) | WebSearch | 👍 0
 - [Ideogram pricing 2026: Every plan, every credit cost, every gotcha | eesel AI](https://www.eesel.ai/blog/ideogram-pricing) | WebSearch | 👍 0
 
+## Run: 2026-08-01 11:11:25 IST
+- [Why ChatGPT is not getting counted in your site's referrals](https://www.rivalsee.com/blog/chatgpt-traffic-miscounting-problem) | HackerNews | 👍 2
+- [GitHub Copilot is moving to usage-based billing #192948](https://github.com/orgs/community/discussions/192948) | WebSearch | 👍 0
+- [Apply for free Impact voices directly on ElevenLabs](https://elevenlabs.io/blog/expanding-access-patients-and-clinicians-can-now-apply-directly-on-the-elevenlabs-website) | WebSearch | 👍 0
+- [Windsurf Coupons - Online Course Platform Deals July 2026](https://windsurf.proxycoupons.com) | WebSearch | 👍 0
+- [Windsurf Pricing 2026: Plans, Quotas & Real Costs (Updated June 2026) | No Code MBA](https://www.nocode.mba/articles/windsurf-pricing) | WebSearch | 👍 0
+- [Plans and Usage](https://docs.devin.ai/desktop/accounts/usage) | WebSearch | 👍 0
+- [New pricing is here : r/Codeium](https://www.reddit.com/r/Codeium/comments/1h8bjr8/new_pricing_is_here) | WebSearch | 👍 0
+- [Codeium Free Tier Limits 2026: vs Cursor & Copilot](https://www.saaspricepulse.com/blog/ai-coding-assistant-pricing-guide-2025) | WebSearch | 👍 0
+
