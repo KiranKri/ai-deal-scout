@@ -1630,3 +1630,8 @@ _No deals logged yet._
 - [New pricing is here : r/Codeium](https://www.reddit.com/r/Codeium/comments/1h8bjr8/new_pricing_is_here) | WebSearch | 👍 0
 - [Codeium Free Tier Limits 2026: vs Cursor & Copilot](https://www.saaspricepulse.com/blog/ai-coding-assistant-pricing-guide-2025) | WebSearch | 👍 0
 
+## Run: 2026-08-02 11:11:24 IST
+- [Accelerating scientific discovery with ChatGPT for Academic Researchers | OpenAI](https://openai.com/index/chatgpt-for-academic-researchers) | WebSearch | 👍 0
+- [Google Cloud: AI and Cloud Computing Services](https://cloud.google.com) | WebSearch | 👍 0
+- [About Google: Our products, technology and company ...](https://about.google) | WebSearch | 👍 0
+
