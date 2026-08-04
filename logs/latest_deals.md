@@ -1641,3 +1641,13 @@ _No deals logged yet._
 - [Discounts and Promos – Jasper Help Center](https://help.jasper.ai/hc/en-us/articles/18618571386651-Discounts-and-Promos) | WebSearch | 👍 0
 - [Writesonic Coupon Code 2026: Get up to 20% Off Discount](https://www.affiliatebooster.com/writesonic-coupon-code) | WebSearch | 👍 0
 
+## Run: 2026-08-04 11:00:20 IST
+- [Show HN: Chinese are offering Claude/Codex offers 90% off](https://news.ycombinator.com/item?id=49151751) | HackerNews | 👍 4
+- [What is Midjourney: everything you need to know about the AI image generator | TechRadar](https://www.techradar.com/computing/artificial-intelligence/what-is-midjourney-everything-you-need-to-know-about-the-ai-image-generator) | WebSearch | 👍 0
+- [Midjourney App Directions - Apps on Google Play](https://play.google.com/store/apps/details?id=com.midjourney.ai.guide.hnstech.app&hl=en_US) | WebSearch | 👍 0
+- [Midjourney Tips and Tricks Thread - Community - The Hexed Press Tabletop Gaming Forums](https://forums.hexed.press/t/midjourney-tips-and-tricks-thread/233) | WebSearch | 👍 0
+- [Plans & Pricing](https://www.copy.ai/prices) | WebSearch | 👍 0
+- [16 Verified QuillBot Coupons - 58% Off | July 2026](https://quillbot.envirogadget.com) | WebSearch | 👍 0
+- [Quillbot Up to 25% Off Subscriptions  - UNiDAYS Student Discount](https://www.myunidays.com/US/en-US/partners/quillbot/view) | WebSearch | 👍 0
+- [QuillBot Discount Code - 30% Off in August 2026](https://quillbot.promopro.co.uk) | WebSearch | 👍 0
+
