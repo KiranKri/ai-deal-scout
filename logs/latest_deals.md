@@ -1660,3 +1660,9 @@ _No deals logged yet._
 - [Start for Free | Otter.ai](https://otter.ai/start-for-free) | WebSearch | 👍 0
 - [Otter.ai 50% Student Discount | Jul 2026 Student Beans Code](https://www.studentbeans.com/student-discount/us/otter-ai) | WebSearch | 👍 0
 
+## Run: 2026-08-06 11:02:46 IST
+- [I have gone from ChatGPT, then Venice, then Claude, but GPT is more generous out of all them](https://www.reddit.com/r/ChatGPTPro/comments/1vgu8my/i_have_gone_from_chatgpt_then_venice_then_claude/) | Reddit | 👍 0
+- [[70% OFF] Elicit - Promo Codes & Coupons (Jul 2026)](https://www.aitoolsaver.com/tools/elicit-ai) | WebSearch | 👍 0
+- [9 Verified Elicit AI Coupons - 50% Off | March 2026](https://elicit.envirogadget.com) | WebSearch | 👍 0
+- [Coupon Generating...](https://home.you.com/coupon-thank-you) | WebSearch | 👍 0
+
