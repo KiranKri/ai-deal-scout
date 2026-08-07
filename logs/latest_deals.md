@@ -1666,3 +1666,9 @@ _No deals logged yet._
 - [9 Verified Elicit AI Coupons - 50% Off | March 2026](https://elicit.envirogadget.com) | WebSearch | 👍 0
 - [Coupon Generating...](https://home.you.com/coupon-thank-you) | WebSearch | 👍 0
 
+## Run: 2026-08-07 10:06:44 IST
+- [Google AI Pro & Ultra — get access to Gemini 3.1 Pro & more](https://gemini.google.com/advanced?hl=en-AU) | WebSearch | 👍 0
+- [Access GitHub Copilot for free as a student](https://docs.github.com/copilot/how-tos/manage-your-account/free-access-with-copilot-student) | WebSearch | 👍 0
+- [Access Copilot Pro for free as a teacher or open source ...](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer) | WebSearch | 👍 0
+- [Kimi: Free Kimi K3 membership… for students | StudentOffers.co](https://www.studentoffers.co/offer/kimi) | WebSearch | 👍 0
+
