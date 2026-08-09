@@ -1691,3 +1691,10 @@ _No deals logged yet._
 - [HeyGen: Create Realistic AI Videos of Yourself in Minutes](https://www.heygen.com) | WebSearch | 👍 0
 - [HeyGen AI Avatars - Canva Apps](https://www.canva.com/apps/AAFSMHx80yA/heygen-ai-avatars) | WebSearch | 👍 0
 
+## Run: 2026-08-09 09:28:20 IST
+- [Apps on Google Play](https://gemini.google.com/app/download/mobile?android-min-version=301356232&ios-min-version=322.0&is_sa=1&campaign_id=gwg-emea-website-card&pt=9008&mt=8&ct=gwg-website-own-referral-card) | WebSearch | 👍 0
+- [Google Gemini - Apps on Google Play](https://gemini.google.com/app/download/mobile?android-min-version=301356232&ios-min-version=322.0&is_sa=1&campaign_id=gemini_overview_page&pt=9008&mt=8&ct=gemini_overview_page&hl=en-CA&icid=microsite_gemini_about_page) | WebSearch | 👍 0
+- [Managing your subscription – Runway](https://help.runwayml.com/hc/en-us/articles/50205612565779-Managing-your-subscription) | WebSearch | 👍 0
+- [Synthesia Promo Code Terms & Conditions I Synthesia](https://www.synthesia.io/legal/promocodes-terms-and-conditions) | WebSearch | 👍 0
+- [Applying promo codes](https://help.descript.com/hc/en-us/articles/10255894432013-Applying-promo-codes) | WebSearch | 👍 0
+
