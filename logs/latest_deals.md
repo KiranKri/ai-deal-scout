@@ -1698,3 +1698,24 @@ _No deals logged yet._
 - [Synthesia Promo Code Terms & Conditions I Synthesia](https://www.synthesia.io/legal/promocodes-terms-and-conditions) | WebSearch | 👍 0
 - [Applying promo codes](https://help.descript.com/hc/en-us/articles/10255894432013-Applying-promo-codes) | WebSearch | 👍 0
 
+## Run: 2026-08-10 09:43:13 IST
+- [Announcing Replit Core - The Essential Membership | Replit](https://replit.com/blog/replit-core) | WebSearch | 👍 0
+- [Join the Notion Builders Program](https://www.notion.so/builders) | WebSearch | 👍 0
+- [Introducing Grammarly’s Latest Free Features for Students | Grammarly](https://www.grammarly.com/blog/product/grammarly-student-features) | WebSearch | 👍 0
+- [Claude for Investing Teams | Webinars \ Anthropic](https://www.anthropic.com/webinars/claude-for-investing-teams) | WebSearch | 👍 0
+- [ChatGPT Go promotions and referrals](https://help.openai.com/en/articles/12501659-chatgpt-go-promotions-and-referrals) | WebSearch | 👍 0
+- [Perplexity Pro Airtel Promo](https://www.perplexity.ai/help-center/en/articles/11842322-perplexity-pro-airtel-promo) | WebSearch | 👍 0
+- [Perplexity Enterprise: Onboarding Guide](https://www.perplexity.ai/help-center/en/articles/12742827-perplexity-enterprise-onboarding-guide) | WebSearch | 👍 0
+- [Student Referrals | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/10964633-student-referrals) | WebSearch | 👍 0
+- [‎Gemini Advanced - get access to Google's most capable AI model](https://gemini.google.com/advanced?hl=en-GB&xeb=web&web=owned&veb=gemini_lp) | WebSearch | 👍 0
+- [Google AI Pro and Ultra — get access to Gemini 2.5 Pro and more](https://gemini.google.com/advanced?hl=en-GB&zsc=web&ysc=owned&xsc=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini Advanced : accédez au modèle d'IA le plus performant de Google](https://gemini.google.com/advanced?hl=fr&zGc=web&yGc=owned&xGc=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini Advanced：體驗 Google 最強大的 AI 模型](https://gemini.google.com/advanced?hl=zh-TW&smc=web&rmc=owned&qmc=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini Advanced: acesse o modelo de IA mais avançado do Google](https://gemini.google.com/advanced?hl=pt-BR&pwc=web&owc=owned&nwc=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini Advanced: accede al modelo de IA más capaz de Google](https://gemini.google.com/advanced?hl=es&pwc=web&owc=owned&nwc=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini - direct access to Google AI](https://gemini.google.com/share/c4f4f88b3b9e) | WebSearch | 👍 0
+- [Active Freshworks Coupon (2026) 53% Promotional Discounts · GitHub](https://github.com/Freshworks-Coupon-2025-Get-50-Off) | WebSearch | 👍 0
+- [Verified Pipedrive Coupon (2026) 26% Promo Discount + Trial · GitHub](https://github.com/Pipedrive-Coupon-Promo-Code-2025-Get-50) | WebSearch | 👍 0
+- [Topaz Labs Coupon Code - 15% Off - Shutter Muse](https://shuttermuse.com/deals/topaz-labs-coupon) | WebSearch | 👍 0
+- [20% OFF Leonardo.AI Promo Codes & Coupons | Aug 2026](https://grabon.com/leonardo-ai-coupons) | WebSearch | 👍 0
+
