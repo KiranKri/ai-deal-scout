@@ -1719,3 +1719,16 @@ _No deals logged yet._
 - [Topaz Labs Coupon Code - 15% Off - Shutter Muse](https://shuttermuse.com/deals/topaz-labs-coupon) | WebSearch | 👍 0
 - [20% OFF Leonardo.AI Promo Codes & Coupons | Aug 2026](https://grabon.com/leonardo-ai-coupons) | WebSearch | 👍 0
 
+## Run: 2026-08-11 09:30:09 IST
+- [Issue with Codex Student Promotion Verification](https://www.reddit.com/r/ChatGPTPro/comments/1vkqrjd/issue_with_codex_student_promotion_verification/) | Reddit | 👍 0
+- [ElevenLabs: AI Voice Generator - Apps on Google Play](https://play.google.com/store/apps/details?id=io.elevenlabs.coreapp&hl=en_US) | WebSearch | 👍 0
+- [Lovable Pricing](https://lovable.dev/pricing?x-agent-client=W-7njoVr89mFAk) | WebSearch | 👍 0
+- [FAQ - Lovable Documentation](https://lovable.dev/faq/billing/plans) | WebSearch | 👍 0
+- [Mistral Vibe (formerly Le Chat) - AI chat and coding agent](https://mistral.ai/products/vibe) | WebSearch | 👍 0
+- [An update to our downloads policy and Terms of Service · Suno](https://suno.com/blog/suno-updates-tos) | WebSearch | 👍 0
+- [HOW TO GET SUNO'S STUDENT PRO PLAN! by Jonny_XD_](https://suno.com/song/7968f824-0e67-4298-b4eb-b8644db72d7f) | WebSearch | 👍 0
+- [Teach Coding Remotely - free for public schools | Replit](https://blog.replit.com/remote) | WebSearch | 👍 0
+- [Ideogram Pricing: Cost and Pricing plans](https://www.saasworthy.com/product/ideogram-ai/pricing) | WebSearch | 👍 0
+- [[20% OFF] Ideogram 2.0 - Promo Codes & Coupons (Jul 2026)](https://www.aitoolsaver.com/tools/ideogram-ai) | WebSearch | 👍 0
+- [Windsurf Coupons & Promo Codes (July 2026) | Verified](https://windsurf.saver.com) | WebSearch | 👍 0
+
