@@ -1732,3 +1732,11 @@ _No deals logged yet._
 - [[20% OFF] Ideogram 2.0 - Promo Codes & Coupons (Jul 2026)](https://www.aitoolsaver.com/tools/ideogram-ai) | WebSearch | 👍 0
 - [Windsurf Coupons & Promo Codes (July 2026) | Verified](https://windsurf.saver.com) | WebSearch | 👍 0
 
+## Run: 2026-08-12 09:51:25 IST
+- [Payments – Midjourney](https://docs.midjourney.com/hc/en-us/sections/16016608509709-Payments) | WebSearch | 👍 0
+- [ElevenLabs x Revolut](https://elevenlabs.io/partners/revolut) | WebSearch | 👍 0
+- [Get user subscription | ElevenLabs Documentation](https://elevenlabs.io/docs/api-reference/user/subscription) | WebSearch | 👍 0
+- [Opux AI](https://lovable.dev/products/opux) | WebSearch | 👍 0
+- [Codeium Discount - Up to 30% off](https://www.spendbase.co/discounts/codeium) | WebSearch | 👍 0
+- [Tabnine Pricing 2026](https://www.g2.com/products/tabnine/pricing) | WebSearch | 👍 0
+
