@@ -1740,3 +1740,11 @@ _No deals logged yet._
 - [Codeium Discount - Up to 30% off](https://www.spendbase.co/discounts/codeium) | WebSearch | 👍 0
 - [Tabnine Pricing 2026](https://www.g2.com/products/tabnine/pricing) | WebSearch | 👍 0
 
+## Run: 2026-08-13 09:55:58 IST
+- [Paid plan trials – Notion Help Center](https://www.notion.so/help/paid-plan-trials) | WebSearch | 👍 0
+- [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business) | WebSearch | 👍 0
+- [What is the Pro plan? | Claude Help Center](https://support.anthropic.com/en/articles/8325606-what-is-claude-pro) | WebSearch | 👍 0
+- [Get access with SuperGrok Heavy](https://cursor.com/help/grok-bot/supergrok-heavy) | WebSearch | 👍 0
+- [Bolt.new Pricing, Tokens, and Hidden Costs in 2026](https://www.banani.co/blog/bolt-new-pricing) | WebSearch | 👍 0
+- [15% Off Jasper AI Promo Codes & Coupons](https://studentwowdeals.com/jasper-ai) | WebSearch | 👍 0
+
