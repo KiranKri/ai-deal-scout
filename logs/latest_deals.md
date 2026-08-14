@@ -1748,3 +1748,8 @@ _No deals logged yet._
 - [Bolt.new Pricing, Tokens, and Hidden Costs in 2026](https://www.banani.co/blog/bolt-new-pricing) | WebSearch | 👍 0
 - [15% Off Jasper AI Promo Codes & Coupons](https://studentwowdeals.com/jasper-ai) | WebSearch | 👍 0
 
+## Run: 2026-08-14 09:52:47 IST
+- [GitHub Copilot](https://github.com/features/copilot) | WebSearch | 👍 0
+- [Pricing | Mistral AI](http://mistral.ai/pricing) | WebSearch | 👍 0
+- [Ardian | Mistral AI](https://mistral.ai/customers/ardian) | WebSearch | 👍 0
+
