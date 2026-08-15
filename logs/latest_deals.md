@@ -1753,3 +1753,10 @@ _No deals logged yet._
 - [Pricing | Mistral AI](http://mistral.ai/pricing) | WebSearch | 👍 0
 - [Ardian | Mistral AI](https://mistral.ai/customers/ardian) | WebSearch | 👍 0
 
+## Run: 2026-08-15 08:42:17 IST
+- [Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2](https://apimart.ai/register?aff=yScTCM) | HackerNews | 👍 7
+- [Models & Pricing | Cursor Docs](https://cursor.com/docs/models-and-pricing) | WebSearch | 👍 0
+- [it's $20 per week (or even less, it runs out faster) - Feedback](https://forum.cursor.com/t/think-cursor-pro-is-20-month-nope-it-s-20-per-week-or-even-less-it-runs-out-faster/136405) | WebSearch | 👍 0
+- [30% Off QuillBot Discount Codes, Coupons | Aug 2026](https://grabon.com/quillbot-coupons) | WebSearch | 👍 0
+- [QuillBot 50% OFF Discount Codes for 2024-2026](https://www.aiville.com/c/quillbot/quillbot-50-off-discount-codes-for-2024-2026) | WebSearch | 👍 0
+
