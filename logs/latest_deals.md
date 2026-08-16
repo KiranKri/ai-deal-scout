@@ -1760,3 +1760,11 @@ _No deals logged yet._
 - [30% Off QuillBot Discount Codes, Coupons | Aug 2026](https://grabon.com/quillbot-coupons) | WebSearch | 👍 0
 - [QuillBot 50% OFF Discount Codes for 2024-2026](https://www.aiville.com/c/quillbot/quillbot-50-off-discount-codes-for-2024-2026) | WebSearch | 👍 0
 
+## Run: 2026-08-16 08:57:36 IST
+- [A free version of ChatGPT built for teachers | OpenAI](https://openai.com/index/chatgpt-for-teachers) | WebSearch | 👍 0
+- [Education Discount - Feedback - Cursor - Community Forum](https://forum.cursor.com/t/education-discount/3857) | WebSearch | 👍 0
+- [Was the 7-day free trial removed? - Help - Cursor - Community Forum](https://forum.cursor.com/t/was-the-7-day-free-trial-removed/148780) | WebSearch | 👍 0
+- [Free trial and paid comparison - Feedback - Cursor - Community Forum](https://forum.cursor.com/t/free-trial-and-paid-comparison/56651) | WebSearch | 👍 0
+- [Cursor Free Tier - Help - Cursor - Community Forum](https://forum.cursor.com/t/cursor-free-tier/16230) | WebSearch | 👍 0
+- [Model Requests & Free Trial - Help - Cursor - Community Forum](https://forum.cursor.com/t/model-requests-free-trial/15303) | WebSearch | 👍 0
+
