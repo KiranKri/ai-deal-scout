@@ -1768,3 +1768,13 @@ _No deals logged yet._
 - [Cursor Free Tier - Help - Cursor - Community Forum](https://forum.cursor.com/t/cursor-free-tier/16230) | WebSearch | 👍 0
 - [Model Requests & Free Trial - Help - Cursor - Community Forum](https://forum.cursor.com/t/model-requests-free-trial/15303) | WebSearch | 👍 0
 
+## Run: 2026-08-17 08:58:11 IST
+- [GitHub Copilot plans are now on usage-based billing [FAQ] ...](https://github.com/orgs/community/discussions/197089) | WebSearch | 👍 0
+- [Targeted Edits, Supabase Integration Improvements, and Pricing Updates | Lovable](https://lovable.dev/blog/2025-01-13-targeted-edits-supabase-integration-improvements-and-pricing-updates) | WebSearch | 👍 0
+- [We're simplifying how billing works on Lovable | Lovable](https://lovable.dev/blog/simplifying-billing) | WebSearch | 👍 0
+- [Obtaining a student discount on your subscription | Udio Help Center](https://help.udio.com/en/articles/10739207-obtaining-a-student-discount-on-your-subscription) | WebSearch | 👍 0
+- [Subscriptions, credits, and billing | Udio Help Center](https://help.udio.com/en/collections/11900887-subscriptions-credits-and-billing) | WebSearch | 👍 0
+- [Terms of Service - Suno](https://suno.com/terms-of-service) | WebSearch | 👍 0
+- [Listen to Promo Code Songs and Discover promo code Music on Suno](https://suno.com/style/promo-code) | WebSearch | 👍 0
+- [Kimi Pricing 2026: Plans, API Costs & Free Tier](https://felloai.com/kimi-pricing) | WebSearch | 👍 0
+
