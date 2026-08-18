@@ -1778,3 +1778,7 @@ _No deals logged yet._
 - [Listen to Promo Code Songs and Discover promo code Music on Suno](https://suno.com/style/promo-code) | WebSearch | 👍 0
 - [Kimi Pricing 2026: Plans, API Costs & Free Tier](https://felloai.com/kimi-pricing) | WebSearch | 👍 0
 
+## Run: 2026-08-18 08:53:04 IST
+- [Get up to $500 worth of credits toward your first ChatGPT Business Premium Seats | OpenAI](https://openai.com/form/business/premium-offer) | WebSearch | 👍 0
+- [Goodbye, Qwen. You tried, but you failed. : r/Qwen_AI - Reddit](https://www.reddit.com/r/Qwen_AI/comments/1skeeu5/goodbye_qwen_you_tried_but_you_failed) | WebSearch | 👍 0
+
