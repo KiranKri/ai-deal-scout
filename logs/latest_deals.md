@@ -1782,3 +1782,15 @@ _No deals logged yet._
 - [Get up to $500 worth of credits toward your first ChatGPT Business Premium Seats | OpenAI](https://openai.com/form/business/premium-offer) | WebSearch | 👍 0
 - [Goodbye, Qwen. You tried, but you failed. : r/Qwen_AI - Reddit](https://www.reddit.com/r/Qwen_AI/comments/1skeeu5/goodbye_qwen_you_tried_but_you_failed) | WebSearch | 👍 0
 
+## Run: 2026-08-19 08:55:27 IST
+- [Studio 3.0 - AI audio and video editor for creators](https://elevenlabs.io/studio) | WebSearch | 👍 0
+- [Hostinger Horizons vs Lovable: Website Builder Comparison | Lovable](https://lovable.dev/guides/hostinger-horizons-vs-lovable) | WebSearch | 👍 0
+- [Ardian | Mistral](http://mistral.ai/customers/ardian) | WebSearch | 👍 0
+- [Best DAW for Beginners: Free Music-Making Software](https://suno.com/hub/best-daw-for-beginners) | WebSearch | 👍 0
+- [What is the Max plan? | Anthropic Help Center - Claude Support](https://support.anthropic.com/en/articles/11049741-what-is-the-max-plan) | WebSearch | 👍 0
+- [Claude's Constitution - Anthropic](https://www.anthropic.com/constitution) | WebSearch | 👍 0
+- [Claude Opus 4.8 - Anthropic](https://www.anthropic.com/claude/opus) | WebSearch | 👍 0
+- [Research - Anthropic](https://www.anthropic.com/research) | WebSearch | 👍 0
+- [Pricing Plans for Creators and Marketers | HeyGen](https://www.heygen.com/pricing) | WebSearch | 👍 0
+- [Synthesia Coupons & Promo Codes (July 2026) | Verified](https://synthesia.saver.com) | WebSearch | 👍 0
+
