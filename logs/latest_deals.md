@@ -1794,3 +1794,15 @@ _No deals logged yet._
 - [Pricing Plans for Creators and Marketers | HeyGen](https://www.heygen.com/pricing) | WebSearch | 👍 0
 - [Synthesia Coupons & Promo Codes (July 2026) | Verified](https://synthesia.saver.com) | WebSearch | 👍 0
 
+## Run: 2026-08-20 08:54:54 IST
+- [Redeem a free year of Perplexity Pro through Xfinity Rewards](https://www.perplexity.ai/mk/hub/blog/redeem-a-free-year-of-perplexity-pro-through-xfinity-rewards) | WebSearch | 👍 0
+- [Plans for GitHub Copilot - GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud@latest/copilot/get-started/plans) | WebSearch | 👍 0
+- [codertesla/ai-coding-deals: Money-saving guide to AI ... - GitHub](https://github.com/codertesla/ai-coding-deals) | WebSearch | 👍 0
+- [Inquiry regarding Copilot Student Pack models and Pro subscription pricing · community · Discussion #191177 · GitHub](https://github.com/orgs/community/discussions/191177) | WebSearch | 👍 0
+- [Clarification on Transitioning from Paid GitHub Copilot Pro to Student Developer Pack Subscription · community · Discussion #148823 · GitHub](https://github.com/orgs/community/discussions/148823) | WebSearch | 👍 0
+- [Udio Pricing - Flexible Plans for AI Music Creation](https://www.udio.com/pricing) | WebSearch | 👍 0
+- [Descript Student Discount | Aug 2026 Student Beans Code](https://www.studentbeans.com/student-discount/us/descript) | WebSearch | 👍 0
+- [Descript Pricing | Plans for Every Creator, Free to Start](https://www.descript.com/pricing) | WebSearch | 👍 0
+- [DESCRIPT PROMO CODE 2026: Reddit Users Save Money?](https://www.reddit.com/r/InPromo/comments/1qitlsz/descript_promo_code_2026_reddit_users_save_money) | WebSearch | 👍 0
+- [Photo AI discounts : r/TopazLabs](https://www.reddit.com/r/TopazLabs/comments/1ep2bzy/photo_ai_discounts) | WebSearch | 👍 0
+
