@@ -1806,3 +1806,8 @@ _No deals logged yet._
 - [DESCRIPT PROMO CODE 2026: Reddit Users Save Money?](https://www.reddit.com/r/InPromo/comments/1qitlsz/descript_promo_code_2026_reddit_users_save_money) | WebSearch | 👍 0
 - [Photo AI discounts : r/TopazLabs](https://www.reddit.com/r/TopazLabs/comments/1ep2bzy/photo_ai_discounts) | WebSearch | 👍 0
 
+## Run: 2026-08-22 08:45:24 IST
+- [4 Methods to Use Windsurf for Free](https://apidog.com/blog/use-windsurf-free) | WebSearch | 👍 0
+- [Windsurf is over — switch to open source instead ($100 ...](https://www.reddit.com/r/kilocode/comments/1ly9vsv/windsurf_is_over_switch_to_open_source_instead) | WebSearch | 👍 0
+- [Codeium | 5app.ai](https://5app.ai/app/codeium) | WebSearch | 👍 0
+
