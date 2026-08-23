@@ -1811,3 +1811,11 @@ _No deals logged yet._
 - [Windsurf is over — switch to open source instead ($100 ...](https://www.reddit.com/r/kilocode/comments/1ly9vsv/windsurf_is_over_switch_to_open_source_instead) | WebSearch | 👍 0
 - [Codeium | 5app.ai](https://5app.ai/app/codeium) | WebSearch | 👍 0
 
+## Run: 2026-08-23 09:00:06 IST
+- [Claude Code by Anthropic | AI Coding Agent, Terminal, IDE](https://www.anthropic.com/claude-code) | WebSearch | 👍 0
+- [The AI for Problem Solvers | Claude by Anthropic](https://www.anthropic.com/claude) | WebSearch | 👍 0
+- [Claude for startups | Claude by Anthropic](https://www.anthropic.com/startups) | WebSearch | 👍 0
+- [Free Cursor Ultra with Grok - Help](https://forum.cursor.com/t/free-cursor-ultra-with-grok/168286) | WebSearch | 👍 0
+- [Best AI App Builders in 2026: Top 6 Tools Compared | Lovable](https://lovable.dev/guides/best-ai-app-builders) | WebSearch | 👍 0
+- [Anyone has a Bolt New promo code (not referral)](https://www.reddit.com/r/boltnewbuilders/comments/1nwzhav/anyone_has_a_bolt_new_promo_code_not_referral) | WebSearch | 👍 0
+
