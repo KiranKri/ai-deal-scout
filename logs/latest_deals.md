@@ -1819,3 +1819,11 @@ _No deals logged yet._
 - [Best AI App Builders in 2026: Top 6 Tools Compared | Lovable](https://lovable.dev/guides/best-ai-app-builders) | WebSearch | 👍 0
 - [Anyone has a Bolt New promo code (not referral)](https://www.reddit.com/r/boltnewbuilders/comments/1nwzhav/anyone_has_a_bolt_new_promo_code_not_referral) | WebSearch | 👍 0
 
+## Run: 2026-08-24 09:01:37 IST
+- [Ambassadors | Mistral Docs](https://docs.mistral.ai/guides/contribute/ambassador) | WebSearch | 👍 0
+- [AI Video Generator](https://runwayml.com/product/ai-video-generator) | WebSearch | 👍 0
+- [Was the 7-day free trial removed? - #5 by Colin - Help - Cursor - Community Forum](https://forum.cursor.com/t/was-the-7-day-free-trial-removed/148780/5) | WebSearch | 👍 0
+- [Jasper AI discount codes?](https://forum.nocramming.com/threads/jasper-ai-discount-codes.196) | WebSearch | 👍 0
+- [20% Off Writesonic Coupons, Promo Codes | Aug 2026](https://grabon.com/writesonic-coupons) | WebSearch | 👍 0
+- [Pricing | Writesonic AI Search Visibility Platform](https://writesonic.com/pricing) | WebSearch | 👍 0
+
