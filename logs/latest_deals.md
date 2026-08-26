@@ -1827,3 +1827,9 @@ _No deals logged yet._
 - [20% Off Writesonic Coupons, Promo Codes | Aug 2026](https://grabon.com/writesonic-coupons) | WebSearch | 👍 0
 - [Pricing | Writesonic AI Search Visibility Platform](https://writesonic.com/pricing) | WebSearch | 👍 0
 
+## Run: 2026-08-26 09:03:23 IST
+- [Notion for nonprofits | Notion](https://www.notion.so/nonprofits) | WebSearch | 👍 0
+- [Eligible Uber One members can now unlock a complimentary full year of Perplexity Pro](https://www.perplexity.ai/hub/blog/eligible-uber-one-members-can-now-unlock-a-complimentary-full-year-of-perplexity-pro) | WebSearch | 👍 0
+- [Student & Teacher discount program for the Pro plan – Help Center](https://help.otter.ai/hc/en-us/articles/4402467517847-Student-Teacher-discount-program-for-the-Pro-plan) | WebSearch | 👍 0
+- [Phind Pricing & Free Tier 2026 | uragent](https://uragent.org/tools/phind) | WebSearch | 👍 0
+
