@@ -1833,3 +1833,9 @@ _No deals logged yet._
 - [Student & Teacher discount program for the Pro plan – Help Center](https://help.otter.ai/hc/en-us/articles/4402467517847-Student-Teacher-discount-program-for-the-Pro-plan) | WebSearch | 👍 0
 - [Phind Pricing & Free Tier 2026 | uragent](https://uragent.org/tools/phind) | WebSearch | 👍 0
 
+## Run: 2026-08-27 18:28:58 IST
+- [Lovable](https://friends.lovable.dev/terms) | WebSearch | 👍 0
+- [Lovable 🤝 Lenny](https://lovable.dev/lenny) | WebSearch | 👍 0
+- [How to Use Lovable to Make Money Online in 2026 | Lovable](https://lovable.dev/guides/how-to-use-lovable-to-make-money-online) | WebSearch | 👍 0
+- [Get started with Grammarly for Education – Grammarly Support](https://support.grammarly.com/hc/en-us/articles/115000090152-Get-started-with-Grammarly-for-Education) | WebSearch | 👍 0
+
