@@ -1839,3 +1839,9 @@ _No deals logged yet._
 - [How to Use Lovable to Make Money Online in 2026 | Lovable](https://lovable.dev/guides/how-to-use-lovable-to-make-money-online) | WebSearch | 👍 0
 - [Get started with Grammarly for Education – Grammarly Support](https://support.grammarly.com/hc/en-us/articles/115000090152-Get-started-with-Grammarly-for-Education) | WebSearch | 👍 0
 
+## Run: 2026-08-28 20:00:07 IST
+- [Students get discounted Pro](https://www.perplexity.ai/students) | WebSearch | 👍 0
+- [get access to Gemini 3.1 Pro and more](https://gemini.google.com/advanced?hl=en-GB) | WebSearch | 👍 0
+- [Kimi API Free Trial Credit Guide - Kimi Help Center](https://www.kimi.com/en/help/kimi-api/api-free-trial) | WebSearch | 👍 0
+- [Pricing details - Kimi Help Center](https://www.kimi.ai/help/membership/membership-pricing) | WebSearch | 👍 0
+
