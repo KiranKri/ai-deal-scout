@@ -1845,3 +1845,11 @@ _No deals logged yet._
 - [Kimi API Free Trial Credit Guide - Kimi Help Center](https://www.kimi.com/en/help/kimi-api/api-free-trial) | WebSearch | 👍 0
 - [Pricing details - Kimi Help Center](https://www.kimi.ai/help/membership/membership-pricing) | WebSearch | 👍 0
 
+## Run: 2026-08-29 14:46:10 IST
+- [Expanding our support for scientists \ Anthropic](https://www.anthropic.com/news/expanding-support-for-scientists) | WebSearch | 👍 0
+- [ChatGPT Back to School offer for students](https://help.openai.com/en/articles/20001493-chatgpt-back-to-school-offer-for-students) | WebSearch | 👍 0
+- [DeepSeek AI Features, Models & API Pricing Overview - 2026](https://subscribed.fyi/deepseek/deals) | WebSearch | 👍 0
+- [DeepSeek Student Discount 2026: The Real Answer | Krater Blog](https://krater.ai/blog/deepseek-student-discount) | WebSearch | 👍 0
+- [DeepSeek Pro won't get discount : r/opencodeCLI](https://www.reddit.com/r/opencodeCLI/comments/1tvilq8/deepseek_pro_wont_get_discount) | WebSearch | 👍 0
+- [HeyGen Promo Code 2026 - Get Exclusive 80% OFF created with SeaArt AI](https://www.seaart.ai/articleDetail/d7roe7te878c739ii4og) | WebSearch | 👍 0
+
