@@ -1857,3 +1857,10 @@ _No deals logged yet._
 - [Bolt vs Replit vs Lovable (2026): Full Comparison | Lovable](https://lovable.dev/guides/bolt-vs-replit-vs-lovable) | WebSearch | 👍 0
 - [Top AI Promo Songs - Best Playlists on Udio](https://www.udio.com/tags/Promo) | WebSearch | 👍 0
 
+## Run: 2026-08-31 14:18:38 IST
+- [Introducing Claude to Canada \ Anthropic](https://www.anthropic.com/news/introducing-claude-to-canada) | WebSearch | 👍 0
+- [ChatGPT for students - 4 months free](https://chat.openai.com/college-students) | WebSearch | 👍 0
+- [Group Plans & Corporate Billing – Midjourney](https://docs.midjourney.com/hc/en-us/articles/27870607078285-Group-Plans-Corporate-Billing) | WebSearch | 👍 0
+- [Changelog - 8/20/26](https://updates.midjourney.com/changelog-8-20-26) | WebSearch | 👍 0
+- [Leonardo AI Pricing 2026: Free 150/Day, Paid $10-$48/mo](https://fluxnote.io/guides/leonardo-ai-pricing-guide-2026) | WebSearch | 👍 0
+
