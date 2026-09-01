@@ -1864,3 +1864,16 @@ _No deals logged yet._
 - [Changelog - 8/20/26](https://updates.midjourney.com/changelog-8-20-26) | WebSearch | 👍 0
 - [Leonardo AI Pricing 2026: Free 150/Day, Paid $10-$48/mo](https://fluxnote.io/guides/leonardo-ai-pricing-guide-2026) | WebSearch | 👍 0
 
+## Run: 2026-09-01 13:26:45 IST
+- [Get Free Music for Videos: Soundtrack Your Content with Suno](https://suno.com/l/free-music-for-videos) | WebSearch | 👍 0
+- [Welcoming Heroku Users to Replit | Replit](https://blog.replit.com/heroku-alternatives) | WebSearch | 👍 0
+- [Free trial credit expiry date - API - OpenAI Developer Community](https://community.openai.com/t/free-trial-credit-expiry-date/384122) | WebSearch | 👍 0
+- [Is chat GPT provided for free - API - OpenAI Developer Community](https://community.openai.com/t/is-chat-gpt-provided-for-free/86249) | WebSearch | 👍 0
+- [Free Plan limits - Help - Cursor - Community Forum](https://forum.cursor.com/t/free-plan-limits/122512) | WebSearch | 👍 0
+- [Ideogram AI Image Generator Online [Try For Free] - Cabina.Ai](https://cabina.ai/llm/ideogram) | WebSearch | 👍 0
+- [Ideogram V4 Pricing: API Tiers, Subscriptions, Free Access](https://kie.ai/blog/ideogram-v4-pricing) | WebSearch | 👍 0
+- [Ideogram Pricing 2026: Cost, Plans & Competitor ...](https://checkthat.ai/brands/ideogram/pricing) | WebSearch | 👍 0
+- [Windsurf vs Cursor | AI IDE Comparison](https://windsurf.com/compare/windsurf-vs-cursor) | WebSearch | 👍 0
+- [Windsurf referral program: 500 flex credits if referred ...](https://www.reddit.com/r/Codeium/comments/1j4i9mz/windsurf_referral_program_500_flex_credits_if) | WebSearch | 👍 0
+- [Windsurf Pro for Free: Practical Ways to Save $15–20 a ...](https://aibcmedia.com/blog/windsurf-pro-for-free-practical-ways-to-save-15-20-a-month) | WebSearch | 👍 0
+
