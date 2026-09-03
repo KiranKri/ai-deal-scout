@@ -1884,3 +1884,6 @@ _No deals logged yet._
 - [Free Trial Lifestyle (V1)](https://suno.com/song/8d8ff40c-fc78-4b4a-aa18-3540c75ed9bc) | WebSearch | 👍 0
 - [Codeium Guide (2026): Features, Pricing, Free Plan & AI Coding Assistant | AI Tools DevPro](https://aitoolsdevpro.com/ai-tools/codeium-guide) | WebSearch | 👍 0
 
+## Run: 2026-09-03 12:49:23 IST
+- [When you went from the free tier to paying on an AI tool, what was the exact thing that made you do](https://www.reddit.com/r/ChatGPTPro/comments/1w568qs/when_you_went_from_the_free_tier_to_paying_on_an/) | Reddit | 👍 0
+
