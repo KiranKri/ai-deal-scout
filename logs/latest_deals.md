@@ -1895,3 +1895,10 @@ _No deals logged yet._
 - [MarketingCopy AI Deals, Discounts & Free Trial (2026)](https://subscribed.fyi/marketingcopy-ai/deals) | WebSearch | 👍 0
 - [Copy.ai](https://www.copy.ai) | WebSearch | 👍 0
 
+## Run: 2026-09-05 12:33:40 IST
+- [Tiered On-Demand Pricing Based on Subscription Plan - Feedback - Cursor - Community Forum](https://forum.cursor.com/t/tiered-on-demand-pricing-based-on-subscription-plan/154304) | WebSearch | 👍 0
+- [Looking for a Discount Code - Discussions - Cursor - Community Forum](https://forum.cursor.com/t/looking-for-a-discount-code/76750) | WebSearch | 👍 0
+- [Composer 2 50% discount - Help - Cursor - Community Forum](https://forum.cursor.com/t/composer-2-50-discount/155579) | WebSearch | 👍 0
+- [Supermaven discount - Help - Cursor - Community Forum](https://forum.cursor.com/t/supermaven-discount/28376) | WebSearch | 👍 0
+- [Mistral OCR 4 : SOTA OCR for Document Intelligence](https://mistral.ai/news/ocr-4) | WebSearch | 👍 0
+
