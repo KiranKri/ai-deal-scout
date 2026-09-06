@@ -1902,3 +1902,9 @@ _No deals logged yet._
 - [Supermaven discount - Help - Cursor - Community Forum](https://forum.cursor.com/t/supermaven-discount/28376) | WebSearch | 👍 0
 - [Mistral OCR 4 : SOTA OCR for Document Intelligence](https://mistral.ai/news/ocr-4) | WebSearch | 👍 0
 
+## Run: 2026-09-06 12:45:02 IST
+- [It must be some kind of psy-op by Anthropic to claim that Fable is anywhere near as good as Astra](https://www.reddit.com/r/ChatGPTPro/comments/1w7v91z/it_must_be_some_kind_of_psyop_by_anthropic_to/) | Reddit | 👍 0
+- [Cursor charged a new card for July usage that was never authorized](https://www.reddit.com/r/cursor/comments/1w7netj/cursor_charged_a_new_card_for_july_usage_that_was/) | Reddit | 👍 0
+- [Pricing and Plans | Replit](https://replit.com/pricing?referrer=Albxyiscool) | WebSearch | 👍 0
+- [AI Travel Website Builder | Replit](https://replit.com/build/travel-website-builder) | WebSearch | 👍 0
+
