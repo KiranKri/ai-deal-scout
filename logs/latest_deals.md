@@ -1908,3 +1908,7 @@ _No deals logged yet._
 - [Pricing and Plans | Replit](https://replit.com/pricing?referrer=Albxyiscool) | WebSearch | 👍 0
 - [AI Travel Website Builder | Replit](https://replit.com/build/travel-website-builder) | WebSearch | 👍 0
 
+## Run: 2026-09-07 12:58:37 IST
+- [Notion | Where teams and agents work together](https://www.notion.so/startups-application-form) | WebSearch | 👍 0
+- [You.com Coupon Code (10% OFF), Promo & Discount Codes April 2026](https://www.greenpromocode.com/coupons/you-com) | WebSearch | 👍 0
+
