@@ -1912,3 +1912,9 @@ _No deals logged yet._
 - [Notion | Where teams and agents work together](https://www.notion.so/startups-application-form) | WebSearch | 👍 0
 - [You.com Coupon Code (10% OFF), Promo & Discount Codes April 2026](https://www.greenpromocode.com/coupons/you-com) | WebSearch | 👍 0
 
+## Run: 2026-09-08 12:52:22 IST
+- [ChatGPT Plus is free for college students in the US and ...](https://community.openai.com/t/chatgpt-plus-is-free-for-college-students-in-the-us-and-canada-through-may/1214317) | WebSearch | 👍 0
+- [Lovable Cloud - Lovable Documentation](https://docs.lovable.dev/features/cloud) | WebSearch | 👍 0
+- [DeepSeek Pricing 2026: API Cost, Free Tier & Plans Guide](https://felloai.com/deepseek-pricing) | WebSearch | 👍 0
+- [With the Pro 10x discount ending soon - Will you switch to DeepSeek?](https://www.reddit.com/r/codex/comments/1tm7dt1/with_the_pro_10x_discount_ending_soon_will_you) | WebSearch | 👍 0
+
