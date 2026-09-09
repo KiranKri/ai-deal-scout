@@ -1918,3 +1918,11 @@ _No deals logged yet._
 - [DeepSeek Pricing 2026: API Cost, Free Tier & Plans Guide](https://felloai.com/deepseek-pricing) | WebSearch | 👍 0
 - [With the Pro 10x discount ending soon - Will you switch to DeepSeek?](https://www.reddit.com/r/codex/comments/1tm7dt1/with_the_pro_10x_discount_ending_soon_will_you) | WebSearch | 👍 0
 
+## Run: 2026-09-09 13:00:55 IST
+- [Do you guys think Cursor should offer discounted packages? - Discussions - Cursor - Community Forum](https://forum.cursor.com/t/do-you-guys-think-cursor-should-offer-discounted-packages/77694) | WebSearch | 👍 0
+- [Is SuperGrok Heavy now the better Cursor Ultra deal?](https://forum.cursor.com/t/is-supergrok-heavy-now-the-better-cursor-ultra-deal/168558) | WebSearch | 👍 0
+- [Cursor (company)](https://en.wikipedia.org/wiki/Cursor_(company)) | WebSearch | 👍 0
+- [HeyGen Promo Codes - 20% OFF January 2026](https://usa.promocodie.com/coupons/heygen) | WebSearch | 👍 0
+- [HeyGen Promo Code - 22% Off Coupon Code](https://www.founderpass.com/free/heygen) | WebSearch | 👍 0
+- [Synthesia AI 35% Off Discount Code (September 2026 Verified)](https://www.marketing91.com/synthesia-discount-code) | WebSearch | 👍 0
+
