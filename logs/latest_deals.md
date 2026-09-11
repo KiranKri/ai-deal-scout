@@ -1931,3 +1931,9 @@ _No deals logged yet._
 - [View and manage your drive subscription - Descript Help Center](https://help.descript.com/billing-payments-plans/manage) | WebSearch | 👍 0
 - [75% OFF Topaz Photo AI Discounts – 100% Working Codes 2026](https://www.aiarty.com/ai-image-enhancer/topaz-photo-ai-discount-sale-code.htm) | WebSearch | 👍 0
 
+## Run: 2026-09-11 12:55:27 IST
+- [Modeinspect](https://www.producthunt.com/products/modeinspect-1-0) | RSS | 👍 0
+- [AI Affiliate Website Builder | Replit](https://replit.com/build/affiliate-website-builder) | WebSearch | 👍 0
+- [Partner Promotions and Referral Programs - perplexity.ai](https://www.perplexity.ai/help-center/en/articles/11385821-partner-promotions-and-referral-programs) | WebSearch | 👍 0
+- [Ideogram AI Coupons, Promo code, Offers & Deals - September 2026](https://www.desidime.com/stores/ideogram-ai) | WebSearch | 👍 0
+
