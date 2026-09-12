@@ -1937,3 +1937,7 @@ _No deals logged yet._
 - [Partner Promotions and Referral Programs - perplexity.ai](https://www.perplexity.ai/help-center/en/articles/11385821-partner-promotions-and-referral-programs) | WebSearch | 👍 0
 - [Ideogram AI Coupons, Promo code, Offers & Deals - September 2026](https://www.desidime.com/stores/ideogram-ai) | WebSearch | 👍 0
 
+## Run: 2026-09-12 12:47:40 IST
+- [The BIGGEST Dilemma of windsurfing (very hard to get ...](https://www.reddit.com/r/windsurfing/comments/11rbk93/the_biggest_dilemma_of_windsurfing_very_hard_to) | WebSearch | 👍 0
+- [North Beach Windsurfing | St. Pete Beach, Florida](https://www.nbwindsurfing.com) | WebSearch | 👍 0
+
