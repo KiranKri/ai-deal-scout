@@ -1941,3 +1941,7 @@ _No deals logged yet._
 - [The BIGGEST Dilemma of windsurfing (very hard to get ...](https://www.reddit.com/r/windsurfing/comments/11rbk93/the_biggest_dilemma_of_windsurfing_very_hard_to) | WebSearch | 👍 0
 - [North Beach Windsurfing | St. Pete Beach, Florida](https://www.nbwindsurfing.com) | WebSearch | 👍 0
 
+## Run: 2026-09-13 13:06:02 IST
+- [Buying and redeeming OpenAI gift cards | OpenAI Help Center](https://help.openai.com/en/articles/20001491-buying-and-redeeming-openai-gift-cards) | WebSearch | 👍 0
+- [ChatGPT Plus for Servicemembers & Veterans - Terms of Service | OpenAI Help Center](https://help.openai.com/en/articles/12803158-chatgpt-plus-for-servicemembers-veterans-terms-of-service) | WebSearch | 👍 0
+
