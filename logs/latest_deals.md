@@ -1945,3 +1945,6 @@ _No deals logged yet._
 - [Buying and redeeming OpenAI gift cards | OpenAI Help Center](https://help.openai.com/en/articles/20001491-buying-and-redeeming-openai-gift-cards) | WebSearch | 👍 0
 - [ChatGPT Plus for Servicemembers & Veterans - Terms of Service | OpenAI Help Center](https://help.openai.com/en/articles/12803158-chatgpt-plus-for-servicemembers-veterans-terms-of-service) | WebSearch | 👍 0
 
+## Run: 2026-09-14 13:32:35 IST
+- [Exporting a skill from Claude to ChatGPT: pick the right download or you'll silently lose files](https://www.reddit.com/r/ChatGPTPro/comments/1wfol7w/exporting_a_skill_from_claude_to_chatgpt_pick_the/) | Reddit | 👍 0
+
