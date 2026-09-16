@@ -1955,3 +1955,14 @@ _No deals logged yet._
 - [Code Terms | Runway](https://runwayml.com/code-terms) | WebSearch | 👍 0
 - [Replit vs Bolt: AI App Builder Comparison](https://replit.com/discover/replit-vs-bolt) | WebSearch | 👍 0
 
+## Run: 2026-09-16 13:20:34 IST
+- [Has anyone used ChatGPT with measurements from a DIY](https://www.reddit.com/r/ChatGPTPro/comments/1whpqmq/has_anyone_used_chatgpt_with_measurements_from_a/) | Reddit | 👍 0
+- [Anthropic - Wikipedia](https://en.wikipedia.org/wiki/Anthropic) | WebSearch | 👍 0
+- [Request for getting one month free trial of ChatGPT plus ...](https://community.openai.com/t/request-for-getting-one-month-free-trial-of-chatgpt-plus-subscription/1396550) | WebSearch | 👍 0
+- [Perplexity Pro Samsung Galaxy Promo | Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11663151-perplexity-pro-samsung-galaxy-promo) | WebSearch | 👍 0
+- [How to Use Midjourney: A Comprehensive Guide to AI-Generated Artwork Creation | DataCamp](https://www.datacamp.com/tutorial/how-to-use-midjourney-a-comprehensive-guide-to-ai-generated-artwork-creation) | WebSearch | 👍 0
+- [ElevenLabs AI Sound Effect Generator | Royalty-Free SFX](https://join.elevenlabs.io/sound-effects) | WebSearch | 👍 0
+- [Otter.ai Promo Code September 2026: Pro $16.99 → $8.33 (51% Annual)](https://otter.grabon.com/coupons) | WebSearch | 👍 0
+- [Pricing | Otter.ai](https://otter.ai/pricing) | WebSearch | 👍 0
+- [Otter.ai Promo Codes - July 2026 - DiscountReactor](https://www.discountreactor.com/coupons/otter.ai) | WebSearch | 👍 0
+
