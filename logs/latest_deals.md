@@ -1966,3 +1966,13 @@ _No deals logged yet._
 - [Pricing | Otter.ai](https://otter.ai/pricing) | WebSearch | 👍 0
 - [Otter.ai Promo Codes - July 2026 - DiscountReactor](https://www.discountreactor.com/coupons/otter.ai) | WebSearch | 👍 0
 
+## Run: 2026-09-17 13:24:23 IST
+- [Grammarly: Free Online Writing Assistant](https://discount.grammarly.com/api/discounts/owtcbg) | WebSearch | 👍 0
+- [Project Vend: Can Claude run a small shop? (And why does that matter?) \ Anthropic](https://www.anthropic.com/research/project-vend-1) | WebSearch | 👍 0
+- [Introducing the Services Track and Partner Hub of the Claude Partner Network \ Anthropic](https://www.anthropic.com/news/services-track-partner-hub) | WebSearch | 👍 0
+- [‎Claude by Anthropic App - App Store](https://anthropic.com/ios) | WebSearch | 👍 0
+- [Free Cursor Ultra with Grok - Help - Cursor - Community Forum](https://forum.cursor.com/t/free-cursor-ultra-with-grok/168286?page=) | WebSearch | 👍 0
+- [Will Cursor's Fable 5 follow suit with Anthropic's free trial program? - Help - Cursor - Community Forum](https://forum.cursor.com/t/will-cursors-fable-5-follow-suit-with-anthropics-free-trial-program/162926) | WebSearch | 👍 0
+- [Is SuperGrok Heavy now the better Cursor Ultra deal? - Discussions - Cursor - Community Forum](https://forum.cursor.com/t/is-supergrok-heavy-now-the-better-cursor-ultra-deal/168558?page=) | WebSearch | 👍 0
+- [Will Cursor's Fable 5 follow suit with Anthropic's free trial program? - #3 by deanrie - Help - Cursor - Community Forum](https://forum.cursor.com/t/will-cursors-fable-5-follow-suit-with-anthropics-free-trial-program/162926/3) | WebSearch | 👍 0
+
