@@ -1976,3 +1976,9 @@ _No deals logged yet._
 - [Is SuperGrok Heavy now the better Cursor Ultra deal? - Discussions - Cursor - Community Forum](https://forum.cursor.com/t/is-supergrok-heavy-now-the-better-cursor-ultra-deal/168558?page=) | WebSearch | 👍 0
 - [Will Cursor's Fable 5 follow suit with Anthropic's free trial program? - #3 by deanrie - Help - Cursor - Community Forum](https://forum.cursor.com/t/will-cursors-fable-5-follow-suit-with-anthropics-free-trial-program/162926/3) | WebSearch | 👍 0
 
+## Run: 2026-09-18 13:03:16 IST
+- [Connect Stripe to Perplexity](https://www.perplexity.ai/connectors/stripe) | WebSearch | 👍 0
+- [Do you offer discounted or free plans? | ElevenLabs Documentation](https://elevenlabs.io/docs/help-center/partnerships/do-you-offer-discounted-or-free-plans) | WebSearch | 👍 0
+- [FULL FREE Lovable Dev Course 1: Why Lovable? | Lovable](https://lovable.dev/ko/video/full-free-lovable-dev-course-1-why-lovable) | WebSearch | 👍 0
+- [Apply to the Runway Affiliate Program](https://runwayml.com/affiliate-program) | WebSearch | 👍 0
+
