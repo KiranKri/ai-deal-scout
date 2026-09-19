@@ -1982,3 +1982,13 @@ _No deals logged yet._
 - [FULL FREE Lovable Dev Course 1: Why Lovable? | Lovable](https://lovable.dev/ko/video/full-free-lovable-dev-course-1-why-lovable) | WebSearch | 👍 0
 - [Apply to the Runway Affiliate Program](https://runwayml.com/affiliate-program) | WebSearch | 👍 0
 
+## Run: 2026-09-19 12:58:45 IST
+- [Improving our alignment and security efforts - Anthropic](https://www.anthropic.com/news/improving-alignment-security-efforts) | WebSearch | 👍 0
+- [Subscription Plans & Billing - Perplexity Help Center](https://www.perplexity.ai/help-center/en/collections/18799292-subscription-plans-billing) | WebSearch | 👍 0
+- [Microsoft 365 Blog | Latest Product Updates and Insights](https://www.microsoft.com/en-us/copilot/blog) | WebSearch | 👍 0
+- [DeepSeek Free Tier 2026 — Free Models, Credits & Limits](https://pricepertoken.com/endpoints/deepseek/free) | WebSearch | 👍 0
+- [DeepSeek API Coupon Codes (2026): Up to 50% Off – ReviewAITool Blog](https://blog.reviewaitool.com/2026/08/14/deepseek-api-coupon-deals-2026) | WebSearch | 👍 0
+- [HYEGEN Promo Codes - 33% OFF Promo's September 2026](https://heygen.saver.com) | WebSearch | 👍 0
+- [HeyGen Student Discount: Availability and Next Steps](https://www.heygen.com/blog/heygen-student-discount) | WebSearch | 👍 0
+- [Free HeyGen Course: Community Udemy Course Guide](https://www.heygen.com/blog/free-heygen-course-community-guide) | WebSearch | 👍 0
+
