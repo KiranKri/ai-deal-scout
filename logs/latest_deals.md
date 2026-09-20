@@ -1992,3 +1992,6 @@ _No deals logged yet._
 - [HeyGen Student Discount: Availability and Next Steps](https://www.heygen.com/blog/heygen-student-discount) | WebSearch | 👍 0
 - [Free HeyGen Course: Community Udemy Course Guide](https://www.heygen.com/blog/free-heygen-course-community-guide) | WebSearch | 👍 0
 
+## Run: 2026-09-20 13:22:30 IST
+- [Combining GPT-6 Astra + Higgsfield AI in Blender MCP to save tokens](https://www.reddit.com/r/ChatGPTPro/comments/1wkpa66/combining_gpt6_astra_higgsfield_ai_in_blender_mcp/) | Reddit | 👍 0
+
