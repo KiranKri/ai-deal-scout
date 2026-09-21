@@ -1995,3 +1995,9 @@ _No deals logged yet._
 ## Run: 2026-09-20 13:22:30 IST
 - [Combining GPT-6 Astra + Higgsfield AI in Blender MCP to save tokens](https://www.reddit.com/r/ChatGPTPro/comments/1wkpa66/combining_gpt6_astra_higgsfield_ai_in_blender_mcp/) | Reddit | 👍 0
 
+## Run: 2026-09-21 13:37:39 IST
+- [Which Perplexity Subscription Plan is right for you? - Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you) | WebSearch | 👍 0
+- [Promotions & Partnerships - Perplexity Help Center](https://www.perplexity.ai/help-center/en/collections/18799302-promotions-partnerships) | WebSearch | 👍 0
+- [Audio Quality and Tips from Udio team : r/udiomusic - Reddit](https://www.reddit.com/r/udiomusic/comments/1gvl89o/audio_quality_and_tips_from_udio_team) | WebSearch | 👍 0
+- [Leonardo.Ai Coupon Codes (September 2026): 35% Off](https://www.couponswift.com/leonardo.ai/coupons) | WebSearch | 👍 0
+
