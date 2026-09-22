@@ -2001,3 +2001,10 @@ _No deals logged yet._
 - [Audio Quality and Tips from Udio team : r/udiomusic - Reddit](https://www.reddit.com/r/udiomusic/comments/1gvl89o/audio_quality_and_tips_from_udio_team) | WebSearch | 👍 0
 - [Leonardo.Ai Coupon Codes (September 2026): 35% Off](https://www.couponswift.com/leonardo.ai/coupons) | WebSearch | 👍 0
 
+## Run: 2026-09-22 13:22:29 IST
+- [Back to school: Notion is now free for student organizations](https://www.notion.com/blog/back-to-school-notion-now-free-for-student-organizations) | WebSearch | 👍 0
+- [Notion for startups | Notion Help – Notion Help Center](https://www.notion.com/help/notion-for-startups) | WebSearch | 👍 0
+- [Notion for Nonprofits launches today to support more change makers](https://www.notion.com/blog/notion-for-nonprofits-launches-today-to-support-more-change-makers) | WebSearch | 👍 0
+- [Notion for students & education | Notion Help – Notion Help Center](https://www.notion.com/help/notion-for-education) | WebSearch | 👍 0
+- [Free Grammar Checker | #1 AI-Powered Grammar Check](https://www.grammarly.com/grammar-check) | WebSearch | 👍 0
+
