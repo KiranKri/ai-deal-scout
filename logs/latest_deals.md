@@ -2008,3 +2008,6 @@ _No deals logged yet._
 - [Notion for students & education | Notion Help – Notion Help Center](https://www.notion.com/help/notion-for-education) | WebSearch | 👍 0
 - [Free Grammar Checker | #1 AI-Powered Grammar Check](https://www.grammarly.com/grammar-check) | WebSearch | 👍 0
 
+## Run: 2026-09-23 13:24:27 IST
+- [Comparing Midjourney Plans](https://docs.midjourney.com/docs/plans) | WebSearch | 👍 0
+
