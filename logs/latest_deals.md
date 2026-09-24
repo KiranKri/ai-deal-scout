@@ -2011,3 +2011,9 @@ _No deals logged yet._
 ## Run: 2026-09-23 13:24:27 IST
 - [Comparing Midjourney Plans](https://docs.midjourney.com/docs/plans) | WebSearch | 👍 0
 
+## Run: 2026-09-24 13:14:50 IST
+- [Claude Promotional Credit Offer Terms \ Anthropic](https://www.anthropic.com/legal/promotion-credit-terms) | WebSearch | 👍 0
+- [Perplexity Max](https://www.perplexity.ai/max) | WebSearch | 👍 0
+- [Bolt.new Promo Codes And Pricing Deals (Up To 10% Off)](https://wayiwork.com/perks/bolt) | WebSearch | 👍 0
+- [Jasper AI Promo Codes And Pricing (20% Off In 2026) - WayIWork](https://wayiwork.com/perks/jasper) | WebSearch | 👍 0
+
