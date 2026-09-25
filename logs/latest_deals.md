@@ -2017,3 +2017,22 @@ _No deals logged yet._
 - [Bolt.new Promo Codes And Pricing Deals (Up To 10% Off)](https://wayiwork.com/perks/bolt) | WebSearch | 👍 0
 - [Jasper AI Promo Codes And Pricing (20% Off In 2026) - WayIWork](https://wayiwork.com/perks/jasper) | WebSearch | 👍 0
 
+## Run: 2026-09-25 13:34:38 IST
+- [Merlin and Udio Partner to Advance AI for Independent Music - Merlin](https://merlinnetwork.org/merlin-and-udio-partner-to-advance-ai-for-independent-music) | WebSearch | 👍 0
+- [Udio's dead. No doubt, Suno's next. : r/SunoAI - Reddit](https://www.reddit.com/r/SunoAI/comments/1ojuonm/udios_dead_no_doubt_sunos_next) | WebSearch | 👍 0
+- [Professional AI Coding Tools | Replit](https://replit.com/pro) | WebSearch | 👍 0
+- [Replit Enterprise - Replit](https://docs.replit.com/billing/plans/replit-enterprise) | WebSearch | 👍 0
+- [Managing Your Spend - Replit](https://docs.replit.com/billing/managing-spend) | WebSearch | 👍 0
+- [AI Presentation Maker: Create and Export Slides | Replit](https://replit.com/slides) | WebSearch | 👍 0
+- [Subscriptions - Replit](https://docs.replit.com/help/subscriptions) | WebSearch | 👍 0
+- [[PDF] An evidence review of worker retraining | Anthropic](https://www-cdn.anthropic.com/4ef47f859bc67be739a14f5d40b43927eecacdb6/WorkerRetraining.pdf) | WebSearch | 👍 0
+- [1900+ Reviews from the Writesonic Community](https://www.g2.com/products/writesonic/reviews) | WebSearch | 👍 0
+- [Writesonic Review: An amazing tool but not a replacement ...](https://appsumo.com/products/marketplace-writesonic/reviews/an-amazing-tool-but-not-a-replacement-fo-102969) | WebSearch | 👍 0
+- [Writesonic Content AI Assistan - Apps on Google Play](https://play.google.com/store/apps/details?id=com.writesonic.appaiconten&hl=en_US) | WebSearch | 👍 0
+- [4 Best AI Tools for Ad Copywriting in 2026 - GetHookd](https://www.gethookd.ai/learn/4-best-ai-tools-for-ad-copywriting-in-2026) | WebSearch | 👍 0
+- [10 Best Google Ad Copy Tools (Free & Paid) You Should Try](https://www.causalfunnel.com/blog/10-best-google-ad-copy-tools-free-paid-you-should-try) | WebSearch | 👍 0
+- [Copy.ai Review: Content & Media AI Tool - SmarterWay.AI](https://smarterway.ai/tools/copy-ai) | WebSearch | 👍 0
+- [Copy.ai Copywriting Tool Review: Price, Features, Pros & Cons](https://searchatlas.com/blog/copy-ai-review) | WebSearch | 👍 0
+- [The 10 Best Copy AI Alternatives in 2026 - Alex Birkett](https://alexbirkett.com/copy-ai-alternatives) | WebSearch | 👍 0
+- [How Copy AI used Affiliates to blow past $100k mrr in <8 months](https://www.reddit.com/r/SaaS/comments/1c4llux/how_copy_ai_used_affiliates_to_blow_past_100k_mrr) | WebSearch | 👍 0
+
