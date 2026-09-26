@@ -2036,3 +2036,10 @@ _No deals logged yet._
 - [The 10 Best Copy AI Alternatives in 2026 - Alex Birkett](https://alexbirkett.com/copy-ai-alternatives) | WebSearch | 👍 0
 - [How Copy AI used Affiliates to blow past $100k mrr in <8 months](https://www.reddit.com/r/SaaS/comments/1c4llux/how_copy_ai_used_affiliates_to_blow_past_100k_mrr) | WebSearch | 👍 0
 
+## Run: 2026-09-26 13:25:45 IST
+- [I can't access Copilot Pro (free trial) even my free trial is still active · community · Discussion #192475 · GitHub](https://github.com/orgs/community/discussions/192475) | WebSearch | 👍 0
+- [Requesting a Refund – Midjourney](https://docs.midjourney.com/hc/en-us/articles/25386088618253-Requesting-a-Refund) | WebSearch | 👍 0
+- [Safety Engineer - Free Tier Abuse | ElevenLabs careers](https://elevenlabs.io/careers/3b57cc5c-f019-4a0b-a5ff-e1046e4f1fa1/safety-engineer-free-tier-abuse) | WebSearch | 👍 0
+- [8 Best Enterprise App Development Platforms for 2026 (Compared) | Lovable](https://lovable.dev/guides/best-enterprise-software-solutions-custom-app-development-2026) | WebSearch | 👍 0
+- [Lovable vs Cursor: Which AI Builder Works Better](https://lovable.dev/guides/lovable-vs-cursor) | WebSearch | 👍 0
+
