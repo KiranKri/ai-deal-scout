@@ -2052,3 +2052,14 @@ _No deals logged yet._
 - [Elicit Coupons & Promo Codes September 2026 | CouponReals](https://couponreals.com/store/elicit) | WebSearch | 👍 0
 - [Elicit AI Legit Coupons - Get 20% Off in September 2026](https://couponstroller.com/store/elicit) | WebSearch | 👍 0
 
+## Run: 2026-09-28 14:22:18 IST
+- [You can now chat with Lovable for free | Lovable](https://lovable.dev/blog/chat-for-free) | WebSearch | 👍 0
+- [Starter Plan - Replit](https://docs.replit.com/billing/plans/starter-plan) | WebSearch | 👍 0
+- [AI Loyalty App Builder | Replit](https://replit.com/build/free-loyalty-app-builder) | WebSearch | 👍 0
+- [Become a Notion Partner | Notion](https://notion.so/become-a-partner) | WebSearch | 👍 0
+- [Notion paid plan trials | Notion Help – Notion Help Center](https://www.notion.com/help/paid-plan-trials) | WebSearch | 👍 0
+- [Join Notion's Affiliate Program](https://www.notion.com/affiliates) | WebSearch | 👍 0
+- [Introducing the Claude Team plan and iOS app | Claude by Anthropic](https://www.anthropic.com/news/team-plan-and-ios) | WebSearch | 👍 0
+- [Detecting and countering misuse of AI: September 2026](https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf) | WebSearch | 👍 0
+- [The Leading Web Search APIs for AI](https://you.com) | WebSearch | 👍 0
+
