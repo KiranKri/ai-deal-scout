@@ -2063,3 +2063,10 @@ _No deals logged yet._
 - [Detecting and countering misuse of AI: September 2026](https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf) | WebSearch | 👍 0
 - [The Leading Web Search APIs for AI](https://you.com) | WebSearch | 👍 0
 
+## Run: 2026-09-29 14:20:53 IST
+- [Request for Free or Discounted ChatGPT Plus for Students in India - ChatGPT - OpenAI Developer Community](https://community.openai.com/t/request-for-free-or-discounted-chatgpt-plus-for-students-in-india/1400886) | WebSearch | 👍 0
+- [ChatGPT Free referral campaign | OpenAI Help Center](https://help.openai.com/en/articles/20001479-chatgpt-free-referral-campaign) | WebSearch | 👍 0
+- [What is Education Pro? - Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/12590157-what-is-education-pro) | WebSearch | 👍 0
+- [GitHub - bhavingajjar/cursor-pro-coupon-code: Get 50% OFF your first month of Cursor Pro, Pro+ or Ultra using our verified referral code QV8RILYPYJNA — active Cursor AI code editor discount code, promo code & coupon for 2026. · GitHub](https://github.com/bhavingajjar/cursor-pro-coupon-code) | WebSearch | 👍 0
+- [Is DeepSeek Free? Chat, API Pricing, and Every Free Path in 2026](https://apidog.com/blog/is-deepseek-free) | WebSearch | 👍 0
+
