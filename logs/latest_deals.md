@@ -2079,3 +2079,12 @@ _No deals logged yet._
 - [Nano Banana 2 - Gemini AI image generator & photo editor](https://gemini.google.com/overview/image-generation) | WebSearch | 👍 0
 - [Synthesia Free Trial (2026): Try for Free (No Credit Card)](https://tipsonblogging.com/2024/12/synthesia-io-free-trial) | WebSearch | 👍 0
 
+## Run: 2026-10-01 14:45:00 IST
+- [My first ChatGPT / Codex plugin is live - saymd](https://www.reddit.com/r/ChatGPTPro/comments/1wubcal/my_first_chatgpt_codex_plugin_is_live_saymd/) | Reddit | 👍 0
+- [ChatGPT Work and Codex after DevDay 2026: impressive shop window, thin back office [PSA]](https://www.reddit.com/r/ChatGPTPro/comments/1wu9tie/chatgpt_work_and_codex_after_devday_2026/) | Reddit | 👍 0
+- [Introducing Mistral OCR 3 | Mistral AI](https://mistral.ai/news/mistral-ocr-3) | WebSearch | 👍 0
+- [Best Black Friday Music Deals 2026](https://suno.com/hub/best-black-friday-music-deals) | WebSearch | 👍 0
+- [Suno Black Friday Deals 2026: 40% Off Pro and Premier Plans](https://suno.com/hub/suno-black-friday-deals) | WebSearch | 👍 0
+- [Runway News | Introducing Runway for Premiere Pro & After Effects](https://runwayml.com/news/company-news/runway-for-adobe) | WebSearch | 👍 0
+- [Descript Startup Discount – 50% Off Annual Plans](https://xraise.ai/blog/promo-code-discount-descript) | WebSearch | 👍 0
+
