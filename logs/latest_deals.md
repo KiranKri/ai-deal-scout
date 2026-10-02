@@ -2088,3 +2088,7 @@ _No deals logged yet._
 - [Runway News | Introducing Runway for Premiere Pro & After Effects](https://runwayml.com/news/company-news/runway-for-adobe) | WebSearch | 👍 0
 - [Descript Startup Discount – 50% Off Annual Plans](https://xraise.ai/blog/promo-code-discount-descript) | WebSearch | 👍 0
 
+## Run: 2026-10-02 14:18:27 IST
+- [Introducing ElevenLabs for Students](https://elevenlabs.io/blog/introducing-elevenlabs-for-students) | WebSearch | 👍 0
+- [50% off Ideogram Basic and Priority Credit Top-Up](https://www.reddit.com/r/ideogramai/comments/1h1livc/ideogram_black_friday_sale_50_off_ideogram_basic) | WebSearch | 👍 0
+
