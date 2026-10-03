@@ -2092,3 +2092,9 @@ _No deals logged yet._
 - [Introducing ElevenLabs for Students](https://elevenlabs.io/blog/introducing-elevenlabs-for-students) | WebSearch | 👍 0
 - [50% off Ideogram Basic and Priority Credit Top-Up](https://www.reddit.com/r/ideogramai/comments/1h1livc/ideogram_black_friday_sale_50_off_ideogram_basic) | WebSearch | 👍 0
 
+## Run: 2026-10-03 13:55:39 IST
+- [News | Replit](https://replit.com/blog/category/news/2) | WebSearch | 👍 0
+- [Failed to claim 1‑month free Plus offer, error: Something went wrong while claiming your offer, please try again - Bugs - OpenAI Developer Community](https://community.openai.com/t/failed-to-claim-1-month-free-plus-offer-error-something-went-wrong-while-claiming-your-offer-please-try-again/1395409) | WebSearch | 👍 0
+- [Codeium Is Now Devin: Where the Free Tier Went in 2026](https://intelligenttools.co/tools/codeium) | WebSearch | 👍 0
+- [Windsurf (formerly Codeium) Pricing: Cost and Pricing plans](https://www.saasworthy.com/product/codeium/pricing) | WebSearch | 👍 0
+
