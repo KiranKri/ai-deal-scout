@@ -2098,3 +2098,10 @@ _No deals logged yet._
 - [Codeium Is Now Devin: Where the Free Tier Went in 2026](https://intelligenttools.co/tools/codeium) | WebSearch | 👍 0
 - [Windsurf (formerly Codeium) Pricing: Cost and Pricing plans](https://www.saasworthy.com/product/codeium/pricing) | WebSearch | 👍 0
 
+## Run: 2026-10-04 14:09:19 IST
+- [8 Best Glide Alternatives for Building Apps in 2026 | Lovable](https://lovable.dev/guides/best-glide-alternatives-building-production-apps) | WebSearch | 👍 0
+- [Glossary - Lovable Documentation](https://docs.lovable.dev/glossary) | WebSearch | 👍 0
+- [Tabnine Pricing & Plans (September 2026) | Compare Costs & Features - SaaSworthy](https://www.saasworthy.com/product/tabnine/pricing) | WebSearch | 👍 0
+- [Tabnine - Reviews, Features, Pricing | AI Testing Tools](https://www.testingtools.ai/tools/tabnine) | WebSearch | 👍 0
+- [Get Free Pro plan - Up to 12 months from Bolt.new](https://beamstart.com/deal/free-pro-plan-12-months) | WebSearch | 👍 0
+
