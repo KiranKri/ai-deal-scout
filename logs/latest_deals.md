@@ -2105,3 +2105,11 @@ _No deals logged yet._
 - [Tabnine - Reviews, Features, Pricing | AI Testing Tools](https://www.testingtools.ai/tools/tabnine) | WebSearch | 👍 0
 - [Get Free Pro plan - Up to 12 months from Bolt.new](https://beamstart.com/deal/free-pro-plan-12-months) | WebSearch | 👍 0
 
+## Run: 2026-10-05 14:55:40 IST
+- [Introducing shopping research in ChatGPT | OpenAI](https://openai.com/index/chatgpt-shopping-research) | WebSearch | 👍 0
+- [20% Off Jasper AI Coupon Codes, Discount | Oct 2026](https://grabon.com/jasper-ai-coupons) | WebSearch | 👍 0
+- [Jasper Free Trial and Coupons (September 2026)](https://droidcrunch.com/jasper-free-trial) | WebSearch | 👍 0
+- [Jasper AI Black Friday Deals 2026: Get Up to 20% OFF](https://www.affiliatebooster.com/jasper-ai-black-friday) | WebSearch | 👍 0
+- [Writesonic Review 2026: 10k Free Words, Real Test](https://youraisoft.com/writesonic-review) | WebSearch | 👍 0
+- [Writesonic Coupon - September 2026 - WPdiscounts.io](https://wpdiscounts.io/ai-tools/writesonic-coupon) | WebSearch | 👍 0
+
