@@ -2113,3 +2113,12 @@ _No deals logged yet._
 - [Writesonic Review 2026: 10k Free Words, Real Test](https://youraisoft.com/writesonic-review) | WebSearch | 👍 0
 - [Writesonic Coupon - September 2026 - WPdiscounts.io](https://wpdiscounts.io/ai-tools/writesonic-coupon) | WebSearch | 👍 0
 
+## Run: 2026-10-06 14:43:22 IST
+- [Claude Chatgpt upgrade recommendations](https://www.reddit.com/r/ChatGPTPro/comments/1wyjjln/claude_chatgpt_upgrade_recommendations/) | Reddit | 👍 0
+- [Free Text-To-Speech | ElevenLabs](https://start.elevenlabs.io/text-to-speech/v2) | WebSearch | 👍 0
+- [Notion for Creators | Notion Help – Notion Help Center](https://notion.so/help/notion-for-creators) | WebSearch | 👍 0
+- [Copy.ai Pricing 2026: Chat, Agents and Enterprise Costs](https://blog.contentforce.ai/copyai-pricing) | WebSearch | 👍 0
+- [Copy.ai Free Trial (How To Quickly Get Started)](https://imnights.com/copy-ai-free-trial) | WebSearch | 👍 0
+- [Discover Meticulously Handpicked QuillBot Discount Codes](https://www.bitdegree.org/ai/deals/quillbot-discount-code) | WebSearch | 👍 0
+- [Quillbot | Pricing & Plans - Upgrade to Premium](https://quillbot.com/upgrade) | WebSearch | 👍 0
+
