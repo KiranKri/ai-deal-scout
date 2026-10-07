@@ -2122,3 +2122,7 @@ _No deals logged yet._
 - [Discover Meticulously Handpicked QuillBot Discount Codes](https://www.bitdegree.org/ai/deals/quillbot-discount-code) | WebSearch | 👍 0
 - [Quillbot | Pricing & Plans - Upgrade to Premium](https://quillbot.com/upgrade) | WebSearch | 👍 0
 
+## Run: 2026-10-07 14:32:36 IST
+- [Otter.ai Promo Codes & Coupons](https://grabon.com/otter-coupons) | WebSearch | 👍 0
+- [Selling official discount codes for popular AI & productivity ...](https://www.reddit.com/r/toolsdeals/comments/1qdee7f/selling_official_discount_codes_for_popular_ai) | WebSearch | 👍 0
+
