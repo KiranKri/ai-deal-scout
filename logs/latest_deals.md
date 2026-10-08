@@ -2126,3 +2126,6 @@ _No deals logged yet._
 - [Otter.ai Promo Codes & Coupons](https://grabon.com/otter-coupons) | WebSearch | 👍 0
 - [Selling official discount codes for popular AI & productivity ...](https://www.reddit.com/r/toolsdeals/comments/1qdee7f/selling_official_discount_codes_for_popular_ai) | WebSearch | 👍 0
 
+## Run: 2026-10-08 14:48:47 IST
+- [ChatGPT friend referral and we both get 1000 credits!](https://www.reddit.com/r/ChatGPTPro/comments/1x0keg2/chatgpt_friend_referral_and_we_both_get_1000/) | Reddit | 👍 0
+
