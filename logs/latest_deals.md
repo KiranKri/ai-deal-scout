@@ -2129,3 +2129,11 @@ _No deals logged yet._
 ## Run: 2026-10-08 14:48:47 IST
 - [ChatGPT friend referral and we both get 1000 credits!](https://www.reddit.com/r/ChatGPTPro/comments/1x0keg2/chatgpt_friend_referral_and_we_both_get_1000/) | Reddit | 👍 0
 
+## Run: 2026-10-09 14:55:48 IST
+- [App & Website Builder | Build Software in Minutes | Lovable](https://lovable.dev) | WebSearch | 👍 0
+- [KIMI Coupon Codes - 33% OFF Promo's July 2026](https://kimi.saver.com) | WebSearch | 👍 0
+- [Qwen Pricing 2026: Qwen3.8-Max API Costs & Free App](https://felloai.com/qwen-pricing) | WebSearch | 👍 0
+- [Qwen AI Deal — Save up to $4000](https://www.sitepoint.com/save-on-saas/qwen-ai-promocode-4000) | WebSearch | 👍 0
+- [Qwen 3.8 Max, Flash & Wan 3.0 — Free for 12 Hours | GMI Cloud](https://www.gmicloud.ai/qwen-day) | WebSearch | 👍 0
+- [Qwen Ambassador](https://qwen.ai/ambassador) | WebSearch | 👍 0
+
