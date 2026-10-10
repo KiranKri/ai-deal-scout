@@ -2137,3 +2137,6 @@ _No deals logged yet._
 - [Qwen 3.8 Max, Flash & Wan 3.0 — Free for 12 Hours | GMI Cloud](https://www.gmicloud.ai/qwen-day) | WebSearch | 👍 0
 - [Qwen Ambassador](https://qwen.ai/ambassador) | WebSearch | 👍 0
 
+## Run: 2026-10-10 14:17:13 IST
+- [Build human-like voices into your new product or startup with an ElevenLabs Grant](https://elevenlabs.io/grants-application) | WebSearch | 👍 0
+
