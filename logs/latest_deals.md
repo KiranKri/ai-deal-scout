@@ -2140,3 +2140,6 @@ _No deals logged yet._
 ## Run: 2026-10-10 14:17:13 IST
 - [Build human-like voices into your new product or startup with an ElevenLabs Grant](https://elevenlabs.io/grants-application) | WebSearch | 👍 0
 
+## Run: 2026-10-11 14:39:18 IST
+- [Grammarly’s Free and Premium Plans: Features | Grammarly Blog](https://www.grammarly.com/blog/product/free-premium-plans) | WebSearch | 👍 0
+
