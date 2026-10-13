@@ -2147,3 +2147,6 @@ _No deals logged yet._
 - [Cline vs Lovable: Key Differences & Which to Pick | Lovable](https://lovable.dev/guides/cline-vs-lovable) | WebSearch | 👍 0
 - [Promo code by obo2yrqdxv | Suno](https://suno.com/song/23c58b6d-59e3-4c99-8af5-200531cea3e5) | WebSearch | 👍 0
 
+## Run: 2026-10-13 15:09:00 IST
+- [Windsurf Is Now Devin Desktop: Free Credits Guide 2026 | Get AI Perks](https://www.getaiperks.com/en/ai/how-to-get-free-windsurf-credits) | WebSearch | 👍 0
+
