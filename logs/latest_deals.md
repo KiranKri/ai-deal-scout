@@ -2150,3 +2150,7 @@ _No deals logged yet._
 ## Run: 2026-10-13 15:09:00 IST
 - [Windsurf Is Now Devin Desktop: Free Credits Guide 2026 | Get AI Perks](https://www.getaiperks.com/en/ai/how-to-get-free-windsurf-credits) | WebSearch | 👍 0
 
+## Run: 2026-10-14 13:23:53 IST
+- [How Can Students Get 50% Off Windsurf AI Tool? - AIM](https://analyticsindiamag.com/ai-news-updates/codeium-offers-50-student-discount-for-windsurf-ai-coding-tool) | WebSearch | 👍 0
+- [Codeium Windsurf (AI coding) price check](https://vendorbenchmark.com/price-check/codeium) | WebSearch | 👍 0
+
