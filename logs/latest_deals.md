@@ -2154,3 +2154,8 @@ _No deals logged yet._
 - [How Can Students Get 50% Off Windsurf AI Tool? - AIM](https://analyticsindiamag.com/ai-news-updates/codeium-offers-50-student-discount-for-windsurf-ai-coding-tool) | WebSearch | 👍 0
 - [Codeium Windsurf (AI coding) price check](https://vendorbenchmark.com/price-check/codeium) | WebSearch | 👍 0
 
+## Run: 2026-10-15 13:08:53 IST
+- [Bolt Promo Code: 20% off for 3 months - 2026](https://www.founderpass.com/partners/bolt) | WebSearch | 👍 0
+- [Bolt.new Free Tier 2026: 1M Tokens/Month - How to Stretch It | Get AI Perks](https://www.getaiperks.com/en/ai/bolt-new-free-tier-guide) | WebSearch | 👍 0
+- [Jasper AI Promo Code 2026: Get 10,000 bonus credits](https://findstack.com/products/jasper-ai/deals) | WebSearch | 👍 0
+
