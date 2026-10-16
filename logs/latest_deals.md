@@ -2159,3 +2159,7 @@ _No deals logged yet._
 - [Bolt.new Free Tier 2026: 1M Tokens/Month - How to Stretch It | Get AI Perks](https://www.getaiperks.com/en/ai/bolt-new-free-tier-guide) | WebSearch | 👍 0
 - [Jasper AI Promo Code 2026: Get 10,000 bonus credits](https://findstack.com/products/jasper-ai/deals) | WebSearch | 👍 0
 
+## Run: 2026-10-16 12:55:38 IST
+- [Free trial by Aidan Yagu | Suno](https://suno.com/song/3174af5d-f8cd-449f-803b-8cb89bdedf75) | WebSearch | 👍 0
+- [Writesonic Black Friday Deal 2026: Coming Soon (+ 2025 ...](https://kripeshadwani.com/writesonic-black-friday-deal) | WebSearch | 👍 0
+
