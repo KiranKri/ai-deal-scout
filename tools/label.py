@@ -2,8 +2,8 @@
 
 Two steps, both copy-paste.
 
-    python tools/label.py export > label_me.txt      # paste into Grok/Claude
-    python tools/label.py import labels.txt          # paste its answer back
+    python tools/label.py export > data/labels/label_me.txt   # paste into Grok/Claude
+    python tools/label.py import data/labels/labels.txt       # paste its answer back
 
 Why bother: `tools/eval_filter.py` can only measure the filter against
 labelled examples.  Every keyword change so far has been justified by eyeball

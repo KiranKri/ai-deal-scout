@@ -2,11 +2,11 @@
   "total": 764,
   "positives": 68,
   "negatives": 696,
-  "tp": 58,
-  "fp": 12,
-  "tn": 684,
-  "fn": 10,
-  "precision": 0.8286,
-  "recall": 0.8529,
-  "f1": 0.8406
+  "tp": 61,
+  "fp": 2,
+  "tn": 694,
+  "fn": 7,
+  "precision": 0.9683,
+  "recall": 0.8971,
+  "f1": 0.9313
 }
