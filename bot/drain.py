@@ -2,7 +2,7 @@
 
 Designed to run on a schedule (GitHub Actions) rather than as a long-lived
 server.  Telegram queues undelivered updates for 24 hours, so a job that runs
-every ~10 minutes picks up every ``/start`` and ``/stop`` without anything
+every ~15 minutes picks up every ``/start`` and ``/stop`` without anything
 being always-on: no VPS, no Render, no laptop.  The pipeline itself runs
 once daily at 08:00 IST.
 

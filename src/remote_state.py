@@ -3,7 +3,7 @@
 Machine-generated state (which deals have been sent, who is subscribed) must
 not live in the public repo:
 
-* **Conflicts.** Two workflows commit every 10 minutes.  Any file they touch
+* **Conflicts.** Two workflows commit here, one of them every 15 minutes.  Any file they touch
   collides with local work constantly, and a hash blob cannot be merged
   meaningfully — every conflict is resolved by throwing one side away.
 * **Privacy.** Subscriber identity must never reach a public repo.
