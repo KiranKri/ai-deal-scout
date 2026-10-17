@@ -5,10 +5,8 @@ the same deal is never re-notified across runs.
 """
 
 import hashlib
-import json
 import logging
-import os
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import remote_state

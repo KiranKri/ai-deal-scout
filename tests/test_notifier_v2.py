@@ -1,6 +1,5 @@
-import pytest
 import logging
-from unittest.mock import patch, MagicMock, call
+from unittest.mock import patch, MagicMock
 import src.notifier as notifier
 
 FAKE_DEAL = {

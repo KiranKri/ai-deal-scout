@@ -6,7 +6,7 @@ Uses word-boundary regex matching to avoid false positives from substrings
 
 import logging
 import re
-
+from datetime import datetime
 from urllib.parse import urlparse
 
 from config import (
@@ -153,32 +153,6 @@ def score_deal(title: str, body: str = "") -> int:
 
     logger.debug("score_deal=%d title=%r", score, title)
     return score
-
-
-def _url_evidence(url: str) -> str:
-    """Return URL text usable as tool evidence, or empty when unsafe.
-
-    Vendor offer pages often name the product only in the host
-    (elevenlabs.io/students, cursor.com/.../student-discount), so the URL is
-    real evidence.  Discussion paths on those same domains are not: they carry
-    the brand without carrying an offer.
-
-    Measured on the labelled set: using every URL cost 18 false positives for
-    1 extra true positive; excluding discussion paths keeps the recall gain
-    without the noise.
-    """
-    if not url:
-        return ""
-    lowered = url.lower()
-    if _URL_NOISE.search(lowered):
-        return ""
-    # Require the PATH to signal an offer, not merely the host to name a brand.
-    # A brand-only rule let docs pages, pricing announcements and even a Suno
-    # song called "Pay For A Free Trial" through: the host said "AI tool", the
-    # page said nothing about an offer.
-    if not _URL_OFFER.search(lowered):
-        return ""
-    return re.sub(r"[/._\-]+", " ", lowered)
 
 
 # Price-shaped tokens that upgrade a bare "free plan" title into a real promo.
