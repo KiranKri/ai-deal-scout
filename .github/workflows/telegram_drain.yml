@@ -1,14 +1,16 @@
 name: Telegram Commands
 
-# Answers /start, /stop and /help without any always-on server.
+# Answers /start, /stop, /help, /run, /quota and /status without any
+# always-on server.
 #
 # Telegram queues undelivered updates for 24 hours, so polling on a schedule
-# is sufficient for a bot whose main job runs twice a day.  Subscribers wait
-# up to ~10 minutes for a confirmation, which is an acceptable trade for
-# needing no VPS, no Render and no laptop.
+# is sufficient for a bot whose main job runs once a day.  Subscribers wait
+# until the next poll for a confirmation (GitHub may run scheduled jobs late),
+# which is an acceptable trade for needing no VPS, no Render and no laptop.
 #
-# The update cursor and subscriber list are committed back, because the
-# runner is destroyed after every job.
+# The update cursor and /run rate-limit state are committed back, because
+# the runner is destroyed after every job.  Subscribers live in the private
+# data repo (GH_REPO_DATA), never in this one.
 
 on:
   schedule:
@@ -50,6 +52,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+          RUN_ALLOWLIST: ${{ secrets.RUN_ALLOWLIST }}
           GH_PAT: ${{ secrets.GH_PAT }}
           GH_REPO_DATA: ${{ secrets.GH_REPO_DATA }}
         run: python bot/drain.py
