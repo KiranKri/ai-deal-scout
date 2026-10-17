@@ -13,7 +13,7 @@ Two audiences here. Jump to yours.
 
 1. Open Telegram and go to [t.me/Kkaideal_bot](https://t.me/Kkaideal_bot) (or open the invite link the operator gave you).
 2. Send `/start`.
-3. You'll get a confirmation within about 15 minutes — commands are checked on a schedule, not instantly. Deals arrive **once a day, at 08:00 IST**.
+3. You'll get a confirmation once the next scheduled check runs. Commands are checked on a schedule, not instantly, and GitHub often runs that schedule late, so it can take a few hours. Deals arrive **once a day**; the run is scheduled for 08:00 IST and usually lands a few hours after that.
 
 ## Commands
 
@@ -57,7 +57,7 @@ The default setup needs no server: two GitHub Actions workflows do everything. A
 | Workflow | Runs | Does |
 |---|---|---|
 | `deal_scout.yml` | Once a day, 08:00 IST | Scrape → filter → dedup → broadcast |
-| `telegram_drain.yml` | Every 15 minutes | Answers `/start`, `/stop`, `/help`, `/run`, `/quota`, `/status` |
+| `telegram_drain.yml` | Scheduled every 15 minutes (GitHub often runs it less often) | Answers `/start`, `/stop`, `/help`, `/run`, `/quota`, `/status` |
 
 ## Prerequisites
 
@@ -147,6 +147,7 @@ In the main repo → **Settings → Secrets and variables → Actions → New re
 | `GH_REPO_DATA` | `owner/repo` of the private data repo |
 | `ADMIN_CHAT_ID` | Your numeric Telegram chat ID — enables admin commands and failure alerts |
 | `TAVILY_API_KEY` | Optional — enables web search |
+| `RUN_ALLOWLIST` | Optional — extra chat IDs (comma-separated) allowed to use `/run` and `/quota` |
 
 **Finding your `ADMIN_CHAT_ID`:** message [@userinfobot](https://t.me/userinfobot) on Telegram.
 
@@ -163,9 +164,9 @@ Both workflows declare `permissions: contents: write` so they can commit their s
 
 **Three ways:**
 
-1. **Automatic** — the cron fires daily at 08:00 IST.
+1. **Automatic** — the cron is scheduled daily for 08:00 IST (GitHub may start it a few hours late).
 2. **From GitHub** — Actions tab → *AI Deal Scout* → **Run workflow**.
-3. **From Telegram** — send `/run`. Allowed for the admin and chat IDs in the `RUN_ALLOWLIST` setting; you'll get `✅ Pipeline triggered. Check Telegram in ~2 mins.`
+3. **From Telegram** — send `/run`. Allowed for the admin and chat IDs in the `RUN_ALLOWLIST` secret; you'll get `✅ Pipeline triggered. Check Telegram in ~2 mins.`
 
 Runs never overlap: a concurrency group queues a second run behind the first.
 
@@ -223,7 +224,7 @@ This scores the filter against `data/eval_set.csv` and diffs against `data/eval_
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| `/start` gets no reply | The command checker hasn't run yet (up to 15 minutes), or its workflow is failing | Actions tab → *Telegram Commands* → latest run |
+| `/start` gets no reply | The command checker hasn't run yet (scheduled every 15 minutes, but GitHub can delay it by hours), or its workflow is failing | Actions tab → *Telegram Commands* → latest run |
 | Command checker fails immediately | `GH_PAT` / `GH_REPO_DATA` not set, so it refuses to store subscribers in the public repo | Add both secrets (B3) |
 | Replies arrive but nobody is stored | `GH_PAT` lacks Contents write on the data repo, or `GH_REPO_DATA` is wrong | Check the drain log for `GitHub API` errors |
 | Pipeline run aborts | Subscriber store unreachable — it stops before marking anything seen, and alerts the admin | Fix the PAT/repo; the next run retries |
@@ -263,7 +264,7 @@ For local runs without a data repo, the file is `data/seen_deals.json` and is no
 
 ## B9. Optional: webhook server on Render
 
-Only needed if you want instant replies instead of the up-to-15-minute polling delay. Don't run it alongside the drain workflow answering the same bot: Telegram won't deliver `getUpdates` while a webhook is set.
+Only needed if you want instant replies instead of waiting for the next scheduled poll. Don't run it alongside the drain workflow answering the same bot: Telegram won't deliver `getUpdates` while a webhook is set.
 
 `render.yaml` is in the repo, so Render picks up the config on import.
 

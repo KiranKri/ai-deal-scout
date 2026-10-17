@@ -17,9 +17,9 @@ It runs as two scheduled GitHub Actions workflows. There is no server.
 | Half | Entry point | Workflow | Schedule |
 |---|---|---|---|
 | **Deal pipeline** | `src/main.py` | `deal_scout.yml` | Once a day, cron `30 2 * * *` UTC = 08:00 IST (plus manual dispatch) |
-| **Telegram command checker** | `bot/drain.py` | `telegram_drain.yml` | Every 15 minutes (`*/15 * * * *`) |
+| **Telegram command checker** | `bot/drain.py` | `telegram_drain.yml` | Every 15 minutes (`*/15 * * * *`); GitHub often runs it later |
 
-Telegram queues undelivered updates for 24 hours, so polling on a schedule picks up every `/start` and `/stop` without anything running continuously. A new subscriber waits up to one polling interval for their confirmation.
+Telegram queues undelivered updates for 24 hours, so polling on a schedule picks up every `/start` and `/stop` without anything running continuously. A new subscriber waits until the next poll for their confirmation. GitHub Actions does not guarantee cron timing: in practice the checker runs every few hours and the daily run starts a few hours after 08:00 IST.
 
 **Render is an optional alternative.** `render.yaml` and the Flask app in `bot/bot_server.py` can serve the same commands over a webhook for instant replies. The default deployment does not use it.
 
@@ -156,7 +156,7 @@ The eval run (`python tools/eval_filter.py`) currently reports precision 0.968, 
 | Fetch subscribers before touching dedup state | An unreachable store aborts the run instead of burning the day's deals |
 | Hash both URL and title | Catches cross-posts and reposts under new URLs |
 | Machine state in a private repo | Keeps chat IDs out of the public repo and avoids merge conflicts with the frequent drain commits |
-| Scheduled polling instead of a webhook server | No always-on host; the trade-off is a delay of up to 15 minutes on `/start` confirmation |
+| Scheduled polling instead of a webhook server | No always-on host; the trade-off is a delay on `/start` confirmation (one poll interval, longer when GitHub delays scheduled runs) |
 | Poll every 15 minutes | Each run costs Actions minutes; private repos are capped at 2,000/month, and 10-minute polling would exhaust that in about 17 days |
 | HTML parse mode over Markdown | Markdown special characters in Reddit slugs caused silent send failures |
 | Vendor-site search weighted over open-web search | Measured about 3.75 deals/credit versus about 1.75, and the open-web side was the spam surface |

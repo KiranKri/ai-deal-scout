@@ -6,15 +6,24 @@ Subscribe at **[t.me/Kkaideal_bot](https://t.me/Kkaideal_bot)** and send `/start
 
 **Tech stack:** Python 3.11 · requests · BeautifulSoup · feedparser · Tavily API · Telegram Bot API · GitHub Actions
 
-> **Screenshot placeholder** — add a capture of a Telegram deal message at `docs/images/telegram-deal.png`, then replace this line with `![A deal message in Telegram](docs/images/telegram-deal.png)`.
->
-> Each message is: 🔥 title · 📌 source · 🔗 link (plus 👍 upvotes where the source reports them).
+A deal message looks like this:
+
+```
+🔥 50% off Cursor Pro annual plan
+📌 Source: Reddit
+🔗 https://reddit.com/r/deals/...
+---
+🔥 Perplexity Pro free for 12 months with Revolut
+📌 Source: HackerNews
+🔗 https://news.ycombinator.com/item?id=...
+👍 143 upvotes
+```
 
 ---
 
 ## What it does
 
-Every morning at 08:00 IST it:
+Once a day (scheduled for 08:00 IST) it:
 
 1. **Scrapes five sources** — Reddit RSS, the Hacker News search API, BitDegree's AI deals page, Product Hunt's RSS, and the open web via Tavily search
 2. **Filters for relevance** — keyword gates with a negative-keyword veto, measured against a 764-row labelled evaluation set (see [Results](#results))
@@ -60,10 +69,10 @@ Two halves that share state through a private repo, so nothing needs to be alway
 
 | Half | Runs on | When |
 |---|---|---|
-| Deal pipeline (`src/`) | GitHub Actions | once a day, 08:00 IST |
-| Telegram command checker (`bot/drain.py`) | GitHub Actions | every 15 minutes |
+| Deal pipeline (`src/`) | GitHub Actions | once a day, scheduled for 08:00 IST |
+| Telegram command checker (`bot/drain.py`) | GitHub Actions | scheduled every 15 minutes |
 
-No server, no VPS. Telegram queues messages for 24 hours, so polling on a schedule catches every `/start` without anything running continuously. The cost is a wait of up to one polling interval for the `/start` confirmation.
+No server, no VPS. Telegram queues messages for 24 hours, so polling on a schedule catches every `/start` without anything running continuously. The cost is a wait for the `/start` confirmation. GitHub Actions starts scheduled jobs late or skips them under load, so in practice the checker runs every few hours and the daily run lands a few hours after 08:00 IST.
 
 Render is an optional alternative: `render.yaml` and `bot/bot_server.py` can serve the same commands over a webhook if you want instant replies. It isn't needed or used by the default setup.
 
@@ -108,9 +117,10 @@ Fill in `.env`:
 |---|---|---|
 | `TELEGRAM_BOT_TOKEN` | yes | From [@BotFather](https://t.me/BotFather) |
 | `TAVILY_API_KEY` | no | Web search — free tier at [tavily.com](https://tavily.com). Without it the other four sources still run |
-| `GH_PAT` | no | Fine-grained token, Contents read+write on your private data repo |
+| `GH_PAT` | no | Fine-grained token: Contents read+write on your private data repo, plus Actions read+write on this repo (needed for `/run`) |
 | `GH_REPO_DATA` | no | `owner/repo` for subscriber storage. Without it, subscribers save to a local file |
 | `ADMIN_CHAT_ID` | no | Your chat ID — enables admin commands and failure alerts |
+| `RUN_ALLOWLIST` | no | Extra chat IDs (comma-separated) allowed to use `/run` and `/quota` |
 
 Verify everything works:
 
@@ -123,7 +133,7 @@ Then:
 ```bash
 python src/main.py      # run the pipeline
 python bot/poll.py      # answer Telegram commands locally
-pytest tests/ -q        # 282 tests
+pip install pytest && pytest tests/ -q   # 282 tests
 ```
 
 With zero subscribers the pipeline runs in **dry-run mode** — it scrapes, filters and logs to `logs/latest_deals.md` but marks nothing as seen, so no deals are lost before your first subscriber.
@@ -134,7 +144,7 @@ With zero subscribers the pipeline runs in **dry-run mode** — it scrapes, filt
 
 Add these as repository secrets under **Settings → Secrets and variables → Actions**:
 
-`TELEGRAM_BOT_TOKEN` · `TAVILY_API_KEY` · `GH_PAT` · `GH_REPO_DATA` · `ADMIN_CHAT_ID`
+`TELEGRAM_BOT_TOKEN` · `TAVILY_API_KEY` · `GH_PAT` · `GH_REPO_DATA` · `ADMIN_CHAT_ID` · `RUN_ALLOWLIST` (optional)
 
 Then create a **private** repo for subscriber data containing one file, `subscribers.json`:
 
