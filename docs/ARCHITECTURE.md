@@ -126,7 +126,7 @@ Matching is word-boundary regex, so "cursory" cannot match "cursor". `is_relevan
 
 ## 4. How the evaluation set is labelled
 
-`data/eval_set.csv` (764 rows: 68 real deals, 696 non-deals) is the ground truth the filter is measured against. To avoid trusting a single model's opinion, new rows are labelled by vote (`tools/label.py`):
+`data/eval_set.csv` (764 rows: 63 real deals, 701 non-deals) is the ground truth the filter is measured against. To avoid trusting a single model's opinion, new rows are labelled by vote (`tools/label.py`):
 
 1. `export` prints recent deals under a fixed grading prompt: 1 = a real, currently claimable offer on an AI tool; 0 = anything else (pricing pages, support threads, questions, launches without an offer, news, tutorials, expired offers).
 2. The same prompt is given to four LLMs — DeepSeek, Gemini, Grok and Kimi — each answering only `N: 0|1` lines, saved as `data/labels/labels_<model>.txt`.
@@ -134,7 +134,9 @@ Matching is word-boundary regex, so "cursory" cannot match "cursor". `is_relevan
 
 The set currently has 47 rows at 4/4 consensus and 14 at 3/4 majority. 639 rows are hard negatives (real discounts on non-AI products, and similar). The merge step also prints the unanimous-agreement rate and warns below 60%, which would indicate an ambiguous prompt.
 
-The eval run (`python tools/eval_filter.py`) currently reports precision 0.968, recall 0.897, F1 0.931 (61 TP, 2 FP, 7 FN). The filter was tuned against this set, so these are in-sample figures. A test (`tests/test_eval_floor.py`) fails if precision or recall drops below a fixed floor (0.55 and 0.70), which is deliberately loose and only catches large regressions.
+The eval run (`python tools/eval_filter.py`) currently reports precision 0.983, recall 0.889, F1 0.933 (56 TP, 1 FP, 7 FN). The filter was tuned against this set, so these are in-sample figures.
+
+Label audit: an independent pass over every row (title, URL and source only; no links opened) flipped 15 labels: 10 from 1 to 0 (deal directories and aggregators, plain free trials, a homepage tagline, news of a permanent price cut) and 5 from 0 to 1 (free-access offers the vote had missed). Each flipped row's `notes` records the old label and the reason. Before the audit the baseline was P 0.968 / R 0.897 / F1 0.931. Re-scoring the unchanged filter on the corrected labels gave P 0.889 / R 0.889 / F1 0.889; the current figures follow four general filter changes (plain free trial is not a strong signal for Show HN or URL-only tool evidence; deal-directory phrases and permanent-price-cut news are vetoed). The rules were written after seeing the eval failures, so they are in-sample too. Another 16 rows the audit was unsure about were left as they were. A test (`tests/test_eval_floor.py`) fails if precision or recall drops below a fixed floor (0.55 and 0.70), which is deliberately loose and only catches large regressions.
 
 ---
 

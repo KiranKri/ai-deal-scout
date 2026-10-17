@@ -42,11 +42,13 @@ The web-search stage is what makes it useful: it queries vendors' own announceme
 
 ## Results
 
-Measured with `python tools/eval_filter.py` on the 764-row labelled set (68 real deals, 696 non-deals):
+Measured with `python tools/eval_filter.py` on the 764-row labelled set (63 real deals, 701 non-deals):
 
 | Precision | Recall | F1 | TP | FP | FN |
 |---|---|---|---|---|---|
-| 0.968 | 0.897 | 0.931 | 61 | 2 | 7 |
+| 0.983 | 0.889 | 0.933 | 56 | 1 | 7 |
+
+An audit of the labels moved 15 rows (the audit trail is in the `notes` column). Re-scoring the unchanged filter against the corrected labels gave precision 0.889, recall 0.889 and F1 0.889, so the earlier 0.968 / 0.897 / 0.931 was flattered by labels that counted deal directories and plain free trials as deals. The numbers above come after four general filter rules written in response; they were chosen after seeing the eval failures, so they are optimistic.
 
 The filter was tuned against this same set, so treat these as in-sample figures, not a forecast for unseen posts. A test fails if precision or recall falls below a loose floor (0.55 / 0.70), so large regressions can't slip through.
 

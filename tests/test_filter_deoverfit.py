@@ -151,14 +151,14 @@ def test_corporate_and_product_release_not_deals():
 
 
 def test_past_tense_price_cut_news_vetoed_present_tense_kept():
-    """News 'made its discount permanent' out; promo 'Make Permanent' stays."""
+    """Permanent price-cut news is out, whatever the tense (audit relabel 1 -> 0)."""
     assert not flt.is_relevant(
         "DeepSeek made its 75% discount permanent. The AI price war continues", ""
     )
     assert not flt.is_relevant(
         "DeepSeek's new model is 75% off right now, here's how to get it", ""
     )
-    assert flt.is_relevant(
+    assert not flt.is_relevant(
         "DeepSeek to Make Permanent 75% Discount on Flagship AI Model", ""
     )
 
@@ -176,8 +176,6 @@ def test_real_deals_not_regressed_by_precision_pass():
         "Cursor (AI code editor) - 50% off your first month, any tier",
         "1-year perplexity pro free to all Airtel users in India",
         "GitHub Copilot is free until August 22",
-        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
-        "Show HN: WildfireDeals – Daily AI Tool Deals (50-90% Off)",
         "Perplexity Ai - FREE 1-YEAR PRO PLAN",
         "ElevenLabs — AI Student Pack",
         "Anthropic partners with Coursera — free Claude Pro for students",
@@ -204,10 +202,6 @@ def test_news_domain_without_strong_signal_rejected():
 def test_news_domain_with_strong_signal_still_passes():
     """A real promo reported by press outlets must still get through."""
     assert flt.is_relevant(
-        "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
-        "", 0, "https://www.bloomberg.com/news/articles/deepseek-discount",
-    )
-    assert flt.is_relevant(
         "Amazon offers free credits for startups to use AI models including Anthropic",
         "", 0, "https://www.reuters.com/technology/amazon-credits",
     )
@@ -233,10 +227,17 @@ def test_url_tool_evidence_with_strong_signal_recovers_recall_fns():
         ("Student and Educator Discounts",
          "https://help.runwayml.com/hc/en-us/articles/x-Student-and-Educator-Discounts"),
         ("25% off for students and educators", "https://runwayml.com/educators"),
-        ("Start a Free Trial", "https://www.grammarly.com/upgrade/business/try"),
     ]
     for title, url in cases:
         assert flt.is_relevant(title, "", 0, url), f"should recover via URL evidence: {title!r}"
+
+
+def test_url_tool_evidence_plain_free_trial_rejected():
+    """A bare 'Start a Free Trial' CTA on a vendor host is normal onboarding
+    (relabelled 1 -> 0 in the label audit); 'free trial' is not a strong signal."""
+    assert not flt.is_relevant(
+        "Start a Free Trial", "", 0, "https://www.grammarly.com/upgrade/business/try"
+    )
 
 
 def test_url_tool_evidence_without_strong_signal_still_rejected():

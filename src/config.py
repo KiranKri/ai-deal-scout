@@ -332,10 +332,19 @@ NEGATIVE_KEYWORDS: list[str] = [
     "copilot like",
     # --- generic aggregator / SEO fluff ---
     "exclusive ai tool deals",
+    # --- directories and deal lists: they point at offers, they are not one ---
+    "daily ai tool deals",
+    "ai perks",
+    "curated list",
+    "directory of",
     # --- past-tense price-cut news / SEO "how to" (not a redeemable offer) ---
     # Keeps "DeepSeek to Make Permanent 75% Discount" (TP) while vetoing
     # "DeepSeek made its 75% discount permanent" (news FP).
     "made its",
+    # A list-price cut announced as permanent is news, not a claimable promo
+    # (audit relabel of "DeepSeek to Make Permanent 75% Discount": 1 -> 0).
+    "make permanent",
+    "permanent discount",
     "here's how",
     "heres how",
 ]

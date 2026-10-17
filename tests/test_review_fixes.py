@@ -426,10 +426,20 @@ def test_show_hn_with_price_signal_is_kept():
     """A Show HN post with an explicit price signal is a genuine deal."""
     for t in [
         "Show HN: GPT Everywhere - Mac Support | 50% Discount for 20 First",
-        "Show HN: WildfireDeals - Daily AI Tool Deals (50-90% Off)",
-        "Show HN: Free Trial OpenAI Sora2 AI Video Generator",
     ]:
         assert flt.is_relevant(t, "", 0), f"should be kept: {t!r}"
+
+
+def test_show_hn_plain_free_trial_or_deal_directory_is_rejected():
+    """A plain free trial is normal onboarding; a deal directory is not an offer
+    (relabelled 1 -> 0 in the label audit)."""
+    for t in [
+        "Show HN: Free Trial OpenAI Sora2 AI Video Generator",
+        "Show HN: WildfireDeals - Daily AI Tool Deals (50-90% Off)",
+        "Show HN: AI Perks - free credits and deals for developers",
+        "Show HN: I built a directory of $1M+ in free credits for startups",
+    ]:
+        assert not flt.is_relevant(t, "", 0), f"should be rejected: {t!r}"
 
 
 def test_non_show_hn_titles_unaffected_by_gate():

@@ -24,6 +24,18 @@ from config import (
 
 logger = logging.getLogger(__name__)
 
+# "free trial" is every product's normal onboarding, so on its own it is not a
+# deal.  It still counts as a deal keyword, but not as the *strong* signal that
+# lets a weak source (Show HN) or URL-only tool evidence through.
+_NORMAL_TRIAL = "free trial"
+
+
+def _has_strong_signal(combined: str) -> bool:
+    """True when *combined* carries a price signal beyond a plain free trial."""
+    return any(
+        _match(combined, kw) for kw in STRONG_DEAL_KEYWORDS if kw != _NORMAL_TRIAL
+    )
+
 
 def _match(text: str, keyword: str) -> bool:
     """Whole-word boundary match; handles special characters safely.
@@ -300,7 +312,7 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0, url: str = "") -> 
     # "Show HN:" launches are product announcements far more often than deals.
     # Let them through only on an explicit price signal.
     if title.strip().lower().startswith(WEAK_SOURCE_PREFIXES):
-        if not any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS):
+        if not _has_strong_signal(combined):
             logger.debug(
                 "is_relevant=False (weak-source prefix, no strong signal) title=%r",
                 title,
@@ -318,7 +330,7 @@ def is_relevant(title: str, body: str = "", upvotes: int = 0, url: str = "") -> 
         # only alongside a *strong* price signal — weak DEAL_KEYWORDS alone
         # ("offer", "trial", "credits") pass on generic pricing/help pages
         # for the same host (openai.com "Codex ... pricing", Udio help docs).
-        has_tool_kw = any(_match(combined, kw) for kw in STRONG_DEAL_KEYWORDS)
+        has_tool_kw = _has_strong_signal(combined)
     if not has_tool_kw:
         logger.debug("is_relevant=False (no TOOL_KEYWORD) title=%r", title)
         return False
