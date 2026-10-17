@@ -1,6 +1,5 @@
 # Latest Deals
 
-_No deals logged yet._
 ## Run: 2026-06-27 14:55:56 IST
 - [Citizen Eco-Drive Weekender Brycen Chronograph Wrist Watch at $197 (54% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1uflmi1/citizen_ecodrive_weekender_brycen_chronograph/) | Reddit | 👍 0
 - [Apple Watch Series 11 GPS 46MM at $ 309 (28% off) Prime Day Deal](https://www.reddit.com/r/deals/comments/1ueownk/apple_watch_series_11_gps_46mm_at_309_28_off/) | Reddit | 👍 0
