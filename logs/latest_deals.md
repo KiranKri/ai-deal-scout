@@ -2166,3 +2166,48 @@
 - [Wondering If Others have Used ChatGPT for this...](https://www.reddit.com/r/ChatGPTPro/comments/1x7shk1/wondering_if_others_have_used_chatgpt_for_this/) | Reddit | 👍 0
 - [Announcing the Replit Ventures Builder Kit | Replit](https://replit.com/blog/RV1-BuilderKit) | WebSearch | 👍 0
 
+## Run: 2026-10-18 12:51:55 IST
+- [Create your custom GPT for WhatsApp and Telegram in just a minute](https://news.ycombinator.com/item?id=38490229) | HackerNews | 👍 1
+- [Google Is Losing the AI Infra Race: Launch an 'Everyday AI Promo'](https://news.ycombinator.com/item?id=46080296) | HackerNews | 👍 1
+- [Show HN: My LinkedIn AI Tool made $30k last month (Lifetime Deal)](https://www.dottypost.com/) | HackerNews | 👍 1
+- [Amazon offers free credits for startups to use AI models including Anthropic](https://www.reuters.com/technology/amazon-offers-free-credits-startups-use-ai-models-including-anthropic-2024-04-02/) | HackerNews | 👍 7
+- [2026 Methods for Free Compute and AI Credits](https://www.dropbox.com/scl/fi/bvi5v0i94ifnk3mfstewq/SAIRC-Free-Compute.pdf?dl=0&e=1&noscript=1&rlkey=854auw5xt7l0jknei6q9hxusa&st=pfq6hgc1) | HackerNews | 👍 3
+- [$300 Free Claude Code/Anthropic AI Credits](https://indiekithub.com) | HackerNews | 👍 4
+- [Compiled List of over $1000 in AI/GPU/LLM Credits (100% Free)](https://sairc.vercel.app/resources) | HackerNews | 👍 3
+- [Show HN: BrowserForge – AI browser agents (1000 free credits)](https://www.browserforge.ai/) | HackerNews | 👍 2
+- [Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch](https://www.runaether.dev/) | HackerNews | 👍 3
+- [Claude making me more productive every day usecases](https://news.ycombinator.com/item?id=47202447) | HackerNews | 👍 2
+- [Show HN: MCP server that finds dev tool credits in your workflow](https://news.ycombinator.com/item?id=47282711) | HackerNews | 👍 1
+- [Show HN: GPT Everywhere – Windows, Linux, Mac Support|50% Discount for 20 First](https://jhappsproducts.gumroad.com/l/gpteverywhere) | HackerNews | 👍 1
+- [1-year perplexity pro free to all Airtel users in India](https://news.ycombinator.com/item?id=44590933) | HackerNews | 👍 4
+- [Early Access to Perplexity's Comet Browser with Free Pro for PayPal/Venmo Users](https://newsroom.paypal-corp.com/2025-09-03-Skip-the-Waitlist-PayPal-and-Venmo-Users-Offered-Early-Access-to-Perplexitys-New-Comet-Browser-with-Free-Perplexity-Pro-Subscription) | HackerNews | 👍 2
+- [New AI Browser Alert: Get 1 Month of Perplexity Pro for Free](https://news.ycombinator.com/item?id=45717991) | HackerNews | 👍 1
+- [GitHub Copilot is free until August 22](https://github.com/login) | HackerNews | 👍 6
+- [You can get GitHub Copilot for free](https://education.github.com/pack) | HackerNews | 👍 2
+- [Lovable is by default powered by Google Gemini and free for 1 week for all users](https://lovable.dev/blog/free-lovable-ai) | HackerNews | 👍 2
+- [Writesonic - SAVE 30%](https://www.bitdegree.org/ai/writesonic-review) | BitDegree | 👍 0
+- [Quillbot Ai - 30% OFF](https://www.bitdegree.org/ai/quillbot-ai-review) | BitDegree | 👍 0
+- [Descript - UP TO 58% OFF](https://www.bitdegree.org/ai/descript-review) | BitDegree | 👍 0
+- [Elevenlabs - 50% OFF FIRST MONTH](https://www.bitdegree.org/ai/elevenlabs-review) | BitDegree | 👍 0
+- [Synthesia - CLAIM 34% OFF](https://www.bitdegree.org/ai/synthesia-review) | BitDegree | 👍 0
+- [Otter Ai - 20% OFF](https://www.bitdegree.org/ai/otter-ai-review) | BitDegree | 👍 0
+- [Midjourney - GET 20% OFF](https://www.bitdegree.org/ai/midjourney-review) | BitDegree | 👍 0
+- [Copy Ai - 20% DISCOUNT](https://www.bitdegree.org/ai/copy-ai-review) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB TEAM PLAN](https://www.bitdegree.org/ai/github-copilot-review) | BitDegree | 👍 0
+- [Chatgpt - 50% OFF](https://www.bitdegree.org/ai/chatgpt-review) | BitDegree | 👍 0
+- [Perplexity Ai - FREE 1-YEAR PRO PLAN](https://www.bitdegree.org/ai/perplexity-ai-review) | BitDegree | 👍 0
+- [Jasper - USE FOR FREE](https://www.bitdegree.org/ai/goon/jasper) | BitDegree | 👍 0
+- [Otter Ai - SAVE 51%](https://www.bitdegree.org/ai/goon/otter-ai) | BitDegree | 👍 0
+- [Github Copilot - FREE GITHUB EDUCATION](https://www.bitdegree.org/ai/goon/github-copilot) | BitDegree | 👍 0
+- [Chatgpt - CLAIM 50% DISCOUNT](https://www.bitdegree.org/ai/goon/chatgpt) | BitDegree | 👍 0
+- [Descript - MORE THAN 50% OFF](https://www.bitdegree.org/ai/goon/descript) | BitDegree | 👍 0
+- [Best Ai Tools - FAQ](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Best Ai Tools - What kind of AI tool deals are listed here?](https://www.bitdegree.org/ai/best-ai-tools) | BitDegree | 👍 0
+- [Grammarly Prices and Plans | Grammarly](https://www.grammarly.com/plans) | WebSearch | 👍 0
+- [Plans & Pricing | Claude by Anthropic](https://www.anthropic.com/pricing) | WebSearch | 👍 0
+- [Student discount | Cursor Docs](https://cursor.com/help/account-and-billing/student-discount) | WebSearch | 👍 0
+- [Perplexity Pro Airtel Promo - Perplexity Help Center](https://www.perplexity.ai/help-center/en/articles/11842322-perplexity-pro-airtel-promo.html) | WebSearch | 👍 0
+- [Perplexity](https://www.perplexity.ai/page/hostinger-discount-code-hostin-_fIdhXzGTzG8lgLTjsBcaQ) | WebSearch | 👍 0
+- [GitHub - AlexParker07/screen-studio-coupon-code: Live Screen Studio Coupon Code (2026) 70% Discount + Free Trial · GitHub](https://github.com/AlexParker07/screen-studio-coupon-code) | WebSearch | 👍 0
+- [Pricing | Elicit: The AI Research Assistant](https://elicit.com/pricing) | WebSearch | 👍 0
+
