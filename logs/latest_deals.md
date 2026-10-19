@@ -2211,3 +2211,21 @@
 - [GitHub - AlexParker07/screen-studio-coupon-code: Live Screen Studio Coupon Code (2026) 70% Discount + Free Trial · GitHub](https://github.com/AlexParker07/screen-studio-coupon-code) | WebSearch | 👍 0
 - [Pricing | Elicit: The AI Research Assistant](https://elicit.com/pricing) | WebSearch | 👍 0
 
+## Run: 2026-10-19 13:30:15 IST
+- [The subscription trial | Udio Help Center](https://help.udio.com/en/articles/13338649-the-subscription-trial) | WebSearch | 👍 0
+- [Credits and credit limits | Udio Help Center](https://help.udio.com/en/articles/10739134-credits-and-credit-limits) | WebSearch | 👍 0
+- [I’m a student or a teacher. Am I eligible for a discount? | Mistral Help Center](https://help.mistral.ai/en/articles/698530-i-m-a-student-or-a-teacher-am-i-eligible-for-a-discount) | WebSearch | 👍 0
+- [AI for deal sourcing | Mistral](https://mistral.ai/use-cases/ai-for-deal-sourcing) | WebSearch | 👍 0
+- [Suno | Pricing](https://www.suno.com/account?source=springSaleBanner) | WebSearch | 👍 0
+- [Suno credit by Adios Adam Wereszczyński | Suno](https://suno.com/song/422a9dcc-b1ef-4e09-9be9-8f4e5317456a) | WebSearch | 👍 0
+- [Pay For A Free Trial by Oaersdt Raenoer | Suno](https://suno.com/song/7ff1d975-4818-410e-a093-c009c3312ebb) | WebSearch | 👍 0
+- [Runway for Education | 25% off for students and educators](https://runwayml.com/educators) | WebSearch | 👍 0
+- [Student and Educator Discounts – Runway](https://help.runwayml.com/hc/en-us/articles/48154114602259-Student-and-Educator-Discounts) | WebSearch | 👍 0
+- [AI Image and Video Pricing from $12/month | Runway AI](https://runwayml.com/pricing) | WebSearch | 👍 0
+- [Runway News | Introducing Team Plan](https://runwayml.com/news/company-news/introducing-team-plan) | WebSearch | 👍 0
+- [Replit for Students](https://replit.com/edu/students) | WebSearch | 👍 0
+- [Your connected workspace for wiki, docs & projects | Notion](https://www.notion.so/startups) | WebSearch | 👍 0
+- [Notion Pricing Plans: Free, Plus, Business, & Enterprise.](https://www.notion.so/pricing) | WebSearch | 👍 0
+- [Customer Business Agreement | Grammarly](https://www.grammarly.com/terms/customer-business-agreement) | WebSearch | 👍 0
+- [Model Requests & Free Trial - #2 by litecode - Help - Cursor - Community Forum](https://forum.cursor.com/t/model-requests-free-trial/15303/2) | WebSearch | 👍 0
+
