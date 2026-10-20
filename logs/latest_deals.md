@@ -2229,3 +2229,13 @@
 - [Customer Business Agreement | Grammarly](https://www.grammarly.com/terms/customer-business-agreement) | WebSearch | 👍 0
 - [Model Requests & Free Trial - #2 by litecode - Help - Cursor - Community Forum](https://forum.cursor.com/t/model-requests-free-trial/15303/2) | WebSearch | 👍 0
 
+## Run: 2026-10-20 13:20:15 IST
+- [ElevenLabs Pricing for Creators & Businesses of All Sizes](https://elevenlabs.io/pricing) | WebSearch | 👍 0
+- [ElevenLabs — AI Student Pack](https://elevenlabs.io/blog/ai-student-pack) | WebSearch | 👍 0
+- [Student Discount - 50% Off Lovable Pro | Build Apps Faster](https://lovable.dev/students) | WebSearch | 👍 0
+- [Subscription plans - Lovable Documentation](https://docs.lovable.dev/introduction/subscription-plans) | WebSearch | 👍 0
+- [API pricing | Mistral Docs](https://docs.mistral.ai/inference/pricing) | WebSearch | 👍 0
+- [If I subscribe, do I get rights for the songs I made before subscribing?](https://help.suno.com/en/articles/2425729) | WebSearch | 👍 0
+- [Moneyview Promo Code: C6GOPHRW | Join me on Suno](https://suno.com/@moneyview) | WebSearch | 👍 0
+- [DeepSeek API Pricing Calculator & Cost Guide (Oct 2026)](https://costgoat.com/pricing/deepseek-api) | WebSearch | 👍 0
+
