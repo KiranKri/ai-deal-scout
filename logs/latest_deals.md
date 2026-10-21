@@ -2239,3 +2239,14 @@
 - [Moneyview Promo Code: C6GOPHRW | Join me on Suno](https://suno.com/@moneyview) | WebSearch | 👍 0
 - [DeepSeek API Pricing Calculator & Cost Guide (Oct 2026)](https://costgoat.com/pricing/deepseek-api) | WebSearch | 👍 0
 
+## Run: 2026-10-21 13:24:06 IST
+- [Free AI Writing Assistance for Students | Grammarly](https://www.grammarly.com/students) | WebSearch | 👍 0
+- [Introducing Claude for Teachers \ Anthropic](https://www.anthropic.com/news/claude-for-teachers) | WebSearch | 👍 0
+- [ChatGPT Promotional Subscriptions/Free Trial Invites FAQ | OpenAI Help Center](https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq) | WebSearch | 👍 0
+- [Paid for GPTPlus but account says free trial - API - OpenAI Developer Community](https://community.openai.com/t/paid-for-gptplus-but-account-says-free-trial/120960) | WebSearch | 👍 0
+- [Cursor · Students](https://cursor.com/students) | WebSearch | 👍 0
+- [Plans for GitHub Copilot - GitHub Docs](https://docs.github.com/en/copilot/get-started/plans) | WebSearch | 👍 0
+- [GitHub Copilot · Plans & pricing · GitHub](https://github.com/features/copilot/plans) | WebSearch | 👍 0
+- [Copilot Pro coupon showing $10 instead of free (Student Pack) · community · Discussion #172580 · GitHub](https://github.com/orgs/community/discussions/172580) | WebSearch | 👍 0
+- [Create Free AI Video with Synthesia - No Signup Needed](https://subscribed.fyi/synthesia//deals) | WebSearch | 👍 0
+
