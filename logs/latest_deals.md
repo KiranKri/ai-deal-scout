@@ -2250,3 +2250,16 @@
 - [Copilot Pro coupon showing $10 instead of free (Student Pack) · community · Discussion #172580 · GitHub](https://github.com/orgs/community/discussions/172580) | WebSearch | 👍 0
 - [Create Free AI Video with Synthesia - No Signup Needed](https://subscribed.fyi/synthesia//deals) | WebSearch | 👍 0
 
+## Run: 2026-10-22 13:20:17 IST
+- [A different use for Work/Codex: it helps you clean your hardrive for things invisible to humans](https://www.reddit.com/r/ChatGPTPro/comments/1xbjj1h/a_different_use_for_workcodex_it_helps_you_clean/) | Reddit | 👍 0
+- [Add Discount Codes to Your Shopify Cart Page](https://claude.ai/public/artifacts/bc372845-d1dd-4042-8b48-db8c5fc214a9) | HackerNews | 👍 1
+- [Do you offer discounted or free plans? – ElevenLabs](https://help.elevenlabs.io/hc/en-us/articles/13315218812177-Do-you-offer-discounted-or-free-plans) | WebSearch | 👍 0
+- [Free Text To Speech Online with Lifelike AI Voices](https://elevenlabs.io/text-to-speech) | WebSearch | 👍 0
+- [ElevenLabs for Students](https://elevenlabs.io/students) | WebSearch | 👍 0
+- [Introducing Lovable Cloud and AI | Lovable](https://lovable.dev/blog/lovable-cloud) | WebSearch | 👍 0
+- [Make.com Alternatives: Compare Pricing, Features & Use Cases (2026) | Lovable](https://lovable.dev/guides/make-alternatives-no-code-automation-2026) | WebSearch | 👍 0
+- [Changing or canceling your subscription | Udio Help Center](https://help.udio.com/en/articles/10739199-changing-or-canceling-your-subscription) | WebSearch | 👍 0
+- [Suno | AI Music Generator](https://suno.com) | WebSearch | 👍 0
+- [Discounts | Account & Sales](https://docs.topazlabs.com/sales-account-licensing/before-you-buy/discounts) | WebSearch | 👍 0
+- [Topaz Studio Review: 52% Off All Access | AI Video / Image](https://thesoftware.shop/topaz-studio-review-discount-coupon) | WebSearch | 👍 0
+
