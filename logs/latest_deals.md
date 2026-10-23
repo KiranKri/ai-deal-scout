@@ -2263,3 +2263,15 @@
 - [Discounts | Account & Sales](https://docs.topazlabs.com/sales-account-licensing/before-you-buy/discounts) | WebSearch | 👍 0
 - [Topaz Studio Review: 52% Off All Access | AI Video / Image](https://thesoftware.shop/topaz-studio-review-discount-coupon) | WebSearch | 👍 0
 
+## Run: 2026-10-23 13:19:30 IST
+- [Crack reset theory](https://www.reddit.com/r/ChatGPTPro/comments/1xccg3d/crack_reset_theory/) | Reddit | 👍 0
+- [Pricing · Plans for every developer · GitHub](https://github.com/pricing) | WebSearch | 👍 0
+- [The ElevenLabs Impact Program exists to democratize access to our advanced voice AI](https://elevenlabs.io/impact) | WebSearch | 👍 0
+- [Welcome to Lovable - Lovable Documentation](https://docs.lovable.dev/introduction/welcome) | WebSearch | 👍 0
+- [A New Era of Music - Udio with Universal Music Group](https://www.udio.com/blog/a-new-era) | WebSearch | 👍 0
+- [Changes associated with the Universal Music Group ("UMG") partnership | Udio Help Center](https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership) | WebSearch | 👍 0
+- [Pricing — Ideogram](https://ideogram.ai/pricing) | WebSearch | 👍 0
+- [Ideogram Back to School Deals 2026: Save 50% Without a Coupon](https://www.glbgpt.com/hub/ideogram-back-to-school-deals-2026-save-50-without-a-coupon) | WebSearch | 👍 0
+- [Any promo codes for new members?> : r/ideogramai](https://www.reddit.com/r/ideogramai/comments/1jky0bt/any_promo_codes_for_new_members) | WebSearch | 👍 0
+- [Plans and Credits | Ideogram](https://docs.ideogram.ai/plans-and-billing/available-plans) | WebSearch | 👍 0
+
