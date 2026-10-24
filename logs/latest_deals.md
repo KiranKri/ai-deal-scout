@@ -2275,3 +2275,8 @@
 - [Any promo codes for new members?> : r/ideogramai](https://www.reddit.com/r/ideogramai/comments/1jky0bt/any_promo_codes_for_new_members) | WebSearch | 👍 0
 - [Plans and Credits | Ideogram](https://docs.ideogram.ai/plans-and-billing/available-plans) | WebSearch | 👍 0
 
+## Run: 2026-10-24 13:01:41 IST
+- [Runway Education FAQ – Runway](https://help.runwayml.com/hc/en-us/articles/43109077483667-Runway-Education-FAQ) | WebSearch | 👍 0
+- [Pricing - Claude Platform Docs](https://docs.anthropic.com/en/docs/about-claude/pricing) | WebSearch | 👍 0
+- [Windsurf Student Discount 2026: The Real Answer | Krater Blog](https://krater.ai/blog/windsurf-student-discount) | WebSearch | 👍 0
+
