@@ -2280,3 +2280,11 @@
 - [Pricing - Claude Platform Docs](https://docs.anthropic.com/en/docs/about-claude/pricing) | WebSearch | 👍 0
 - [Windsurf Student Discount 2026: The Real Answer | Krater Blog](https://krater.ai/blog/windsurf-student-discount) | WebSearch | 👍 0
 
+## Run: 2026-10-25 13:14:49 IST
+- [There is no deep research model in the OpenAI API anymore and OpenAI's own docs name three differe](https://www.reddit.com/r/ChatGPTPro/comments/1xebgxt/there_is_no_deep_research_model_in_the_openai_api/) | Reddit | 👍 0
+- [LinkedIn Premium x Lovable | Exclusive offer for Premium members](https://lovable.dev/linkedin-premium-offer) | WebSearch | 👍 0
+- [Credits and usage - Lovable Documentation](https://docs.lovable.dev/introduction/credits-and-usage) | WebSearch | 👍 0
+- [Meet your AI team | Notion](https://www.notion.so/product/ai) | WebSearch | 👍 0
+- [Tabnine Coupons & Promo Codes Oct 2026](https://www.savee.in/shop/tabnine) | WebSearch | 👍 0
+- [Tabnine Pricing 2026: Every Plan Explained | Krater](https://krater.ai/pricing/tabnine) | WebSearch | 👍 0
+
