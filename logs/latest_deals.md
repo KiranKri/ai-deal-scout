@@ -2288,3 +2288,16 @@
 - [Tabnine Coupons & Promo Codes Oct 2026](https://www.savee.in/shop/tabnine) | WebSearch | 👍 0
 - [Tabnine Pricing 2026: Every Plan Explained | Krater](https://krater.ai/pricing/tabnine) | WebSearch | 👍 0
 
+## Run: 2026-10-26 13:30:31 IST
+- [Excited to try Cursor AI — any referral links? - Discussions - Cursor - Community Forum](https://forum.cursor.com/t/excited-to-try-cursor-ai-any-referral-links/167072) | WebSearch | 👍 0
+- [Perplexity Pro](https://www.perplexity.ai/pro) | WebSearch | 👍 0
+- [ElevenLabs — Read PDF Aloud: Free & Paid Options](https://elevenlabs.io/blog/read-pdf-aloud) | WebSearch | 👍 0
+- [ElevenLabs — ElevenLabs Grants available – Apply now](http://www.elevenlabs.io/blog/elevenlabs-grants) | WebSearch | 👍 0
+- [ElevenLabs — Two Free regenerations on TTS and STS](https://elevenlabs.io/blog/two-free-regenerations) | WebSearch | 👍 0
+- [What would you create if anything was possible? | Lovable](https://lovable.dev/meta-only) | WebSearch | 👍 0
+- [Jasper AI discount: 7 Day Free Trial - 2026](https://www.founderpass.com/partners/jasper-ai) | WebSearch | 👍 0
+- [Free Trial - Jasper Success Center](https://help.jasper.ai/hc/en-us/articles/55322146789019-Free-Trial) | WebSearch | 👍 0
+- [GET 70% MAXIMUM Discount Writesonic Promo ...](https://cnoffers.github.io/writesonic/writesonic-coupon-code.html) | WebSearch | 👍 0
+- [A Complete Guide to Writesonic Pricing in 2026 | eesel AI](https://www.eesel.ai/blog/writesonic-pricing) | WebSearch | 👍 0
+- [Writesonic Free Trial 2026 → Free Access without Credit Card](https://tipsonblogging.com/2022/12/writesonic-free-trial) | WebSearch | 👍 0
+
