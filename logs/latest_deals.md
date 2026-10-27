@@ -2301,3 +2301,19 @@
 - [A Complete Guide to Writesonic Pricing in 2026 | eesel AI](https://www.eesel.ai/blog/writesonic-pricing) | WebSearch | 👍 0
 - [Writesonic Free Trial 2026 → Free Access without Credit Card](https://tipsonblogging.com/2022/12/writesonic-free-trial) | WebSearch | 👍 0
 
+## Run: 2026-10-27 13:40:53 IST
+- [Tell HN: Our paid Claude AI subscription unavailable >1 week and no support](https://news.ycombinator.com/item?id=49080775) | HackerNews | 👍 45
+- [Subscriptions | Mistral Docs](https://docs.mistral.ai/admin/billing-usage/subscriptions) | WebSearch | 👍 0
+- [AI in abundance | Mistral AI](https://mistral.ai/news/september-24-release) | WebSearch | 👍 0
+- [Terms of Use | Runway](https://runwayml.com/terms-of-use) | WebSearch | 👍 0
+- [Replit Pro Is Here — and Core Now Offers Even | Replit](https://replit.com/blog/pro-plan) | WebSearch | 👍 0
+- [Change your Notion plan | Notion Help – Notion Help Center](https://www.notion.so/help/upgrade-or-downgrade-your-plan) | WebSearch | 👍 0
+- [Discover New Copy.ai Promo Codes and Discounts | October 2026](https://www.bitdegree.org/ai/deals/copy-ai-promo-code) | WebSearch | 👍 0
+- [Copy.ai promo code: 30% off - 2026](https://www.founderpass.com/partners/copy-ai) | WebSearch | 👍 0
+- [Copy.ai Pricing 2026: Free Plan Available](https://fluxnote.io/guides/copyai-pricing-guide-2026) | WebSearch | 👍 0
+- [Experience Copy.ai Free Trial: Transform GTM | Copy.ai](https://www.copy.ai/blog/copy-ai-free-trial) | WebSearch | 👍 0
+- [Copy.ai Promo Code 2026: What Still Works (Checked Sept)](https://tipsonblogging.com/2022/06/copy-ai-promo-code) | WebSearch | 👍 0
+- [Quillbot 25% Student Discount](https://www.studentbeans.com/student-discount/us/quillbot) | WebSearch | 👍 0
+- [Student Discount on Quillbot Premium](https://quillbot.com/premium/student-discount) | WebSearch | 👍 0
+- [Best Ways to Use a Quillbot promo code and Save More on ...](https://humanizethat.com/blog/best-ways-to-use-a-quillbot-promo-code-and-save-more-on-writing-tools) | WebSearch | 👍 0
+
