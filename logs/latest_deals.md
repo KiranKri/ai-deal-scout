@@ -2324,3 +2324,11 @@
 - [Billing | ElevenLabs Documentation](https://elevenlabs.io/docs/overview/administration/billing) | WebSearch | 👍 0
 - [50 Free Credits by rrrrrr | Suno](https://suno.com/song/41a2a72c-92cb-439d-a7f9-4f9df0dec4a7) | WebSearch | 👍 0
 
+## Run: 2026-10-29 14:15:14 IST
+- [Notion introduces expanded Free Plan & new Business Plan](https://www.notion.so/blog/notion-introduces-business-plan-and-expanded-free-plan) | WebSearch | 👍 0
+- [Notion for students & education | Notion Help](https://www.notion.so/help/notion-for-education) | WebSearch | 👍 0
+- [Expanding our partnership with GSA to bring Claude to all levels of government \ Anthropic](https://www.anthropic.com/news/expanding-partnership-gsa) | WebSearch | 👍 0
+- [Elicit Student Discount & Other AI Research Tool Discounts](https://readwonders.com/blog/student-discounts-ai-research-tools) | WebSearch | 👍 0
+- [Elicit Discount Codes October 2026 – 36 Verified Coupons](https://elicit.saver.com) | WebSearch | 👍 0
+- [You.com offer for startups: Not Available - 2026](https://www.founderpass.com/partners/you-com) | WebSearch | 👍 0
+
