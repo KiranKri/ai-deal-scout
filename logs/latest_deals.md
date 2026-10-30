@@ -2332,3 +2332,9 @@
 - [Elicit Discount Codes October 2026 – 36 Verified Coupons](https://elicit.saver.com) | WebSearch | 👍 0
 - [You.com offer for startups: Not Available - 2026](https://www.founderpass.com/partners/you-com) | WebSearch | 👍 0
 
+## Run: 2026-10-30 14:21:15 IST
+- [Why ChatGPT is not getting counted in your site's referrals](https://www.rivalsee.com/blog/chatgpt-traffic-miscounting-problem) | HackerNews | 👍 2
+- [Build AI voices into your product with our Grants program](https://elevenlabs.io/startup-grants) | WebSearch | 👍 0
+- [ElevenCreative quickstart | ElevenLabs Documentation](https://elevenlabs.io/docs/eleven-creative/quickstart) | WebSearch | 👍 0
+- [Kimi Discount Code Get kimi k3.1 pro free - Jenova.ai](https://www.jenova.ai/share/0a33b81fb4a27fc8e303663d56a0239b) | WebSearch | 👍 0
+
