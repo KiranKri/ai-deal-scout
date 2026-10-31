@@ -2338,3 +2338,12 @@
 - [ElevenCreative quickstart | ElevenLabs Documentation](https://elevenlabs.io/docs/eleven-creative/quickstart) | WebSearch | 👍 0
 - [Kimi Discount Code Get kimi k3.1 pro free - Jenova.ai](https://www.jenova.ai/share/0a33b81fb4a27fc8e303663d56a0239b) | WebSearch | 👍 0
 
+## Run: 2026-10-31 14:09:29 IST
+- [ChatGPT Pro / Business now includes up to $500/mo in API credits (you have to activate)](https://www.reddit.com/r/ChatGPTPro/comments/1xjm19b/chatgpt_pro_business_now_includes_up_to_500mo_in/) | Reddit | 👍 0
+- [chatgpt free trial card declined](https://www.reddit.com/r/ChatGPTPro/comments/1xjezf2/chatgpt_free_trial_card_declined/) | Reddit | 👍 0
+- [DeepSeek Promo Codes For October 2026 - DeepSeek Coupon Codes](https://grabon.com/deepseek-coupons) | WebSearch | 👍 0
+- [DeepSeek pricing 2026: V4, R1, API costs, and how to optimize](https://www.cloudzero.com/blog/deepseek-pricing) | WebSearch | 👍 0
+- [DEEPSEEK](https://www.deepseek.org) | WebSearch | 👍 0
+- [HeyGen Discount Guide 2026: 5 Ways to Save on Creator & Pro](https://www.gamsgo.com/blog/heygen-discount) | WebSearch | 👍 0
+- [HeyGen – 3 Months Free via OMEN Gaming Hub : r/dealhunt - Reddit](https://www.reddit.com/r/dealhunt/comments/1vkmpf1/heygen_3_months_free_via_omen_gaming_hub) | WebSearch | 👍 0
+
