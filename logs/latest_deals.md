@@ -2347,3 +2347,11 @@
 - [HeyGen Discount Guide 2026: 5 Ways to Save on Creator & Pro](https://www.gamsgo.com/blog/heygen-discount) | WebSearch | 👍 0
 - [HeyGen – 3 Months Free via OMEN Gaming Hub : r/dealhunt - Reddit](https://www.reddit.com/r/dealhunt/comments/1vkmpf1/heygen_3_months_free_via_omen_gaming_hub) | WebSearch | 👍 0
 
+## Run: 2026-11-01 15:00:33 IST
+- [ChatGPT Pro vs. Sol In regular chat](https://www.reddit.com/r/ChatGPTPro/comments/1xk84w5/chatgpt_pro_vs_sol_in_regular_chat/) | Reddit | 👍 0
+- [AI UGC Video Generator: UGC-Style Ads in Minutes | Runway](https://runwayml.com/use-cases/ugc-ads) | WebSearch | 👍 0
+- [Synthesia Pricing 2026: Free Plan, $29 Starter & $89 Pro](https://tipsonblogging.com/2025/05/synthesia-pricing) | WebSearch | 👍 0
+- [Synthesia promo code: 25% off annual plans - 2026](https://www.founderpass.com/partners/synthesia) | WebSearch | 👍 0
+- [Claim Your Descript Promo Code for Exclusive Discounts | October 2026](https://www.bitdegree.org/ai/deals/descript-promo-code) | WebSearch | 👍 0
+- [Descript promo code: up to 35% off annual plans - 2026](https://www.founderpass.com/partners/descript) | WebSearch | 👍 0
+
