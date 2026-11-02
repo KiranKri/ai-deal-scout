@@ -2355,3 +2355,7 @@
 - [Claim Your Descript Promo Code for Exclusive Discounts | October 2026](https://www.bitdegree.org/ai/deals/descript-promo-code) | WebSearch | 👍 0
 - [Descript promo code: up to 35% off annual plans - 2026](https://www.founderpass.com/partners/descript) | WebSearch | 👍 0
 
+## Run: 2026-11-02 15:16:36 IST
+- [Show HN: Chinese are offering Claude/Codex offers 90% off](https://news.ycombinator.com/item?id=49151751) | HackerNews | 👍 4
+- [Product Pricing](https://www.topazlabs.com/pricing) | WebSearch | 👍 0
+
