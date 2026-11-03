@@ -2359,3 +2359,10 @@
 - [Show HN: Chinese are offering Claude/Codex offers 90% off](https://news.ycombinator.com/item?id=49151751) | HackerNews | 👍 4
 - [Product Pricing](https://www.topazlabs.com/pricing) | WebSearch | 👍 0
 
+## Run: 2026-11-03 15:20:16 IST
+- [GitHub Copilot is moving to usage-based billing · community · Discussion #192948 · GitHub](https://github.com/orgs/community/discussions/192948) | WebSearch | 👍 0
+- [Referral program | ElevenLabs Documentation](https://elevenlabs.io/docs/reception-ai/billing/referral-program) | WebSearch | 👍 0
+- [Ideogram AI 2026: Free Plan, Paid From $15/mo, Alternatives - Krea](https://www.krea.ai/blog/what-is-ideogram-ai-features-pricing-and-alternatives-in-2026) | WebSearch | 👍 0
+- [Windsurf Pricing 2026: Plans, Quotas & Real Costs (Updated June 2026) | No Code MBA](https://www.nocode.mba/articles/windsurf-pricing) | WebSearch | 👍 0
+- [Windsurf Promo Codes – 275 Verified Deals | October 2026](https://windsurf.proxycoupons.com) | WebSearch | 👍 0
+
