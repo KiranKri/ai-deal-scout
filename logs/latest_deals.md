@@ -2398,3 +2398,10 @@
 - [Copy Ai Promo Code September 2026: Get Flat 40% Off](https://www.bloggingqna.com/copy-ai-promo-code) | WebSearch | 👍 0
 - [Copy.ai Promo Codes (May 2026): Grab 60% Discount](https://tipsonblogging.com?p=7780) | WebSearch | 👍 0
 
+## Run: 2026-11-07 14:32:37 IST
+- [ElevenLabs API Pricing: Plans for Creators & Businesses of All Sizes](https://elevenlabs.io/pricing/api) | WebSearch | 👍 0
+- [Quillbot Up to 25% Off Subscriptions - UNiDAYS Student Discount](https://www.myunidays.com/US/en-US/partners/quillbot/view) | WebSearch | 👍 0
+- [Back to School, Half the Price: Otter.ai Offers Students 50% Off to Turn Lectures Into Study Guides, Quizzes, and Exam Prep | Otter.ai](https://otter.ai/blog/back-to-school-half-the-price-otter-ai-offers-students-50-off-to-turn-lectures-into-study-guides-quizzes-and-exam-prep) | WebSearch | 👍 0
+- [Start for Free | Otter.ai](https://otter.ai/start-for-free) | WebSearch | 👍 0
+- [Otter.ai 50% Student Discount | Nov 2026 Student Beans Code](https://www.studentbeans.com/student-discount/us/otter-ai) | WebSearch | 👍 0
+
