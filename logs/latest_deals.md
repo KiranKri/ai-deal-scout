@@ -2405,3 +2405,11 @@
 - [Start for Free | Otter.ai](https://otter.ai/start-for-free) | WebSearch | 👍 0
 - [Otter.ai 50% Student Discount | Nov 2026 Student Beans Code](https://www.studentbeans.com/student-discount/us/otter-ai) | WebSearch | 👍 0
 
+## Run: 2026-11-08 14:49:16 IST
+- [Google AI Pro and Ultra — get access to Gemini 2.5 Pro and more](https://gemini.google.com/advanced?hl=en-GB&xhb=web&whb=owned&vhb=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini Advanced: acesse o modelo de IA mais avançado do Google](https://gemini.google.com/advanced?hl=pt-BR&pwc=web&owc=owned&nwc=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini Advanced: accede al modelo de IA más capaz de Google](https://gemini.google.com/advanced?hl=es&pwc=web&owc=owned&nwc=gemini_lp) | WebSearch | 👍 0
+- [AI Sound Generator for Sound Effects and Ambient Audio](https://elevenlabs.io/sound-effects) | WebSearch | 👍 0
+- [21 Verified Elicit AI Promo Codes & Deals | October 2026](https://elicit.envirogadget.com) | WebSearch | 👍 0
+- [Elicit Discount & Promo Codes (November 2026)](https://gedd.it/elicit.com/sfeifq) | WebSearch | 👍 0
+
