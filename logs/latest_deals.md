@@ -2413,3 +2413,11 @@
 - [21 Verified Elicit AI Promo Codes & Deals | October 2026](https://elicit.envirogadget.com) | WebSearch | 👍 0
 - [Elicit Discount & Promo Codes (November 2026)](https://gedd.it/elicit.com/sfeifq) | WebSearch | 👍 0
 
+## Run: 2026-11-09 15:32:59 IST
+- [An update to our downloads policy and Terms of Service | Suno](https://suno.com/blog/suno-updates-tos) | WebSearch | 👍 0
+- [‎Gemini Advanced : accédez au modèle d'IA le plus performant de Google](https://gemini.google.com/advanced?hl=fr&zGc=web&yGc=owned&xGc=gemini_lp) | WebSearch | 👍 0
+- [‎Gemini Advanced：體驗 Google 最強大的 AI 模型](https://gemini.google.com/advanced?hl=zh-TW&smc=web&rmc=owned&qmc=gemini_lp) | WebSearch | 👍 0
+- [Kimi - Black Friday Rules](https://www.kimi.com/campaign/black-friday/rules) | WebSearch | 👍 0
+- [From $11.99 to $0.99: How I Debugged a Discount Into a Legendary AI Deal in Kimi](https://blog.stackademic.com/from-11-99-to-0-99-how-i-debudded-a-discount-my-10-round-negotiation-with-kimi-ai-7c3db438379f) | WebSearch | 👍 0
+- [How to get the 0.99 or 1.99 Kimi plan](https://www.reddit.com/r/kimi/comments/1qv183x/how_to_get_the_099_or_199_kimi_plan) | WebSearch | 👍 0
+
