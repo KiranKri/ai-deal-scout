@@ -2421,3 +2421,10 @@
 - [From $11.99 to $0.99: How I Debugged a Discount Into a Legendary AI Deal in Kimi](https://blog.stackademic.com/from-11-99-to-0-99-how-i-debudded-a-discount-my-10-round-negotiation-with-kimi-ai-7c3db438379f) | WebSearch | 👍 0
 - [How to get the 0.99 or 1.99 Kimi plan](https://www.reddit.com/r/kimi/comments/1qv183x/how_to_get_the_099_or_199_kimi_plan) | WebSearch | 👍 0
 
+## Run: 2026-11-10 15:43:09 IST
+- [How does my ElevenReader free trial work? | ElevenLabs Documentation](https://elevenlabs.io/docs/help-center/product/mobile-apps/elevenreader/how-does-my-elevenreader-free-trial-work) | WebSearch | 👍 0
+- [ElevenLabs x Revolut](https://elevenlabs.io/partners/revolut) | WebSearch | 👍 0
+- [Lovable Pricing](https://lovable.dev/pricing) | WebSearch | 👍 0
+- [Qwen Pricing: Definitive API & Model Guide 2026](https://techjacksolutions.com/ai-tools/qwen/qwen-pricing) | WebSearch | 👍 0
+- [Is Qwen Code Still Free in 2026? 3 Free Paths](https://inventivehq.com/blog/qwen-code-still-free-2026-shutdown) | WebSearch | 👍 0
+
