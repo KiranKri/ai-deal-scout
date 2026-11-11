@@ -2428,3 +2428,8 @@
 - [Qwen Pricing: Definitive API & Model Guide 2026](https://techjacksolutions.com/ai-tools/qwen/qwen-pricing) | WebSearch | 👍 0
 - [Is Qwen Code Still Free in 2026? 3 Free Paths](https://inventivehq.com/blog/qwen-code-still-free-2026-shutdown) | WebSearch | 👍 0
 
+## Run: 2026-11-11 15:12:22 IST
+- [Plans and billing | Cursor Docs](https://cursor.com/help/grok-bot/plans) | WebSearch | 👍 0
+- [Synthesia Pricing - Compare Free and Paid Plans](https://www.synthesia.io/pricing) | WebSearch | 👍 0
+- [Synthesia Promo Code Terms & Conditions I Synthesia](https://www.synthesia.io/legal/promocodes-terms-and-conditions) | WebSearch | 👍 0
+
