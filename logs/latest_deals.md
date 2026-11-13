@@ -2442,3 +2442,12 @@
 - [Topaz Labs | Downloads](https://www.topazlabs.com/downloads) | WebSearch | 👍 0
 - [Quick Start (Legacy) | Topaz Photo](https://docs.topazlabs.com/photo-ai/quick-start) | WebSearch | 👍 0
 
+## Run: 2026-11-13 15:21:05 IST
+- [Tried to use my ChatGPT Business plan inside Notion. Here's what it actually requires](https://www.reddit.com/r/ChatGPTPro/comments/1xuixpo/tried_to_use_my_chatgpt_business_plan_inside/) | Reddit | 👍 0
+- [Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2](https://apimart.ai/register?aff=yScTCM) | HackerNews | 👍 7
+- [Have you availed Copilot's 30 days free trial but get charged right away? · community · Discussion #160195 · GitHub](https://github.com/orgs/community/discussions/160195) | WebSearch | 👍 0
+- [The free 1-month pro version of my GitHub Copilot has not taken effect, but the automatic renewal bill is still active. · community · Discussion #185878 · GitHub](https://github.com/orgs/community/discussions/185878) | WebSearch | 👍 0
+- [HOW TO GET SUNO'S STUDENT PRO PLAN! by Jonny_XD_ | Suno](https://suno.com/song/7968f824-0e67-4298-b4eb-b8644db72d7f) | WebSearch | 👍 0
+- [How do credits work? – Runway](https://help.runwayml.com/hc/en-us/articles/15124877443219-How-do-credits-work) | WebSearch | 👍 0
+- [Ideogram 2.0 Black Friday Promo Codes, Discounts & Coupons](https://www.aitoolsaver.com/tools/ideogram-ai) | WebSearch | 👍 0
+
