@@ -2451,3 +2451,13 @@
 - [How do credits work? – Runway](https://help.runwayml.com/hc/en-us/articles/15124877443219-How-do-credits-work) | WebSearch | 👍 0
 - [Ideogram 2.0 Black Friday Promo Codes, Discounts & Coupons](https://www.aitoolsaver.com/tools/ideogram-ai) | WebSearch | 👍 0
 
+## Run: 2026-11-14 14:43:51 IST
+- [A price-check workflow in ChatGPT with a shopping plugin that compares identical items across stores](https://www.reddit.com/r/ChatGPTPro/comments/1xvt9ob/a_pricecheck_workflow_in_chatgpt_with_a_shopping/) | Reddit | 👍 0
+- [9 Best Bubble Alternatives for 2026 | Replit](https://replit.com/discover/bubble-alternatives) | WebSearch | 👍 0
+- [Free CRM Templates from Notion | Notion Marketplace](https://www.notion.so/templates/category/free-crm-templates) | WebSearch | 👍 0
+- [Was the 7-day free trial removed? - Help - Cursor - Community Forum](https://forum.cursor.com/t/was-the-7-day-free-trial-removed/148780) | WebSearch | 👍 0
+- [Cursor Free Tier - Help - Cursor - Community Forum](https://forum.cursor.com/t/cursor-free-tier/16230) | WebSearch | 👍 0
+- [Model Requests & Free Trial - Help - Cursor - Community Forum](https://forum.cursor.com/t/model-requests-free-trial/15303) | WebSearch | 👍 0
+- [Windsurf Pricing 2026: Free $0, Pro $20, Teams $80+$40/seat](https://www.layer3labs.io/guides/windsurf-pricing) | WebSearch | 👍 0
+- [Windsurf (formerly Codeium) Student Deal | GOBACKTO.SCHOOL](https://gobackto.school/deals/codeium) | WebSearch | 👍 0
+
