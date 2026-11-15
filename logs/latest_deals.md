@@ -2461,3 +2461,15 @@
 - [Windsurf Pricing 2026: Free $0, Pro $20, Teams $80+$40/seat](https://www.layer3labs.io/guides/windsurf-pricing) | WebSearch | 👍 0
 - [Windsurf (formerly Codeium) Student Deal | GOBACKTO.SCHOOL](https://gobackto.school/deals/codeium) | WebSearch | 👍 0
 
+## Run: 2026-11-15 15:14:18 IST
+- [Targeted Edits, Supabase Integration Improvements, and Pricing Updates | Lovable](https://lovable.dev/blog/2025-01-13-targeted-edits-supabase-integration-improvements-and-pricing-updates) | WebSearch | 👍 0
+- [Pro Free Trial Terms | Lovable](https://lovable.dev/pro-trial-terms) | WebSearch | 👍 0
+- [Obtaining a student discount on your subscription | Udio Help Center](https://help.udio.com/en/articles/10739207-obtaining-a-student-discount-on-your-subscription) | WebSearch | 👍 0
+- [Subscriptions, credits, and billing | Udio Help Center](https://help.udio.com/en/collections/11900887-subscriptions-credits-and-billing) | WebSearch | 👍 0
+- [Coupon Collapse by NiQolus | Suno](https://suno.com/song/45eb4b33-cdfb-4d06-91fc-c0ea5a003e8b) | WebSearch | 👍 0
+- [One API for AI Video, Image and Audio | Runway Dev](https://dev.runwayml.com) | WebSearch | 👍 0
+- [Referral Program | Replit](https://replit.com/refer) | WebSearch | 👍 0
+- [Bolt.new Subscribe to Pro](https://worldslargesthackathon.devpost.com/forum_topics/40874-bolt-new-subscribe-to-pro) | WebSearch | 👍 0
+- [bolt.new Promo code - 1 year free on the Pro plan - Product Canyon](https://productcanyon.com/perks/bolt-new) | WebSearch | 👍 0
+- [Any discount code for new users? : r/boltnewbuilders - Reddit](https://www.reddit.com/r/boltnewbuilders/comments/1lc1q5b/any_discount_code_for_new_users) | WebSearch | 👍 0
+
