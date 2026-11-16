@@ -2473,3 +2473,16 @@
 - [bolt.new Promo code - 1 year free on the Pro plan - Product Canyon](https://productcanyon.com/perks/bolt-new) | WebSearch | 👍 0
 - [Any discount code for new users? : r/boltnewbuilders - Reddit](https://www.reddit.com/r/boltnewbuilders/comments/1lc1q5b/any_discount_code_for_new_users) | WebSearch | 👍 0
 
+## Run: 2026-11-16 15:31:50 IST
+- [ChatGPT OpenAI Pro 500 Account - No API Credits](https://www.reddit.com/r/ChatGPTPro/comments/1xxhkc2/chatgpt_openai_pro_500_account_no_api_credits/) | Reddit | 👍 0
+- [28 days of Quality of Life improvements and/or a full Reset - Announcements - OpenAI Developer Community](https://community.openai.com/t/28-days-of-quality-of-life-improvements-and-or-a-full-reset/1403525) | WebSearch | 👍 0
+- [Perplexity Pro for HP - Perplexity](https://www.perplexity.ai/hub/partnerships-hp-consumer) | WebSearch | 👍 0
+- [Access Copilot Pro for free as a teacher or open source maintainer - GitHub Docs](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer) | WebSearch | 👍 0
+- [Monitoring LlamaIndex + Mistral applications with PostHog and Langfuse - Mistral AI Cookbook | Mistral Docs](https://docs.mistral.ai/resources/cookbooks/third_party-langfuse-cookbook_langfuse_posthog_llama_langfuse) | WebSearch | 👍 0
+- [Jasper 20% Student Discount | Nov 2026 Student Beans Code](https://www.studentbeans.com/student-discount/us/jasper) | WebSearch | 👍 0
+- [15% Off Jasper AI Promo Codes & Coupons](https://studentwowdeals.com/jasper-ai) | WebSearch | 👍 0
+- [Writesonic Promo Codes & Verified Deals | October 2026](https://writesonic.sociablelabs.com/coupons) | WebSearch | 👍 0
+- [Writesonic Pricing 2026: Plans, Costs and Free Trial](https://www.activepieces.com/blog/writesonic-pricing-2026-plans-costs-and-free-trial) | WebSearch | 👍 0
+- [Is Writesonic Worth It in 2026? Honest Review and Pricing](https://academy.techpresso.co/reviews/is-writesonic-worth-it) | WebSearch | 👍 0
+- [Writesonic Pricing & Plans (2026): Which Plan Is Best?](https://todaytesting.com/writesonic-pricing) | WebSearch | 👍 0
+
