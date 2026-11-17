@@ -2486,3 +2486,12 @@
 - [Is Writesonic Worth It in 2026? Honest Review and Pricing](https://academy.techpresso.co/reviews/is-writesonic-worth-it) | WebSearch | 👍 0
 - [Writesonic Pricing & Plans (2026): Which Plan Is Best?](https://todaytesting.com/writesonic-pricing) | WebSearch | 👍 0
 
+## Run: 2026-11-17 16:27:24 IST
+- [Elevenlabs - UP TO 55% OFF](https://www.bitdegree.org/ai/goon/elevenlabs) | BitDegree | 👍 0
+- [Does Grammarly offer discounts? – Grammarly Support](https://support.grammarly.com/hc/en-us/articles/360038523451-Does-Grammarly-offer-discounts) | WebSearch | 👍 0
+- [Grammarly promo offers on SheerID – Grammarly Support](https://support.grammarly.com/hc/en-us/articles/39623389691021-Grammarly-promo-offers-on-SheerID) | WebSearch | 👍 0
+- [‎Gemini Advanced - 体验 Google 旗下最强大的 AI 模型](https://gemini.google.com/advanced?hl=zh&LEc=web&KEc=owned&JEc=gemini_lp) | WebSearch | 👍 0
+- [Copy.Ai 40% Off Promo Code (November 2026 Updated)](https://corrector.app/copy-ai-promo-code) | WebSearch | 👍 0
+- [Unlock AI-Powered Marketing and Sales Automation at a Better Price](https://gamma.app/docs/Copyai-Coupon-Unlock-AI-Powered-Marketing-and-Sales-Automation-at-eoz33j2vu8k1ccg) | WebSearch | 👍 0
+- [[DEAL] QuillBot Premium – 12 Months for $20 (Official Coupon, Own ...](https://www.reddit.com/r/toolsdeals/comments/1q0cund/deal_quillbot_premium_12_months_for_20_official) | WebSearch | 👍 0
+
