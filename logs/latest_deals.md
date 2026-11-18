@@ -2495,3 +2495,10 @@
 - [Unlock AI-Powered Marketing and Sales Automation at a Better Price](https://gamma.app/docs/Copyai-Coupon-Unlock-AI-Powered-Marketing-and-Sales-Automation-at-eoz33j2vu8k1ccg) | WebSearch | 👍 0
 - [[DEAL] QuillBot Premium – 12 Months for $20 (Official Coupon, Own ...](https://www.reddit.com/r/toolsdeals/comments/1q0cund/deal_quillbot_premium_12_months_for_20_official) | WebSearch | 👍 0
 
+## Run: 2026-11-18 15:59:25 IST
+- [Inquiry regarding Copilot Student Pack models and Pro subscription pricing · community · Discussion #191177 · GitHub](https://github.com/orgs/community/discussions/191177) | WebSearch | 👍 0
+- [Udio | AI Music Generator - Official Website](https://www.udio.com/pricing) | WebSearch | 👍 0
+- [The ultimate guide to Notion templates](https://www.notion.so/help/guides/the-ultimate-guide-to-notion-templates) | WebSearch | 👍 0
+- [Your connected workspace for notes, docs & tasks | Notion](https://www.notion.so/personal) | WebSearch | 👍 0
+- [Otter.ai Discounts and Cash Back for Everyone | IDMe Shop](https://shop.id.me/stores/7090-otter-ai) | WebSearch | 👍 0
+
