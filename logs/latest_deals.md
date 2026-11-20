@@ -2509,3 +2509,10 @@
 - [Elicit Promo Codes – 99 Verified Deals | August 2026](https://elicit.proxycoupons.com) | WebSearch | 👍 0
 - [Elicit - Comparateur-IA](https://choose-your-ai.com/ai-tools/elicit) | WebSearch | 👍 0
 
+## Run: 2026-11-20 15:47:44 IST
+- [Mistral Vibe (formerly Le Chat) - AI chat and coding agent](https://mistral.ai/products/vibe) | WebSearch | 👍 0
+- [Free Trial by The Tymers | Suno](https://suno.com/song/5757831b-2c6d-4e6e-a23a-81cce486b8bf) | WebSearch | 👍 0
+- [Coupon codes – Runway](https://help.runwayml.com/hc/en-us/articles/4402304054035-Coupon-codes) | WebSearch | 👍 0
+- [How to cancel your Grammarly free trial – Grammarly Support](https://support.grammarly.com/hc/en-us/articles/31475970390285-How-to-cancel-your-Grammarly-free-trial) | WebSearch | 👍 0
+- [Introducing Claude for Nonprofits \ Anthropic](https://www.anthropic.com/news/claude-for-nonprofits) | WebSearch | 👍 0
+
