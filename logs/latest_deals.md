@@ -2516,3 +2516,14 @@
 - [How to cancel your Grammarly free trial – Grammarly Support](https://support.grammarly.com/hc/en-us/articles/31475970390285-How-to-cancel-your-Grammarly-free-trial) | WebSearch | 👍 0
 - [Introducing Claude for Nonprofits \ Anthropic](https://www.anthropic.com/news/claude-for-nonprofits) | WebSearch | 👍 0
 
+## Run: 2026-11-21 15:32:24 IST
+- [Hack #1: Firecrawl | ElevenHacks](https://hacks.elevenlabs.io/hackathons/0) | WebSearch | 👍 0
+- [Add payments to your app - Lovable Documentation](https://docs.lovable.dev/features/payments) | WebSearch | 👍 0
+- [Vibe Coding Apps: 10 Tools for Beginners in 2026 | Lovable](https://lovable.dev/guides/vibe-coding-apps-8-options-for-beginners) | WebSearch | 👍 0
+- [Shopify Integration with Lovable: What You Need to Know | Lovable](https://lovable.dev/blog/shopify-integration) | WebSearch | 👍 0
+- [DeepSeek free credits, trial cards, and discount plans | AI Promo Now](https://www.aipromonow.com/en/deals/deepseek) | WebSearch | 👍 0
+- [DeepSeek Pricing: Complete Cost & API Guide 2026](https://techjacksolutions.com/ai-tools/deepseek/deepseek-pricing) | WebSearch | 👍 0
+- [HeyGen promo code: 22% Off - 2026](https://www.founderpass.com/partners/heygen) | WebSearch | 👍 0
+- [FREE 1 Month of HeyGen Creator Plan! : r/toolsdeals - Reddit](https://www.reddit.com/r/toolsdeals/comments/1v567rj/free_1_month_of_heygen_creator_plan) | WebSearch | 👍 0
+- [HeyGen Coupon Code 2026 - Better Alternative | Krater](https://krater.ai/coupon/heygen) | WebSearch | 👍 0
+
