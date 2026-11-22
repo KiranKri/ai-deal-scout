@@ -2527,3 +2527,14 @@
 - [FREE 1 Month of HeyGen Creator Plan! : r/toolsdeals - Reddit](https://www.reddit.com/r/toolsdeals/comments/1v567rj/free_1_month_of_heygen_creator_plan) | WebSearch | 👍 0
 - [HeyGen Coupon Code 2026 - Better Alternative | Krater](https://krater.ai/coupon/heygen) | WebSearch | 👍 0
 
+## Run: 2026-11-22 15:33:48 IST
+- [Black Friday Deal: Save 50% on Grammarly Pro](https://www.grammarly.com/black-friday) | WebSearch | 👍 0
+- [Claude for Startups program | Claude by Anthropic](https://www.anthropic.com/startups) | WebSearch | 👍 0
+- [Synthesia Discount Codes November 2026 – 31 Verified Coupons](https://synthesia.saver.com) | WebSearch | 👍 0
+- [Synthesia Coupon Codes for AI Video: 30% Off (November 2026)](https://www.checkoutsaver.com/coupons/synthesia) | WebSearch | 👍 0
+- [Up to 38% Off Synthesia Coupon Code 2026](https://couponsly.in/store/synthesia) | WebSearch | 👍 0
+- [Descript Software Pricing, Alternatives & More 2026 | Capterra](https://www.capterra.com/p/230702/Descript) | WebSearch | 👍 0
+- [Descript Pricing 2026: Free & Hobbyist Plans from $24/user/mo](https://comparedge.com/tools/descript/pricing) | WebSearch | 👍 0
+- [Applying promo codes - Descript Help Center](https://help.descript.com/billing-payments-plans/promo) | WebSearch | 👍 0
+- [Descript Pricing | Plans for Every Creator, Free to Start](https://www.descript.com/pricing) | WebSearch | 👍 0
+
