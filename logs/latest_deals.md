@@ -2538,3 +2538,12 @@
 - [Applying promo codes - Descript Help Center](https://help.descript.com/billing-payments-plans/promo) | WebSearch | 👍 0
 - [Descript Pricing | Plans for Every Creator, Free to Start](https://www.descript.com/pricing) | WebSearch | 👍 0
 
+## Run: 2026-11-23 16:30:20 IST
+- [Black Friday & Cyber Monday: up to 55% off ElevenLabs plans](https://elevenlabs.io/black-friday-promo) | WebSearch | 👍 0
+- [Lovable Goes Back to School | Lovable](https://lovable.dev/blog/back-to-school-discount) | WebSearch | 👍 0
+- [[EU only] Indicating a tax-exemption on your subscription | Udio Help Center](https://help.udio.com/en/articles/10739202-eu-only-indicating-a-tax-exemption-on-your-subscription) | WebSearch | 👍 0
+- [Topaz Labs coupon discount code Archives - 43addict](https://43addict.com/tag/topaz-labs-coupon-discount-code/feed) | WebSearch | 👍 0
+- [Topaz Labs Coupon Code — 10% Off (Sitewide) in May 2026](https://www.couponupto.com/coupons/topaz-labs) | WebSearch | 👍 0
+- [12 Verified Leonardo Ai Promo Codes & Deals | November 2026](https://leonardoai.envirogadget.com) | WebSearch | 👍 0
+- [Leonardo AI Pricing 2026: Free, $12, $30 & $60 Plans](https://www.renderahouse.com/blog/leonardo-ai-pricing) | WebSearch | 👍 0
+
