@@ -2559,3 +2559,9 @@
 - [Any early users here still paying for Windsurf? : r/Codeium - Reddit](https://www.reddit.com/r/Codeium/comments/1i9pb3i/any_early_users_here_still_paying_for_windsurf) | WebSearch | 👍 0
 - [4 Methods to Use Windsurf for Free](https://apidog.com/blog/use-windsurf-free) | WebSearch | 👍 0
 
+## Run: 2026-11-25 17:03:49 IST
+- [Notion for nonprofits | Notion](https://www.notion.so/nonprofits) | WebSearch | 👍 0
+- [Half price on Go, full semester of credits](https://click.grammarly.com/s/vb/FGVQCT2yq2rE17j_0UlueqFUFwwUxWedUp1Zm1JsGHtZrobB0wO-NkGfIfgE3jyeuCuiWWAMyu1JUgU6Qi0GOv2O0-n5YbmJ8AbqXpZbtkQYzd1Rnljsw3ZbbddrhJk5n3lDZ0etMplJamm61AzLDYAAf2HB3cr842rHzw/P9xHopg_AG05xMYaDizYgDiu6YAvUFYI/24) | WebSearch | 👍 0
+- [Tabnine Pricing 2026](https://www.g2.com/products/tabnine/pricing) | WebSearch | 👍 0
+- [A complete guide to Tabnine pricing in 2026 | eesel AI](https://www.eesel.ai/blog/tabnine-pricing) | WebSearch | 👍 0
+
