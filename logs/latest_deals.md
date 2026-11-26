@@ -2565,3 +2565,10 @@
 - [Tabnine Pricing 2026](https://www.g2.com/products/tabnine/pricing) | WebSearch | 👍 0
 - [A complete guide to Tabnine pricing in 2026 | eesel AI](https://www.eesel.ai/blog/tabnine-pricing) | WebSearch | 👍 0
 
+## Run: 2026-11-26 16:46:07 IST
+- [Referral program: share Lovable and earn credits - Lovable Documentation](https://docs.lovable.dev/introduction/referral-program) | WebSearch | 👍 0
+- [Start a free trial today | Jasper](https://www.jasper.ai/free-trial) | WebSearch | 👍 0
+- [Jasper AI Black Friday 2026: Official Sale Status and Cheaper Options](https://digitavision.com/blog/jasper-black-friday) | WebSearch | 👍 0
+- [Jasper.ai Free Trial: How To Signup For Your 5 Day Trial](https://imnights.com/jasper-ai-free-trial) | WebSearch | 👍 0
+- [Jasper AI Pricing 2026: Plans, Free Trial & Hidden Costs](https://www.hyperwriteai.com/articles/jasper-ai-pricing) | WebSearch | 👍 0
+
