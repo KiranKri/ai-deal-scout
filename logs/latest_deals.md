@@ -2572,3 +2572,10 @@
 - [Jasper.ai Free Trial: How To Signup For Your 5 Day Trial](https://imnights.com/jasper-ai-free-trial) | WebSearch | 👍 0
 - [Jasper AI Pricing 2026: Plans, Free Trial & Hidden Costs](https://www.hyperwriteai.com/articles/jasper-ai-pricing) | WebSearch | 👍 0
 
+## Run: 2026-11-27 16:40:01 IST
+- [Expanding our support for scientists \ Anthropic](https://www.anthropic.com/news/expanding-support-for-scientists) | WebSearch | 👍 0
+- [ChatGPT Back to School offer for students | OpenAI Help Center](https://help.openai.com/en/articles/20001493-chatgpt-back-to-school-offer-for-students) | WebSearch | 👍 0
+- [Demo / trial version - Feedback - Cursor - Community Forum](https://forum.cursor.com/t/demo-trial-version/162713) | WebSearch | 👍 0
+- [Writesonic AI Writer: Free Trial & Pricing (2026) | RankYak](https://rankyak.com/blog/writesonic-ai-writer) | WebSearch | 👍 0
+- [Pricing | Writesonic AI Search Visibility Platform](https://writesonic.com/pricing) | WebSearch | 👍 0
+
