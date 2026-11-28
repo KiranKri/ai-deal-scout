@@ -2579,3 +2579,8 @@
 - [Writesonic AI Writer: Free Trial & Pricing (2026) | RankYak](https://rankyak.com/blog/writesonic-ai-writer) | WebSearch | 👍 0
 - [Pricing | Writesonic AI Search Visibility Platform](https://writesonic.com/pricing) | WebSearch | 👍 0
 
+## Run: 2026-11-28 16:13:55 IST
+- [Up to $25,000 in Replit Credits for Your Startup](https://replit.com/startups) | WebSearch | 👍 0
+- [121 Verified QuillBot Promo Codes & Deals | November 2026](https://quillbot.envirogadget.com) | WebSearch | 👍 0
+- [Student & Teacher discount program for the Pro plan – Help Center](https://help.otter.ai/hc/en-us/articles/4402467517847-Student-Teacher-discount-program-for-the-Pro-plan) | WebSearch | 👍 0
+
